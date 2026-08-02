@@ -1,5 +1,5 @@
 /**
- * Identidade visual do Recriô.
+ * Identidade visual do Recrion.
  */
 
 import type { Element, Rarity, Tier } from '@/types';

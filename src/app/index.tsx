@@ -29,7 +29,7 @@ export default function Landing() {
         <Text style={{ fontSize: 82 }}>✨</Text>
 
         <Text style={{ fontSize: 46, fontWeight: '900', color: THEME.colors.primary }}>
-          Recriô
+          Recrion
         </Text>
 
         <Text

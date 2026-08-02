@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Recriô",
-    "slug": "recrio",
+    "name": "Recrion",
+    "slug": "recrion",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "scheme": "recrio",
+    "scheme": "recrion",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -15,10 +15,10 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.recrio.app"
+      "bundleIdentifier": "com.recrion.app"
     },
     "android": {
-      "package": "com.recrio.app",
+      "package": "com.recrion.app",
       "adaptiveIcon": {
         "backgroundColor": "#FFF8E7",
         "foregroundImage": "./assets/android-icon-foreground.png",

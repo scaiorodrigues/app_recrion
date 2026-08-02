@@ -40,7 +40,7 @@ export default function ChildDetail() {
   const shareCode = async () => {
     if (!invite) return;
     await Share.share({
-      message: `Código do Recriô para ${child.name}: ${invite.code}\n\nBaixe o app, entre com a conta da criança e digite este código.`,
+      message: `Código do Recrion para ${child.name}: ${invite.code}\n\nBaixe o app, entre com a conta da criança e digite este código.`,
     });
   };
 

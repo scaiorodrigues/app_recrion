@@ -17,7 +17,7 @@ Notifications.setNotificationHandler({
   }),
 });
 
-const ANDROID_CHANNEL_ID = 'recrio-default';
+const ANDROID_CHANNEL_ID = 'recrion-default';
 
 /** Expo Notifications não existe no web; o app segue funcionando sem avisos. */
 const SUPPORTED = Platform.OS === 'android' || Platform.OS === 'ios';
@@ -27,7 +27,7 @@ export async function requestNotificationPermission(): Promise<boolean> {
 
   if (Platform.OS === 'android') {
     await Notifications.setNotificationChannelAsync(ANDROID_CHANNEL_ID, {
-      name: 'Recriô',
+      name: 'Recrion',
       importance: Notifications.AndroidImportance.HIGH,
       vibrationPattern: [0, 250, 250, 250],
       lightColor: THEME.colors.primary,

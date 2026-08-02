@@ -1,4 +1,4 @@
-# Recriô
+# Recrion
 
 App educacional gamificado para crianças brasileiras do 1º ao 4º ano. Combina
 atividades por matéria com **Crions** — criaturas colecionáveis geradas todo dia

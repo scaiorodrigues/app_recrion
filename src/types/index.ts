@@ -1,5 +1,5 @@
 /**
- * Tipos centrais do Recriô.
+ * Tipos centrais do Recrion.
  * Elementos, faixas etárias, Crions, cartas, atividades e comportamento.
  */
 

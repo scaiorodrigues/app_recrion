@@ -101,7 +101,7 @@ export default function NewChild() {
 
       {ageOutOfRange && (
         <Text style={styles.error}>
-          O Recriô foi feito para crianças de 6 a 10 anos.
+          O Recrion foi feito para crianças de 6 a 10 anos.
         </Text>
       )}
 

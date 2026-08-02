@@ -184,7 +184,7 @@ export function CardReveal({
           >
             <Text style={{ fontSize: 70 }}>✨</Text>
             <Text style={{ fontSize: 28, fontWeight: '900', color: '#FFFFFF', marginTop: 8 }}>
-              RECRIÔ
+              RECRION
             </Text>
           </Animated.View>
 

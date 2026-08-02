@@ -1,5 +1,5 @@
 /**
- * Banco de Crions do Recriô.
+ * Banco de Crions do Recrion.
  *
  * ARQUIVO GERADO — não editar à mão.
  * Origem: scripts/generate-crions.mjs (rodar `node scripts/generate-crions.mjs`)
