@@ -107,6 +107,12 @@ export function useDailyCrion(date: string): GenerationResult | null {
         ? approved.reduce((sum, a) => sum + (a.validatedScore ?? a.score), 0) / approved.length
         : 0;
 
+    // Aprovação parcial também conta como "não saiu de primeira": o
+    // responsável só aprova em parte quando algo precisava melhorar.
+    const allFirstTry =
+      approved.length > 0 &&
+      approved.every((a) => (a.redoCount ?? 0) === 0 && a.status === 'APPROVED');
+
     const performance: DayPerformance = {
       available,
       approved: approved.length,
@@ -114,6 +120,7 @@ export function useDailyCrion(date: string): GenerationResult | null {
       behaviorApproved: behavior.allApproved,
       behaviorRequired: behavior.totalDuties > 0,
       streak,
+      allFirstTry,
     };
 
     const lastCompletionHour = approved

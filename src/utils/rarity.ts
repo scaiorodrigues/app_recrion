@@ -44,8 +44,12 @@ export function completionRateOf(performance: DayPerformance): number {
 }
 
 /**
- * Dia perfeito: todas as atividades propostas aprovadas com nota máxima e,
+ * Dia perfeito: todas as atividades propostas aprovadas com nota máxima,
+ * TODAS certas de primeira — sem o responsável mandar refazer nenhuma — e,
  * se havia obrigações de comportamento, todas validadas também.
+ *
+ * A exigência do acerto de primeira é o que separa a Lendária da Mítica:
+ * insistir até acertar é mérito, mas acertar de saída é outro patamar.
  */
 export function isPerfectDay(performance: DayPerformance): boolean {
   const allActivitiesDone =
@@ -55,7 +59,7 @@ export function isPerfectDay(performance: DayPerformance): boolean {
 
   const behaviorOk = !performance.behaviorRequired || performance.behaviorApproved;
 
-  return allActivitiesDone && maxScore && behaviorOk;
+  return allActivitiesDone && maxScore && performance.allFirstTry && behaviorOk;
 }
 
 /**

@@ -15,6 +15,7 @@ function day(over: Partial<DayPerformance> = {}): DayPerformance {
     behaviorApproved: true,
     behaviorRequired: true,
     streak: 1,
+    allFirstTry: true,
     ...over,
   };
 }
@@ -58,6 +59,28 @@ describe('isPerfectDay', () => {
 
   it('dia sem atividade acadêmica não é perfeito', () => {
     expect(isPerfectDay(day({ available: 0, approved: 0 }))).toBe(false);
+  });
+
+  it('exige acerto de primeira: ter refeito derruba o dia perfeito', () => {
+    expect(isPerfectDay(day({ allFirstTry: false }))).toBe(false);
+  });
+});
+
+describe('acerto de primeira', () => {
+  it('quem refez e depois acertou tudo fica com Mítica, não Lendária', () => {
+    const result = determineRarity(day({ allFirstTry: false }));
+    expect(result.rarity).toBe('EPIC');
+    expect(result.foil).toBe(false);
+    expect(result.perfectDay).toBe(false);
+  });
+
+  it('acertar de primeira é o que separa a Lendária da Mítica', () => {
+    const comRefacao = determineRarity(day({ allFirstTry: false }));
+    const dePrimeira = determineRarity(day({ allFirstTry: true }));
+
+    expect(comRefacao.rarity).toBe('EPIC');
+    expect(dePrimeira.rarity).toBe('LEGENDARY');
+    expect(dePrimeira.foil).toBe(true);
   });
 });
 

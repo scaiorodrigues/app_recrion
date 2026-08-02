@@ -41,8 +41,23 @@ Isso não é slogan — é o que a mecânica impõe:
   limitado, o máximo que a criança pode fazer é exatamente o que foi proposto.
 - **Escrita à mão.** A atividade de Português usa canvas, não teclado —
   aprendizagem ativa, como o professor Pier defendia.
-- **Constância é medida e exibida.** O streak aparece no painel do responsável
-  e entra na carta.
+
+### As métricas do método
+
+O painel do responsável (`Painel → Métricas do Método Prof. Pier`) traduz os
+princípios em cinco indicadores sobre os últimos 30 dias. Todos medem **hábito**,
+não volume:
+
+| Indicador | O que mede | Como é calculado |
+|---|---|---|
+| 🎯 **Concentração** | Fica na atividade o tempo que ela pede | % das atividades dentro da faixa de duração do tier. Rápido demais indica chute; devagar demais, dispersão — os dois contam contra |
+| 🔁 **Repetição** | Estuda um pouco todo dia | % dos dias do período com estudo. Três atividades num dia só valem um dia |
+| 🎒 **Organização** | Mochila, caderno e lição em ordem | % das obrigações da categoria Estudo aprovadas |
+| 📅 **Aula dada, aula estudada hoje** | Conclui no próprio dia | % das atividades concluídas na data em que foram abertas |
+| ✍️ **Acerto de primeira** | Escreve com atenção | % aprovadas sem refazer — a mesma exigência da carta Lendária |
+
+A nota geral é a média dos cinco, acompanhada da sequência atual e da melhor
+sequência do período.
 
 ---
 
@@ -87,7 +102,7 @@ src/
 ├── data/             Crions, obrigações, palavras, mundos
 ├── hooks/            Geração do Crion do dia, compartilhamento
 ├── stores/           Estado global (Zustand)
-├── utils/            XP, geração, combate, comportamento, perfil
+├── utils/            XP, raridade, métricas Pier, geração, combate, perfil
 ├── types/            Interfaces TypeScript
 └── constants/        Tema, regras de jogo, notificações
 ```
@@ -131,9 +146,17 @@ No padrão Magic — cada nível tem seu símbolo de expansão:
 | ✦ | Mítica | laranja | dia fechado com média ≥ 90 |
 | ✧ | **Lendária** | roxo | **dia perfeito** — e vem holográfica ✨ |
 
-**Dia perfeito** = todas as atividades propostas aprovadas com nota máxima, mais
-o comportamento validado (quando havia obrigações no dia). Só ele produz a carta
-holográfica, com reflexo iridescente atravessando a arte.
+**Dia perfeito** exige as quatro coisas ao mesmo tempo:
+
+1. todas as atividades propostas do dia aprovadas;
+2. nota máxima em todas;
+3. **todas certas de primeira** — sem o responsável mandar refazer nenhuma;
+4. o comportamento validado, quando havia obrigações no dia.
+
+Só ele produz a carta holográfica, com reflexo iridescente atravessando a arte.
+
+O acerto de primeira é o que separa a Lendária da Mítica: insistir até acertar
+é mérito e rende Mítica; acertar de saída é outro patamar.
 
 A raridade conquistada é sempre entregue: os Lendários vivem na faixa Copa, mas
 uma criança do 1º ano que fez o dia perfeito recebe um Lendário de verdade — não
@@ -199,5 +222,6 @@ paywall.**
 npm test
 ```
 
-124 testes cobrindo o cálculo de XP, a raridade, a geração do Crion, o teste
-gratuito, a validação de comportamento, o combate e o cálculo de faixa etária.
+148 testes cobrindo o cálculo de XP, a raridade, as métricas do método Pier, a
+geração do Crion, o teste gratuito, a validação de comportamento, o combate e o
+cálculo de faixa etária.

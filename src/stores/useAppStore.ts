@@ -182,6 +182,8 @@ export const useAppStore = create<AppState>((set, get) => ({
               status,
               ...(validatedScore !== undefined ? { validatedScore } : {}),
               ...(status === 'PENDING_VALIDATION' ? { completedAt: new Date().toISOString() } : {}),
+              // Cada "refazer" tira a atividade da conta do acerto de primeira.
+              ...(status === 'PENDING_REDO' ? { redoCount: (a.redoCount ?? 0) + 1 } : {}),
               ...(status === 'APPROVED' || status === 'PARTIALLY_APPROVED'
                 ? { validatedAt: new Date().toISOString() }
                 : {}),

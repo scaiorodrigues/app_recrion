@@ -162,6 +162,11 @@ export interface DayPerformance {
   behaviorRequired: boolean;
   /** Dias consecutivos de constância, incluindo hoje. */
   streak: number;
+  /**
+   * true quando toda atividade aprovada saiu certa na primeira tentativa,
+   * sem o responsável mandar refazer nenhuma.
+   */
+  allFirstTry: boolean;
 }
 
 // ---------------------------------------------------------------------------
@@ -230,6 +235,11 @@ export interface DailyActivity {
   completedAt?: string;
   validatedAt?: string;
   durationSeconds?: number;
+  /**
+   * Quantas vezes o responsável mandou refazer.
+   * Zero significa que a criança acertou de primeira — condição da Lendária.
+   */
+  redoCount?: number;
 }
 
 /** Pontuação por matéria em um dia. */

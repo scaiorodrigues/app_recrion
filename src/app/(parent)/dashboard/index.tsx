@@ -92,6 +92,12 @@ export default function ParentDashboard() {
                         ? ` • ${Math.round(activity.durationSeconds / 60)} min`
                         : ''}
                     </Text>
+                    {(activity.redoCount ?? 0) > 0 && (
+                      <Text style={{ fontSize: 12, color: THEME.colors.secondary, fontWeight: '800' }}>
+                        🔄 Refeita {activity.redoCount}{' '}
+                        {activity.redoCount === 1 ? 'vez' : 'vezes'}
+                      </Text>
+                    )}
                   </View>
                 </View>
 
@@ -118,6 +124,19 @@ export default function ParentDashboard() {
               </Card>
             );
           })}
+        </View>
+      )}
+
+      {/* Métricas do método */}
+      {children.length > 0 && (
+        <View style={{ marginTop: 22 }}>
+          <Button
+            label="Ver métricas do Método Prof. Pier"
+            icon="📊"
+            variant="secondary"
+            fullWidth
+            onPress={() => router.push('/(parent)/dashboard/metrics')}
+          />
         </View>
       )}
 

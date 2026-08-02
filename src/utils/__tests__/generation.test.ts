@@ -21,6 +21,7 @@ function perf(over: Partial<DayPerformance> = {}): DayPerformance {
     behaviorApproved: false,
     behaviorRequired: false,
     streak: 0,
+    allFirstTry: true,
     ...over,
   };
 }
