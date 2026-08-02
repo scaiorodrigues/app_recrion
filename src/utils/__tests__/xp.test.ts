@@ -6,10 +6,8 @@ import {
 import {
   calculateBonuses,
   calculateDailyXP,
-  capRarity,
   determinePrimaryElement,
   determineSecondaryElement,
-  xpToRarity,
 } from '@/utils/xp';
 
 const noBonuses = calculateBonuses({});
@@ -74,32 +72,5 @@ describe('determineSecondaryElement', () => {
 
   it('retorna null quando só há uma matéria', () => {
     expect(determineSecondaryElement({ portugues: 80 }, 'NATURE')).toBeNull();
-  });
-});
-
-describe('xpToRarity', () => {
-  it.each([
-    [0, 'COMMON'],
-    [39, 'COMMON'],
-    [40, 'UNCOMMON'],
-    [59, 'UNCOMMON'],
-    [60, 'RARE'],
-    [79, 'RARE'],
-    [80, 'EPIC'],
-    [94, 'EPIC'],
-    [95, 'LEGENDARY'],
-    [500, 'LEGENDARY'],
-  ])('XP %i vira %s', (xp, expected) => {
-    expect(xpToRarity(xp)).toBe(expected);
-  });
-});
-
-describe('capRarity', () => {
-  it('limita ao teto do plano', () => {
-    expect(capRarity('LEGENDARY', 'UNCOMMON')).toBe('UNCOMMON');
-  });
-
-  it('mantém raridade abaixo do teto', () => {
-    expect(capRarity('COMMON', 'EPIC')).toBe('COMMON');
   });
 });

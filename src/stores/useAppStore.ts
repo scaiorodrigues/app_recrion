@@ -27,6 +27,7 @@ import {
   tierFromBirthDate,
   today,
 } from '@/utils/profile';
+import { startTrial } from '@/utils/subscription';
 
 interface AppState {
   role: UserRole | null;
@@ -70,7 +71,7 @@ function makeId(prefix: string): string {
 
 const INITIAL_SUBSCRIPTION: SubscriptionState = {
   tier: 'free',
-  activeSubjects: ['portugues'] as AcademicSubject[],
+  activeSubjects: [] as AcademicSubject[],
 };
 
 export const useAppStore = create<AppState>((set, get) => ({
@@ -100,12 +101,14 @@ export const useAppStore = create<AppState>((set, get) => ({
       createdAt: new Date().toISOString(),
     };
 
+    // O teste gratuito de 3 dias começa a contar no primeiro filho cadastrado.
     set((state) => ({
       children: [...state.children, child],
       activeChildId: state.activeChildId ?? child.id,
       parent: state.parent
         ? { ...state.parent, childIds: [...state.parent.childIds, child.id] }
         : state.parent,
+      subscription: startTrial(state.subscription),
     }));
 
     return child;

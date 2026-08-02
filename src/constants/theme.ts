@@ -55,16 +55,34 @@ export const ELEMENT_THEME: Record<Element, ElementTheme> = {
   LEGENDARY: { bg: '#FFF7ED', accent: '#C2410C', glow: '#F97316', gradient: ['#FFF7ED', '#FDBA74'] },
 };
 
+/**
+ * Raridades no padrão Magic: cada nível tem um símbolo de expansão com
+ * cor própria, do preto (comum) ao holográfico (lendária).
+ * As chaves são as mesmas do banco de Crions — só a apresentação mudou.
+ */
 export const RARITY_THRESHOLDS: Record<
   Rarity,
-  { min: number; max: number; label: string; color: string; stars: number }
+  {
+    min: number;
+    max: number;
+    label: string;
+    color: string;
+    stars: number;
+    /** Símbolo de expansão, como nas cartas de Magic. */
+    symbol: string;
+    /** Cor do texto sobre o símbolo. */
+    onColor: string;
+  }
 > = {
-  COMMON: { min: 0, max: 39, label: 'Comum', color: '#9CA3AF', stars: 1 },
-  UNCOMMON: { min: 40, max: 59, label: 'Incomum', color: '#22C55E', stars: 2 },
-  RARE: { min: 60, max: 79, label: 'Raro', color: '#3B82F6', stars: 3 },
-  EPIC: { min: 80, max: 94, label: 'Épico', color: '#8B5CF6', stars: 4 },
-  LEGENDARY: { min: 95, max: 999, label: 'Lendário', color: '#F59E0B', stars: 5 },
+  COMMON:    { min: 0,  max: 39,  label: 'Comum',    color: '#111827', onColor: '#FFFFFF', stars: 1, symbol: '●' },
+  UNCOMMON:  { min: 40, max: 59,  label: 'Incomum',  color: '#94A3B8', onColor: '#FFFFFF', stars: 2, symbol: '◆' },
+  RARE:      { min: 60, max: 79,  label: 'Rara',     color: '#D4AF37', onColor: '#3B2F00', stars: 3, symbol: '★' },
+  EPIC:      { min: 80, max: 94,  label: 'Mítica',   color: '#E25822', onColor: '#FFFFFF', stars: 4, symbol: '✦' },
+  LEGENDARY: { min: 95, max: 999, label: 'Lendária', color: '#8B5CF6', onColor: '#FFFFFF', stars: 5, symbol: '✧' },
 };
+
+/** Ordem crescente de raridade — usada para comparar e limitar. */
+export const RARITY_ORDER: Rarity[] = ['COMMON', 'UNCOMMON', 'RARE', 'EPIC', 'LEGENDARY'];
 
 export const TIER_INFO: Record<
   Tier,

@@ -140,6 +140,28 @@ export interface CrionCardData {
   childName: string;
   imageUri?: string;
   revealedAt?: string;
+  /** Carta holográfica — só sai em dia perfeito. */
+  foil?: boolean;
+  /** Fração das atividades do dia que foram aprovadas (0 a 1). */
+  completionRate?: number;
+  /** Dias seguidos de constância no momento em que a carta nasceu. */
+  streak?: number;
+}
+
+/** Como o dia da criança se saiu — entrada do cálculo de raridade. */
+export interface DayPerformance {
+  /** Atividades disponíveis para a criança no dia. */
+  available: number;
+  /** Quantas foram aprovadas pelo responsável. */
+  approved: number;
+  /** Média das notas aprovadas (0 a 100). */
+  averageScore: number;
+  /** true se o responsável validou todas as obrigações de comportamento. */
+  behaviorApproved: boolean;
+  /** true se havia obrigações de comportamento configuradas no dia. */
+  behaviorRequired: boolean;
+  /** Dias consecutivos de constância, incluindo hoje. */
+  streak: number;
 }
 
 // ---------------------------------------------------------------------------
@@ -321,4 +343,23 @@ export interface SubscriptionState {
   tier: SubscriptionTier;
   activeSubjects: AcademicSubject[];
   expiresAt?: string;
+  /** ISO 8601 — início do teste gratuito de 3 dias. */
+  trialStartedAt?: string;
+}
+
+/** O que a criança pode acessar agora, já considerando o teste. */
+export interface AccessState {
+  /** true enquanto o teste de 3 dias estiver valendo. */
+  trialActive: boolean;
+  /** Dias restantes do teste (0 quando acabou). */
+  trialDaysLeft: number;
+  /** true quando o teste acabou e não há assinatura. */
+  trialExpired: boolean;
+  subjects: AcademicSubject[];
+  maxRarity: Rarity;
+  /** Comportamento é gratuito para sempre, em qualquer estado. */
+  behavior: true;
+  boardWorlds: number;
+  xpMultiplier: number;
+  lightMultiplier: number;
 }

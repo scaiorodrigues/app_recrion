@@ -34,6 +34,8 @@ interface CardRevealProps {
   primarySubject: Subject;
   cardWidth?: number;
   onRevealed?: () => void;
+  /** Carta holográfica — dia perfeito. */
+  foil?: boolean;
 }
 
 export function CardReveal({
@@ -46,6 +48,7 @@ export function CardReveal({
   primarySubject,
   cardWidth = CARD_WIDTH,
   onRevealed,
+  foil = false,
 }: CardRevealProps) {
   const [phase, setPhase] = useState<Phase>('egg');
   const rarityInfo = RARITY_THRESHOLDS[rarity];
@@ -199,6 +202,7 @@ export function CardReveal({
               childName={childName}
               primarySubject={primarySubject}
               width={cardWidth}
+              foil={foil}
             />
           </Animated.View>
         </View>
@@ -210,7 +214,7 @@ export function CardReveal({
             {crion.name} apareceu!
           </Text>
           <Text style={{ fontSize: 14, color: THEME.colors.textLight, fontWeight: '600' }}>
-            {'★'.repeat(rarityInfo.stars)} {rarityInfo.label} • {xp} XP
+            {rarityInfo.symbol} {rarityInfo.label} • {xp} XP{foil ? ' • ✨ Holográfica' : ''}
           </Text>
         </View>
       )}

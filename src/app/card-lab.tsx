@@ -84,6 +84,7 @@ export default function CardLab() {
   const [slot, setSlot] = useState<AttackSlot>(1);
   const [crionIndex, setCrionIndex] = useState(0);
   const [revealing, setRevealing] = useState(false);
+  const [foil, setFoil] = useState(false);
 
   const { cardRef, shareCard, sharing } = useShareCard();
 
@@ -125,6 +126,7 @@ export default function CardLab() {
           date={date}
           childName="Sofia"
           primarySubject="portugues"
+          foil={foil}
         />
         <View style={{ marginTop: 24, alignItems: 'center' }}>
           <Button label="Voltar ao laboratório" variant="ghost" onPress={() => setRevealing(false)} />
@@ -166,7 +168,7 @@ export default function CardLab() {
         {RARITIES.map((r) => (
           <Chip
             key={r}
-            label={`${'★'.repeat(RARITY_THRESHOLDS[r].stars)} ${RARITY_THRESHOLDS[r].label}`}
+            label={`${RARITY_THRESHOLDS[r].symbol} ${RARITY_THRESHOLDS[r].label}`}
             selected={rarity === r}
             color={RARITY_THRESHOLDS[r].color}
             disabled={!availableRarities.has(r)}
@@ -192,6 +194,16 @@ export default function CardLab() {
         ))}
       </ScrollView>
 
+      <Text style={styles.sectionTitle}>Acabamento</Text>
+      <View style={styles.row}>
+        <Chip
+          label={foil ? '✨ Holográfica' : 'Normal'}
+          selected={foil}
+          color="#8B5CF6"
+          onPress={() => setFoil((v) => !v)}
+        />
+      </View>
+
       {/* Carta */}
       <View style={{ alignItems: 'center', marginTop: 22 }}>
         {crion ? (
@@ -205,6 +217,7 @@ export default function CardLab() {
                 date={date}
                 childName="Sofia"
                 primarySubject="portugues"
+                foil={foil}
               />
             </View>
 

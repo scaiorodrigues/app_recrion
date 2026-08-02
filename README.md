@@ -28,6 +28,24 @@ cp .env.example .env   # e preencha os valores
 
 ---
 
+## A proposta pedagógica
+
+O app segue o método do professor **Pierluigi Piazzi**: *pouco, com
+profundidade e constância, vale mais do que muito e superficial*.
+
+Isso não é slogan — é o que a mecânica impõe:
+
+- **O dia tem teto.** 3 a 5 atividades por faixa etária, uma por matéria, com
+  15 minutos de pausa obrigatória entre elas. Não existe maratonar.
+- **A raridade vem de fechar o dia, não de acumular horas.** Como o dia é
+  limitado, o máximo que a criança pode fazer é exatamente o que foi proposto.
+- **Escrita à mão.** A atividade de Português usa canvas, não teclado —
+  aprendizagem ativa, como o professor Pier defendia.
+- **Constância é medida e exibida.** O streak aparece no painel do responsável
+  e entra na carta.
+
+---
+
 ## O que já está pronto
 
 | Fase | Entrega | Estado |
@@ -101,31 +119,53 @@ remota). Sem imagem, a carta mostra o emoji do animal base.
 
 ---
 
+## Raridades
+
+No padrão Magic — cada nível tem seu símbolo de expansão:
+
+| Símbolo | Raridade | Cor | Como se conquista |
+|---|---|---|---|
+| ● | Comum | preto | menos de 50% do dia |
+| ◆ | Incomum | prata | metade do dia |
+| ★ | Rara | ouro | 75% do dia, ou dia fechado com média baixa |
+| ✦ | Mítica | laranja | dia fechado com média ≥ 90 |
+| ✧ | **Lendária** | roxo | **dia perfeito** — e vem holográfica ✨ |
+
+**Dia perfeito** = todas as atividades propostas aprovadas com nota máxima, mais
+o comportamento validado (quando havia obrigações no dia). Só ele produz a carta
+holográfica, com reflexo iridescente atravessando a arte.
+
+A raridade conquistada é sempre entregue: os Lendários vivem na faixa Copa, mas
+uma criança do 1º ano que fez o dia perfeito recebe um Lendário de verdade — não
+uma Rara com etiqueta trocada.
+
+---
+
 ## Como o Crion do dia é gerado
 
 ```
-notas aprovadas × peso da matéria
-        + 40 XP se o comportamento foi 100% aprovado
-        + bônus (sequência, conclusão cedo, todas as matérias)
-        × multiplicador do plano
-                    ↓
-                 XP do dia
-                    ↓
-    ┌───────────────┴───────────────┐
-elemento primário              raridade
-(matéria de maior nota      (0–39 Comum … 95+ Lendário,
- ou Luz se só houve          limitada pelo teto do plano)
- comportamento)
-                    ↓
-        Crion sorteado do banco
-   (semente = data + id da criança,
-    então o mesmo dia dá o mesmo Crion)
-                    ↓
-        slot de ataque pelo XP
-      (0 → 1, 40 → 2, 70 → 3, 95 → 4)
-                    ↓
-                  CARTA
+       ┌──────────────── RARIDADE ────────────────┐
+       │  fração do dia aprovada + nota média     │
+       │  100% com nota máxima → Lendária ✧ foil  │
+       └──────────────────────────────────────────┘
+
+       ┌──────────────── QUAL MONSTRO ────────────┐
+       │  elemento  ← PRIMEIRA atividade do dia   │
+       │  criatura  ← semente da MAIS RÁPIDA      │
+       └──────────────────────────────────────────┘
+
+       ┌──────────────── ATAQUE DA CARTA ─────────┐
+       │  XP do dia → slot                        │
+       │  0 → 1   40 → 2   70 → 3   95 → 4        │
+       └──────────────────────────────────────────┘
+                          ↓
+                        CARTA
 ```
+
+**A primeira atividade concluída define o elemento** — o que a criança atacou
+primeiro define a identidade do dia, no espírito do "aula dada, aula estudada
+hoje". **A mais rápida entra na semente** que sorteia a criatura: dois dias com
+a mesma nota, mas ritmos diferentes, geram monstros diferentes.
 
 O elemento **Luz** é o único que não vem de nota: ou o responsável aprovou todas
 as obrigações do dia, ou não aprovou. É também o único caminho para gerar Crion
@@ -133,10 +173,21 @@ em fim de semana e férias.
 
 ---
 
-## Comportamento é sempre gratuito
+## Planos
 
-O módulo de comportamento está liberado em todos os planos, inclusive o
-gratuito. É a âncora de retenção do produto: cria um ritual diário entre
+**Teste de 3 dias** — acesso total: todas as matérias, todas as raridades
+(inclusive a Lendária holográfica), todos os mundos. A família precisa ver o
+produto inteiro para decidir. O teste começa quando o primeiro filho é
+cadastrado. O que o teste **não** afrouxa é o limite diário de atividades: ele é
+curto em dias, não permissivo em volume.
+
+Depois: **R$ 9,90/mês** por matéria ou **R$ 39,90/mês** no pacote completo
+(+20% de XP, +30% de XP de Luz, Crions exclusivos).
+
+### Comportamento é sempre gratuito
+
+O módulo de comportamento fica liberado para sempre, inclusive depois que o
+teste expira. É a âncora de retenção do produto: cria um ritual diário entre
 responsável e criança que independe das matérias. **Não coloque atrás de
 paywall.**
 
@@ -148,5 +199,5 @@ paywall.**
 npm test
 ```
 
-91 testes cobrindo o cálculo de XP, a geração do Crion, a validação de
-comportamento, o combate e o cálculo de faixa etária.
+124 testes cobrindo o cálculo de XP, a raridade, a geração do Crion, o teste
+gratuito, a validação de comportamento, o combate e o cálculo de faixa etária.

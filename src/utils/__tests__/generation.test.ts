@@ -1,8 +1,29 @@
 import { CRIONS } from '@/data/crions';
-import { findCrionById, generateDailyCrion, selectAttackSlot, selectCrion } from '@/utils/generation';
+import type { DayPerformance } from '@/types';
+import {
+  fastestCompleted,
+  findCrionById,
+  firstCompleted,
+  generateDailyCrion,
+  selectAttackSlot,
+  selectCrion,
+  type CompletedActivity,
+} from '@/utils/generation';
 import { calculateBonuses } from '@/utils/xp';
 
 const noBonuses = calculateBonuses({});
+
+function perf(over: Partial<DayPerformance> = {}): DayPerformance {
+  return {
+    available: 1,
+    approved: 1,
+    averageScore: 80,
+    behaviorApproved: false,
+    behaviorRequired: false,
+    streak: 0,
+    ...over,
+  };
+}
 
 const baseInput = {
   childId: 'child_1',
@@ -10,6 +31,8 @@ const baseInput = {
   tier: 'TIER_1' as const,
   date: '2026-08-02',
   bonuses: noBonuses,
+  activities: [] as CompletedActivity[],
+  performance: perf(),
 };
 
 describe('banco de Crions', () => {
@@ -61,10 +84,17 @@ describe('selectCrion', () => {
     expect(crion?.rarity).toBe('COMMON');
   });
 
-  it('nunca entrega um Crion acima do tier da criança', () => {
-    const crion = selectCrion('FIRE', 'LEGENDARY', 'TIER_1', 0);
-    // Lendários são TIER_4, então cai para uma raridade que o TIER_1 alcança.
+  it('usa o acervo da faixa quando a raridade existe nela', () => {
+    const crion = selectCrion('FIRE', 'COMMON', 'TIER_1', 0);
     expect(crion?.tier).toBe('TIER_1');
+    expect(crion?.rarity).toBe('COMMON');
+  });
+
+  it('entrega a raridade conquistada mesmo que ela viva numa faixa acima', () => {
+    // Lendários só existem no TIER_4, mas o 1º ano que fez o dia perfeito
+    // recebe uma carta Lendária de verdade — e não uma Rara rotulada errado.
+    const crion = selectCrion('FIRE', 'LEGENDARY', 'TIER_1', 0);
+    expect(crion?.rarity).toBe('LEGENDARY');
   });
 
   it('é determinístico para a mesma semente', () => {
@@ -80,6 +110,7 @@ describe('selectCrion', () => {
         date: `2026-08-${String((seed % 28) + 1).padStart(2, '0')}`,
         scores: { portugues: 80 },
         behaviorApproved: true,
+        activities: [{ subject: 'portugues' }],
       });
       expect(result?.crion.element).not.toBe('ICE_NPC');
     }
@@ -105,12 +136,22 @@ describe('selectAttackSlot', () => {
 
 describe('generateDailyCrion', () => {
   it('não gera carta sem desempenho nenhum', () => {
-    const result = generateDailyCrion({ ...baseInput, scores: {}, behaviorApproved: false });
+    const result = generateDailyCrion({
+      ...baseInput,
+      scores: {},
+      behaviorApproved: false,
+      performance: perf({ available: 0, approved: 0 }),
+    });
     expect(result).toBeNull();
   });
 
   it('gera Crion de Luz em dia só de comportamento', () => {
-    const result = generateDailyCrion({ ...baseInput, scores: {}, behaviorApproved: true });
+    const result = generateDailyCrion({
+      ...baseInput,
+      scores: {},
+      behaviorApproved: true,
+      performance: perf({ available: 0, approved: 0, behaviorApproved: true }),
+    });
     expect(result?.element).toBe('LIGHT');
     expect(result?.crion.element).toBe('LIGHT');
   });
@@ -120,13 +161,22 @@ describe('generateDailyCrion', () => {
       ...baseInput,
       scores: { portugues: 100, matematica: 100 },
       behaviorApproved: true,
+      activities: [{ subject: 'portugues' }, { subject: 'matematica' }],
+      performance: perf({ available: 2, approved: 2, averageScore: 100, behaviorApproved: true }),
       maxRarity: 'UNCOMMON',
     });
     expect(result?.rarity).toBe('UNCOMMON');
+    // Sem alcançar o topo, a holografia não vem junto.
+    expect(result?.foil).toBe(false);
   });
 
   it('produz a mesma carta para a mesma criança e data', () => {
-    const input = { ...baseInput, scores: { portugues: 70 }, behaviorApproved: false };
+    const input = {
+      ...baseInput,
+      scores: { portugues: 70 },
+      behaviorApproved: false,
+      activities: [{ subject: 'portugues' as const, durationSeconds: 300 }],
+    };
     expect(generateDailyCrion(input)?.crion.id).toBe(generateDailyCrion(input)?.crion.id);
   });
 
@@ -135,12 +185,115 @@ describe('generateDailyCrion', () => {
       ...baseInput,
       scores: { portugues: 60 },
       behaviorApproved: false,
+      activities: [{ subject: 'portugues' }],
     });
 
     expect(result?.card.childName).toBe('Sofia');
     expect(result?.card.date).toBe('2026-08-02');
     expect(result?.card.primarySubject).toBe('portugues');
     expect(result?.card.crionId).toBe(result?.crion.id);
+  });
+});
+
+describe('a primeira e a mais rápida definem o monstro', () => {
+  const manha = '2026-08-02T08:00:00.000Z';
+  const tarde = '2026-08-02T15:00:00.000Z';
+
+  it('firstCompleted pega a atividade mais cedo, não a primeira da lista', () => {
+    const activities: CompletedActivity[] = [
+      { subject: 'matematica', completedAt: tarde },
+      { subject: 'portugues', completedAt: manha },
+    ];
+    expect(firstCompleted(activities)?.subject).toBe('portugues');
+  });
+
+  it('fastestCompleted pega a de menor duração', () => {
+    const activities: CompletedActivity[] = [
+      { subject: 'matematica', durationSeconds: 600 },
+      { subject: 'ingles', durationSeconds: 240 },
+    ];
+    expect(fastestCompleted(activities)?.subject).toBe('ingles');
+  });
+
+  it('o elemento vem da primeira atividade concluída, não da maior nota', () => {
+    const result = generateDailyCrion({
+      ...baseInput,
+      // Matemática tem nota e peso maiores, mas Português veio primeiro.
+      scores: { portugues: 60, matematica: 100 },
+      behaviorApproved: false,
+      activities: [
+        { subject: 'matematica', completedAt: tarde },
+        { subject: 'portugues', completedAt: manha },
+      ],
+      performance: perf({ available: 2, approved: 2, averageScore: 80 }),
+    });
+
+    expect(result?.element).toBe('NATURE');
+    expect(result?.card.primarySubject).toBe('portugues');
+  });
+
+  it('ritmos diferentes no mesmo dia geram criaturas diferentes', () => {
+    const base = {
+      ...baseInput,
+      scores: { portugues: 80 },
+      behaviorApproved: false,
+      performance: perf({ available: 1, approved: 1, averageScore: 80 }),
+    };
+
+    const rapido = generateDailyCrion({
+      ...base,
+      activities: [{ subject: 'portugues', completedAt: manha, durationSeconds: 200 }],
+    });
+    const lento = generateDailyCrion({
+      ...base,
+      activities: [{ subject: 'portugues', completedAt: manha, durationSeconds: 900 }],
+    });
+
+    expect(rapido?.element).toBe(lento?.element);
+    expect(rapido?.crion.id).not.toBe(lento?.crion.id);
+  });
+});
+
+describe('dia perfeito', () => {
+  it('entrega Lendária holográfica quando tudo foi fechado com nota máxima', () => {
+    const result = generateDailyCrion({
+      ...baseInput,
+      tier: 'TIER_4',
+      scores: { portugues: 100, matematica: 100, ingles: 100 },
+      behaviorApproved: true,
+      activities: [
+        { subject: 'portugues', completedAt: '2026-08-02T08:00:00.000Z', durationSeconds: 300 },
+        { subject: 'matematica', completedAt: '2026-08-02T10:00:00.000Z', durationSeconds: 400 },
+        { subject: 'ingles', completedAt: '2026-08-02T12:00:00.000Z', durationSeconds: 350 },
+      ],
+      performance: perf({
+        available: 3,
+        approved: 3,
+        averageScore: 100,
+        behaviorApproved: true,
+        behaviorRequired: true,
+        streak: 5,
+      }),
+    });
+
+    expect(result?.rarity).toBe('LEGENDARY');
+    expect(result?.foil).toBe(true);
+    expect(result?.perfectDay).toBe(true);
+    expect(result?.card.foil).toBe(true);
+    expect(result?.card.streak).toBe(5);
+  });
+
+  it('a carta guarda a fração concluída do dia', () => {
+    const result = generateDailyCrion({
+      ...baseInput,
+      scores: { portugues: 80 },
+      behaviorApproved: false,
+      activities: [{ subject: 'portugues' }],
+      performance: perf({ available: 4, approved: 1, averageScore: 80 }),
+    });
+
+    expect(result?.card.completionRate).toBeCloseTo(0.25);
+    expect(result?.rarity).toBe('COMMON');
   });
 });
 

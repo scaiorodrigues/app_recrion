@@ -12,6 +12,7 @@ import Animated, {
   useSharedValue,
   withRepeat,
   withTiming,
+  type SharedValue,
 } from 'react-native-reanimated';
 
 import { ELEMENT_THEME, RARITY_THRESHOLDS, THEME, TIER_INFO } from '@/constants/theme';
@@ -39,6 +40,33 @@ interface CrionCardProps {
   imageUri?: string;
   width?: number;
   showParticles?: boolean;
+  /** Carta holográfica — sai só no dia perfeito. */
+  foil?: boolean;
+}
+
+/** Símbolo de expansão no canto, como nas cartas de Magic. */
+function RaritySymbol({ rarity, size }: { rarity: Rarity; size: number }) {
+  const info = RARITY_THRESHOLDS[rarity];
+
+  return (
+    <View
+      accessibilityLabel={`Raridade ${info.label}`}
+      style={{
+        width: size,
+        height: size,
+        borderRadius: size / 2,
+        backgroundColor: info.color,
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderWidth: 1.5,
+        borderColor: '#FFFFFF',
+      }}
+    >
+      <Text style={{ fontSize: size * 0.55, color: info.onColor, fontWeight: '900' }}>
+        {info.symbol}
+      </Text>
+    </View>
+  );
 }
 
 function StatBar({ label, value, max, color }: { label: string; value: number; max: number; color: string }) {
@@ -71,21 +99,49 @@ function StatBar({ label, value, max, color }: { label: string; value: number; m
   );
 }
 
-/** Brilho pulsante — só Épico e Lendário recebem. */
-function useRarityGlow(rarity: Rarity) {
+/** Brilho pulsante — Mítica, Lendária e qualquer carta holográfica recebem. */
+function useRarityGlow(rarity: Rarity, foil: boolean) {
   const pulse = useSharedValue(0);
-  const isPremium = rarity === 'EPIC' || rarity === 'LEGENDARY';
+  const isPremium = rarity === 'EPIC' || rarity === 'LEGENDARY' || foil;
 
   useEffect(() => {
     if (!isPremium) return;
     pulse.value = withRepeat(
-      withTiming(1, { duration: rarity === 'LEGENDARY' ? 1400 : 2000, easing: Easing.inOut(Easing.ease) }),
+      withTiming(1, {
+        duration: foil ? 1100 : rarity === 'LEGENDARY' ? 1400 : 2000,
+        easing: Easing.inOut(Easing.ease),
+      }),
       -1,
       true,
     );
-  }, [isPremium, pulse, rarity]);
+  }, [isPremium, pulse, rarity, foil]);
 
   return { isPremium, pulse };
+}
+
+/** Reflexo holográfico que desliza sobre a arte da carta. */
+function FoilSheen({ pulse }: { pulse: SharedValue<number> }) {
+  const style = useAnimatedStyle(() => ({
+    transform: [{ translateX: -140 + pulse.value * 280 }, { rotate: '18deg' }],
+    opacity: 0.28 + pulse.value * 0.24,
+  }));
+
+  return (
+    <Animated.View
+      pointerEvents="none"
+      style={[
+        { position: 'absolute', top: -40, bottom: -40, width: 70 },
+        style,
+      ]}
+    >
+      <LinearGradient
+        colors={['transparent', '#FFFFFF', '#A78BFA', '#67E8F9', 'transparent']}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 1, y: 0 }}
+        style={{ flex: 1 }}
+      />
+    </Animated.View>
+  );
 }
 
 export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
@@ -100,6 +156,7 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
     imageUri,
     width = CARD_WIDTH,
     showParticles = true,
+    foil = false,
   },
   ref,
 ) {
@@ -112,7 +169,7 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
   const scale = width / CARD_WIDTH;
   const height = CARD_HEIGHT * scale;
 
-  const { isPremium, pulse } = useRarityGlow(rarity);
+  const { isPremium, pulse } = useRarityGlow(rarity, foil);
 
   const glowStyle = useAnimatedStyle(() => ({
     opacity: isPremium ? 0.35 + pulse.value * 0.55 : 0,
@@ -176,11 +233,15 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
               {crion.name.toUpperCase()}
             </Text>
             <Text style={{ fontSize: 22 * scale }}>{subjectElementEmoji(crion.element)}</Text>
+            <View style={{ marginLeft: 6 * scale }}>
+              <RaritySymbol rarity={rarity} size={20 * scale} />
+            </View>
           </View>
 
           <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6, marginTop: 2 }}>
             <Text style={{ fontSize: 11 * scale, fontWeight: '800', color: rarityInfo.color }}>
-              {'★'.repeat(rarityInfo.stars)} {rarityInfo.label.toUpperCase()}
+              {rarityInfo.label.toUpperCase()}
+              {foil ? ' • HOLOGRÁFICA' : ''}
             </Text>
             <Text style={{ fontSize: 11 * scale, color: elementTheme.accent }}>•</Text>
             <Text style={{ fontSize: 11 * scale, fontWeight: '700', color: elementTheme.accent }}>
@@ -221,6 +282,9 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
           )}
 
           {showParticles && <ElementParticles element={crion.element} width={width} />}
+
+          {/* Faixa holográfica que atravessa a arte — assinatura do dia perfeito */}
+          {foil && <FoilSheen pulse={pulse} />}
 
           <View
             style={{

@@ -127,14 +127,33 @@ export const BEHAVIOR_CATEGORIES: Record<BehaviorCategoryId, BehaviorCategory> =
   },
 };
 
+/** Duração do teste gratuito, em dias corridos a partir do cadastro do filho. */
+export const TRIAL_DAYS = 3;
+
+/**
+ * Matérias que já têm atividade pronta no app.
+ * É esta lista que define o que "100% do dia" significa hoje — não adianta
+ * exigir da criança uma matéria que ainda não existe.
+ */
+export const IMPLEMENTED_SUBJECTS: AcademicSubject[] = ['portugues'];
+
 export const SUBSCRIPTION_PLANS = {
+  /**
+   * Teste gratuito de 3 dias com acesso TOTAL — todas as matérias, todas as
+   * raridades, todos os mundos. A criança precisa ver o produto inteiro para
+   * querer continuar. Os limites diários de atividade continuam valendo:
+   * o teste é curto em dias, não permissivo em volume.
+   */
   free: {
-    activitiesPerSubject: 3,
-    subjects: ['portugues'] as AcademicSubject[],
+    trialDays: TRIAL_DAYS,
+    activitiesPerSubject: 'unlimited',
+    subjects: [
+      'portugues', 'matematica', 'ingles', 'ciencias', 'logica', 'arte', 'musica',
+    ] as AcademicSubject[],
     behavior: true,
-    crionRarityMax: 'UNCOMMON',
+    crionRarityMax: 'LEGENDARY',
     lightCrionIncluded: true,
-    boardWorlds: 2,
+    boardWorlds: 8,
   },
   subject: {
     price: 'R$ 9,90/mês',

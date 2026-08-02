@@ -5,12 +5,12 @@
 import { Text, View } from 'react-native';
 
 import Screen from '@/components/ui/Screen';
-import { SUBSCRIPTION_PLANS } from '@/constants/game';
 import { THEME, TIER_INFO } from '@/constants/theme';
 import { QUADRANTS_PER_WORLD, WORLDS, WORLD_THEME_COLORS } from '@/data/worlds';
 import useDailyCrion from '@/hooks/useDailyCrion';
 import { useAppStore } from '@/stores/useAppStore';
 import { today } from '@/utils/profile';
+import { resolveAccess } from '@/utils/subscription';
 import type { Tier } from '@/types';
 
 const TIER_ORDER: Tier[] = ['TIER_1', 'TIER_2', 'TIER_3', 'TIER_4'];
@@ -33,9 +33,9 @@ export default function Board() {
   const childTierIndex = TIER_ORDER.indexOf(child.tier);
   const dailyElement = generation?.element ?? null;
 
-  // No plano gratuito só entram o primeiro mundo e o Jardim Celestial.
-  const freeWorldIds = ['w1', 'w7'];
-  const worldLimitApplies = subscription.tier === 'free';
+  const access = resolveAccess(subscription);
+  // Depois do teste, só o Jardim Celestial (comportamento) continua aberto.
+  const allowedWorldIds = access.trialExpired ? ['w7'] : null;
 
   return (
     <Screen>
@@ -52,7 +52,7 @@ export default function Board() {
         {WORLDS.map((world) => {
           const theme = WORLD_THEME_COLORS[world.theme];
           const tierLocked = TIER_ORDER.indexOf(world.minTier) > childTierIndex;
-          const planLocked = worldLimitApplies && !freeWorldIds.includes(world.id);
+          const planLocked = allowedWorldIds !== null && !allowedWorldIds.includes(world.id);
 
           // O Jardim Celestial exige que o Crion do dia seja de Luz.
           const elementLocked =
@@ -63,7 +63,7 @@ export default function Board() {
           const reason = tierLocked
             ? `🔒 A partir da faixa ${TIER_INFO[world.minTier].label}`
             : planLocked
-              ? '🔒 Disponível na assinatura'
+              ? '🔒 Assine para voltar aqui'
               : elementLocked
                 ? '✨ Precisa de um Crion de Luz hoje'
                 : `${QUADRANTS_PER_WORLD} quadrantes`;
@@ -110,17 +110,18 @@ export default function Board() {
         O combate entra na próxima atualização. Continue colecionando seus Crions! 🃏
       </Text>
 
-      {subscription.tier === 'free' && (
+      {access.trialActive && (
         <Text
           style={{
             marginTop: 10,
             fontSize: 12,
-            color: THEME.colors.textLight,
+            color: THEME.colors.primary,
             textAlign: 'center',
-            fontWeight: '600',
+            fontWeight: '800',
           }}
         >
-          Plano gratuito: {SUBSCRIPTION_PLANS.free.boardWorlds} mundos liberados.
+          ✨ Teste liberado: todos os mundos abertos por {access.trialDaysLeft}{' '}
+          {access.trialDaysLeft === 1 ? 'dia' : 'dias'}.
         </Text>
       )}
     </Screen>

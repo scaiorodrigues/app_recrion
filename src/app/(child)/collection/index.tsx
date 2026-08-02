@@ -142,6 +142,7 @@ export default function Collection() {
                 date={todayCard.date}
                 childName={todayCard.childName}
                 primarySubject={todayCard.primarySubject}
+                foil={todayCard.foil}
                 width={260}
               />
             );
@@ -182,7 +183,8 @@ export default function Collection() {
                       {crion.name}
                     </Text>
                     <Text style={{ fontSize: 12, fontWeight: '800', color: rarityInfo.color }}>
-                      {'★'.repeat(rarityInfo.stars)} {rarityInfo.label} • {card.xp} XP
+                      {rarityInfo.symbol} {rarityInfo.label} • {card.xp} XP
+                      {card.foil ? ' ✨' : ''}
                     </Text>
                     <Text style={{ fontSize: 12, color: THEME.colors.textLight, fontWeight: '600' }}>
                       {formatDateBR(card.date)}
