@@ -329,35 +329,30 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
             paddingBottom: 5 * scale,
           }}
         >
-          <View style={{ flexDirection: 'row', alignItems: 'center', gap: 5 * scale }}>
-            <Text style={[styles.shadowed, { fontSize: 12 * scale, color: 'rgba(255,255,255,0.65)' }]}>
-              —
-            </Text>
-            {/* Selo escuro: a raridade cai sobre a arte, que pode ser clara */}
-            <View
+          {/* Selo escuro: a raridade cai sobre a arte, que pode ser clara */}
+          <View
+            style={{
+              flexDirection: 'row',
+              alignItems: 'center',
+              gap: 5 * scale,
+              backgroundColor: 'rgba(12,10,20,0.66)',
+              borderRadius: 999,
+              paddingLeft: 8 * scale,
+              paddingRight: 3 * scale,
+              paddingVertical: 3 * scale,
+            }}
+          >
+            <Text
               style={{
-                flexDirection: 'row',
-                alignItems: 'center',
-                gap: 5 * scale,
-                backgroundColor: 'rgba(12,10,20,0.66)',
-                borderRadius: 999,
-                paddingLeft: 9 * scale,
-                paddingRight: 3 * scale,
-                paddingVertical: 3 * scale,
+                fontSize: 10 * scale,
+                fontWeight: '900',
+                color: rarityInfo.color,
+                letterSpacing: 0.7,
               }}
             >
-              <Text
-                style={{
-                  fontSize: 11.5 * scale,
-                  fontWeight: '900',
-                  color: rarityInfo.color,
-                  letterSpacing: 0.7,
-                }}
-              >
-                {rarityInfo.label.toUpperCase()}
-              </Text>
-              <RaritySymbol rarity={rarity} size={17 * scale} />
-            </View>
+              {rarityInfo.label.toUpperCase()}
+            </Text>
+            <RaritySymbol rarity={rarity} size={15 * scale} />
           </View>
         </View>
 
@@ -374,33 +369,31 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
               gap: 4 * scale,
             }}
           >
-            {/* O ataque desta carta, marcado pelo elemento da habilidade */}
+            {/* O ataque desta carta, marcado pelo elemento da própria habilidade */}
             <Text
               numberOfLines={1}
-              style={{ fontSize: 13 * scale, fontWeight: '900', color: '#FFFFFF' }}
+              style={{ fontSize: 11.5 * scale, fontWeight: '900', color: '#FFFFFF' }}
             >
-              {subjectElementEmoji(attack.element)} {attack.name.toUpperCase()} · {attack.power} ·{' '}
-              {attack.accuracy}%
+              {subjectElementEmoji(attack.element)} {attack.power} · {attack.name.toUpperCase()}
             </Text>
 
-            {visibleContributions.length > 0 && (
+            {/* Matérias à esquerda, XP do dia à direita */}
+            <View style={{ flexDirection: 'row', alignItems: 'center', gap: 5 * scale }}>
               <Text
                 numberOfLines={1}
-                style={{ fontSize: 9.5 * scale, fontWeight: '700', color: 'rgba(255,255,255,0.78)' }}
+                style={{
+                  flexShrink: 1,
+                  fontSize: 8.5 * scale,
+                  fontWeight: '700',
+                  color: 'rgba(255,255,255,0.78)',
+                }}
               >
                 {visibleContributions
                   .map((c) => `${SUBJECT_ELEMENT_MAP[c.subject].subjectLabel} ${c.value}`)
                   .join('  ·  ')}
               </Text>
-            )}
-
-            <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-              <Text
-                numberOfLines={1}
-                style={{ fontSize: 8.5 * scale, fontWeight: '800', color: 'rgba(255,255,255,0.62)' }}
-              >
-                Recrion — {crion.epithet}
-              </Text>
+              <Text style={{ fontSize: 8.5 * scale, color: 'rgba(255,255,255,0.45)' }}>—</Text>
+              <View style={{ flex: 1 }} />
               <Text style={{ fontSize: 8.5 * scale, fontWeight: '800', color: 'rgba(255,255,255,0.82)' }}>
                 {xp} XP
               </Text>

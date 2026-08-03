@@ -11243,7 +11243,7 @@ export const CRIONS: Crion[] = [
     {
       id: 'atk_aetherion_1',
       name: "Sopro Primordial",
-      element: 'LEGENDARY',
+      element: 'WIND',
       power: 70,
       accuracy: 95,
       description: "O primeiro sopro que criou os elementos",
@@ -11277,7 +11277,7 @@ export const CRIONS: Crion[] = [
     {
       id: 'atk_aetherion_3',
       name: "Elo Eterno",
-      element: 'LEGENDARY',
+      element: 'LIGHT',
       power: 80,
       accuracy: 85,
       description: "Restaura o time inteiro com energia pura",

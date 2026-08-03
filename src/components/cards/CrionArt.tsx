@@ -150,7 +150,8 @@ export function CrionArt({
   const attack = crion.attacks.find((a) => a.slot === attackSlot) ?? crion.attacks[0];
 
   // Arte composta em uma imagem só (caminho da geração manual): ela já traz
-  // criatura, efeito, fundo e borda, então as camadas separadas não entram.
+  // criatura, efeito, fundo e borda, então as camadas separadas não entram —
+  // e nem as partículas, que só duplicariam o efeito já pintado.
   if (uris?.full) {
     return (
       <View
@@ -158,7 +159,6 @@ export function CrionArt({
         accessibilityLabel={`${crion.name} usando ${attack.name}`}
       >
         <Image source={{ uri: uris.full }} style={FILL} resizeMode="cover" />
-        {showParticles && <ElementParticles element={crion.element} width={width} />}
       </View>
     );
   }
