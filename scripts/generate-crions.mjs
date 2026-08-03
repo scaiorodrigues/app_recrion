@@ -675,3 +675,30 @@ mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, header + body + footer, 'utf8');
 
 console.log(`Gerados ${crions.length} Crions em ${OUT}`);
+
+// ---------------------------------------------------------------------------
+// Prompts de arte, para o gerador de imagens consumir sem precisar ler TypeScript
+// ---------------------------------------------------------------------------
+
+const PROMPTS_OUT = resolve(__dirname, '../art/prompts.json');
+
+const cards = [];
+for (const crion of crions) {
+  for (const attack of crion.attacks) {
+    cards.push({
+      cardKey: `${crion.id}_s${attack.slot}`,
+      crionId: crion.id,
+      crionName: crion.name,
+      element: crion.element,
+      rarity: crion.rarity,
+      slot: attack.slot,
+      attackName: attack.name,
+      art: attack.art,
+    });
+  }
+}
+
+mkdirSync(dirname(PROMPTS_OUT), { recursive: true });
+writeFileSync(PROMPTS_OUT, JSON.stringify({ cards }, null, 2), 'utf8');
+
+console.log(`Prompts de ${cards.length} cartas em ${PROMPTS_OUT}`);

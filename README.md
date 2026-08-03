@@ -102,7 +102,7 @@ src/
 ├── data/             Crions, obrigações, palavras, mundos
 ├── hooks/            Geração do Crion do dia, compartilhamento
 ├── stores/           Estado global (Zustand)
-├── utils/            XP, raridade, métricas Pier, geração, combate, perfil
+├── utils/            XP, raridade, stats, arte, métricas Pier, geração, combate
 ├── types/            Interfaces TypeScript
 └── constants/        Tema, regras de jogo, notificações
 ```
@@ -145,8 +145,39 @@ arqueado em rugido no golpe final.
 
 O componente `CrionArt` aceita `artUris` com as imagens já geradas, camada a
 camada. Enquanto elas não existem, cada camada é desenhada proceduralmente com
-gradientes e partículas, então a estrutura já é a definitiva — basta plugar as
-imagens.
+gradientes e partículas — arte gerada é enriquecimento, nunca requisito.
+
+#### Gerando a arte com o Gemini
+
+```bash
+node scripts/generate-crions.mjs                              # atualiza os prompts
+GEMINI_API_KEY=sua-chave node scripts/generate-art.mjs --dry-run   # mostra o plano
+GEMINI_API_KEY=sua-chave node scripts/generate-art.mjs --limit 8   # gera uma amostra
+GEMINI_API_KEY=sua-chave node scripts/generate-art.mjs             # gera tudo
+```
+
+Pegue a chave em [aistudio.google.com/apikey](https://aistudio.google.com/apikey).
+
+**Roda em build, nunca dentro do app.** A chave não pode ir no bundle — APK é
+decompilável — e o conjunto de cartas é fixo: as 512 combinações são as mesmas
+para toda criança. Gerar uma vez e distribuir sai mais barato, mais rápido e
+funciona offline. Nada de esperar rede no momento da revelação.
+
+São **600 imagens, não 2048**: só a camada da criatura é única por carta. O
+fundo depende de elemento e habitat, o efeito de elemento e slot, a borda só do
+elemento — prompts iguais viram o mesmo arquivo, deduplicado por hash.
+
+O script é **resumível**: imagem que já está no disco não é gerada de novo, e
+uma falha pontual some na próxima rodada. `art/manifest.json` mapeia cada carta
+para seus quatro arquivos e é versionado; os PNGs em `art/out/` não são.
+
+Para o app exibir a arte, hospede a pasta e aponte:
+
+```bash
+EXPO_PUBLIC_ART_BASE_URL=https://seu-cdn/art/
+```
+
+Sem essa variável o app usa o desenho procedural — nenhuma tela quebra.
 
 ---
 
@@ -270,6 +301,6 @@ paywall.**
 npm test
 ```
 
-165 testes cobrindo o cálculo de XP, a raridade, os atributos finais, as camadas
-de arte, as métricas do método Pier, a geração do Crion, o teste gratuito, a
-validação de comportamento, o combate e o cálculo de faixa etária.
+171 testes cobrindo o cálculo de XP, a raridade, os atributos finais, as camadas
+de arte e seu manifesto, as métricas do método Pier, a geração do Crion, o teste
+gratuito, a validação de comportamento, o combate e o cálculo de faixa etária.

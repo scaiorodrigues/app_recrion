@@ -49,7 +49,8 @@ export default function Reveal() {
     );
   }
 
-  const { crion, card, rarity, xp, attackSlot, foil, contributions, stats } = generation;
+  const { crion, card, rarity, xp, attackSlot, foil, contributions, stats, artUris } =
+    generation;
 
   return (
     <Screen>
@@ -62,6 +63,7 @@ export default function Reveal() {
         childName={card.childName}
         contributions={contributions}
         stats={stats}
+        artUris={artUris}
         foil={foil}
         onRevealed={handleRevealed}
       />
@@ -80,6 +82,7 @@ export default function Reveal() {
                 childName={card.childName}
                 contributions={contributions}
                 stats={stats}
+                artUris={artUris}
                 foil={foil}
                 showParticles={false}
               />

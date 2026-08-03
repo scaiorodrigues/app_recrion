@@ -41,3 +41,6 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Arte gerada pelo Gemini — versionamos só os prompts e o manifesto
+art/out/

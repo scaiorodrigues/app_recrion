@@ -15,6 +15,7 @@ import { RARITY_ORDER } from '@/constants/theme';
 import { SUBJECT_ELEMENT_MAP } from '@/constants/game';
 import type {
   AcademicSubject,
+  ArtLayerUris,
   AttackSlot,
   Bonuses,
   Crion,
@@ -29,6 +30,7 @@ import type {
   SubjectScores,
   Tier,
 } from '@/types';
+import { resolveArtUris } from './art';
 import { capRarity, determineRarity } from './rarity';
 import { buildContributions, calculateFinalStats } from './stats';
 import {
@@ -165,6 +167,7 @@ export interface GenerationResult {
   foil: boolean;
   contributions: ElementContribution[];
   stats: FinalStats;
+  artUris?: ArtLayerUris;
   element: PlayableElement;
   secondaryElement: PlayableElement | null;
   attackSlot: AttackSlot;
@@ -221,6 +224,7 @@ export function generateDailyCrion(input: GenerationInput): GenerationResult | n
   // para poder ser reexibida depois sem recalcular nada.
   const contributions = buildContributions(scores, element, behaviorApproved);
   const stats = calculateFinalStats(crion, rarity, xp);
+  const artUris = resolveArtUris(crion, attackSlot);
 
   const card: CrionCardData = {
     id: `card_${childId}_${date}`,
@@ -239,6 +243,7 @@ export function generateDailyCrion(input: GenerationInput): GenerationResult | n
     streak: performance.streak,
     contributions,
     stats,
+    ...(artUris ? { artUris } : {}),
   };
 
   return {
@@ -249,6 +254,7 @@ export function generateDailyCrion(input: GenerationInput): GenerationResult | n
     foil,
     contributions,
     stats,
+    artUris,
     element,
     secondaryElement,
     attackSlot,
