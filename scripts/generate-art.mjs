@@ -11,6 +11,8 @@
  *   GEMINI_API_KEY=... node scripts/generate-art.mjs --limit 8       # amostra
  *   GEMINI_API_KEY=... node scripts/generate-art.mjs --layer edge    # só bordas
  *   GEMINI_API_KEY=... node scripts/generate-art.mjs --dry-run       # só planeja
+ *   GEMINI_API_KEY=... node scripts/generate-art.mjs \
+ *     --card crion_emberon_014_s4                                    # uma carta inteira
  *
  * É resumível: imagem que já existe no disco não é gerada de novo.
  */
@@ -41,12 +43,19 @@ const MAX_ATTEMPTS = 3;
 // ---------------------------------------------------------------------------
 
 function parseArgs(argv) {
-  const args = { limit: Infinity, layer: null, model: DEFAULT_MODEL, dryRun: false };
+  const args = {
+    limit: Infinity,
+    layer: null,
+    card: null,
+    model: DEFAULT_MODEL,
+    dryRun: false,
+  };
 
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === '--limit') args.limit = Number(argv[++i]);
     else if (arg === '--layer') args.layer = argv[++i];
+    else if (arg === '--card') args.card = argv[++i];
     else if (arg === '--model') args.model = argv[++i];
     else if (arg === '--dry-run') args.dryRun = true;
   }
@@ -69,14 +78,33 @@ function fileNameFor(layer, prompt) {
   return `${layer}_${hash}.png`;
 }
 
-const { cards } = JSON.parse(readFileSync(PROMPTS, 'utf8'));
+const all = JSON.parse(readFileSync(PROMPTS, 'utf8')).cards;
+
+// --card gera as QUATRO camadas de uma carta só: é o teste que mostra se as
+// camadas combinam entre si, coisa que uma imagem solta não revela.
+const cards = args.card ? all.filter((c) => c.cardKey === args.card) : all;
+
+if (args.card && cards.length === 0) {
+  console.error(`Carta não encontrada: ${args.card}\n`);
+  console.error('Exemplos de chaves válidas:');
+  for (const example of all.slice(0, 5)) {
+    console.error(`  ${example.cardKey}  — ${example.crionName}, ${example.attackName}`);
+  }
+  process.exit(1);
+}
+
+if (args.card) {
+  const [card] = cards;
+  console.log(`Carta: ${card.crionName} (${card.element}, ${card.rarity})`);
+  console.log(`Ataque: ${card.attackName} — slot ${card.slot}\n`);
+}
 
 /** Uma entrada por imagem única, com as cartas que a utilizam. */
 const jobs = new Map();
 /** cardKey → { creature, effect, background, edge } */
 const manifest = {};
 
-for (const card of cards) {
+for (const card of all) {
   manifest[card.cardKey] = {};
 
   for (const layer of LAYERS) {
@@ -85,6 +113,7 @@ for (const card of cards) {
     manifest[card.cardKey][layer] = file;
 
     if (args.layer && layer !== args.layer) continue;
+    if (args.card && card.cardKey !== args.card) continue;
 
     if (!jobs.has(file)) {
       jobs.set(file, { file, layer, prompt, usedBy: 0 });
