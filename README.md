@@ -147,7 +147,30 @@ O componente `CrionArt` aceita `artUris` com as imagens já geradas, camada a
 camada. Enquanto elas não existem, cada camada é desenhada proceduralmente com
 gradientes e partículas — arte gerada é enriquecimento, nunca requisito.
 
-#### Gerando a arte com o Gemini
+#### Gerando a arte pelo Canva (caminho validado)
+
+Funciona e não exige faturamento. O conector do Canva gera quatro candidatas
+por pedido; escolhe-se uma, converte-se em design e exporta-se em PNG.
+
+Use o prompt de `art/prompts.json` no campo `art.full`, acrescentando no início
+a instrução de que o resultado é **só ilustração**, sem texto nem layout — o
+Canva é um gerador de *design*, então sem isso ele acrescenta títulos e
+molduras.
+
+Exportado, o PNG entra na carta apontando:
+
+```bash
+EXPO_PUBLIC_ART_TEST_URL=http://localhost:8899/sua-imagem.png npx expo start
+```
+
+Isso monta a imagem como camada composta no laboratório de cartas, para avaliar
+a arte dentro da carta antes de publicá-la no manifesto.
+
+**Atenção à proporção.** O Canva entrega 1080x1350 (4:5) e a área de arte da
+carta é 293x288, quase quadrada — o recorte `cover` come cerca de 40px em cima
+e embaixo. Composição centralizada sobrevive bem; sujeito colado no topo, não.
+
+#### Gerando a arte com o Gemini (exige faturamento)
 
 ```bash
 node scripts/generate-crions.mjs                              # atualiza os prompts
@@ -157,6 +180,10 @@ GEMINI_API_KEY=sua-chave node scripts/generate-art.mjs             # gera tudo
 ```
 
 Pegue a chave em [aistudio.google.com/apikey](https://aistudio.google.com/apikey).
+
+A geração de imagem do Gemini **não tem tier gratuito**: sem faturamento
+habilitado no projeto, toda chamada volta 429 com `limit: 0` — inclusive as de
+texto. Trocar a chave não resolve, porque a cota pertence ao projeto.
 
 **Roda em build, nunca dentro do app.** A chave não pode ir no bundle — APK é
 decompilável — e o conjunto de cartas é fixo: as 512 combinações são as mesmas
