@@ -15,7 +15,16 @@ import { SUBJECT_ELEMENT_MAP } from '@/constants/game';
 import { ELEMENT_THEME, RARITY_THRESHOLDS, THEME } from '@/constants/theme';
 import { CRIONS } from '@/data/crions';
 import useShareCard from '@/hooks/useShareCard';
-import type { AttackSlot, Element, ElementContribution, Rarity } from '@/types';
+import type { ArtLayerUris, AttackSlot, Element, ElementContribution, Rarity } from '@/types';
+
+/**
+ * Arte de teste para o laboratório: se EXPO_PUBLIC_ART_TEST_URL apontar para
+ * uma imagem, ela entra como camada composta. Serve para avaliar arte nova
+ * dentro da carta antes de publicá-la no manifesto.
+ */
+const TEST_ART: ArtLayerUris | undefined = process.env.EXPO_PUBLIC_ART_TEST_URL
+  ? { full: process.env.EXPO_PUBLIC_ART_TEST_URL }
+  : undefined;
 import { today } from '@/utils/profile';
 
 const ELEMENTS: Element[] = [
@@ -142,6 +151,7 @@ export default function CardLab() {
           date={date}
           childName="Sofia"
           contributions={contributions}
+          artUris={TEST_ART}
           foil={foil}
         />
         <View style={{ marginTop: 24, alignItems: 'center' }}>
@@ -233,6 +243,7 @@ export default function CardLab() {
                 date={date}
                 childName="Sofia"
                 contributions={contributions}
+                artUris={TEST_ART}
                 foil={foil}
               />
             </View>
