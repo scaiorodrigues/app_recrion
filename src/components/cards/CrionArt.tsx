@@ -34,6 +34,42 @@ interface CrionArtProps {
   width: number;
   height: number;
   showParticles?: boolean;
+  /** Dá vida à arte composta com um movimento lento de três segundos. */
+  animate?: boolean;
+}
+
+/** Duração do ciclo de respiração da arte, em milissegundos. */
+const BREATH_MS = 3000;
+
+/**
+ * Arte composta com um movimento lento e contínuo: a imagem cresce e sobe de
+ * leve, ida e volta em três segundos. É sutil de propósito — a criatura
+ * parece respirar sem que a carta vire um vídeo.
+ */
+function BreathingArt({ uri, animate }: { uri: string; animate: boolean }) {
+  const breath = useSharedValue(0);
+
+  useEffect(() => {
+    if (!animate) return;
+    breath.value = withRepeat(
+      withTiming(1, { duration: BREATH_MS, easing: Easing.inOut(Easing.ease) }),
+      -1,
+      true,
+    );
+  }, [animate, breath]);
+
+  const style = useAnimatedStyle(() => ({
+    transform: [
+      { scale: 1.03 + breath.value * 0.035 },
+      { translateY: -breath.value * 5 },
+    ],
+  }));
+
+  return (
+    <Animated.View style={[FILL, style]}>
+      <Image source={{ uri }} style={FILL} resizeMode="cover" />
+    </Animated.View>
+  );
 }
 
 /** Quanto o efeito cresce conforme o ataque fica mais forte. */
@@ -144,6 +180,7 @@ export function CrionArt({
   width,
   height,
   showParticles = true,
+  animate = true,
 }: CrionArtProps) {
   const intensity = SLOT_INTENSITY[attackSlot];
   const pose = SLOT_POSE[attackSlot];
@@ -158,7 +195,7 @@ export function CrionArt({
         style={{ width, height, overflow: 'hidden' }}
         accessibilityLabel={`${crion.name} usando ${attack.name}`}
       >
-        <Image source={{ uri: uris.full }} style={FILL} resizeMode="cover" />
+        <BreathingArt uri={uris.full} animate={animate} />
       </View>
     );
   }

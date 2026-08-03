@@ -4,9 +4,9 @@
  * e a arte muda de pose conforme a habilidade usada.
  *
  * Layout: faixa de cima com o nome do Crion e os elementos que o alimentaram,
- * quadrado central livre só para a arte, a raridade ancorada no canto inferior
- * direito dessa área livre, e faixa de baixo com o ataque desta carta, as
- * matérias e o rodapé.
+ * área central livre só para a arte, a raridade ancorada no canto inferior
+ * direito dessa área, e o campo descritivo ocupando o terço de baixo — ataque,
+ * o que a habilidade faz, matérias e XP do dia.
  */
 
 import { forwardRef, useEffect } from 'react';
@@ -40,15 +40,18 @@ import CrionArt from './CrionArt';
 export const CARD_WIDTH = 300;
 export const CARD_HEIGHT = 500;
 
-/**
- * O quadrado central que fica LIVRE de qualquer informação — é onde mora o
- * centro de importância da arte. A arte sangra por toda a carta; o texto vive
- * nas faixas que sobram acima e abaixo deste quadrado.
- */
-export const CLEAR_AREA = 288;
+/** Faixa de cima: nome do Crion e os elementos que o alimentaram. */
+const TOP_BAND = 106;
 
-/** Altura de cada faixa de informação, acima e abaixo da área livre. */
-const BAND_HEIGHT = (CARD_HEIGHT - CLEAR_AREA) / 2;
+/** O campo descritivo de baixo ocupa um terço da carta. */
+const BOTTOM_BAND = CARD_HEIGHT / 3;
+
+/**
+ * O que sobra no meio fica LIVRE de qualquer informação — é onde mora o
+ * centro de importância da arte. A arte sangra por toda a carta; o texto vive
+ * nas faixas de cima e de baixo.
+ */
+export const CLEAR_AREA = CARD_HEIGHT - TOP_BAND - BOTTOM_BAND;
 
 interface CrionCardProps {
   crion: Crion;
@@ -66,6 +69,8 @@ interface CrionCardProps {
   artUris?: ArtLayerUris;
   width?: number;
   showParticles?: boolean;
+  /** Dá vida à arte composta com um movimento lento de três segundos. */
+  animateArt?: boolean;
   /** Carta holográfica — sai só no dia perfeito. */
   foil?: boolean;
 }
@@ -198,6 +203,7 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
     artUris,
     width = CARD_WIDTH,
     showParticles = true,
+    animateArt = true,
     foil = false,
   },
   ref,
@@ -210,7 +216,8 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
 
   const scale = width / CARD_WIDTH;
   const height = CARD_HEIGHT * scale;
-  const band = BAND_HEIGHT * scale;
+  const topBand = TOP_BAND * scale;
+  const bottomBand = BOTTOM_BAND * scale;
 
   const { isPremium, pulse } = useRarityGlow(rarity, foil);
 
@@ -270,11 +277,12 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
             width={width}
             height={height}
             showParticles={showParticles}
+            animate={animateArt}
           />
         </View>
 
         {/* Faixa superior: o nome do Crion e os elementos que o alimentaram */}
-        <View style={{ height: band }}>
+        <View style={{ height: topBand }}>
           <LinearGradient
             colors={['rgba(0,0,0,0.78)', 'rgba(0,0,0,0.34)', 'transparent']}
             style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}
@@ -356,48 +364,64 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
           </View>
         </View>
 
-        {/* Faixa inferior: painel escuro translúcido garante a leitura */}
-        <View style={{ height: band, justifyContent: 'flex-end' }}>
-          <View
+        {/* Campo descritivo: um terço da carta, sobre painel escuro translúcido */}
+        <View
+          style={{
+            height: bottomBand,
+            backgroundColor: 'rgba(12,10,20,0.72)',
+            borderTopWidth: 1,
+            borderTopColor: `${rarityInfo.color}66`,
+            paddingHorizontal: 11 * scale,
+            paddingTop: 8 * scale,
+            paddingBottom: 8 * scale,
+          }}
+        >
+          {/* O ataque desta carta, marcado pelo elemento da própria habilidade */}
+          <Text
+            numberOfLines={1}
+            style={{ fontSize: 15 * scale, fontWeight: '900', color: '#FFFFFF' }}
+          >
+            {subjectElementEmoji(attack.element)} {attack.power} · {attack.name.toUpperCase()}
+          </Text>
+
+          {/* O que a habilidade faz — é o que dá corpo ao campo descritivo */}
+          <Text
             style={{
-              backgroundColor: 'rgba(12,10,20,0.72)',
-              borderTopWidth: 1,
-              borderTopColor: `${rarityInfo.color}66`,
-              paddingHorizontal: 11 * scale,
-              paddingTop: 7 * scale,
-              paddingBottom: 8 * scale,
-              gap: 4 * scale,
+              marginTop: 7 * scale,
+              fontSize: 11.5 * scale,
+              lineHeight: 16 * scale,
+              fontStyle: 'italic',
+              color: 'rgba(255,255,255,0.80)',
             }}
           >
-            {/* O ataque desta carta, marcado pelo elemento da própria habilidade */}
+            {attack.description}
+          </Text>
+
+          <View style={{ flex: 1 }} />
+
+          {/* Matérias à esquerda, XP do dia à direita */}
+          <View style={{ flexDirection: 'row', alignItems: 'center', gap: 5 * scale }}>
             <Text
               numberOfLines={1}
-              style={{ fontSize: 11.5 * scale, fontWeight: '900', color: '#FFFFFF' }}
+              style={{
+                flexShrink: 1,
+                fontSize: 8.5 * scale,
+                fontWeight: '700',
+                color: 'rgba(255,255,255,0.78)',
+              }}
             >
-              {subjectElementEmoji(attack.element)} {attack.power} · {attack.name.toUpperCase()}
+              {visibleContributions
+                .map((c) => `${SUBJECT_ELEMENT_MAP[c.subject].subjectLabel} ${c.value}`)
+                .join('  ·  ')}
             </Text>
-
-            {/* Matérias à esquerda, XP do dia à direita */}
-            <View style={{ flexDirection: 'row', alignItems: 'center', gap: 5 * scale }}>
-              <Text
-                numberOfLines={1}
-                style={{
-                  flexShrink: 1,
-                  fontSize: 8.5 * scale,
-                  fontWeight: '700',
-                  color: 'rgba(255,255,255,0.78)',
-                }}
-              >
-                {visibleContributions
-                  .map((c) => `${SUBJECT_ELEMENT_MAP[c.subject].subjectLabel} ${c.value}`)
-                  .join('  ·  ')}
-              </Text>
-              <Text style={{ fontSize: 8.5 * scale, color: 'rgba(255,255,255,0.45)' }}>—</Text>
-              <View style={{ flex: 1 }} />
-              <Text style={{ fontSize: 8.5 * scale, fontWeight: '800', color: 'rgba(255,255,255,0.82)' }}>
-                {xp} XP
-              </Text>
-            </View>
+            <Text style={{ fontSize: 8.5 * scale, color: 'rgba(255,255,255,0.45)' }}>—</Text>
+            <View style={{ flex: 1 }} />
+            <Text
+              numberOfLines={1}
+              style={{ fontSize: 8.5 * scale, fontWeight: '800', color: 'rgba(255,255,255,0.82)' }}
+            >
+              {xp} XP
+            </Text>
           </View>
         </View>
 
