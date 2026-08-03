@@ -3,9 +3,10 @@
  * O mesmo Crion gera até 4 cartas diferentes, uma por ataque desbloqueado,
  * e a arte muda de pose conforme a habilidade usada.
  *
- * Layout: ATK/DEF no topo à esquerda, raridade à direita, arte em quatro
- * camadas, nome em destaque com os elementos ao lado, o ataque desta carta,
- * as matérias que a alimentaram e o rodapé de origem.
+ * Layout: faixa de cima com o nome do Crion e os elementos que o alimentaram,
+ * quadrado central livre só para a arte, a raridade ancorada no canto inferior
+ * direito dessa área livre, e faixa de baixo com o ataque desta carta, as
+ * matérias e o rodapé.
  */
 
 import { forwardRef, useEffect } from 'react';
@@ -20,7 +21,7 @@ import Animated, {
   type SharedValue,
 } from 'react-native-reanimated';
 
-import { ELEMENT_THEME, RARITY_THRESHOLDS, THEME, TIER_INFO } from '@/constants/theme';
+import { ELEMENT_THEME, RARITY_THRESHOLDS, THEME } from '@/constants/theme';
 import { SUBJECT_ELEMENT_MAP } from '@/constants/game';
 import type {
   ArtLayerUris,
@@ -130,7 +131,12 @@ function ElementBadge({
           </Text>
         </View>
       </View>
-      <Text style={{ fontSize: size * 0.34, fontWeight: '900', color: theme.accent, marginTop: -1 }}>
+      <Text
+        style={[
+          styles.shadowed,
+          { fontSize: size * 0.34, fontWeight: '900', color: theme.accent, marginTop: -1 },
+        ]}
+      >
         {contribution.value}
       </Text>
     </View>
@@ -198,7 +204,6 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
 ) {
   const elementTheme = ELEMENT_THEME[crion.element];
   const rarityInfo = RARITY_THRESHOLDS[rarity];
-  const tierInfo = TIER_INFO[crion.tier];
 
   const attack = crion.attacks.find((a) => a.slot === attackSlot) ?? crion.attacks[0];
   const finalStats = stats ?? calculateFinalStats(crion, rarity, xp);
@@ -241,7 +246,11 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
         ref={ref}
         collapsable={false}
         accessibilityRole="image"
-        accessibilityLabel={`Carta ${crion.name}, ${rarityInfo.label}, usando ${attack.name}. Ataque ${finalStats.atk}, defesa ${finalStats.def}.`}
+        accessibilityLabel={
+          `Carta ${crion.name}, ${rarityInfo.label}, usando ${attack.name}. ` +
+          `Ataque ${finalStats.atk}, defesa ${finalStats.def}. ` +
+          `Conquistada por ${childName} em ${formatDateBR(date)}.`
+        }
         style={{
           width,
           height,
@@ -264,10 +273,10 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
           />
         </View>
 
-        {/* Faixa superior: só os números e os selos. Nada de nome aqui. */}
+        {/* Faixa superior: o nome do Crion e os elementos que o alimentaram */}
         <View style={{ height: band }}>
           <LinearGradient
-            colors={['rgba(0,0,0,0.70)', 'rgba(0,0,0,0.28)', 'transparent']}
+            colors={['rgba(0,0,0,0.78)', 'rgba(0,0,0,0.34)', 'transparent']}
             style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}
           />
 
@@ -275,34 +284,82 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
             style={{
               flexDirection: 'row',
               alignItems: 'center',
-              justifyContent: 'space-between',
+              gap: 7 * scale,
               paddingHorizontal: 12 * scale,
-              paddingTop: 8 * scale,
+              paddingTop: 9 * scale,
             }}
           >
-            <View style={{ flexDirection: 'row', alignItems: 'baseline', gap: 4 }}>
-              <Text style={[styles.shadowed, { fontSize: 30 * scale, fontWeight: '900', color: '#FFFFFF' }]}>
-                {finalStats.atk}
-              </Text>
-              <Text style={[styles.shadowed, { fontSize: 20 * scale, fontWeight: '800', color: 'rgba(255,255,255,0.82)' }]}>
-                -{finalStats.def}
-              </Text>
-              {finalStats.bonusAtk > 0 && (
-                <Text style={[styles.shadowed, { fontSize: 11 * scale, fontWeight: '900', color: '#86EFAC' }]}>
-                  +{finalStats.bonusAtk}
-                </Text>
-              )}
-            </View>
+            <Text
+              numberOfLines={1}
+              style={[
+                styles.shadowed,
+                {
+                  flex: 1,
+                  fontSize: 24 * scale,
+                  fontWeight: '900',
+                  color: '#FFFFFF',
+                  fontStyle: 'italic',
+                  letterSpacing: 0.3,
+                },
+              ]}
+            >
+              {crion.name}
+            </Text>
 
-            <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6 * scale }}>
-              <Text style={{ fontSize: 14 * scale }}>{tierInfo.emoji}</Text>
-              <RaritySymbol rarity={rarity} size={22 * scale} />
+            <Text style={[styles.shadowed, { fontSize: 13 * scale, color: 'rgba(255,255,255,0.65)' }]}>
+              —
+            </Text>
+
+            <View style={{ flexDirection: 'row', gap: 5 * scale }}>
+              {visibleContributions.map((c) => (
+                <ElementBadge key={c.subject} contribution={c} size={19 * scale} />
+              ))}
             </View>
           </View>
         </View>
 
-        {/* Área livre: nada aqui, só a arte */}
-        <View style={{ flex: 1 }} pointerEvents="none" />
+        {/* Área livre: só a arte. A raridade encosta no canto de baixo à direita. */}
+        <View
+          pointerEvents="none"
+          style={{
+            flex: 1,
+            justifyContent: 'flex-end',
+            alignItems: 'flex-end',
+            paddingHorizontal: 12 * scale,
+            paddingBottom: 5 * scale,
+          }}
+        >
+          <View style={{ flexDirection: 'row', alignItems: 'center', gap: 5 * scale }}>
+            <Text style={[styles.shadowed, { fontSize: 12 * scale, color: 'rgba(255,255,255,0.65)' }]}>
+              —
+            </Text>
+            {/* Selo escuro: a raridade cai sobre a arte, que pode ser clara */}
+            <View
+              style={{
+                flexDirection: 'row',
+                alignItems: 'center',
+                gap: 5 * scale,
+                backgroundColor: 'rgba(12,10,20,0.66)',
+                borderRadius: 999,
+                paddingLeft: 9 * scale,
+                paddingRight: 3 * scale,
+                paddingVertical: 3 * scale,
+              }}
+            >
+              <Text
+                style={{
+                  fontSize: 11.5 * scale,
+                  fontWeight: '900',
+                  color: rarityInfo.color,
+                  letterSpacing: 0.7,
+                }}
+              >
+                {rarityInfo.label.toUpperCase()}
+              </Text>
+              <RaritySymbol rarity={rarity} size={17 * scale} />
+            </View>
+          </View>
+        </View>
 
         {/* Faixa inferior: painel escuro translúcido garante a leitura */}
         <View style={{ height: band, justifyContent: 'flex-end' }}>
@@ -312,56 +369,24 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
               borderTopWidth: 1,
               borderTopColor: `${rarityInfo.color}66`,
               paddingHorizontal: 11 * scale,
-              paddingTop: 6 * scale,
-              paddingBottom: 7 * scale,
-              gap: 3 * scale,
+              paddingTop: 7 * scale,
+              paddingBottom: 8 * scale,
+              gap: 4 * scale,
             }}
           >
-            {/* Nome, elementos com as notas, e a raridade por extenso */}
-            <View style={{ flexDirection: 'row', alignItems: 'center', gap: 7 }}>
-              <Text
-                numberOfLines={1}
-                style={{
-                  flex: 1,
-                  fontSize: 21 * scale,
-                  fontWeight: '900',
-                  color: '#FFFFFF',
-                  fontStyle: 'italic',
-                  letterSpacing: 0.3,
-                }}
-              >
-                {crion.name}
-              </Text>
-
-              <View style={{ flexDirection: 'row', gap: 5 * scale }}>
-                {visibleContributions.map((c) => (
-                  <ElementBadge key={c.subject} contribution={c} size={19 * scale} />
-                ))}
-              </View>
-
-              <Text
-                style={{
-                  fontSize: 9 * scale,
-                  fontWeight: '900',
-                  color: rarityInfo.color,
-                  letterSpacing: 0.4,
-                }}
-              >
-                {rarityInfo.label.toUpperCase()}
-              </Text>
-            </View>
-
+            {/* O ataque desta carta, marcado pelo elemento da habilidade */}
             <Text
               numberOfLines={1}
-              style={{ fontSize: 11.5 * scale, fontWeight: '900', color: '#FFFFFF' }}
+              style={{ fontSize: 13 * scale, fontWeight: '900', color: '#FFFFFF' }}
             >
-              ⚔️ {attack.name.toUpperCase()} · {attack.power} · {attack.accuracy}%
+              {subjectElementEmoji(attack.element)} {attack.name.toUpperCase()} · {attack.power} ·{' '}
+              {attack.accuracy}%
             </Text>
 
             {visibleContributions.length > 0 && (
               <Text
                 numberOfLines={1}
-                style={{ fontSize: 9 * scale, fontWeight: '700', color: 'rgba(255,255,255,0.78)' }}
+                style={{ fontSize: 9.5 * scale, fontWeight: '700', color: 'rgba(255,255,255,0.78)' }}
               >
                 {visibleContributions
                   .map((c) => `${SUBJECT_ELEMENT_MAP[c.subject].subjectLabel} ${c.value}`)
@@ -370,11 +395,14 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
             )}
 
             <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-              <Text style={{ fontSize: 8.5 * scale, fontWeight: '800', color: 'rgba(255,255,255,0.62)' }}>
-                {crion.epithet} · {xp} XP
+              <Text
+                numberOfLines={1}
+                style={{ fontSize: 8.5 * scale, fontWeight: '800', color: 'rgba(255,255,255,0.62)' }}
+              >
+                Recrion — {crion.epithet}
               </Text>
               <Text style={{ fontSize: 8.5 * scale, fontWeight: '800', color: 'rgba(255,255,255,0.82)' }}>
-                ✨ {childName} · {formatDateBR(date)}
+                {xp} XP
               </Text>
             </View>
           </View>
