@@ -23,7 +23,7 @@ function attack(over: Partial<Attack> = {}): Attack {
     description: '',
     unlockXP: 0,
     slot: 1,
-    art: { creature: '', effect: '', background: '', edge: '' },
+    art: { creature: '', effect: '', background: '', edge: '', full: '' },
     ...over,
   };
 }

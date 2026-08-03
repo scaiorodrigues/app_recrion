@@ -96,11 +96,30 @@ describe('camadas de arte', () => {
     }
   });
 
-  it('a camada da criatura cita o nome do ataque', () => {
+  it('não cita o nome do ataque, que conflitaria com o pedido de "no text"', () => {
+    // Nome entre aspas convida o modelo a desenhar a palavra. A pose já
+    // descreve a ação, então o nome fica só na carta.
     for (const crion of CRIONS) {
       for (const attack of crion.attacks) {
-        expect(attack.art.creature).toContain(attack.name);
+        expect(attack.art.creature).not.toContain(attack.name);
       }
+    }
+  });
+
+  it('mantém os prompts em inglês, sem misturar idiomas', () => {
+    // Português dentro de prompt em inglês degrada o resultado do modelo.
+    const acentos = /[áàâãéêíóôõúüç]/i;
+    for (const attack of CRIONS.flatMap((c) => c.attacks)) {
+      for (const layer of ['creature', 'effect', 'background', 'edge', 'full'] as const) {
+        expect(attack.art[layer]).not.toMatch(acentos);
+      }
+    }
+  });
+
+  it('traz a versão composta, para geração manual de uma imagem só', () => {
+    for (const attack of CRIONS.flatMap((c) => c.attacks)) {
+      expect(attack.art.full.length).toBeGreaterThan(120);
+      expect(attack.art.full).toContain('no text');
     }
   });
 

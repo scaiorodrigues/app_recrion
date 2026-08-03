@@ -494,7 +494,8 @@ function buildCrion(element, species, rarity, tier, indexInRarity, totalInRarity
   const powers = RARITY_ATTACK_POWER[rarity];
 
   const habitat = meta.habitats[globalIndex % meta.habitats.length];
-  const elementWord = meta.label.toLowerCase();
+  // O prompt inteiro precisa ser inglês: misturar idiomas piora o resultado.
+  const elementWord = element.toLowerCase().replace('_npc', '');
 
   const attacks = meta.attackNames.map(([attackName, attackDesc], i) => {
     const attack = {
@@ -508,10 +509,12 @@ function buildCrion(element, species, rarity, tier, indexInRarity, totalInRarity
       slot: i + 1,
       // As quatro camadas do desenho, todas descrevendo ESTE ataque.
       art: {
-        creature: `cute fantasy ${baseAnimal.toLowerCase()} creature, ${visual}, ${SLOT_POSE[i]}, performing the move "${attackName}", ${elementWord} element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text`,
+        creature: `cute fantasy creature, ${visual}, ${SLOT_POSE[i]}, ${elementWord} element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text`,
         effect: `${elementWord} element magical effect only, ${SLOT_EFFECT_INTENSITY[i]}, glowing ${meta.colorWord}, semi-transparent energy, no creature, no background, isolated on transparent background, no text`,
-        background: `${habitat} scenery, ${elementWord} themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text`,
+        background: `${elementWord} themed fantasy landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text`,
         edge: `abstract ${elementWord} energy border, glowing ${meta.colorWord} light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text`,
+        // Versão de camada única, para gerar à mão em vez de compor quatro.
+        full: `trading card creature artwork, portrait orientation. Subject: cute fantasy creature, ${visual}, ${SLOT_POSE[i]}. Surrounding it: ${SLOT_EFFECT_INTENSITY[i]} of ${elementWord} energy glowing ${meta.colorWord}. Behind it: ${elementWord} themed fantasy landscape with soft depth of field. Around the edges: the same glowing energy bleeding outward into a soft vignette. Children illustration style, vibrant colors, soft shading, no text, no lettering, no border frame`,
       },
     };
     // O slot 3 é sempre o ataque de efeito de status do elemento.
@@ -541,7 +544,7 @@ function buildCrion(element, species, rarity, tier, indexInRarity, totalInRarity
     description: meta.lore[globalIndex % meta.lore.length],
     habitat,
     epithet: `${baseAnimal} ${RARITY_EPITHET[rarity]}`,
-    imagePrompt: `cute fantasy ${baseAnimal.toLowerCase()} creature, ${visual}, ${meta.label.toLowerCase()} element, magical glow ${meta.colorWord}, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text`,
+    imagePrompt: `cute fantasy creature, ${visual}, ${element.toLowerCase().replace('_npc', '')} element, magical glow ${meta.colorWord}, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text`,
     unlockCondition: unlockConditionFor(element, rarity),
   };
 }
@@ -578,10 +581,11 @@ for (const special of SPECIAL_LEGENDARIES) {
       slot: i + 1,
       ...(effect ? { effect } : {}),
       art: {
-        creature: `legendary fantasy ${rest.baseAnimal.toLowerCase()} creature, ${SLOT_POSE[i]}, performing the move "${name}", epic legendary appearance, children illustration style, vibrant colors, full body, isolated on transparent background, no text`,
+        creature: `legendary fantasy creature, ${rest.baseEmoji === '🦄' ? 'celestial chimera' : 'twilight wolf'}, ${SLOT_POSE[i]}, epic legendary appearance, children illustration style, vibrant colors, full body, isolated on transparent background, no text`,
         effect: `legendary prismatic magical effect only, ${SLOT_EFFECT_INTENSITY[i]}, radiant multicoloured energy, semi-transparent, no creature, no background, isolated on transparent background, no text`,
-        background: `${rest.habitat} scenery, epic legendary landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text`,
+        background: `epic legendary fantasy landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text`,
         edge: `abstract legendary energy border, radiant prismatic light bleeding outward to the frame edges, soft vignette, seamless with a card border, no creature, no text`,
+        full: `trading card creature artwork, portrait orientation. Subject: legendary fantasy creature, ${rest.baseEmoji === '🦄' ? 'celestial chimera' : 'twilight wolf'}, ${SLOT_POSE[i]}. Surrounding it: ${SLOT_EFFECT_INTENSITY[i]} of radiant prismatic energy. Behind it: epic legendary fantasy landscape with soft depth of field. Around the edges: the same radiant light bleeding outward into a soft vignette. Children illustration style, vibrant colors, no text, no lettering, no border frame`,
       },
     })),
   });
@@ -609,6 +613,7 @@ function serializeAttack(a) {
       `        effect: ${JSON.stringify(a.art.effect)},\n` +
       `        background: ${JSON.stringify(a.art.background)},\n` +
       `        edge: ${JSON.stringify(a.art.edge)},\n` +
+      `        full: ${JSON.stringify(a.art.full)},\n` +
       `      }`,
   );
   return `    {\n${parts.join(',\n')},\n    }`;

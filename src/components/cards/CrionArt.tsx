@@ -149,6 +149,20 @@ export function CrionArt({
   const pose = SLOT_POSE[attackSlot];
   const attack = crion.attacks.find((a) => a.slot === attackSlot) ?? crion.attacks[0];
 
+  // Arte composta em uma imagem só (caminho da geração manual): ela já traz
+  // criatura, efeito, fundo e borda, então as camadas separadas não entram.
+  if (uris?.full) {
+    return (
+      <View
+        style={{ width, height, overflow: 'hidden' }}
+        accessibilityLabel={`${crion.name} usando ${attack.name}`}
+      >
+        <Image source={{ uri: uris.full }} style={FILL} resizeMode="cover" />
+        {showParticles && <ElementParticles element={crion.element} width={width} />}
+      </View>
+    );
+  }
+
   return (
     <View
       style={{ width, height, overflow: 'hidden' }}

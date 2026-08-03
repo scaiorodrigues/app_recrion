@@ -88,6 +88,12 @@ export interface ArtLayerPrompts {
   background: string;
   /** Camada 4 — o efeito que sangra do fundo para a borda da carta. */
   edge: string;
+  /**
+   * Versão de camada única, com tudo já composto.
+   * Existe para geração manual: compor quatro camadas à mão é inviável,
+   * então uma imagem só resolve a carta inteira.
+   */
+  full: string;
 }
 
 /** Imagens já geradas para as quatro camadas. Cada uma pode faltar. */
@@ -96,6 +102,8 @@ export interface ArtLayerUris {
   effect?: string;
   background?: string;
   edge?: string;
+  /** Imagem única já composta. Quando existe, dispensa as outras camadas. */
+  full?: string;
 }
 
 export type UnlockConditionType =
