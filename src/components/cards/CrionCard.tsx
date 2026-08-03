@@ -39,6 +39,16 @@ import CrionArt from './CrionArt';
 export const CARD_WIDTH = 300;
 export const CARD_HEIGHT = 500;
 
+/**
+ * O quadrado central que fica LIVRE de qualquer informação — é onde mora o
+ * centro de importância da arte. A arte sangra por toda a carta; o texto vive
+ * nas faixas que sobram acima e abaixo deste quadrado.
+ */
+export const CLEAR_AREA = 288;
+
+/** Altura de cada faixa de informação, acima e abaixo da área livre. */
+const BAND_HEIGHT = (CARD_HEIGHT - CLEAR_AREA) / 2;
+
 interface CrionCardProps {
   crion: Crion;
   attackSlot: AttackSlot;
@@ -191,9 +201,7 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
 
   const scale = width / CARD_WIDTH;
   const height = CARD_HEIGHT * scale;
-  // A arte ocupa a altura que sobra depois do cabeçalho, do nome, do ataque,
-  // da linha de matérias e do rodapé — assim a carta fecha sem vão branco.
-  const artHeight = 288 * scale;
+  const band = BAND_HEIGHT * scale;
 
   const { isPremium, pulse } = useRarityGlow(rarity, foil);
 
@@ -234,162 +242,147 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
           width,
           height,
           borderRadius: THEME.borderRadius.card,
-          backgroundColor: THEME.colors.card,
+          backgroundColor: elementTheme.bg,
           borderWidth: 3.5,
           borderColor: rarityInfo.color,
           overflow: 'hidden',
         }}
       >
-        {/* Topo: ataque e defesa finais à esquerda, raridade à direita */}
-        <LinearGradient
-          colors={elementTheme.gradient}
-          start={{ x: 0, y: 0 }}
-          end={{ x: 1, y: 1 }}
-          style={{
-            flexDirection: 'row',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            paddingHorizontal: 12 * scale,
-            paddingVertical: 7 * scale,
-          }}
-        >
-          <View style={{ flexDirection: 'row', alignItems: 'baseline', gap: 3 }}>
-            <Text style={{ fontSize: 27 * scale, fontWeight: '900', color: elementTheme.accent }}>
-              {finalStats.atk}
-            </Text>
-            <Text style={{ fontSize: 19 * scale, fontWeight: '800', color: `${elementTheme.accent}AA` }}>
-              -{finalStats.def}
-            </Text>
-            {finalStats.bonusAtk > 0 && (
-              <Text style={{ fontSize: 10 * scale, fontWeight: '900', color: THEME.colors.success }}>
-                +{finalStats.bonusAtk}
-              </Text>
-            )}
-          </View>
-
-          <View style={{ flexDirection: 'row', alignItems: 'center', gap: 5 * scale }}>
-            <Text style={{ fontSize: 11 * scale, fontWeight: '800', color: elementTheme.accent }}>
-              {tierInfo.emoji}
-            </Text>
-            <RaritySymbol rarity={rarity} size={21 * scale} />
-          </View>
-        </LinearGradient>
-
-        {/* Arte em quatro camadas */}
-        <View style={{ borderTopWidth: 2, borderBottomWidth: 2, borderColor: elementTheme.accent }}>
+        {/* A arte sangra por toda a carta, atrás de tudo */}
+        <View style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}>
           <CrionArt
             crion={crion}
             attackSlot={attackSlot}
             uris={artUris}
-            width={width - 7}
-            height={artHeight}
+            width={width}
+            height={height}
             showParticles={showParticles}
           />
         </View>
 
-        {/* Nome, epíteto e os elementos com as notas das matérias */}
-        <View
-          style={{
-            flexDirection: 'row',
-            alignItems: 'center',
-            paddingHorizontal: 12 * scale,
-            paddingTop: 6 * scale,
-            gap: 8,
-          }}
-        >
-          <View style={{ flex: 1 }}>
-            <Text
-              numberOfLines={1}
-              style={{
-                fontSize: 25 * scale,
-                fontWeight: '900',
-                color: elementTheme.accent,
-                fontStyle: 'italic',
-                letterSpacing: 0.3,
-              }}
-            >
-              {crion.name}
-            </Text>
-            <Text
-              numberOfLines={1}
-              style={{ fontSize: 10.5 * scale, fontWeight: '700', color: THEME.colors.textLight }}
-            >
-              {crion.epithet}
-            </Text>
-          </View>
+        {/* Faixa superior — escurece só o topo, para o texto ficar legível */}
+        <View style={{ height: band, justifyContent: 'space-between', paddingBottom: 4 * scale }}>
+          <LinearGradient
+            colors={['rgba(0,0,0,0.72)', 'rgba(0,0,0,0.34)', 'transparent']}
+            style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}
+          />
 
-          <View style={{ flexDirection: 'row', gap: 6 * scale }}>
-            {visibleContributions.map((c) => (
-              <ElementBadge key={c.subject} contribution={c} size={22 * scale} />
-            ))}
-          </View>
-        </View>
-
-        {/* Ataque desta carta */}
-        <View
-          style={{
-            marginHorizontal: 11 * scale,
-            marginTop: 6 * scale,
-            paddingHorizontal: 9 * scale,
-            paddingVertical: 6 * scale,
-            borderRadius: 9,
-            backgroundColor: elementTheme.bg,
-            borderWidth: 1.5,
-            borderColor: elementTheme.accent,
-            gap: 1,
-          }}
-        >
-          <Text
-            numberOfLines={1}
-            style={{ fontSize: 11.5 * scale, fontWeight: '900', color: elementTheme.accent }}
-          >
-            ⚔️ {attack.name.toUpperCase()} · {attack.power} · {attack.accuracy}%
-          </Text>
-          <Text
-            numberOfLines={2}
-            style={{ fontSize: 9.5 * scale, fontStyle: 'italic', color: THEME.colors.text }}
-          >
-            « {attack.description} »
-          </Text>
-        </View>
-
-        {/* Matérias que alimentaram a carta */}
-        {visibleContributions.length > 0 && (
-          <Text
-            numberOfLines={1}
+          {/* Ataque e defesa finais à esquerda, faixa e raridade à direita */}
+          <View
             style={{
+              flexDirection: 'row',
+              alignItems: 'center',
+              justifyContent: 'space-between',
               paddingHorizontal: 12 * scale,
-              marginTop: 5 * scale,
-              fontSize: 9 * scale,
-              fontWeight: '700',
-              color: THEME.colors.textLight,
+              paddingTop: 7 * scale,
             }}
           >
-            {visibleContributions
-              .map((c) => `${SUBJECT_ELEMENT_MAP[c.subject].subjectLabel} ${c.value}`)
-              .join('  ·  ')}
-          </Text>
-        )}
+            <View style={{ flexDirection: 'row', alignItems: 'baseline', gap: 3 }}>
+              <Text style={[styles.shadowed, { fontSize: 28 * scale, fontWeight: '900', color: '#FFFFFF' }]}>
+                {finalStats.atk}
+              </Text>
+              <Text style={[styles.shadowed, { fontSize: 19 * scale, fontWeight: '800', color: 'rgba(255,255,255,0.82)' }]}>
+                -{finalStats.def}
+              </Text>
+              {finalStats.bonusAtk > 0 && (
+                <Text style={[styles.shadowed, { fontSize: 10 * scale, fontWeight: '900', color: '#86EFAC' }]}>
+                  +{finalStats.bonusAtk}
+                </Text>
+              )}
+            </View>
 
-        {/* Rodapé de origem */}
-        <View
-          style={{
-            marginTop: 'auto',
-            flexDirection: 'row',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            paddingHorizontal: 12 * scale,
-            paddingVertical: 6 * scale,
-            borderTopWidth: 1,
-            borderColor: THEME.colors.border,
-          }}
-        >
-          <Text style={{ fontSize: 9.5 * scale, fontWeight: '800', color: THEME.colors.textLight }}>
-            Recrion — {xp} XP
-          </Text>
-          <Text style={{ fontSize: 9 * scale, fontWeight: '700', color: elementTheme.accent }}>
-            ✨ {childName} · {formatDateBR(date)}
-          </Text>
+            <View style={{ flexDirection: 'row', alignItems: 'center', gap: 5 * scale }}>
+              <Text style={{ fontSize: 12 * scale }}>{tierInfo.emoji}</Text>
+              <RaritySymbol rarity={rarity} size={21 * scale} />
+            </View>
+          </View>
+
+          {/* Nome, epíteto e os elementos com as notas das matérias */}
+          <View
+            style={{
+              flexDirection: 'row',
+              alignItems: 'flex-end',
+              paddingHorizontal: 12 * scale,
+              gap: 8,
+            }}
+          >
+            <View style={{ flex: 1 }}>
+              <Text
+                numberOfLines={1}
+                style={[
+                  styles.shadowed,
+                  {
+                    fontSize: 25 * scale,
+                    fontWeight: '900',
+                    color: '#FFFFFF',
+                    fontStyle: 'italic',
+                    letterSpacing: 0.3,
+                  },
+                ]}
+              >
+                {crion.name}
+              </Text>
+              <Text
+                numberOfLines={1}
+                style={[styles.shadowed, { fontSize: 10.5 * scale, fontWeight: '700', color: 'rgba(255,255,255,0.86)' }]}
+              >
+                {crion.epithet}
+              </Text>
+            </View>
+
+            <View style={{ flexDirection: 'row', gap: 6 * scale }}>
+              {visibleContributions.map((c) => (
+                <ElementBadge key={c.subject} contribution={c} size={22 * scale} />
+              ))}
+            </View>
+          </View>
+        </View>
+
+        {/* Área livre: nada aqui, só a arte */}
+        <View style={{ flex: 1 }} pointerEvents="none" />
+
+        {/* Faixa inferior */}
+        <View style={{ height: band, justifyContent: 'flex-end' }}>
+          <LinearGradient
+            colors={['transparent', 'rgba(0,0,0,0.4)', 'rgba(0,0,0,0.78)']}
+            style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}
+          />
+
+          <View style={{ paddingHorizontal: 12 * scale, paddingBottom: 8 * scale, gap: 3 * scale }}>
+            <Text
+              numberOfLines={1}
+              style={[styles.shadowed, { fontSize: 12 * scale, fontWeight: '900', color: '#FFFFFF' }]}
+            >
+              ⚔️ {attack.name.toUpperCase()} · {attack.power} · {attack.accuracy}%
+            </Text>
+
+            <Text
+              numberOfLines={1}
+              style={[styles.shadowed, { fontSize: 9 * scale, fontStyle: 'italic', color: 'rgba(255,255,255,0.88)' }]}
+            >
+              « {attack.description} »
+            </Text>
+
+            {visibleContributions.length > 0 && (
+              <Text
+                numberOfLines={1}
+                style={[styles.shadowed, { fontSize: 8.5 * scale, fontWeight: '700', color: 'rgba(255,255,255,0.78)' }]}
+              >
+                {visibleContributions
+                  .map((c) => `${SUBJECT_ELEMENT_MAP[c.subject].subjectLabel} ${c.value}`)
+                  .join('  ·  ')}
+              </Text>
+            )}
+
+            <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginTop: 1 }}>
+              <Text style={[styles.shadowed, { fontSize: 8.5 * scale, fontWeight: '800', color: 'rgba(255,255,255,0.72)' }]}>
+                Recrion — {xp} XP
+              </Text>
+              <Text style={[styles.shadowed, { fontSize: 8.5 * scale, fontWeight: '800', color: 'rgba(255,255,255,0.86)' }]}>
+                ✨ {childName} · {formatDateBR(date)}
+              </Text>
+            </View>
+          </View>
         </View>
 
         {foil && <FoilSheen pulse={pulse} />}
@@ -397,6 +390,15 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
     </View>
   );
 });
+
+/** Sombra que garante leitura do texto branco sobre qualquer arte. */
+const styles = {
+  shadowed: {
+    textShadowColor: 'rgba(0,0,0,0.85)',
+    textShadowOffset: { width: 0, height: 1 },
+    textShadowRadius: 3,
+  },
+};
 
 function subjectElementEmoji(element: Element): string {
   const found = Object.values(SUBJECT_ELEMENT_MAP).find((s) => s.element === element);
