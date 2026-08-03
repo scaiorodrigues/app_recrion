@@ -34,6 +34,12 @@ export const CRIONS: Crion[] = [
       description: "Um corte rápido feito de folhas afiadas",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy lagarta creature, small fuzzy caterpillar with leaf-shaped segments, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Folha Cortante\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a few small wisps close to the body, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira Viva scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_folhim_2',
@@ -44,6 +50,12 @@ export const CRIONS: Crion[] = [
       description: "Raízes brotam do chão e prendem o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy lagarta creature, small fuzzy caterpillar with leaf-shaped segments, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Raiz Prendedora\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a clear swirling burst around the torso, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira Viva scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_folhim_3',
@@ -55,6 +67,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy lagarta creature, small fuzzy caterpillar with leaf-shaped segments, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Pólen do Sono\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a dense concentrated orb with radiating streaks, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira Viva scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_folhim_4',
@@ -65,11 +83,18 @@ export const CRIONS: Crion[] = [
       description: "Toda a floresta responde ao chamado",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy lagarta creature, small fuzzy caterpillar with leaf-shaped segments, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Fúria da Mata\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, an overwhelming explosion filling the whole frame, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira Viva scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce quando uma criança descobre o prazer de ler em voz alta.",
     habitat: "Clareira Viva",
     imagePrompt: "cute fantasy lagarta creature, small fuzzy caterpillar with leaf-shaped segments, natureza element, magical glow emerald green, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Lagarta Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -94,6 +119,12 @@ export const CRIONS: Crion[] = [
       description: "Um corte rápido feito de folhas afiadas",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy esquilo creature, tiny squirrel with sprouting acorn tail, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Folha Cortante\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a few small wisps close to the body, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Floresta Antiga scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_sementra_2',
@@ -104,6 +135,12 @@ export const CRIONS: Crion[] = [
       description: "Raízes brotam do chão e prendem o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy esquilo creature, tiny squirrel with sprouting acorn tail, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Raiz Prendedora\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a clear swirling burst around the torso, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Floresta Antiga scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_sementra_3',
@@ -115,6 +152,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy esquilo creature, tiny squirrel with sprouting acorn tail, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Pólen do Sono\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a dense concentrated orb with radiating streaks, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Floresta Antiga scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_sementra_4',
@@ -125,11 +168,18 @@ export const CRIONS: Crion[] = [
       description: "Toda a floresta responde ao chamado",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy esquilo creature, tiny squirrel with sprouting acorn tail, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Fúria da Mata\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, an overwhelming explosion filling the whole frame, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Floresta Antiga scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Cresce um pouquinho a cada palavra nova que a criança aprende.",
     habitat: "Floresta Antiga",
     imagePrompt: "cute fantasy esquilo creature, tiny squirrel with sprouting acorn tail, natureza element, magical glow emerald green, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Esquilo Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -154,6 +204,12 @@ export const CRIONS: Crion[] = [
       description: "Um corte rápido feito de folhas afiadas",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy tatu-bola creature, round armadillo covered in soft green moss, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Folha Cortante\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a few small wisps close to the body, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Bosque das Sementes scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_musguito_2',
@@ -164,6 +220,12 @@ export const CRIONS: Crion[] = [
       description: "Raízes brotam do chão e prendem o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy tatu-bola creature, round armadillo covered in soft green moss, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Raiz Prendedora\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a clear swirling burst around the torso, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Bosque das Sementes scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_musguito_3',
@@ -175,6 +237,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy tatu-bola creature, round armadillo covered in soft green moss, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Pólen do Sono\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a dense concentrated orb with radiating streaks, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Bosque das Sementes scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_musguito_4',
@@ -185,11 +253,18 @@ export const CRIONS: Crion[] = [
       description: "Toda a floresta responde ao chamado",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy tatu-bola creature, round armadillo covered in soft green moss, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Fúria da Mata\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, an overwhelming explosion filling the whole frame, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Bosque das Sementes scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Dizem que ele guarda todas as histórias já contadas na floresta.",
     habitat: "Bosque das Sementes",
     imagePrompt: "cute fantasy tatu-bola creature, round armadillo covered in soft green moss, natureza element, magical glow emerald green, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Tatu-bola Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -214,6 +289,12 @@ export const CRIONS: Crion[] = [
       description: "Um corte rápido feito de folhas afiadas",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy coelho creature, baby rabbit with leaf ears and flower nose, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Folha Cortante\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a few small wisps close to the body, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vale Florido scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_brotinho_2',
@@ -224,6 +305,12 @@ export const CRIONS: Crion[] = [
       description: "Raízes brotam do chão e prendem o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy coelho creature, baby rabbit with leaf ears and flower nose, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Raiz Prendedora\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a clear swirling burst around the torso, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vale Florido scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_brotinho_3',
@@ -235,6 +322,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy coelho creature, baby rabbit with leaf ears and flower nose, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Pólen do Sono\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a dense concentrated orb with radiating streaks, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vale Florido scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_brotinho_4',
@@ -245,11 +338,18 @@ export const CRIONS: Crion[] = [
       description: "Toda a floresta responde ao chamado",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy coelho creature, baby rabbit with leaf ears and flower nose, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Fúria da Mata\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, an overwhelming explosion filling the whole frame, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vale Florido scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Sua força vem da paciência de quem cuida de algo até florescer.",
     habitat: "Vale Florido",
     imagePrompt: "cute fantasy coelho creature, baby rabbit with leaf ears and flower nose, natureza element, magical glow emerald green, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Coelho Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -274,6 +374,12 @@ export const CRIONS: Crion[] = [
       description: "Um corte rápido feito de folhas afiadas",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy preguiça creature, gentle sloth hanging from glowing vines, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Folha Cortante\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a few small wisps close to the body, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira Viva scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cipoalho_2',
@@ -284,6 +390,12 @@ export const CRIONS: Crion[] = [
       description: "Raízes brotam do chão e prendem o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy preguiça creature, gentle sloth hanging from glowing vines, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Raiz Prendedora\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a clear swirling burst around the torso, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira Viva scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cipoalho_3',
@@ -295,6 +407,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy preguiça creature, gentle sloth hanging from glowing vines, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Pólen do Sono\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a dense concentrated orb with radiating streaks, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira Viva scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cipoalho_4',
@@ -305,11 +423,18 @@ export const CRIONS: Crion[] = [
       description: "Toda a floresta responde ao chamado",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy preguiça creature, gentle sloth hanging from glowing vines, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Fúria da Mata\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, an overwhelming explosion filling the whole frame, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira Viva scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce quando uma criança descobre o prazer de ler em voz alta.",
     habitat: "Clareira Viva",
     imagePrompt: "cute fantasy preguiça creature, gentle sloth hanging from glowing vines, natureza element, magical glow emerald green, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Preguiça Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -334,6 +459,12 @@ export const CRIONS: Crion[] = [
       description: "Um corte rápido feito de folhas afiadas",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy cervo creature, young deer with flowering antlers, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Folha Cortante\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a few small wisps close to the body, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Floresta Antiga scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_florpardo_2',
@@ -344,6 +475,12 @@ export const CRIONS: Crion[] = [
       description: "Raízes brotam do chão e prendem o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy cervo creature, young deer with flowering antlers, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Raiz Prendedora\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a clear swirling burst around the torso, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Floresta Antiga scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_florpardo_3',
@@ -355,6 +492,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy cervo creature, young deer with flowering antlers, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Pólen do Sono\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a dense concentrated orb with radiating streaks, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Floresta Antiga scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_florpardo_4',
@@ -365,11 +508,18 @@ export const CRIONS: Crion[] = [
       description: "Toda a floresta responde ao chamado",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy cervo creature, young deer with flowering antlers, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Fúria da Mata\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, an overwhelming explosion filling the whole frame, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Floresta Antiga scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Cresce um pouquinho a cada palavra nova que a criança aprende.",
     habitat: "Floresta Antiga",
     imagePrompt: "cute fantasy cervo creature, young deer with flowering antlers, natureza element, magical glow emerald green, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Cervo Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -394,6 +544,12 @@ export const CRIONS: Crion[] = [
       description: "Um corte rápido feito de folhas afiadas",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy toupeira creature, mole with root-like whiskers and earthy fur, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Folha Cortante\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a few small wisps close to the body, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Bosque das Sementes scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_raizuto_2',
@@ -404,6 +560,12 @@ export const CRIONS: Crion[] = [
       description: "Raízes brotam do chão e prendem o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy toupeira creature, mole with root-like whiskers and earthy fur, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Raiz Prendedora\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a clear swirling burst around the torso, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Bosque das Sementes scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_raizuto_3',
@@ -415,6 +577,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy toupeira creature, mole with root-like whiskers and earthy fur, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Pólen do Sono\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a dense concentrated orb with radiating streaks, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Bosque das Sementes scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_raizuto_4',
@@ -425,11 +593,18 @@ export const CRIONS: Crion[] = [
       description: "Toda a floresta responde ao chamado",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy toupeira creature, mole with root-like whiskers and earthy fur, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Fúria da Mata\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, an overwhelming explosion filling the whole frame, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Bosque das Sementes scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Dizem que ele guarda todas as histórias já contadas na floresta.",
     habitat: "Bosque das Sementes",
     imagePrompt: "cute fantasy toupeira creature, mole with root-like whiskers and earthy fur, natureza element, magical glow emerald green, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Toupeira Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -454,6 +629,12 @@ export const CRIONS: Crion[] = [
       description: "Um corte rápido feito de folhas afiadas",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy sapo-verde creature, green frog wearing a four-leaf clover crown, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Folha Cortante\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a few small wisps close to the body, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vale Florido scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_trevoso_2',
@@ -464,6 +645,12 @@ export const CRIONS: Crion[] = [
       description: "Raízes brotam do chão e prendem o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy sapo-verde creature, green frog wearing a four-leaf clover crown, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Raiz Prendedora\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a clear swirling burst around the torso, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vale Florido scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_trevoso_3',
@@ -475,6 +662,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy sapo-verde creature, green frog wearing a four-leaf clover crown, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Pólen do Sono\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a dense concentrated orb with radiating streaks, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vale Florido scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_trevoso_4',
@@ -485,11 +678,18 @@ export const CRIONS: Crion[] = [
       description: "Toda a floresta responde ao chamado",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy sapo-verde creature, green frog wearing a four-leaf clover crown, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Fúria da Mata\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, an overwhelming explosion filling the whole frame, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vale Florido scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Sua força vem da paciência de quem cuida de algo até florescer.",
     habitat: "Vale Florido",
     imagePrompt: "cute fantasy sapo-verde creature, green frog wearing a four-leaf clover crown, natureza element, magical glow emerald green, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Sapo-verde Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -514,6 +714,12 @@ export const CRIONS: Crion[] = [
       description: "Um corte rápido feito de folhas afiadas",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy panda creature, small panda with bamboo shoots on its back, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Folha Cortante\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a few small wisps close to the body, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira Viva scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_bambuz_2',
@@ -524,6 +730,12 @@ export const CRIONS: Crion[] = [
       description: "Raízes brotam do chão e prendem o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy panda creature, small panda with bamboo shoots on its back, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Raiz Prendedora\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a clear swirling burst around the torso, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira Viva scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_bambuz_3',
@@ -535,6 +747,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy panda creature, small panda with bamboo shoots on its back, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Pólen do Sono\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a dense concentrated orb with radiating streaks, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira Viva scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_bambuz_4',
@@ -545,11 +763,18 @@ export const CRIONS: Crion[] = [
       description: "Toda a floresta responde ao chamado",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy panda creature, small panda with bamboo shoots on its back, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Fúria da Mata\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, an overwhelming explosion filling the whole frame, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira Viva scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce quando uma criança descobre o prazer de ler em voz alta.",
     habitat: "Clareira Viva",
     imagePrompt: "cute fantasy panda creature, small panda with bamboo shoots on its back, natureza element, magical glow emerald green, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Panda Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -574,6 +799,12 @@ export const CRIONS: Crion[] = [
       description: "Um corte rápido feito de folhas afiadas",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy urso creature, sturdy bear with oak bark armor, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Folha Cortante\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a few small wisps close to the body, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Floresta Antiga scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_carvalhon_2',
@@ -584,6 +815,12 @@ export const CRIONS: Crion[] = [
       description: "Raízes brotam do chão e prendem o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy urso creature, sturdy bear with oak bark armor, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Raiz Prendedora\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a clear swirling burst around the torso, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Floresta Antiga scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_carvalhon_3',
@@ -595,6 +832,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy urso creature, sturdy bear with oak bark armor, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Pólen do Sono\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a dense concentrated orb with radiating streaks, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Floresta Antiga scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_carvalhon_4',
@@ -605,11 +848,18 @@ export const CRIONS: Crion[] = [
       description: "Toda a floresta responde ao chamado",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy urso creature, sturdy bear with oak bark armor, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Fúria da Mata\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, an overwhelming explosion filling the whole frame, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Floresta Antiga scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Cresce um pouquinho a cada palavra nova que a criança aprende.",
     habitat: "Floresta Antiga",
     imagePrompt: "cute fantasy urso creature, sturdy bear with oak bark armor, natureza element, magical glow emerald green, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Urso Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -634,6 +884,12 @@ export const CRIONS: Crion[] = [
       description: "Um corte rápido feito de folhas afiadas",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy serpente creature, elegant vine serpent with blooming scales, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Folha Cortante\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a few small wisps close to the body, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Bosque das Sementes scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_vinhedra_2',
@@ -644,6 +900,12 @@ export const CRIONS: Crion[] = [
       description: "Raízes brotam do chão e prendem o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy serpente creature, elegant vine serpent with blooming scales, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Raiz Prendedora\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a clear swirling burst around the torso, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Bosque das Sementes scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_vinhedra_3',
@@ -655,6 +917,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy serpente creature, elegant vine serpent with blooming scales, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Pólen do Sono\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a dense concentrated orb with radiating streaks, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Bosque das Sementes scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_vinhedra_4',
@@ -665,11 +933,18 @@ export const CRIONS: Crion[] = [
       description: "Toda a floresta responde ao chamado",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy serpente creature, elegant vine serpent with blooming scales, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Fúria da Mata\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, an overwhelming explosion filling the whole frame, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Bosque das Sementes scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Dizem que ele guarda todas as histórias já contadas na floresta.",
     habitat: "Bosque das Sementes",
     imagePrompt: "cute fantasy serpente creature, elegant vine serpent with blooming scales, natureza element, magical glow emerald green, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Serpente Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -694,6 +969,12 @@ export const CRIONS: Crion[] = [
       description: "Um corte rápido feito de folhas afiadas",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy alce creature, majestic elk with a small forest growing on antlers, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Folha Cortante\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a few small wisps close to the body, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vale Florido scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_silvantis_2',
@@ -704,6 +985,12 @@ export const CRIONS: Crion[] = [
       description: "Raízes brotam do chão e prendem o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy alce creature, majestic elk with a small forest growing on antlers, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Raiz Prendedora\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a clear swirling burst around the torso, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vale Florido scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_silvantis_3',
@@ -715,6 +1002,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy alce creature, majestic elk with a small forest growing on antlers, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Pólen do Sono\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a dense concentrated orb with radiating streaks, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vale Florido scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_silvantis_4',
@@ -725,11 +1018,18 @@ export const CRIONS: Crion[] = [
       description: "Toda a floresta responde ao chamado",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy alce creature, majestic elk with a small forest growing on antlers, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Fúria da Mata\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, an overwhelming explosion filling the whole frame, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vale Florido scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Sua força vem da paciência de quem cuida de algo até florescer.",
     habitat: "Vale Florido",
     imagePrompt: "cute fantasy alce creature, majestic elk with a small forest growing on antlers, natureza element, magical glow emerald green, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Alce Ancestral",
     unlockCondition: { type: 'XP_TOTAL', xp: 150 },
   },
   {
@@ -754,6 +1054,12 @@ export const CRIONS: Crion[] = [
       description: "Um corte rápido feito de folhas afiadas",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy gorila creature, powerful gorilla guardian covered in ancient moss, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Folha Cortante\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a few small wisps close to the body, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira Viva scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_guardavor_2',
@@ -764,6 +1070,12 @@ export const CRIONS: Crion[] = [
       description: "Raízes brotam do chão e prendem o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy gorila creature, powerful gorilla guardian covered in ancient moss, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Raiz Prendedora\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a clear swirling burst around the torso, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira Viva scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_guardavor_3',
@@ -775,6 +1087,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy gorila creature, powerful gorilla guardian covered in ancient moss, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Pólen do Sono\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a dense concentrated orb with radiating streaks, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira Viva scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_guardavor_4',
@@ -785,11 +1103,18 @@ export const CRIONS: Crion[] = [
       description: "Toda a floresta responde ao chamado",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy gorila creature, powerful gorilla guardian covered in ancient moss, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Fúria da Mata\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, an overwhelming explosion filling the whole frame, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira Viva scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce quando uma criança descobre o prazer de ler em voz alta.",
     habitat: "Clareira Viva",
     imagePrompt: "cute fantasy gorila creature, powerful gorilla guardian covered in ancient moss, natureza element, magical glow emerald green, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Gorila Ancestral",
     unlockCondition: { type: 'XP_TOTAL', xp: 150 },
   },
   {
@@ -814,6 +1139,12 @@ export const CRIONS: Crion[] = [
       description: "Um corte rápido feito de folhas afiadas",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy ent-cervo creature, legendary tree-deer fusion with a canopy of golden leaves, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Folha Cortante\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a few small wisps close to the body, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Floresta Antiga scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_arvoreth_2',
@@ -824,6 +1155,12 @@ export const CRIONS: Crion[] = [
       description: "Raízes brotam do chão e prendem o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy ent-cervo creature, legendary tree-deer fusion with a canopy of golden leaves, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Raiz Prendedora\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a clear swirling burst around the torso, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Floresta Antiga scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_arvoreth_3',
@@ -835,6 +1172,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy ent-cervo creature, legendary tree-deer fusion with a canopy of golden leaves, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Pólen do Sono\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, a dense concentrated orb with radiating streaks, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Floresta Antiga scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_arvoreth_4',
@@ -845,11 +1188,18 @@ export const CRIONS: Crion[] = [
       description: "Toda a floresta responde ao chamado",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy ent-cervo creature, legendary tree-deer fusion with a canopy of golden leaves, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Fúria da Mata\", natureza element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "natureza element magical effect only, an overwhelming explosion filling the whole frame, glowing emerald green, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Floresta Antiga scenery, natureza themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract natureza energy border, glowing emerald green light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Cresce um pouquinho a cada palavra nova que a criança aprende.",
     habitat: "Floresta Antiga",
     imagePrompt: "cute fantasy ent-cervo creature, legendary tree-deer fusion with a canopy of golden leaves, natureza element, magical glow emerald green, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Ent-Cervo de Elite",
     unlockCondition: { type: 'XP_TOTAL', xp: 250 },
   },
   {
@@ -874,6 +1224,12 @@ export const CRIONS: Crion[] = [
       description: "Uma centelha rápida que sempre acerta",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy pintinho creature, tiny chick with ember-tipped feathers, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Faísca Veloz\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a few small wisps close to the body, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vulcão Encantado scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_faguinho_2',
@@ -884,6 +1240,12 @@ export const CRIONS: Crion[] = [
       description: "Duas línguas de fogo em sequência",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy pintinho creature, tiny chick with ember-tipped feathers, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Labareda Dupla\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a clear swirling burst around the torso, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vulcão Encantado scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_faguinho_3',
@@ -895,6 +1257,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'BURN',
+      art: {
+        creature: "cute fantasy pintinho creature, tiny chick with ember-tipped feathers, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Escaldante\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a dense concentrated orb with radiating streaks, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vulcão Encantado scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_faguinho_4',
@@ -905,11 +1273,18 @@ export const CRIONS: Crion[] = [
       description: "Uma bola de fogo que ilumina todo o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy pintinho creature, tiny chick with ember-tipped feathers, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Explosão Solar\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, an overwhelming explosion filling the whole frame, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vulcão Encantado scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce da centelha que acende quando um número finalmente faz sentido.",
     habitat: "Vulcão Encantado",
     imagePrompt: "cute fantasy pintinho creature, tiny chick with ember-tipped feathers, fogo element, magical glow warm orange and red, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Pintinho Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -934,6 +1309,12 @@ export const CRIONS: Crion[] = [
       description: "Uma centelha rápida que sempre acerta",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy rato creature, small mouse with a glowing ember tail, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Faísca Veloz\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a few small wisps close to the body, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Brasas scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_brasato_2',
@@ -944,6 +1325,12 @@ export const CRIONS: Crion[] = [
       description: "Duas línguas de fogo em sequência",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy rato creature, small mouse with a glowing ember tail, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Labareda Dupla\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a clear swirling burst around the torso, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Brasas scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_brasato_3',
@@ -955,6 +1342,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'BURN',
+      art: {
+        creature: "cute fantasy rato creature, small mouse with a glowing ember tail, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Escaldante\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a dense concentrated orb with radiating streaks, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Brasas scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_brasato_4',
@@ -965,11 +1358,18 @@ export const CRIONS: Crion[] = [
       description: "Uma bola de fogo que ilumina todo o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy rato creature, small mouse with a glowing ember tail, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Explosão Solar\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, an overwhelming explosion filling the whole frame, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Brasas scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Cada conta resolvida deixa sua chama um tom mais brilhante.",
     habitat: "Campo de Brasas",
     imagePrompt: "cute fantasy rato creature, small mouse with a glowing ember tail, fogo element, magical glow warm orange and red, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Rato Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -994,6 +1394,12 @@ export const CRIONS: Crion[] = [
       description: "Uma centelha rápida que sempre acerta",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy salamandra creature, little salamander with flickering flame patterns, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Faísca Veloz\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a few small wisps close to the body, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Forja Adormecida scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_chamito_2',
@@ -1004,6 +1410,12 @@ export const CRIONS: Crion[] = [
       description: "Duas línguas de fogo em sequência",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy salamandra creature, little salamander with flickering flame patterns, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Labareda Dupla\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a clear swirling burst around the torso, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Forja Adormecida scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_chamito_3',
@@ -1015,6 +1427,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'BURN',
+      art: {
+        creature: "cute fantasy salamandra creature, little salamander with flickering flame patterns, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Escaldante\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a dense concentrated orb with radiating streaks, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Forja Adormecida scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_chamito_4',
@@ -1025,11 +1443,18 @@ export const CRIONS: Crion[] = [
       description: "Uma bola de fogo que ilumina todo o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy salamandra creature, little salamander with flickering flame patterns, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Explosão Solar\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, an overwhelming explosion filling the whole frame, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Forja Adormecida scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Não queima quem tem coragem de tentar de novo.",
     habitat: "Forja Adormecida",
     imagePrompt: "cute fantasy salamandra creature, little salamander with flickering flame patterns, fogo element, magical glow warm orange and red, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Salamandra Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -1054,6 +1479,12 @@ export const CRIONS: Crion[] = [
       description: "Uma centelha rápida que sempre acerta",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy raposa creature, fox kit with fire-orange fur and smoking paws, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Faísca Veloz\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a few small wisps close to the body, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Deserto Ardente scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_fogacho_2',
@@ -1064,6 +1495,12 @@ export const CRIONS: Crion[] = [
       description: "Duas línguas de fogo em sequência",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy raposa creature, fox kit with fire-orange fur and smoking paws, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Labareda Dupla\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a clear swirling burst around the torso, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Deserto Ardente scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_fogacho_3',
@@ -1075,6 +1512,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'BURN',
+      art: {
+        creature: "cute fantasy raposa creature, fox kit with fire-orange fur and smoking paws, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Escaldante\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a dense concentrated orb with radiating streaks, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Deserto Ardente scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_fogacho_4',
@@ -1085,11 +1528,18 @@ export const CRIONS: Crion[] = [
       description: "Uma bola de fogo que ilumina todo o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy raposa creature, fox kit with fire-orange fur and smoking paws, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Explosão Solar\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, an overwhelming explosion filling the whole frame, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Deserto Ardente scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Sua chama nunca apaga enquanto houver curiosidade.",
     habitat: "Deserto Ardente",
     imagePrompt: "cute fantasy raposa creature, fox kit with fire-orange fur and smoking paws, fogo element, magical glow warm orange and red, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Raposa Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -1114,6 +1564,12 @@ export const CRIONS: Crion[] = [
       description: "Uma centelha rápida que sempre acerta",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy cão creature, loyal dog made of warm ash and embers, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Faísca Veloz\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a few small wisps close to the body, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vulcão Encantado scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cinzarro_2',
@@ -1124,6 +1580,12 @@ export const CRIONS: Crion[] = [
       description: "Duas línguas de fogo em sequência",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy cão creature, loyal dog made of warm ash and embers, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Labareda Dupla\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a clear swirling burst around the torso, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vulcão Encantado scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cinzarro_3',
@@ -1135,6 +1597,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'BURN',
+      art: {
+        creature: "cute fantasy cão creature, loyal dog made of warm ash and embers, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Escaldante\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a dense concentrated orb with radiating streaks, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vulcão Encantado scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cinzarro_4',
@@ -1145,11 +1613,18 @@ export const CRIONS: Crion[] = [
       description: "Uma bola de fogo que ilumina todo o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy cão creature, loyal dog made of warm ash and embers, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Explosão Solar\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, an overwhelming explosion filling the whole frame, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vulcão Encantado scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce da centelha que acende quando um número finalmente faz sentido.",
     habitat: "Vulcão Encantado",
     imagePrompt: "cute fantasy cão creature, loyal dog made of warm ash and embers, fogo element, magical glow warm orange and red, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Cão Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -1174,6 +1649,12 @@ export const CRIONS: Crion[] = [
       description: "Uma centelha rápida que sempre acerta",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy lagarto creature, lizard with molten lava veins under its scales, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Faísca Veloz\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a few small wisps close to the body, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Brasas scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_lavarto_2',
@@ -1184,6 +1665,12 @@ export const CRIONS: Crion[] = [
       description: "Duas línguas de fogo em sequência",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy lagarto creature, lizard with molten lava veins under its scales, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Labareda Dupla\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a clear swirling burst around the torso, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Brasas scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_lavarto_3',
@@ -1195,6 +1682,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'BURN',
+      art: {
+        creature: "cute fantasy lagarto creature, lizard with molten lava veins under its scales, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Escaldante\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a dense concentrated orb with radiating streaks, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Brasas scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_lavarto_4',
@@ -1205,11 +1698,18 @@ export const CRIONS: Crion[] = [
       description: "Uma bola de fogo que ilumina todo o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy lagarto creature, lizard with molten lava veins under its scales, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Explosão Solar\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, an overwhelming explosion filling the whole frame, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Brasas scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Cada conta resolvida deixa sua chama um tom mais brilhante.",
     habitat: "Campo de Brasas",
     imagePrompt: "cute fantasy lagarto creature, lizard with molten lava veins under its scales, fogo element, magical glow warm orange and red, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Lagarto Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -1234,6 +1734,12 @@ export const CRIONS: Crion[] = [
       description: "Uma centelha rápida que sempre acerta",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy gato creature, cat with a mane of dancing flames, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Faísca Veloz\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a few small wisps close to the body, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Forja Adormecida scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_pirogato_2',
@@ -1244,6 +1750,12 @@ export const CRIONS: Crion[] = [
       description: "Duas línguas de fogo em sequência",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy gato creature, cat with a mane of dancing flames, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Labareda Dupla\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a clear swirling burst around the torso, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Forja Adormecida scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_pirogato_3',
@@ -1255,6 +1767,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'BURN',
+      art: {
+        creature: "cute fantasy gato creature, cat with a mane of dancing flames, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Escaldante\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a dense concentrated orb with radiating streaks, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Forja Adormecida scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_pirogato_4',
@@ -1265,11 +1783,18 @@ export const CRIONS: Crion[] = [
       description: "Uma bola de fogo que ilumina todo o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy gato creature, cat with a mane of dancing flames, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Explosão Solar\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, an overwhelming explosion filling the whole frame, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Forja Adormecida scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Não queima quem tem coragem de tentar de novo.",
     habitat: "Forja Adormecida",
     imagePrompt: "cute fantasy gato creature, cat with a mane of dancing flames, fogo element, magical glow warm orange and red, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Gato Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -1294,6 +1819,12 @@ export const CRIONS: Crion[] = [
       description: "Uma centelha rápida que sempre acerta",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy javali creature, boar with a furnace glowing inside its chest, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Faísca Veloz\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a few small wisps close to the body, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Deserto Ardente scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_fornalh_2',
@@ -1304,6 +1835,12 @@ export const CRIONS: Crion[] = [
       description: "Duas línguas de fogo em sequência",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy javali creature, boar with a furnace glowing inside its chest, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Labareda Dupla\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a clear swirling burst around the torso, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Deserto Ardente scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_fornalh_3',
@@ -1315,6 +1852,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'BURN',
+      art: {
+        creature: "cute fantasy javali creature, boar with a furnace glowing inside its chest, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Escaldante\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a dense concentrated orb with radiating streaks, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Deserto Ardente scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_fornalh_4',
@@ -1325,11 +1868,18 @@ export const CRIONS: Crion[] = [
       description: "Uma bola de fogo que ilumina todo o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy javali creature, boar with a furnace glowing inside its chest, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Explosão Solar\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, an overwhelming explosion filling the whole frame, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Deserto Ardente scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Sua chama nunca apaga enquanto houver curiosidade.",
     habitat: "Deserto Ardente",
     imagePrompt: "cute fantasy javali creature, boar with a furnace glowing inside its chest, fogo element, magical glow warm orange and red, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Javali Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -1354,6 +1904,12 @@ export const CRIONS: Crion[] = [
       description: "Uma centelha rápida que sempre acerta",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy rinoceronte creature, rhino with a volcanic crater on its back, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Faísca Veloz\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a few small wisps close to the body, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vulcão Encantado scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_vulcanor_2',
@@ -1364,6 +1920,12 @@ export const CRIONS: Crion[] = [
       description: "Duas línguas de fogo em sequência",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy rinoceronte creature, rhino with a volcanic crater on its back, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Labareda Dupla\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a clear swirling burst around the torso, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vulcão Encantado scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_vulcanor_3',
@@ -1375,6 +1937,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'BURN',
+      art: {
+        creature: "cute fantasy rinoceronte creature, rhino with a volcanic crater on its back, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Escaldante\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a dense concentrated orb with radiating streaks, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vulcão Encantado scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_vulcanor_4',
@@ -1385,11 +1953,18 @@ export const CRIONS: Crion[] = [
       description: "Uma bola de fogo que ilumina todo o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy rinoceronte creature, rhino with a volcanic crater on its back, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Explosão Solar\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, an overwhelming explosion filling the whole frame, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vulcão Encantado scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce da centelha que acende quando um número finalmente faz sentido.",
     habitat: "Vulcão Encantado",
     imagePrompt: "cute fantasy rinoceronte creature, rhino with a volcanic crater on its back, fogo element, magical glow warm orange and red, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Rinoceronte Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -1414,6 +1989,12 @@ export const CRIONS: Crion[] = [
       description: "Uma centelha rápida que sempre acerta",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy leão creature, lion with a mane of pure fire, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Faísca Veloz\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a few small wisps close to the body, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Brasas scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_ignaro_2',
@@ -1424,6 +2005,12 @@ export const CRIONS: Crion[] = [
       description: "Duas línguas de fogo em sequência",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy leão creature, lion with a mane of pure fire, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Labareda Dupla\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a clear swirling burst around the torso, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Brasas scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_ignaro_3',
@@ -1435,6 +2022,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'BURN',
+      art: {
+        creature: "cute fantasy leão creature, lion with a mane of pure fire, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Escaldante\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a dense concentrated orb with radiating streaks, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Brasas scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_ignaro_4',
@@ -1445,11 +2038,18 @@ export const CRIONS: Crion[] = [
       description: "Uma bola de fogo que ilumina todo o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy leão creature, lion with a mane of pure fire, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Explosão Solar\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, an overwhelming explosion filling the whole frame, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Brasas scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Cada conta resolvida deixa sua chama um tom mais brilhante.",
     habitat: "Campo de Brasas",
     imagePrompt: "cute fantasy leão creature, lion with a mane of pure fire, fogo element, magical glow warm orange and red, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Leão Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -1474,6 +2074,12 @@ export const CRIONS: Crion[] = [
       description: "Uma centelha rápida que sempre acerta",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy mamute creature, mammoth with tusks of cooling magma, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Faísca Veloz\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a few small wisps close to the body, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Forja Adormecida scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_magmoth_2',
@@ -1484,6 +2090,12 @@ export const CRIONS: Crion[] = [
       description: "Duas línguas de fogo em sequência",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy mamute creature, mammoth with tusks of cooling magma, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Labareda Dupla\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a clear swirling burst around the torso, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Forja Adormecida scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_magmoth_3',
@@ -1495,6 +2107,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'BURN',
+      art: {
+        creature: "cute fantasy mamute creature, mammoth with tusks of cooling magma, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Escaldante\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a dense concentrated orb with radiating streaks, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Forja Adormecida scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_magmoth_4',
@@ -1505,11 +2123,18 @@ export const CRIONS: Crion[] = [
       description: "Uma bola de fogo que ilumina todo o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy mamute creature, mammoth with tusks of cooling magma, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Explosão Solar\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, an overwhelming explosion filling the whole frame, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Forja Adormecida scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Não queima quem tem coragem de tentar de novo.",
     habitat: "Forja Adormecida",
     imagePrompt: "cute fantasy mamute creature, mammoth with tusks of cooling magma, fogo element, magical glow warm orange and red, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Mamute Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -1534,6 +2159,12 @@ export const CRIONS: Crion[] = [
       description: "Uma centelha rápida que sempre acerta",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy águia creature, eagle with wings of solar flame, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Faísca Veloz\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a few small wisps close to the body, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Deserto Ardente scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_solflama_2',
@@ -1544,6 +2175,12 @@ export const CRIONS: Crion[] = [
       description: "Duas línguas de fogo em sequência",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy águia creature, eagle with wings of solar flame, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Labareda Dupla\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a clear swirling burst around the torso, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Deserto Ardente scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_solflama_3',
@@ -1555,6 +2192,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'BURN',
+      art: {
+        creature: "cute fantasy águia creature, eagle with wings of solar flame, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Escaldante\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a dense concentrated orb with radiating streaks, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Deserto Ardente scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_solflama_4',
@@ -1565,11 +2208,18 @@ export const CRIONS: Crion[] = [
       description: "Uma bola de fogo que ilumina todo o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy águia creature, eagle with wings of solar flame, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Explosão Solar\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, an overwhelming explosion filling the whole frame, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Deserto Ardente scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Sua chama nunca apaga enquanto houver curiosidade.",
     habitat: "Deserto Ardente",
     imagePrompt: "cute fantasy águia creature, eagle with wings of solar flame, fogo element, magical glow warm orange and red, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Águia Ancestral",
     unlockCondition: { type: 'XP_TOTAL', xp: 150 },
   },
   {
@@ -1594,6 +2244,12 @@ export const CRIONS: Crion[] = [
       description: "Uma centelha rápida que sempre acerta",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy dragão creature, young dragon with obsidian scales and fire breath, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Faísca Veloz\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a few small wisps close to the body, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vulcão Encantado scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_draconis_2',
@@ -1604,6 +2260,12 @@ export const CRIONS: Crion[] = [
       description: "Duas línguas de fogo em sequência",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy dragão creature, young dragon with obsidian scales and fire breath, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Labareda Dupla\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a clear swirling burst around the torso, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vulcão Encantado scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_draconis_3',
@@ -1615,6 +2277,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'BURN',
+      art: {
+        creature: "cute fantasy dragão creature, young dragon with obsidian scales and fire breath, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Escaldante\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a dense concentrated orb with radiating streaks, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vulcão Encantado scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_draconis_4',
@@ -1625,11 +2293,18 @@ export const CRIONS: Crion[] = [
       description: "Uma bola de fogo que ilumina todo o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy dragão creature, young dragon with obsidian scales and fire breath, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Explosão Solar\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, an overwhelming explosion filling the whole frame, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Vulcão Encantado scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce da centelha que acende quando um número finalmente faz sentido.",
     habitat: "Vulcão Encantado",
     imagePrompt: "cute fantasy dragão creature, young dragon with obsidian scales and fire breath, fogo element, magical glow warm orange and red, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Dragão Ancestral",
     unlockCondition: { type: 'XP_TOTAL', xp: 150 },
   },
   {
@@ -1654,6 +2329,12 @@ export const CRIONS: Crion[] = [
       description: "Uma centelha rápida que sempre acerta",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy fênix creature, legendary phoenix with golden and red ember-glow feathers, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Faísca Veloz\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a few small wisps close to the body, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Brasas scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_emberon_2',
@@ -1664,6 +2345,12 @@ export const CRIONS: Crion[] = [
       description: "Duas línguas de fogo em sequência",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy fênix creature, legendary phoenix with golden and red ember-glow feathers, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Labareda Dupla\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a clear swirling burst around the torso, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Brasas scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_emberon_3',
@@ -1675,6 +2362,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'BURN',
+      art: {
+        creature: "cute fantasy fênix creature, legendary phoenix with golden and red ember-glow feathers, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Escaldante\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, a dense concentrated orb with radiating streaks, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Brasas scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_emberon_4',
@@ -1685,11 +2378,18 @@ export const CRIONS: Crion[] = [
       description: "Uma bola de fogo que ilumina todo o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy fênix creature, legendary phoenix with golden and red ember-glow feathers, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Explosão Solar\", fogo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "fogo element magical effect only, an overwhelming explosion filling the whole frame, glowing warm orange and red, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Brasas scenery, fogo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract fogo energy border, glowing warm orange and red light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Cada conta resolvida deixa sua chama um tom mais brilhante.",
     habitat: "Campo de Brasas",
     imagePrompt: "cute fantasy fênix creature, legendary phoenix with golden and red ember-glow feathers, fogo element, magical glow warm orange and red, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Fênix de Elite",
     unlockCondition: { type: 'XP_TOTAL', xp: 250 },
   },
   {
@@ -1714,6 +2414,12 @@ export const CRIONS: Crion[] = [
       description: "Uma bolha que estoura com força surpreendente",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy sapo creature, cute frog with glowing blue patterns and floating droplets, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Bolha d'Água\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a few small wisps close to the body, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Margem de Rio scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_salphin_2',
@@ -1724,6 +2430,12 @@ export const CRIONS: Crion[] = [
       description: "Um jato preciso que empurra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy sapo creature, cute frog with glowing blue patterns and floating droplets, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Jato Aquático\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a clear swirling burst around the torso, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Margem de Rio scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_salphin_3',
@@ -1735,6 +2447,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy sapo creature, cute frog with glowing blue patterns and floating droplets, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Névoa Aquática\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a dense concentrated orb with radiating streaks, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Margem de Rio scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_salphin_4',
@@ -1745,11 +2463,18 @@ export const CRIONS: Crion[] = [
       description: "Uma onda inteira desaba sobre o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy sapo creature, cute frog with glowing blue patterns and floating droplets, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Torrente Pura\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, an overwhelming explosion filling the whole frame, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Margem de Rio scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce quando uma criança arrisca falar uma palavra em outra língua.",
     habitat: "Margem de Rio",
     imagePrompt: "cute fantasy sapo creature, cute frog with glowing blue patterns and floating droplets, água element, magical glow deep blue and cyan, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Sapo Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -1774,6 +2499,12 @@ export const CRIONS: Crion[] = [
       description: "Uma bolha que estoura com força surpreendente",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy peixinho creature, tiny fish made of a single shimmering water drop, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Bolha d'Água\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a few small wisps close to the body, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Lagoa Cristalina scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_gotinha_2',
@@ -1784,6 +2515,12 @@ export const CRIONS: Crion[] = [
       description: "Um jato preciso que empurra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy peixinho creature, tiny fish made of a single shimmering water drop, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Jato Aquático\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a clear swirling burst around the torso, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Lagoa Cristalina scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_gotinha_3',
@@ -1795,6 +2532,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy peixinho creature, tiny fish made of a single shimmering water drop, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Névoa Aquática\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a dense concentrated orb with radiating streaks, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Lagoa Cristalina scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_gotinha_4',
@@ -1805,11 +2548,18 @@ export const CRIONS: Crion[] = [
       description: "Uma onda inteira desaba sobre o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy peixinho creature, tiny fish made of a single shimmering water drop, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Torrente Pura\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, an overwhelming explosion filling the whole frame, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Lagoa Cristalina scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Flui melhor quando ninguém tem medo de errar a pronúncia.",
     habitat: "Lagoa Cristalina",
     imagePrompt: "cute fantasy peixinho creature, tiny fish made of a single shimmering water drop, água element, magical glow deep blue and cyan, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Peixinho Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -1834,6 +2584,12 @@ export const CRIONS: Crion[] = [
       description: "Uma bolha que estoura com força surpreendente",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy caramujo creature, small snail with a pearl-blue spiral shell, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Bolha d'Água\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a few small wisps close to the body, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Recife Cantante scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_conchito_2',
@@ -1844,6 +2600,12 @@ export const CRIONS: Crion[] = [
       description: "Um jato preciso que empurra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy caramujo creature, small snail with a pearl-blue spiral shell, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Jato Aquático\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a clear swirling burst around the torso, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Recife Cantante scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_conchito_3',
@@ -1855,6 +2617,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy caramujo creature, small snail with a pearl-blue spiral shell, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Névoa Aquática\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a dense concentrated orb with radiating streaks, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Recife Cantante scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_conchito_4',
@@ -1865,11 +2633,18 @@ export const CRIONS: Crion[] = [
       description: "Uma onda inteira desaba sobre o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy caramujo creature, small snail with a pearl-blue spiral shell, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Torrente Pura\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, an overwhelming explosion filling the whole frame, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Recife Cantante scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Guarda no corpo o som de todas as línguas do mundo.",
     habitat: "Recife Cantante",
     imagePrompt: "cute fantasy caramujo creature, small snail with a pearl-blue spiral shell, água element, magical glow deep blue and cyan, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Caramujo Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -1894,6 +2669,12 @@ export const CRIONS: Crion[] = [
       description: "Uma bolha que estoura com força surpreendente",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy polvo-bebê creature, baby octopus blowing glowing bubbles, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Bolha d'Água\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a few small wisps close to the body, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Cachoeira Secreta scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_bolhoto_2',
@@ -1904,6 +2685,12 @@ export const CRIONS: Crion[] = [
       description: "Um jato preciso que empurra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy polvo-bebê creature, baby octopus blowing glowing bubbles, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Jato Aquático\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a clear swirling burst around the torso, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Cachoeira Secreta scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_bolhoto_3',
@@ -1915,6 +2702,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy polvo-bebê creature, baby octopus blowing glowing bubbles, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Névoa Aquática\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a dense concentrated orb with radiating streaks, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Cachoeira Secreta scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_bolhoto_4',
@@ -1925,11 +2718,18 @@ export const CRIONS: Crion[] = [
       description: "Uma onda inteira desaba sobre o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy polvo-bebê creature, baby octopus blowing glowing bubbles, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Torrente Pura\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, an overwhelming explosion filling the whole frame, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Cachoeira Secreta scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Sua água carrega palavras de lugares que ninguém visitou ainda.",
     habitat: "Cachoeira Secreta",
     imagePrompt: "cute fantasy polvo-bebê creature, baby octopus blowing glowing bubbles, água element, magical glow deep blue and cyan, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Polvo-bebê Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -1954,6 +2754,12 @@ export const CRIONS: Crion[] = [
       description: "Uma bolha que estoura com força surpreendente",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy lontra creature, playful otter with water-swirl markings, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Bolha d'Água\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a few small wisps close to the body, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Margem de Rio scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_nadali_2',
@@ -1964,6 +2770,12 @@ export const CRIONS: Crion[] = [
       description: "Um jato preciso que empurra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy lontra creature, playful otter with water-swirl markings, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Jato Aquático\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a clear swirling burst around the torso, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Margem de Rio scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_nadali_3',
@@ -1975,6 +2787,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy lontra creature, playful otter with water-swirl markings, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Névoa Aquática\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a dense concentrated orb with radiating streaks, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Margem de Rio scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_nadali_4',
@@ -1985,11 +2803,18 @@ export const CRIONS: Crion[] = [
       description: "Uma onda inteira desaba sobre o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy lontra creature, playful otter with water-swirl markings, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Torrente Pura\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, an overwhelming explosion filling the whole frame, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Margem de Rio scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce quando uma criança arrisca falar uma palavra em outra língua.",
     habitat: "Margem de Rio",
     imagePrompt: "cute fantasy lontra creature, playful otter with water-swirl markings, água element, magical glow deep blue and cyan, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Lontra Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -2014,6 +2839,12 @@ export const CRIONS: Crion[] = [
       description: "Uma bolha que estoura com força surpreendente",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy caranguejo creature, crab with translucent aquamarine claws, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Bolha d'Água\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a few small wisps close to the body, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Lagoa Cristalina scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_marisco_2',
@@ -2024,6 +2855,12 @@ export const CRIONS: Crion[] = [
       description: "Um jato preciso que empurra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy caranguejo creature, crab with translucent aquamarine claws, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Jato Aquático\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a clear swirling burst around the torso, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Lagoa Cristalina scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_marisco_3',
@@ -2035,6 +2872,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy caranguejo creature, crab with translucent aquamarine claws, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Névoa Aquática\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a dense concentrated orb with radiating streaks, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Lagoa Cristalina scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_marisco_4',
@@ -2045,11 +2888,18 @@ export const CRIONS: Crion[] = [
       description: "Uma onda inteira desaba sobre o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy caranguejo creature, crab with translucent aquamarine claws, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Torrente Pura\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, an overwhelming explosion filling the whole frame, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Lagoa Cristalina scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Flui melhor quando ninguém tem medo de errar a pronúncia.",
     habitat: "Lagoa Cristalina",
     imagePrompt: "cute fantasy caranguejo creature, crab with translucent aquamarine claws, água element, magical glow deep blue and cyan, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Caranguejo Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -2074,6 +2924,12 @@ export const CRIONS: Crion[] = [
       description: "Uma bolha que estoura com força surpreendente",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy cavalo-marinho creature, seahorse riding a small perpetual wave, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Bolha d'Água\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a few small wisps close to the body, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Recife Cantante scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_ondino_2',
@@ -2084,6 +2940,12 @@ export const CRIONS: Crion[] = [
       description: "Um jato preciso que empurra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy cavalo-marinho creature, seahorse riding a small perpetual wave, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Jato Aquático\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a clear swirling burst around the torso, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Recife Cantante scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_ondino_3',
@@ -2095,6 +2957,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy cavalo-marinho creature, seahorse riding a small perpetual wave, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Névoa Aquática\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a dense concentrated orb with radiating streaks, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Recife Cantante scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_ondino_4',
@@ -2105,11 +2973,18 @@ export const CRIONS: Crion[] = [
       description: "Uma onda inteira desaba sobre o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy cavalo-marinho creature, seahorse riding a small perpetual wave, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Torrente Pura\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, an overwhelming explosion filling the whole frame, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Recife Cantante scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Guarda no corpo o som de todas as línguas do mundo.",
     habitat: "Recife Cantante",
     imagePrompt: "cute fantasy cavalo-marinho creature, seahorse riding a small perpetual wave, água element, magical glow deep blue and cyan, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Cavalo-marinho Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -2134,6 +3009,12 @@ export const CRIONS: Crion[] = [
       description: "Uma bolha que estoura com força surpreendente",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy pato creature, duck with a tiny raincloud always above it, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Bolha d'Água\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a few small wisps close to the body, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Cachoeira Secreta scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_chuvisco_2',
@@ -2144,6 +3025,12 @@ export const CRIONS: Crion[] = [
       description: "Um jato preciso que empurra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy pato creature, duck with a tiny raincloud always above it, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Jato Aquático\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a clear swirling burst around the torso, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Cachoeira Secreta scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_chuvisco_3',
@@ -2155,6 +3042,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy pato creature, duck with a tiny raincloud always above it, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Névoa Aquática\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a dense concentrated orb with radiating streaks, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Cachoeira Secreta scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_chuvisco_4',
@@ -2165,11 +3058,18 @@ export const CRIONS: Crion[] = [
       description: "Uma onda inteira desaba sobre o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy pato creature, duck with a tiny raincloud always above it, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Torrente Pura\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, an overwhelming explosion filling the whole frame, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Cachoeira Secreta scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Sua água carrega palavras de lugares que ninguém visitou ainda.",
     habitat: "Cachoeira Secreta",
     imagePrompt: "cute fantasy pato creature, duck with a tiny raincloud always above it, água element, magical glow deep blue and cyan, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Pato Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -2194,6 +3094,12 @@ export const CRIONS: Crion[] = [
       description: "Uma bolha que estoura com força surpreendente",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy tartaruga creature, turtle with a shell of flowing river water, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Bolha d'Água\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a few small wisps close to the body, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Margem de Rio scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_correntor_2',
@@ -2204,6 +3110,12 @@ export const CRIONS: Crion[] = [
       description: "Um jato preciso que empurra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy tartaruga creature, turtle with a shell of flowing river water, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Jato Aquático\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a clear swirling burst around the torso, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Margem de Rio scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_correntor_3',
@@ -2215,6 +3127,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy tartaruga creature, turtle with a shell of flowing river water, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Névoa Aquática\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a dense concentrated orb with radiating streaks, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Margem de Rio scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_correntor_4',
@@ -2225,11 +3143,18 @@ export const CRIONS: Crion[] = [
       description: "Uma onda inteira desaba sobre o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy tartaruga creature, turtle with a shell of flowing river water, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Torrente Pura\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, an overwhelming explosion filling the whole frame, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Margem de Rio scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce quando uma criança arrisca falar uma palavra em outra língua.",
     habitat: "Margem de Rio",
     imagePrompt: "cute fantasy tartaruga creature, turtle with a shell of flowing river water, água element, magical glow deep blue and cyan, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Tartaruga Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -2254,6 +3179,12 @@ export const CRIONS: Crion[] = [
       description: "Uma bolha que estoura com força surpreendente",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy golfinho creature, dolphin with luminous tidal patterns, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Bolha d'Água\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a few small wisps close to the body, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Lagoa Cristalina scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_golfino_2',
@@ -2264,6 +3195,12 @@ export const CRIONS: Crion[] = [
       description: "Um jato preciso que empurra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy golfinho creature, dolphin with luminous tidal patterns, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Jato Aquático\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a clear swirling burst around the torso, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Lagoa Cristalina scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_golfino_3',
@@ -2275,6 +3212,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy golfinho creature, dolphin with luminous tidal patterns, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Névoa Aquática\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a dense concentrated orb with radiating streaks, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Lagoa Cristalina scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_golfino_4',
@@ -2285,11 +3228,18 @@ export const CRIONS: Crion[] = [
       description: "Uma onda inteira desaba sobre o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy golfinho creature, dolphin with luminous tidal patterns, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Torrente Pura\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, an overwhelming explosion filling the whole frame, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Lagoa Cristalina scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Flui melhor quando ninguém tem medo de errar a pronúncia.",
     habitat: "Lagoa Cristalina",
     imagePrompt: "cute fantasy golfinho creature, dolphin with luminous tidal patterns, água element, magical glow deep blue and cyan, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Golfinho Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -2314,6 +3264,12 @@ export const CRIONS: Crion[] = [
       description: "Uma bolha que estoura com força surpreendente",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy arraia creature, deep-sea ray glowing with bioluminescent blue, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Bolha d'Água\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a few small wisps close to the body, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Recife Cantante scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_abissal_2',
@@ -2324,6 +3280,12 @@ export const CRIONS: Crion[] = [
       description: "Um jato preciso que empurra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy arraia creature, deep-sea ray glowing with bioluminescent blue, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Jato Aquático\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a clear swirling burst around the torso, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Recife Cantante scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_abissal_3',
@@ -2335,6 +3297,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy arraia creature, deep-sea ray glowing with bioluminescent blue, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Névoa Aquática\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a dense concentrated orb with radiating streaks, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Recife Cantante scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_abissal_4',
@@ -2345,11 +3313,18 @@ export const CRIONS: Crion[] = [
       description: "Uma onda inteira desaba sobre o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy arraia creature, deep-sea ray glowing with bioluminescent blue, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Torrente Pura\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, an overwhelming explosion filling the whole frame, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Recife Cantante scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Guarda no corpo o som de todas as línguas do mundo.",
     habitat: "Recife Cantante",
     imagePrompt: "cute fantasy arraia creature, deep-sea ray glowing with bioluminescent blue, água element, magical glow deep blue and cyan, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Arraia Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -2374,6 +3349,12 @@ export const CRIONS: Crion[] = [
       description: "Uma bolha que estoura com força surpreendente",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy orca creature, orca surrounded by a spiraling water vortex, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Bolha d'Água\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a few small wisps close to the body, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Cachoeira Secreta scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_marejante_2',
@@ -2384,6 +3365,12 @@ export const CRIONS: Crion[] = [
       description: "Um jato preciso que empurra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy orca creature, orca surrounded by a spiraling water vortex, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Jato Aquático\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a clear swirling burst around the torso, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Cachoeira Secreta scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_marejante_3',
@@ -2395,6 +3382,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy orca creature, orca surrounded by a spiraling water vortex, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Névoa Aquática\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a dense concentrated orb with radiating streaks, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Cachoeira Secreta scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_marejante_4',
@@ -2405,11 +3398,18 @@ export const CRIONS: Crion[] = [
       description: "Uma onda inteira desaba sobre o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy orca creature, orca surrounded by a spiraling water vortex, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Torrente Pura\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, an overwhelming explosion filling the whole frame, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Cachoeira Secreta scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Sua água carrega palavras de lugares que ninguém visitou ainda.",
     habitat: "Cachoeira Secreta",
     imagePrompt: "cute fantasy orca creature, orca surrounded by a spiraling water vortex, água element, magical glow deep blue and cyan, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Orca Ancestral",
     unlockCondition: { type: 'XP_TOTAL', xp: 150 },
   },
   {
@@ -2434,6 +3434,12 @@ export const CRIONS: Crion[] = [
       description: "Uma bolha que estoura com força surpreendente",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy lula-gigante creature, giant squid with storm-blue tentacles, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Bolha d'Água\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a few small wisps close to the body, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Margem de Rio scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_krakenzo_2',
@@ -2444,6 +3450,12 @@ export const CRIONS: Crion[] = [
       description: "Um jato preciso que empurra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy lula-gigante creature, giant squid with storm-blue tentacles, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Jato Aquático\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a clear swirling burst around the torso, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Margem de Rio scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_krakenzo_3',
@@ -2455,6 +3467,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy lula-gigante creature, giant squid with storm-blue tentacles, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Névoa Aquática\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a dense concentrated orb with radiating streaks, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Margem de Rio scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_krakenzo_4',
@@ -2465,11 +3483,18 @@ export const CRIONS: Crion[] = [
       description: "Uma onda inteira desaba sobre o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy lula-gigante creature, giant squid with storm-blue tentacles, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Torrente Pura\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, an overwhelming explosion filling the whole frame, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Margem de Rio scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce quando uma criança arrisca falar uma palavra em outra língua.",
     habitat: "Margem de Rio",
     imagePrompt: "cute fantasy lula-gigante creature, giant squid with storm-blue tentacles, água element, magical glow deep blue and cyan, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Lula-gigante Ancestral",
     unlockCondition: { type: 'XP_TOTAL', xp: 150 },
   },
   {
@@ -2494,6 +3519,12 @@ export const CRIONS: Crion[] = [
       description: "Uma bolha que estoura com força surpreendente",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy serpente-marinha creature, legendary sea serpent crowned with a crashing wave, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Bolha d'Água\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a few small wisps close to the body, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Lagoa Cristalina scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_leviathis_2',
@@ -2504,6 +3535,12 @@ export const CRIONS: Crion[] = [
       description: "Um jato preciso que empurra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy serpente-marinha creature, legendary sea serpent crowned with a crashing wave, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Jato Aquático\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a clear swirling burst around the torso, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Lagoa Cristalina scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_leviathis_3',
@@ -2515,6 +3552,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy serpente-marinha creature, legendary sea serpent crowned with a crashing wave, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Névoa Aquática\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, a dense concentrated orb with radiating streaks, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Lagoa Cristalina scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_leviathis_4',
@@ -2525,11 +3568,18 @@ export const CRIONS: Crion[] = [
       description: "Uma onda inteira desaba sobre o campo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy serpente-marinha creature, legendary sea serpent crowned with a crashing wave, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Torrente Pura\", água element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "água element magical effect only, an overwhelming explosion filling the whole frame, glowing deep blue and cyan, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Lagoa Cristalina scenery, água themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract água energy border, glowing deep blue and cyan light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Flui melhor quando ninguém tem medo de errar a pronúncia.",
     habitat: "Lagoa Cristalina",
     imagePrompt: "cute fantasy serpente-marinha creature, legendary sea serpent crowned with a crashing wave, água element, magical glow deep blue and cyan, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Serpente-Marinha de Elite",
     unlockCondition: { type: 'XP_TOTAL', xp: 250 },
   },
   {
@@ -2554,6 +3604,12 @@ export const CRIONS: Crion[] = [
       description: "Uma pedra pequena, mas muito bem mirada",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy besouro creature, small beetle with a pebble shell, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Pedrada Certeira\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a few small wisps close to the body, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Cristal scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_pedrinho_2',
@@ -2564,6 +3620,12 @@ export const CRIONS: Crion[] = [
       description: "O chão treme e desequilibra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy besouro creature, small beetle with a pebble shell, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Tremor Curto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a clear swirling burst around the torso, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Cristal scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_pedrinho_3',
@@ -2575,6 +3637,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy besouro creature, small beetle with a pebble shell, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Areia nos Olhos\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a dense concentrated orb with radiating streaks, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Cristal scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_pedrinho_4',
@@ -2585,11 +3653,18 @@ export const CRIONS: Crion[] = [
       description: "A terra inteira se levanta de uma vez",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy besouro creature, small beetle with a pebble shell, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Terremoto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, an overwhelming explosion filling the whole frame, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Cristal scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce da primeira vez que uma criança pergunta \"por quê?\".",
     habitat: "Caverna de Cristal",
     imagePrompt: "cute fantasy besouro creature, small beetle with a pebble shell, terra element, magical glow earthy brown and amber, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Besouro Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -2614,6 +3689,12 @@ export const CRIONS: Crion[] = [
       description: "Uma pedra pequena, mas muito bem mirada",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy minhoca creature, friendly earthworm with clay-colored rings, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Pedrada Certeira\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a few small wisps close to the body, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planalto Vermelho scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_barrolo_2',
@@ -2624,6 +3705,12 @@ export const CRIONS: Crion[] = [
       description: "O chão treme e desequilibra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy minhoca creature, friendly earthworm with clay-colored rings, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Tremor Curto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a clear swirling burst around the torso, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planalto Vermelho scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_barrolo_3',
@@ -2635,6 +3722,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy minhoca creature, friendly earthworm with clay-colored rings, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Areia nos Olhos\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a dense concentrated orb with radiating streaks, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planalto Vermelho scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_barrolo_4',
@@ -2645,11 +3738,18 @@ export const CRIONS: Crion[] = [
       description: "A terra inteira se levanta de uma vez",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy minhoca creature, friendly earthworm with clay-colored rings, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Terremoto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, an overwhelming explosion filling the whole frame, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planalto Vermelho scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Carrega no casco a memória de tudo que já foi descoberto.",
     habitat: "Planalto Vermelho",
     imagePrompt: "cute fantasy minhoca creature, friendly earthworm with clay-colored rings, terra element, magical glow earthy brown and amber, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Minhoca Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -2674,6 +3774,12 @@ export const CRIONS: Crion[] = [
       description: "Uma pedra pequena, mas muito bem mirada",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy hamster creature, hamster with soil-brown fur and crystal cheeks, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Pedrada Certeira\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a few small wisps close to the body, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim de Pedras scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_territo_2',
@@ -2684,6 +3790,12 @@ export const CRIONS: Crion[] = [
       description: "O chão treme e desequilibra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy hamster creature, hamster with soil-brown fur and crystal cheeks, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Tremor Curto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a clear swirling burst around the torso, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim de Pedras scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_territo_3',
@@ -2695,6 +3807,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy hamster creature, hamster with soil-brown fur and crystal cheeks, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Areia nos Olhos\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a dense concentrated orb with radiating streaks, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim de Pedras scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_territo_4',
@@ -2705,11 +3823,18 @@ export const CRIONS: Crion[] = [
       description: "A terra inteira se levanta de uma vez",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy hamster creature, hamster with soil-brown fur and crystal cheeks, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Terremoto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, an overwhelming explosion filling the whole frame, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim de Pedras scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Fica mais pesado a cada experiência que dá certo.",
     habitat: "Jardim de Pedras",
     imagePrompt: "cute fantasy hamster creature, hamster with soil-brown fur and crystal cheeks, terra element, magical glow earthy brown and amber, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Hamster Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -2734,6 +3859,12 @@ export const CRIONS: Crion[] = [
       description: "Uma pedra pequena, mas muito bem mirada",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy tatu creature, armadillo with a shell of packed gravel, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Pedrada Certeira\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a few small wisps close to the body, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Gruta Profunda scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cascalho_2',
@@ -2744,6 +3875,12 @@ export const CRIONS: Crion[] = [
       description: "O chão treme e desequilibra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy tatu creature, armadillo with a shell of packed gravel, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Tremor Curto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a clear swirling burst around the torso, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Gruta Profunda scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cascalho_3',
@@ -2755,6 +3892,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy tatu creature, armadillo with a shell of packed gravel, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Areia nos Olhos\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a dense concentrated orb with radiating streaks, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Gruta Profunda scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cascalho_4',
@@ -2765,11 +3908,18 @@ export const CRIONS: Crion[] = [
       description: "A terra inteira se levanta de uma vez",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy tatu creature, armadillo with a shell of packed gravel, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Terremoto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, an overwhelming explosion filling the whole frame, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Gruta Profunda scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Sabe o nome de cada pedra do caminho.",
     habitat: "Gruta Profunda",
     imagePrompt: "cute fantasy tatu creature, armadillo with a shell of packed gravel, terra element, magical glow earthy brown and amber, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Tatu Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -2794,6 +3944,12 @@ export const CRIONS: Crion[] = [
       description: "Uma pedra pequena, mas muito bem mirada",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy porquinho creature, little pig made of warm terracotta clay, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Pedrada Certeira\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a few small wisps close to the body, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Cristal scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_argilon_2',
@@ -2804,6 +3960,12 @@ export const CRIONS: Crion[] = [
       description: "O chão treme e desequilibra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy porquinho creature, little pig made of warm terracotta clay, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Tremor Curto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a clear swirling burst around the torso, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Cristal scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_argilon_3',
@@ -2815,6 +3977,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy porquinho creature, little pig made of warm terracotta clay, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Areia nos Olhos\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a dense concentrated orb with radiating streaks, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Cristal scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_argilon_4',
@@ -2825,11 +3993,18 @@ export const CRIONS: Crion[] = [
       description: "A terra inteira se levanta de uma vez",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy porquinho creature, little pig made of warm terracotta clay, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Terremoto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, an overwhelming explosion filling the whole frame, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Cristal scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce da primeira vez que uma criança pergunta \"por quê?\".",
     habitat: "Caverna de Cristal",
     imagePrompt: "cute fantasy porquinho creature, little pig made of warm terracotta clay, terra element, magical glow earthy brown and amber, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Porquinho Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -2854,6 +4029,12 @@ export const CRIONS: Crion[] = [
       description: "Uma pedra pequena, mas muito bem mirada",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy ouriço creature, hedgehog with amber crystal spines, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Pedrada Certeira\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a few small wisps close to the body, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planalto Vermelho scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cristallo_2',
@@ -2864,6 +4045,12 @@ export const CRIONS: Crion[] = [
       description: "O chão treme e desequilibra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy ouriço creature, hedgehog with amber crystal spines, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Tremor Curto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a clear swirling burst around the torso, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planalto Vermelho scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cristallo_3',
@@ -2875,6 +4062,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy ouriço creature, hedgehog with amber crystal spines, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Areia nos Olhos\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a dense concentrated orb with radiating streaks, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planalto Vermelho scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cristallo_4',
@@ -2885,11 +4078,18 @@ export const CRIONS: Crion[] = [
       description: "A terra inteira se levanta de uma vez",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy ouriço creature, hedgehog with amber crystal spines, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Terremoto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, an overwhelming explosion filling the whole frame, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planalto Vermelho scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Carrega no casco a memória de tudo que já foi descoberto.",
     habitat: "Planalto Vermelho",
     imagePrompt: "cute fantasy ouriço creature, hedgehog with amber crystal spines, terra element, magical glow earthy brown and amber, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Ouriço Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -2914,6 +4114,12 @@ export const CRIONS: Crion[] = [
       description: "Uma pedra pequena, mas muito bem mirada",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy cabra creature, mountain goat with stone hooves, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Pedrada Certeira\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a few small wisps close to the body, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim de Pedras scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_rochedo_2',
@@ -2924,6 +4130,12 @@ export const CRIONS: Crion[] = [
       description: "O chão treme e desequilibra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy cabra creature, mountain goat with stone hooves, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Tremor Curto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a clear swirling burst around the torso, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim de Pedras scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_rochedo_3',
@@ -2935,6 +4147,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy cabra creature, mountain goat with stone hooves, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Areia nos Olhos\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a dense concentrated orb with radiating streaks, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim de Pedras scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_rochedo_4',
@@ -2945,11 +4163,18 @@ export const CRIONS: Crion[] = [
       description: "A terra inteira se levanta de uma vez",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy cabra creature, mountain goat with stone hooves, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Terremoto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, an overwhelming explosion filling the whole frame, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim de Pedras scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Fica mais pesado a cada experiência que dá certo.",
     habitat: "Jardim de Pedras",
     imagePrompt: "cute fantasy cabra creature, mountain goat with stone hooves, terra element, magical glow earthy brown and amber, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Cabra Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -2974,6 +4199,12 @@ export const CRIONS: Crion[] = [
       description: "Uma pedra pequena, mas muito bem mirada",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy camelo creature, camel with a hump of shifting golden sand, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Pedrada Certeira\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a few small wisps close to the body, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Gruta Profunda scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_dunaris_2',
@@ -2984,6 +4215,12 @@ export const CRIONS: Crion[] = [
       description: "O chão treme e desequilibra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy camelo creature, camel with a hump of shifting golden sand, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Tremor Curto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a clear swirling burst around the torso, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Gruta Profunda scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_dunaris_3',
@@ -2995,6 +4232,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy camelo creature, camel with a hump of shifting golden sand, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Areia nos Olhos\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a dense concentrated orb with radiating streaks, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Gruta Profunda scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_dunaris_4',
@@ -3005,11 +4248,18 @@ export const CRIONS: Crion[] = [
       description: "A terra inteira se levanta de uma vez",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy camelo creature, camel with a hump of shifting golden sand, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Terremoto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, an overwhelming explosion filling the whole frame, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Gruta Profunda scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Sabe o nome de cada pedra do caminho.",
     habitat: "Gruta Profunda",
     imagePrompt: "cute fantasy camelo creature, camel with a hump of shifting golden sand, terra element, magical glow earthy brown and amber, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Camelo Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -3034,6 +4284,12 @@ export const CRIONS: Crion[] = [
       description: "Uma pedra pequena, mas muito bem mirada",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy búfalo creature, buffalo with granite horns and dust aura, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Pedrada Certeira\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a few small wisps close to the body, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Cristal scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_granito_2',
@@ -3044,6 +4300,12 @@ export const CRIONS: Crion[] = [
       description: "O chão treme e desequilibra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy búfalo creature, buffalo with granite horns and dust aura, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Tremor Curto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a clear swirling burst around the torso, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Cristal scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_granito_3',
@@ -3055,6 +4317,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy búfalo creature, buffalo with granite horns and dust aura, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Areia nos Olhos\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a dense concentrated orb with radiating streaks, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Cristal scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_granito_4',
@@ -3065,11 +4333,18 @@ export const CRIONS: Crion[] = [
       description: "A terra inteira se levanta de uma vez",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy búfalo creature, buffalo with granite horns and dust aura, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Terremoto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, an overwhelming explosion filling the whole frame, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Cristal scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce da primeira vez que uma criança pergunta \"por quê?\".",
     habitat: "Caverna de Cristal",
     imagePrompt: "cute fantasy búfalo creature, buffalo with granite horns and dust aura, terra element, magical glow earthy brown and amber, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Búfalo Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -3094,6 +4369,12 @@ export const CRIONS: Crion[] = [
       description: "Uma pedra pequena, mas muito bem mirada",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy urso-das-cavernas creature, cave bear with glowing geode fur, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Pedrada Certeira\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a few small wisps close to the body, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planalto Vermelho scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cavernal_2',
@@ -3104,6 +4385,12 @@ export const CRIONS: Crion[] = [
       description: "O chão treme e desequilibra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy urso-das-cavernas creature, cave bear with glowing geode fur, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Tremor Curto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a clear swirling burst around the torso, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planalto Vermelho scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cavernal_3',
@@ -3115,6 +4402,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy urso-das-cavernas creature, cave bear with glowing geode fur, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Areia nos Olhos\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a dense concentrated orb with radiating streaks, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planalto Vermelho scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cavernal_4',
@@ -3125,11 +4418,18 @@ export const CRIONS: Crion[] = [
       description: "A terra inteira se levanta de uma vez",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy urso-das-cavernas creature, cave bear with glowing geode fur, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Terremoto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, an overwhelming explosion filling the whole frame, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planalto Vermelho scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Carrega no casco a memória de tudo que já foi descoberto.",
     habitat: "Planalto Vermelho",
     imagePrompt: "cute fantasy urso-das-cavernas creature, cave bear with glowing geode fur, terra element, magical glow earthy brown and amber, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Urso-das-cavernas Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -3154,6 +4454,12 @@ export const CRIONS: Crion[] = [
       description: "Uma pedra pequena, mas muito bem mirada",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy tatu-gigante creature, giant armadillo with fossil-plated armor, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Pedrada Certeira\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a few small wisps close to the body, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim de Pedras scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_fossilio_2',
@@ -3164,6 +4470,12 @@ export const CRIONS: Crion[] = [
       description: "O chão treme e desequilibra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy tatu-gigante creature, giant armadillo with fossil-plated armor, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Tremor Curto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a clear swirling burst around the torso, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim de Pedras scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_fossilio_3',
@@ -3175,6 +4487,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy tatu-gigante creature, giant armadillo with fossil-plated armor, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Areia nos Olhos\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a dense concentrated orb with radiating streaks, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim de Pedras scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_fossilio_4',
@@ -3185,11 +4503,18 @@ export const CRIONS: Crion[] = [
       description: "A terra inteira se levanta de uma vez",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy tatu-gigante creature, giant armadillo with fossil-plated armor, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Terremoto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, an overwhelming explosion filling the whole frame, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim de Pedras scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Fica mais pesado a cada experiência que dá certo.",
     habitat: "Jardim de Pedras",
     imagePrompt: "cute fantasy tatu-gigante creature, giant armadillo with fossil-plated armor, terra element, magical glow earthy brown and amber, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Tatu-gigante Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -3214,6 +4539,12 @@ export const CRIONS: Crion[] = [
       description: "Uma pedra pequena, mas muito bem mirada",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy iaque creature, yak carrying a small mountain peak on its back, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Pedrada Certeira\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a few small wisps close to the body, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Gruta Profunda scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_montanhor_2',
@@ -3224,6 +4555,12 @@ export const CRIONS: Crion[] = [
       description: "O chão treme e desequilibra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy iaque creature, yak carrying a small mountain peak on its back, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Tremor Curto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a clear swirling burst around the torso, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Gruta Profunda scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_montanhor_3',
@@ -3235,6 +4572,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy iaque creature, yak carrying a small mountain peak on its back, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Areia nos Olhos\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a dense concentrated orb with radiating streaks, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Gruta Profunda scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_montanhor_4',
@@ -3245,11 +4588,18 @@ export const CRIONS: Crion[] = [
       description: "A terra inteira se levanta de uma vez",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy iaque creature, yak carrying a small mountain peak on its back, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Terremoto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, an overwhelming explosion filling the whole frame, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Gruta Profunda scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Sabe o nome de cada pedra do caminho.",
     habitat: "Gruta Profunda",
     imagePrompt: "cute fantasy iaque creature, yak carrying a small mountain peak on its back, terra element, magical glow earthy brown and amber, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Iaque Ancestral",
     unlockCondition: { type: 'XP_TOTAL', xp: 150 },
   },
   {
@@ -3274,6 +4624,12 @@ export const CRIONS: Crion[] = [
       description: "Uma pedra pequena, mas muito bem mirada",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy elefante creature, elephant with tectonic plate armor, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Pedrada Certeira\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a few small wisps close to the body, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Cristal scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_titanargo_2',
@@ -3284,6 +4640,12 @@ export const CRIONS: Crion[] = [
       description: "O chão treme e desequilibra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy elefante creature, elephant with tectonic plate armor, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Tremor Curto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a clear swirling burst around the torso, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Cristal scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_titanargo_3',
@@ -3295,6 +4657,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy elefante creature, elephant with tectonic plate armor, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Areia nos Olhos\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a dense concentrated orb with radiating streaks, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Cristal scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_titanargo_4',
@@ -3305,11 +4673,18 @@ export const CRIONS: Crion[] = [
       description: "A terra inteira se levanta de uma vez",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy elefante creature, elephant with tectonic plate armor, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Terremoto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, an overwhelming explosion filling the whole frame, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Cristal scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce da primeira vez que uma criança pergunta \"por quê?\".",
     habitat: "Caverna de Cristal",
     imagePrompt: "cute fantasy elefante creature, elephant with tectonic plate armor, terra element, magical glow earthy brown and amber, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Elefante Ancestral",
     unlockCondition: { type: 'XP_TOTAL', xp: 150 },
   },
   {
@@ -3334,6 +4709,12 @@ export const CRIONS: Crion[] = [
       description: "Uma pedra pequena, mas muito bem mirada",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy golem-tartaruga creature, legendary turtle-golem with a continent on its shell, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Pedrada Certeira\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a few small wisps close to the body, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planalto Vermelho scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_gaiathon_2',
@@ -3344,6 +4725,12 @@ export const CRIONS: Crion[] = [
       description: "O chão treme e desequilibra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy golem-tartaruga creature, legendary turtle-golem with a continent on its shell, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Tremor Curto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a clear swirling burst around the torso, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planalto Vermelho scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_gaiathon_3',
@@ -3355,6 +4742,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy golem-tartaruga creature, legendary turtle-golem with a continent on its shell, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Areia nos Olhos\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, a dense concentrated orb with radiating streaks, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planalto Vermelho scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_gaiathon_4',
@@ -3365,11 +4758,18 @@ export const CRIONS: Crion[] = [
       description: "A terra inteira se levanta de uma vez",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy golem-tartaruga creature, legendary turtle-golem with a continent on its shell, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Terremoto\", terra element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "terra element magical effect only, an overwhelming explosion filling the whole frame, glowing earthy brown and amber, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planalto Vermelho scenery, terra themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract terra energy border, glowing earthy brown and amber light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Carrega no casco a memória de tudo que já foi descoberto.",
     habitat: "Planalto Vermelho",
     imagePrompt: "cute fantasy golem-tartaruga creature, legendary turtle-golem with a continent on its shell, terra element, magical glow earthy brown and amber, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Golem-Tartaruga de Elite",
     unlockCondition: { type: 'XP_TOTAL', xp: 250 },
   },
   {
@@ -3394,6 +4794,12 @@ export const CRIONS: Crion[] = [
       description: "Um golpe curto e afiado como uma lâmina",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy formiga creature, tiny ant with bolt-shaped body segments, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Garra de Aço\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a few small wisps close to the body, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Oficina Esquecida scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_parafuso_2',
@@ -3404,6 +4810,12 @@ export const CRIONS: Crion[] = [
       description: "Gira em alta velocidade contra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy formiga creature, tiny ant with bolt-shaped body segments, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Engrenagem Girante\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a clear swirling burst around the torso, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Oficina Esquecida scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_parafuso_3',
@@ -3415,6 +4827,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy formiga creature, tiny ant with bolt-shaped body segments, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Campo Magnético\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a dense concentrated orb with radiating streaks, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Oficina Esquecida scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_parafuso_4',
@@ -3425,11 +4843,18 @@ export const CRIONS: Crion[] = [
       description: "Um corte único, calculado até o último detalhe",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy formiga creature, tiny ant with bolt-shaped body segments, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Lâmina Definitiva\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, an overwhelming explosion filling the whole frame, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Oficina Esquecida scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce quando uma criança monta um quebra-cabeça sozinha.",
     habitat: "Oficina Esquecida",
     imagePrompt: "cute fantasy formiga creature, tiny ant with bolt-shaped body segments, metal element, magical glow silver and steel gray, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Formiga Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -3454,6 +4879,12 @@ export const CRIONS: Crion[] = [
       description: "Um golpe curto e afiado como uma lâmina",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy aranha creature, small spider with spring-coil legs, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Garra de Aço\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a few small wisps close to the body, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Mina de Prata scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_molinha_2',
@@ -3464,6 +4895,12 @@ export const CRIONS: Crion[] = [
       description: "Gira em alta velocidade contra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy aranha creature, small spider with spring-coil legs, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Engrenagem Girante\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a clear swirling burst around the torso, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Mina de Prata scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_molinha_3',
@@ -3475,6 +4912,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy aranha creature, small spider with spring-coil legs, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Campo Magnético\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a dense concentrated orb with radiating streaks, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Mina de Prata scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_molinha_4',
@@ -3485,11 +4928,18 @@ export const CRIONS: Crion[] = [
       description: "Um corte único, calculado até o último detalhe",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy aranha creature, small spider with spring-coil legs, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Lâmina Definitiva\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, an overwhelming explosion filling the whole frame, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Mina de Prata scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Cada peça encaixada deixa suas engrenagens mais afinadas.",
     habitat: "Mina de Prata",
     imagePrompt: "cute fantasy aranha creature, small spider with spring-coil legs, metal element, magical glow silver and steel gray, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Aranha Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -3514,6 +4964,12 @@ export const CRIONS: Crion[] = [
       description: "Um golpe curto e afiado como uma lâmina",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy rato-mecânico creature, clockwork mouse with a wind-up key, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Garra de Aço\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a few small wisps close to the body, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Torre de Engrenagens scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_chavinha_2',
@@ -3524,6 +4980,12 @@ export const CRIONS: Crion[] = [
       description: "Gira em alta velocidade contra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy rato-mecânico creature, clockwork mouse with a wind-up key, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Engrenagem Girante\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a clear swirling burst around the torso, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Torre de Engrenagens scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_chavinha_3',
@@ -3535,6 +4997,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy rato-mecânico creature, clockwork mouse with a wind-up key, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Campo Magnético\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a dense concentrated orb with radiating streaks, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Torre de Engrenagens scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_chavinha_4',
@@ -3545,11 +5013,18 @@ export const CRIONS: Crion[] = [
       description: "Um corte único, calculado até o último detalhe",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy rato-mecânico creature, clockwork mouse with a wind-up key, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Lâmina Definitiva\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, an overwhelming explosion filling the whole frame, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Torre de Engrenagens scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Pensa três passos à frente antes de qualquer movimento.",
     habitat: "Torre de Engrenagens",
     imagePrompt: "cute fantasy rato-mecânico creature, clockwork mouse with a wind-up key, metal element, magical glow silver and steel gray, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Rato-mecânico Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -3574,6 +5049,12 @@ export const CRIONS: Crion[] = [
       description: "Um golpe curto e afiado como uma lâmina",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy joaninha creature, ladybug with gear-patterned wings, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Garra de Aço\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a few small wisps close to the body, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Salão de Aço scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_engrenim_2',
@@ -3584,6 +5065,12 @@ export const CRIONS: Crion[] = [
       description: "Gira em alta velocidade contra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy joaninha creature, ladybug with gear-patterned wings, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Engrenagem Girante\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a clear swirling burst around the torso, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Salão de Aço scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_engrenim_3',
@@ -3595,6 +5082,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy joaninha creature, ladybug with gear-patterned wings, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Campo Magnético\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a dense concentrated orb with radiating streaks, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Salão de Aço scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_engrenim_4',
@@ -3605,11 +5098,18 @@ export const CRIONS: Crion[] = [
       description: "Um corte único, calculado até o último detalhe",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy joaninha creature, ladybug with gear-patterned wings, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Lâmina Definitiva\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, an overwhelming explosion filling the whole frame, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Salão de Aço scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Não existe problema que ele não tente desmontar.",
     habitat: "Salão de Aço",
     imagePrompt: "cute fantasy joaninha creature, ladybug with gear-patterned wings, metal element, magical glow silver and steel gray, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Joaninha Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -3634,6 +5134,12 @@ export const CRIONS: Crion[] = [
       description: "Um golpe curto e afiado como uma lâmina",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy gambá creature, skunk with polished steel stripes, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Garra de Aço\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a few small wisps close to the body, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Oficina Esquecida scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_ferrucho_2',
@@ -3644,6 +5150,12 @@ export const CRIONS: Crion[] = [
       description: "Gira em alta velocidade contra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy gambá creature, skunk with polished steel stripes, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Engrenagem Girante\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a clear swirling burst around the torso, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Oficina Esquecida scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_ferrucho_3',
@@ -3655,6 +5167,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy gambá creature, skunk with polished steel stripes, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Campo Magnético\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a dense concentrated orb with radiating streaks, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Oficina Esquecida scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_ferrucho_4',
@@ -3665,11 +5183,18 @@ export const CRIONS: Crion[] = [
       description: "Um corte único, calculado até o último detalhe",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy gambá creature, skunk with polished steel stripes, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Lâmina Definitiva\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, an overwhelming explosion filling the whole frame, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Oficina Esquecida scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce quando uma criança monta um quebra-cabeça sozinha.",
     habitat: "Oficina Esquecida",
     imagePrompt: "cute fantasy gambá creature, skunk with polished steel stripes, metal element, magical glow silver and steel gray, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Gambá Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -3694,6 +5219,12 @@ export const CRIONS: Crion[] = [
       description: "Um golpe curto e afiado como uma lâmina",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy camaleão creature, chameleon with mirror-chrome skin, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Garra de Aço\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a few small wisps close to the body, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Mina de Prata scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cromado_2',
@@ -3704,6 +5235,12 @@ export const CRIONS: Crion[] = [
       description: "Gira em alta velocidade contra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy camaleão creature, chameleon with mirror-chrome skin, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Engrenagem Girante\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a clear swirling burst around the torso, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Mina de Prata scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cromado_3',
@@ -3715,6 +5252,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy camaleão creature, chameleon with mirror-chrome skin, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Campo Magnético\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a dense concentrated orb with radiating streaks, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Mina de Prata scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cromado_4',
@@ -3725,11 +5268,18 @@ export const CRIONS: Crion[] = [
       description: "Um corte único, calculado até o último detalhe",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy camaleão creature, chameleon with mirror-chrome skin, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Lâmina Definitiva\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, an overwhelming explosion filling the whole frame, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Mina de Prata scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Cada peça encaixada deixa suas engrenagens mais afinadas.",
     habitat: "Mina de Prata",
     imagePrompt: "cute fantasy camaleão creature, chameleon with mirror-chrome skin, metal element, magical glow silver and steel gray, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Camaleão Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -3754,6 +5304,12 @@ export const CRIONS: Crion[] = [
       description: "Um golpe curto e afiado como uma lâmina",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy pombo creature, pigeon with a compass embedded in its chest, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Garra de Aço\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a few small wisps close to the body, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Torre de Engrenagens scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_bussolo_2',
@@ -3764,6 +5320,12 @@ export const CRIONS: Crion[] = [
       description: "Gira em alta velocidade contra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy pombo creature, pigeon with a compass embedded in its chest, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Engrenagem Girante\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a clear swirling burst around the torso, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Torre de Engrenagens scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_bussolo_3',
@@ -3775,6 +5337,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy pombo creature, pigeon with a compass embedded in its chest, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Campo Magnético\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a dense concentrated orb with radiating streaks, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Torre de Engrenagens scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_bussolo_4',
@@ -3785,11 +5353,18 @@ export const CRIONS: Crion[] = [
       description: "Um corte único, calculado até o último detalhe",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy pombo creature, pigeon with a compass embedded in its chest, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Lâmina Definitiva\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, an overwhelming explosion filling the whole frame, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Torre de Engrenagens scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Pensa três passos à frente antes de qualquer movimento.",
     habitat: "Torre de Engrenagens",
     imagePrompt: "cute fantasy pombo creature, pigeon with a compass embedded in its chest, metal element, magical glow silver and steel gray, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Pombo Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -3814,6 +5389,12 @@ export const CRIONS: Crion[] = [
       description: "Um golpe curto e afiado como uma lâmina",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy rinoceronte-metálico creature, small rhino plated in brushed steel, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Garra de Aço\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a few small wisps close to the body, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Salão de Aço scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_aciarto_2',
@@ -3824,6 +5405,12 @@ export const CRIONS: Crion[] = [
       description: "Gira em alta velocidade contra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy rinoceronte-metálico creature, small rhino plated in brushed steel, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Engrenagem Girante\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a clear swirling burst around the torso, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Salão de Aço scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_aciarto_3',
@@ -3835,6 +5422,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy rinoceronte-metálico creature, small rhino plated in brushed steel, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Campo Magnético\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a dense concentrated orb with radiating streaks, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Salão de Aço scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_aciarto_4',
@@ -3845,11 +5438,18 @@ export const CRIONS: Crion[] = [
       description: "Um corte único, calculado até o último detalhe",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy rinoceronte-metálico creature, small rhino plated in brushed steel, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Lâmina Definitiva\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, an overwhelming explosion filling the whole frame, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Salão de Aço scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Não existe problema que ele não tente desmontar.",
     habitat: "Salão de Aço",
     imagePrompt: "cute fantasy rinoceronte-metálico creature, small rhino plated in brushed steel, metal element, magical glow silver and steel gray, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Rinoceronte-metálico Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -3874,6 +5474,12 @@ export const CRIONS: Crion[] = [
       description: "Um golpe curto e afiado como uma lâmina",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy falcão creature, falcon with turbine-engine wings, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Garra de Aço\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a few small wisps close to the body, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Oficina Esquecida scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_turbino_2',
@@ -3884,6 +5490,12 @@ export const CRIONS: Crion[] = [
       description: "Gira em alta velocidade contra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy falcão creature, falcon with turbine-engine wings, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Engrenagem Girante\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a clear swirling burst around the torso, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Oficina Esquecida scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_turbino_3',
@@ -3895,6 +5507,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy falcão creature, falcon with turbine-engine wings, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Campo Magnético\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a dense concentrated orb with radiating streaks, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Oficina Esquecida scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_turbino_4',
@@ -3905,11 +5523,18 @@ export const CRIONS: Crion[] = [
       description: "Um corte único, calculado até o último detalhe",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy falcão creature, falcon with turbine-engine wings, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Lâmina Definitiva\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, an overwhelming explosion filling the whole frame, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Oficina Esquecida scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce quando uma criança monta um quebra-cabeça sozinha.",
     habitat: "Oficina Esquecida",
     imagePrompt: "cute fantasy falcão creature, falcon with turbine-engine wings, metal element, magical glow silver and steel gray, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Falcão Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -3934,6 +5559,12 @@ export const CRIONS: Crion[] = [
       description: "Um golpe curto e afiado como uma lâmina",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy rinoceronte creature, rhino in full riveted plate armor, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Garra de Aço\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a few small wisps close to the body, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Mina de Prata scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_blindor_2',
@@ -3944,6 +5575,12 @@ export const CRIONS: Crion[] = [
       description: "Gira em alta velocidade contra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy rinoceronte creature, rhino in full riveted plate armor, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Engrenagem Girante\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a clear swirling burst around the torso, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Mina de Prata scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_blindor_3',
@@ -3955,6 +5592,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy rinoceronte creature, rhino in full riveted plate armor, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Campo Magnético\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a dense concentrated orb with radiating streaks, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Mina de Prata scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_blindor_4',
@@ -3965,11 +5608,18 @@ export const CRIONS: Crion[] = [
       description: "Um corte único, calculado até o último detalhe",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy rinoceronte creature, rhino in full riveted plate armor, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Lâmina Definitiva\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, an overwhelming explosion filling the whole frame, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Mina de Prata scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Cada peça encaixada deixa suas engrenagens mais afinadas.",
     habitat: "Mina de Prata",
     imagePrompt: "cute fantasy rinoceronte creature, rhino in full riveted plate armor, metal element, magical glow silver and steel gray, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Rinoceronte Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -3994,6 +5644,12 @@ export const CRIONS: Crion[] = [
       description: "Um golpe curto e afiado como uma lâmina",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy escorpião creature, scorpion built from precision machinery, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Garra de Aço\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a few small wisps close to the body, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Torre de Engrenagens scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_mecatron_2',
@@ -4004,6 +5660,12 @@ export const CRIONS: Crion[] = [
       description: "Gira em alta velocidade contra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy escorpião creature, scorpion built from precision machinery, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Engrenagem Girante\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a clear swirling burst around the torso, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Torre de Engrenagens scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_mecatron_3',
@@ -4015,6 +5677,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy escorpião creature, scorpion built from precision machinery, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Campo Magnético\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a dense concentrated orb with radiating streaks, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Torre de Engrenagens scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_mecatron_4',
@@ -4025,11 +5693,18 @@ export const CRIONS: Crion[] = [
       description: "Um corte único, calculado até o último detalhe",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy escorpião creature, scorpion built from precision machinery, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Lâmina Definitiva\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, an overwhelming explosion filling the whole frame, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Torre de Engrenagens scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Pensa três passos à frente antes de qualquer movimento.",
     habitat: "Torre de Engrenagens",
     imagePrompt: "cute fantasy escorpião creature, scorpion built from precision machinery, metal element, magical glow silver and steel gray, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Escorpião Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -4054,6 +5729,12 @@ export const CRIONS: Crion[] = [
       description: "Um golpe curto e afiado como uma lâmina",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy tatu-blindado creature, armadillo fortress with retractable steel panels, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Garra de Aço\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a few small wisps close to the body, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Salão de Aço scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_fortalez_2',
@@ -4064,6 +5745,12 @@ export const CRIONS: Crion[] = [
       description: "Gira em alta velocidade contra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy tatu-blindado creature, armadillo fortress with retractable steel panels, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Engrenagem Girante\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a clear swirling burst around the torso, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Salão de Aço scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_fortalez_3',
@@ -4075,6 +5762,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy tatu-blindado creature, armadillo fortress with retractable steel panels, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Campo Magnético\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a dense concentrated orb with radiating streaks, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Salão de Aço scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_fortalez_4',
@@ -4085,11 +5778,18 @@ export const CRIONS: Crion[] = [
       description: "Um corte único, calculado até o último detalhe",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy tatu-blindado creature, armadillo fortress with retractable steel panels, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Lâmina Definitiva\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, an overwhelming explosion filling the whole frame, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Salão de Aço scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Não existe problema que ele não tente desmontar.",
     habitat: "Salão de Aço",
     imagePrompt: "cute fantasy tatu-blindado creature, armadillo fortress with retractable steel panels, metal element, magical glow silver and steel gray, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Tatu-blindado Ancestral",
     unlockCondition: { type: 'XP_TOTAL', xp: 150 },
   },
   {
@@ -4114,6 +5814,12 @@ export const CRIONS: Crion[] = [
       description: "Um golpe curto e afiado como uma lâmina",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy golem creature, towering steel golem with glowing gear-heart, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Garra de Aço\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a few small wisps close to the body, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Oficina Esquecida scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_colossum_2',
@@ -4124,6 +5830,12 @@ export const CRIONS: Crion[] = [
       description: "Gira em alta velocidade contra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy golem creature, towering steel golem with glowing gear-heart, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Engrenagem Girante\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a clear swirling burst around the torso, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Oficina Esquecida scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_colossum_3',
@@ -4135,6 +5847,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy golem creature, towering steel golem with glowing gear-heart, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Campo Magnético\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a dense concentrated orb with radiating streaks, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Oficina Esquecida scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_colossum_4',
@@ -4145,11 +5863,18 @@ export const CRIONS: Crion[] = [
       description: "Um corte único, calculado até o último detalhe",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy golem creature, towering steel golem with glowing gear-heart, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Lâmina Definitiva\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, an overwhelming explosion filling the whole frame, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Oficina Esquecida scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce quando uma criança monta um quebra-cabeça sozinha.",
     habitat: "Oficina Esquecida",
     imagePrompt: "cute fantasy golem creature, towering steel golem with glowing gear-heart, metal element, magical glow silver and steel gray, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Golem Ancestral",
     unlockCondition: { type: 'XP_TOTAL', xp: 150 },
   },
   {
@@ -4174,6 +5899,12 @@ export const CRIONS: Crion[] = [
       description: "Um golpe curto e afiado como uma lâmina",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy dragão-de-aço creature, legendary steel dragon forged from living metal, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Garra de Aço\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a few small wisps close to the body, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Mina de Prata scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_adamantis_2',
@@ -4184,6 +5915,12 @@ export const CRIONS: Crion[] = [
       description: "Gira em alta velocidade contra o inimigo",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy dragão-de-aço creature, legendary steel dragon forged from living metal, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Engrenagem Girante\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a clear swirling burst around the torso, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Mina de Prata scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_adamantis_3',
@@ -4195,6 +5932,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy dragão-de-aço creature, legendary steel dragon forged from living metal, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Campo Magnético\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, a dense concentrated orb with radiating streaks, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Mina de Prata scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_adamantis_4',
@@ -4205,11 +5948,18 @@ export const CRIONS: Crion[] = [
       description: "Um corte único, calculado até o último detalhe",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy dragão-de-aço creature, legendary steel dragon forged from living metal, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Lâmina Definitiva\", metal element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "metal element magical effect only, an overwhelming explosion filling the whole frame, glowing silver and steel gray, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Mina de Prata scenery, metal themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract metal energy border, glowing silver and steel gray light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Cada peça encaixada deixa suas engrenagens mais afinadas.",
     habitat: "Mina de Prata",
     imagePrompt: "cute fantasy dragão-de-aço creature, legendary steel dragon forged from living metal, metal element, magical glow silver and steel gray, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Dragão-de-Aço de Elite",
     unlockCondition: { type: 'XP_TOTAL', xp: 250 },
   },
   {
@@ -4234,6 +5984,12 @@ export const CRIONS: Crion[] = [
       description: "Um sopro rápido que pega o inimigo de surpresa",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy beija-flor creature, tiny hummingbird trailing violet wind ribbons, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Rajada Leve\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a few small wisps close to the body, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Penhasco Ventoso scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_pluminha_2',
@@ -4244,6 +6000,12 @@ export const CRIONS: Crion[] = [
       description: "Um redemoinho que ergue tudo pelo caminho",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy beija-flor creature, tiny hummingbird trailing violet wind ribbons, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Espiral de Ar\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a clear swirling burst around the torso, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Penhasco Ventoso scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_pluminha_3',
@@ -4255,6 +6017,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy beija-flor creature, tiny hummingbird trailing violet wind ribbons, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Confuso\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a dense concentrated orb with radiating streaks, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Penhasco Ventoso scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_pluminha_4',
@@ -4265,11 +6033,18 @@ export const CRIONS: Crion[] = [
       description: "Um furacão que redesenha o campo de batalha",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy beija-flor creature, tiny hummingbird trailing violet wind ribbons, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Ciclone Criador\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, an overwhelming explosion filling the whole frame, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Penhasco Ventoso scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce do primeiro rabisco que vira desenho de verdade.",
     habitat: "Penhasco Ventoso",
     imagePrompt: "cute fantasy beija-flor creature, tiny hummingbird trailing violet wind ribbons, vento element, magical glow soft violet and lavender, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Beija-flor Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -4294,6 +6069,12 @@ export const CRIONS: Crion[] = [
       description: "Um sopro rápido que pega o inimigo de surpresa",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy morcego creature, small bat with translucent breeze wings, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Rajada Leve\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a few small wisps close to the body, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ateliê nas Nuvens scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_sopruco_2',
@@ -4304,6 +6085,12 @@ export const CRIONS: Crion[] = [
       description: "Um redemoinho que ergue tudo pelo caminho",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy morcego creature, small bat with translucent breeze wings, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Espiral de Ar\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a clear swirling burst around the torso, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ateliê nas Nuvens scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_sopruco_3',
@@ -4315,6 +6102,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy morcego creature, small bat with translucent breeze wings, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Confuso\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a dense concentrated orb with radiating streaks, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ateliê nas Nuvens scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_sopruco_4',
@@ -4325,11 +6118,18 @@ export const CRIONS: Crion[] = [
       description: "Um furacão que redesenha o campo de batalha",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy morcego creature, small bat with translucent breeze wings, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Ciclone Criador\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, an overwhelming explosion filling the whole frame, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ateliê nas Nuvens scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Muda de cor conforme a imaginação de quem o criou.",
     habitat: "Ateliê nas Nuvens",
     imagePrompt: "cute fantasy morcego creature, small bat with translucent breeze wings, vento element, magical glow soft violet and lavender, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Morcego Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -4354,6 +6154,12 @@ export const CRIONS: Crion[] = [
       description: "Um sopro rápido que pega o inimigo de surpresa",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy libélula creature, dragonfly with paintbrush-tipped wings, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Rajada Leve\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a few small wisps close to the body, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo Aberto scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_voante_2',
@@ -4364,6 +6170,12 @@ export const CRIONS: Crion[] = [
       description: "Um redemoinho que ergue tudo pelo caminho",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy libélula creature, dragonfly with paintbrush-tipped wings, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Espiral de Ar\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a clear swirling burst around the torso, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo Aberto scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_voante_3',
@@ -4375,6 +6187,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy libélula creature, dragonfly with paintbrush-tipped wings, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Confuso\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a dense concentrated orb with radiating streaks, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo Aberto scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_voante_4',
@@ -4385,11 +6203,18 @@ export const CRIONS: Crion[] = [
       description: "Um furacão que redesenha o campo de batalha",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy libélula creature, dragonfly with paintbrush-tipped wings, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Ciclone Criador\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, an overwhelming explosion filling the whole frame, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo Aberto scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nunca pinta a mesma coisa duas vezes.",
     habitat: "Campo Aberto",
     imagePrompt: "cute fantasy libélula creature, dragonfly with paintbrush-tipped wings, vento element, magical glow soft violet and lavender, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Libélula Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -4414,6 +6239,12 @@ export const CRIONS: Crion[] = [
       description: "Um sopro rápido que pega o inimigo de surpresa",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy ovelha creature, fluffy lamb made of small clouds, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Rajada Leve\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a few small wisps close to the body, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico dos Sussurros scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_nuvezinho_2',
@@ -4424,6 +6255,12 @@ export const CRIONS: Crion[] = [
       description: "Um redemoinho que ergue tudo pelo caminho",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy ovelha creature, fluffy lamb made of small clouds, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Espiral de Ar\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a clear swirling burst around the torso, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico dos Sussurros scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_nuvezinho_3',
@@ -4435,6 +6272,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy ovelha creature, fluffy lamb made of small clouds, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Confuso\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a dense concentrated orb with radiating streaks, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico dos Sussurros scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_nuvezinho_4',
@@ -4445,11 +6288,18 @@ export const CRIONS: Crion[] = [
       description: "Um furacão que redesenha o campo de batalha",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy ovelha creature, fluffy lamb made of small clouds, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Ciclone Criador\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, an overwhelming explosion filling the whole frame, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico dos Sussurros scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Seu vento carrega todas as cores que ainda não têm nome.",
     habitat: "Pico dos Sussurros",
     imagePrompt: "cute fantasy ovelha creature, fluffy lamb made of small clouds, vento element, magical glow soft violet and lavender, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Ovelha Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -4474,6 +6324,12 @@ export const CRIONS: Crion[] = [
       description: "Um sopro rápido que pega o inimigo de surpresa",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy andorinha creature, swallow made of folded origami paper, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Rajada Leve\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a few small wisps close to the body, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Penhasco Ventoso scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_papelao_2',
@@ -4484,6 +6340,12 @@ export const CRIONS: Crion[] = [
       description: "Um redemoinho que ergue tudo pelo caminho",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy andorinha creature, swallow made of folded origami paper, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Espiral de Ar\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a clear swirling burst around the torso, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Penhasco Ventoso scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_papelao_3',
@@ -4495,6 +6357,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy andorinha creature, swallow made of folded origami paper, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Confuso\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a dense concentrated orb with radiating streaks, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Penhasco Ventoso scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_papelao_4',
@@ -4505,11 +6373,18 @@ export const CRIONS: Crion[] = [
       description: "Um furacão que redesenha o campo de batalha",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy andorinha creature, swallow made of folded origami paper, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Ciclone Criador\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, an overwhelming explosion filling the whole frame, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Penhasco Ventoso scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce do primeiro rabisco que vira desenho de verdade.",
     habitat: "Penhasco Ventoso",
     imagePrompt: "cute fantasy andorinha creature, swallow made of folded origami paper, vento element, magical glow soft violet and lavender, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Andorinha Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -4534,6 +6409,12 @@ export const CRIONS: Crion[] = [
       description: "Um sopro rápido que pega o inimigo de surpresa",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy gato-voador creature, cat spinning inside a gentle whirlwind, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Rajada Leve\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a few small wisps close to the body, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ateliê nas Nuvens scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_piruetta_2',
@@ -4544,6 +6425,12 @@ export const CRIONS: Crion[] = [
       description: "Um redemoinho que ergue tudo pelo caminho",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy gato-voador creature, cat spinning inside a gentle whirlwind, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Espiral de Ar\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a clear swirling burst around the torso, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ateliê nas Nuvens scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_piruetta_3',
@@ -4555,6 +6442,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy gato-voador creature, cat spinning inside a gentle whirlwind, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Confuso\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a dense concentrated orb with radiating streaks, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ateliê nas Nuvens scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_piruetta_4',
@@ -4565,11 +6458,18 @@ export const CRIONS: Crion[] = [
       description: "Um furacão que redesenha o campo de batalha",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy gato-voador creature, cat spinning inside a gentle whirlwind, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Ciclone Criador\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, an overwhelming explosion filling the whole frame, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ateliê nas Nuvens scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Muda de cor conforme a imaginação de quem o criou.",
     habitat: "Ateliê nas Nuvens",
     imagePrompt: "cute fantasy gato-voador creature, cat spinning inside a gentle whirlwind, vento element, magical glow soft violet and lavender, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Gato-voador Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -4594,6 +6494,12 @@ export const CRIONS: Crion[] = [
       description: "Um sopro rápido que pega o inimigo de surpresa",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy papagaio creature, parrot with watercolor-splash feathers, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Rajada Leve\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a few small wisps close to the body, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo Aberto scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_aquarel_2',
@@ -4604,6 +6510,12 @@ export const CRIONS: Crion[] = [
       description: "Um redemoinho que ergue tudo pelo caminho",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy papagaio creature, parrot with watercolor-splash feathers, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Espiral de Ar\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a clear swirling burst around the torso, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo Aberto scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_aquarel_3',
@@ -4615,6 +6527,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy papagaio creature, parrot with watercolor-splash feathers, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Confuso\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a dense concentrated orb with radiating streaks, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo Aberto scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_aquarel_4',
@@ -4625,11 +6543,18 @@ export const CRIONS: Crion[] = [
       description: "Um furacão que redesenha o campo de batalha",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy papagaio creature, parrot with watercolor-splash feathers, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Ciclone Criador\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, an overwhelming explosion filling the whole frame, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo Aberto scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nunca pinta a mesma coisa duas vezes.",
     habitat: "Campo Aberto",
     imagePrompt: "cute fantasy papagaio creature, parrot with watercolor-splash feathers, vento element, magical glow soft violet and lavender, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Papagaio Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -4654,6 +6579,12 @@ export const CRIONS: Crion[] = [
       description: "Um sopro rápido que pega o inimigo de surpresa",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy falcão creature, falcon riding a permanent updraft, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Rajada Leve\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a few small wisps close to the body, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico dos Sussurros scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_rajador_2',
@@ -4664,6 +6595,12 @@ export const CRIONS: Crion[] = [
       description: "Um redemoinho que ergue tudo pelo caminho",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy falcão creature, falcon riding a permanent updraft, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Espiral de Ar\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a clear swirling burst around the torso, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico dos Sussurros scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_rajador_3',
@@ -4675,6 +6612,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy falcão creature, falcon riding a permanent updraft, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Confuso\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a dense concentrated orb with radiating streaks, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico dos Sussurros scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_rajador_4',
@@ -4685,11 +6628,18 @@ export const CRIONS: Crion[] = [
       description: "Um furacão que redesenha o campo de batalha",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy falcão creature, falcon riding a permanent updraft, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Ciclone Criador\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, an overwhelming explosion filling the whole frame, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico dos Sussurros scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Seu vento carrega todas as cores que ainda não têm nome.",
     habitat: "Pico dos Sussurros",
     imagePrompt: "cute fantasy falcão creature, falcon riding a permanent updraft, vento element, magical glow soft violet and lavender, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Falcão Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -4714,6 +6664,12 @@ export const CRIONS: Crion[] = [
       description: "Um sopro rápido que pega o inimigo de surpresa",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy lobo creature, wolf made of swirling wind currents, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Rajada Leve\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a few small wisps close to the body, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Penhasco Ventoso scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_vendaval_2',
@@ -4724,6 +6680,12 @@ export const CRIONS: Crion[] = [
       description: "Um redemoinho que ergue tudo pelo caminho",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy lobo creature, wolf made of swirling wind currents, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Espiral de Ar\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a clear swirling burst around the torso, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Penhasco Ventoso scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_vendaval_3',
@@ -4735,6 +6697,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy lobo creature, wolf made of swirling wind currents, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Confuso\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a dense concentrated orb with radiating streaks, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Penhasco Ventoso scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_vendaval_4',
@@ -4745,11 +6713,18 @@ export const CRIONS: Crion[] = [
       description: "Um furacão que redesenha o campo de batalha",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy lobo creature, wolf made of swirling wind currents, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Ciclone Criador\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, an overwhelming explosion filling the whole frame, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Penhasco Ventoso scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce do primeiro rabisco que vira desenho de verdade.",
     habitat: "Penhasco Ventoso",
     imagePrompt: "cute fantasy lobo creature, wolf made of swirling wind currents, vento element, magical glow soft violet and lavender, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Lobo Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -4774,6 +6749,12 @@ export const CRIONS: Crion[] = [
       description: "Um sopro rápido que pega o inimigo de surpresa",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy pavão creature, peacock whose tail paints the air, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Rajada Leve\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a few small wisps close to the body, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ateliê nas Nuvens scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_pincelis_2',
@@ -4784,6 +6765,12 @@ export const CRIONS: Crion[] = [
       description: "Um redemoinho que ergue tudo pelo caminho",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy pavão creature, peacock whose tail paints the air, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Espiral de Ar\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a clear swirling burst around the torso, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ateliê nas Nuvens scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_pincelis_3',
@@ -4795,6 +6782,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy pavão creature, peacock whose tail paints the air, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Confuso\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a dense concentrated orb with radiating streaks, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ateliê nas Nuvens scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_pincelis_4',
@@ -4805,11 +6798,18 @@ export const CRIONS: Crion[] = [
       description: "Um furacão que redesenha o campo de batalha",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy pavão creature, peacock whose tail paints the air, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Ciclone Criador\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, an overwhelming explosion filling the whole frame, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ateliê nas Nuvens scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Muda de cor conforme a imaginação de quem o criou.",
     habitat: "Ateliê nas Nuvens",
     imagePrompt: "cute fantasy pavão creature, peacock whose tail paints the air, vento element, magical glow soft violet and lavender, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Pavão Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -4834,6 +6834,12 @@ export const CRIONS: Crion[] = [
       description: "Um sopro rápido que pega o inimigo de surpresa",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy águia creature, eagle at the eye of a small tornado, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Rajada Leve\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a few small wisps close to the body, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo Aberto scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_tornador_2',
@@ -4844,6 +6850,12 @@ export const CRIONS: Crion[] = [
       description: "Um redemoinho que ergue tudo pelo caminho",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy águia creature, eagle at the eye of a small tornado, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Espiral de Ar\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a clear swirling burst around the torso, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo Aberto scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_tornador_3',
@@ -4855,6 +6867,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy águia creature, eagle at the eye of a small tornado, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Confuso\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a dense concentrated orb with radiating streaks, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo Aberto scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_tornador_4',
@@ -4865,11 +6883,18 @@ export const CRIONS: Crion[] = [
       description: "Um furacão que redesenha o campo de batalha",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy águia creature, eagle at the eye of a small tornado, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Ciclone Criador\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, an overwhelming explosion filling the whole frame, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo Aberto scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nunca pinta a mesma coisa duas vezes.",
     habitat: "Campo Aberto",
     imagePrompt: "cute fantasy águia creature, eagle at the eye of a small tornado, vento element, magical glow soft violet and lavender, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Águia Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -4894,6 +6919,12 @@ export const CRIONS: Crion[] = [
       description: "Um sopro rápido que pega o inimigo de surpresa",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy cavalo-alado creature, winged horse leaving rainbow brushstrokes, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Rajada Leve\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a few small wisps close to the body, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico dos Sussurros scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_ceuartis_2',
@@ -4904,6 +6935,12 @@ export const CRIONS: Crion[] = [
       description: "Um redemoinho que ergue tudo pelo caminho",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy cavalo-alado creature, winged horse leaving rainbow brushstrokes, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Espiral de Ar\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a clear swirling burst around the torso, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico dos Sussurros scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_ceuartis_3',
@@ -4915,6 +6952,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy cavalo-alado creature, winged horse leaving rainbow brushstrokes, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Confuso\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a dense concentrated orb with radiating streaks, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico dos Sussurros scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_ceuartis_4',
@@ -4925,11 +6968,18 @@ export const CRIONS: Crion[] = [
       description: "Um furacão que redesenha o campo de batalha",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy cavalo-alado creature, winged horse leaving rainbow brushstrokes, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Ciclone Criador\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, an overwhelming explosion filling the whole frame, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico dos Sussurros scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Seu vento carrega todas as cores que ainda não têm nome.",
     habitat: "Pico dos Sussurros",
     imagePrompt: "cute fantasy cavalo-alado creature, winged horse leaving rainbow brushstrokes, vento element, magical glow soft violet and lavender, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Cavalo-alado Ancestral",
     unlockCondition: { type: 'XP_TOTAL', xp: 150 },
   },
   {
@@ -4954,6 +7004,12 @@ export const CRIONS: Crion[] = [
       description: "Um sopro rápido que pega o inimigo de surpresa",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy grifo creature, griffin commanding a spiraling storm, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Rajada Leve\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a few small wisps close to the body, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Penhasco Ventoso scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_ciclonis_2',
@@ -4964,6 +7020,12 @@ export const CRIONS: Crion[] = [
       description: "Um redemoinho que ergue tudo pelo caminho",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy grifo creature, griffin commanding a spiraling storm, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Espiral de Ar\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a clear swirling burst around the torso, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Penhasco Ventoso scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_ciclonis_3',
@@ -4975,6 +7037,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy grifo creature, griffin commanding a spiraling storm, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Confuso\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a dense concentrated orb with radiating streaks, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Penhasco Ventoso scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_ciclonis_4',
@@ -4985,11 +7053,18 @@ export const CRIONS: Crion[] = [
       description: "Um furacão que redesenha o campo de batalha",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy grifo creature, griffin commanding a spiraling storm, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Ciclone Criador\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, an overwhelming explosion filling the whole frame, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Penhasco Ventoso scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce do primeiro rabisco que vira desenho de verdade.",
     habitat: "Penhasco Ventoso",
     imagePrompt: "cute fantasy grifo creature, griffin commanding a spiraling storm, vento element, magical glow soft violet and lavender, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Grifo Ancestral",
     unlockCondition: { type: 'XP_TOTAL', xp: 150 },
   },
   {
@@ -5014,6 +7089,12 @@ export const CRIONS: Crion[] = [
       description: "Um sopro rápido que pega o inimigo de surpresa",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy fênix-do-vento creature, legendary wind phoenix woven from aurora and air, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Rajada Leve\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a few small wisps close to the body, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ateliê nas Nuvens scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_zephiron_2',
@@ -5024,6 +7105,12 @@ export const CRIONS: Crion[] = [
       description: "Um redemoinho que ergue tudo pelo caminho",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy fênix-do-vento creature, legendary wind phoenix woven from aurora and air, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Espiral de Ar\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a clear swirling burst around the torso, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ateliê nas Nuvens scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_zephiron_3',
@@ -5035,6 +7122,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'CONFUSE',
+      art: {
+        creature: "cute fantasy fênix-do-vento creature, legendary wind phoenix woven from aurora and air, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Sopro Confuso\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, a dense concentrated orb with radiating streaks, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ateliê nas Nuvens scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_zephiron_4',
@@ -5045,11 +7138,18 @@ export const CRIONS: Crion[] = [
       description: "Um furacão que redesenha o campo de batalha",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy fênix-do-vento creature, legendary wind phoenix woven from aurora and air, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Ciclone Criador\", vento element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "vento element magical effect only, an overwhelming explosion filling the whole frame, glowing soft violet and lavender, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ateliê nas Nuvens scenery, vento themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract vento energy border, glowing soft violet and lavender light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Muda de cor conforme a imaginação de quem o criou.",
     habitat: "Ateliê nas Nuvens",
     imagePrompt: "cute fantasy fênix-do-vento creature, legendary wind phoenix woven from aurora and air, vento element, magical glow soft violet and lavender, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Fênix-do-Vento de Elite",
     unlockCondition: { type: 'XP_TOTAL', xp: 250 },
   },
   {
@@ -5074,6 +7174,12 @@ export const CRIONS: Crion[] = [
       description: "Uma nota musical que estala no ar",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy vaga-lume creature, firefly blinking in musical rhythm, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Nota Faiscante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a few small wisps close to the body, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ilha dos Sons scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_faiscoto_2',
@@ -5084,6 +7190,12 @@ export const CRIONS: Crion[] = [
       description: "Três notas que explodem juntas",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy vaga-lume creature, firefly blinking in musical rhythm, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Acorde Trovejante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a clear swirling burst around the torso, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ilha dos Sons scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_faiscoto_3',
@@ -5095,6 +7207,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy vaga-lume creature, firefly blinking in musical rhythm, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Choque Ritmado\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a dense concentrated orb with radiating streaks, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ilha dos Sons scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_faiscoto_4',
@@ -5105,11 +7223,18 @@ export const CRIONS: Crion[] = [
       description: "Uma orquestra inteira de raios",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy vaga-lume creature, firefly blinking in musical rhythm, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Sinfonia Elétrica\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, an overwhelming explosion filling the whole frame, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ilha dos Sons scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce quando uma criança acerta o ritmo pela primeira vez.",
     habitat: "Ilha dos Sons",
     imagePrompt: "cute fantasy vaga-lume creature, firefly blinking in musical rhythm, elétrico element, magical glow bright yellow and gold, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Vaga-lume Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -5134,6 +7259,12 @@ export const CRIONS: Crion[] = [
       description: "Uma nota musical que estala no ar",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy grilo creature, cricket with tuning-fork antennae, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Nota Faiscante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a few small wisps close to the body, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Raios scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_notinha_2',
@@ -5144,6 +7275,12 @@ export const CRIONS: Crion[] = [
       description: "Três notas que explodem juntas",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy grilo creature, cricket with tuning-fork antennae, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Acorde Trovejante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a clear swirling burst around the torso, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Raios scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_notinha_3',
@@ -5155,6 +7292,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy grilo creature, cricket with tuning-fork antennae, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Choque Ritmado\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a dense concentrated orb with radiating streaks, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Raios scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_notinha_4',
@@ -5165,11 +7308,18 @@ export const CRIONS: Crion[] = [
       description: "Uma orquestra inteira de raios",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy grilo creature, cricket with tuning-fork antennae, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Sinfonia Elétrica\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, an overwhelming explosion filling the whole frame, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Raios scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Vibra junto com qualquer música que escuta.",
     habitat: "Campo de Raios",
     imagePrompt: "cute fantasy grilo creature, cricket with tuning-fork antennae, elétrico element, magical glow bright yellow and gold, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Grilo Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -5194,6 +7344,12 @@ export const CRIONS: Crion[] = [
       description: "Uma nota musical que estala no ar",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy abelha creature, bee humming with electric yellow stripes, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Nota Faiscante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a few small wisps close to the body, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Anfiteatro Elétrico scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_zumbido_2',
@@ -5204,6 +7360,12 @@ export const CRIONS: Crion[] = [
       description: "Três notas que explodem juntas",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy abelha creature, bee humming with electric yellow stripes, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Acorde Trovejante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a clear swirling burst around the torso, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Anfiteatro Elétrico scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_zumbido_3',
@@ -5215,6 +7377,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy abelha creature, bee humming with electric yellow stripes, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Choque Ritmado\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a dense concentrated orb with radiating streaks, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Anfiteatro Elétrico scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_zumbido_4',
@@ -5225,11 +7393,18 @@ export const CRIONS: Crion[] = [
       description: "Uma orquestra inteira de raios",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy abelha creature, bee humming with electric yellow stripes, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Sinfonia Elétrica\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, an overwhelming explosion filling the whole frame, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Anfiteatro Elétrico scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Seu coração bate no compasso da canção favorita da criança.",
     habitat: "Anfiteatro Elétrico",
     imagePrompt: "cute fantasy abelha creature, bee humming with electric yellow stripes, elétrico element, magical glow bright yellow and gold, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Abelha Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -5254,6 +7429,12 @@ export const CRIONS: Crion[] = [
       description: "Uma nota musical que estala no ar",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy sapo-cantor creature, singing frog with piano-key back, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Nota Faiscante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a few small wisps close to the body, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Nuvem Cantante scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_tecladin_2',
@@ -5264,6 +7445,12 @@ export const CRIONS: Crion[] = [
       description: "Três notas que explodem juntas",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy sapo-cantor creature, singing frog with piano-key back, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Acorde Trovejante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a clear swirling burst around the torso, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Nuvem Cantante scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_tecladin_3',
@@ -5275,6 +7462,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy sapo-cantor creature, singing frog with piano-key back, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Choque Ritmado\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a dense concentrated orb with radiating streaks, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Nuvem Cantante scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_tecladin_4',
@@ -5285,11 +7478,18 @@ export const CRIONS: Crion[] = [
       description: "Uma orquestra inteira de raios",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy sapo-cantor creature, singing frog with piano-key back, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Sinfonia Elétrica\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, an overwhelming explosion filling the whole frame, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Nuvem Cantante scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Guarda todas as melodias que já fizeram alguém sorrir.",
     habitat: "Nuvem Cantante",
     imagePrompt: "cute fantasy sapo-cantor creature, singing frog with piano-key back, elétrico element, magical glow bright yellow and gold, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Sapo-cantor Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -5314,6 +7514,12 @@ export const CRIONS: Crion[] = [
       description: "Uma nota musical que estala no ar",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy coelho creature, rabbit with drumstick ears and beat-pulse fur, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Nota Faiscante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a few small wisps close to the body, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ilha dos Sons scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_ritmato_2',
@@ -5324,6 +7530,12 @@ export const CRIONS: Crion[] = [
       description: "Três notas que explodem juntas",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy coelho creature, rabbit with drumstick ears and beat-pulse fur, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Acorde Trovejante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a clear swirling burst around the torso, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ilha dos Sons scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_ritmato_3',
@@ -5335,6 +7547,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy coelho creature, rabbit with drumstick ears and beat-pulse fur, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Choque Ritmado\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a dense concentrated orb with radiating streaks, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ilha dos Sons scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_ritmato_4',
@@ -5345,11 +7563,18 @@ export const CRIONS: Crion[] = [
       description: "Uma orquestra inteira de raios",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy coelho creature, rabbit with drumstick ears and beat-pulse fur, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Sinfonia Elétrica\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, an overwhelming explosion filling the whole frame, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ilha dos Sons scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce quando uma criança acerta o ritmo pela primeira vez.",
     habitat: "Ilha dos Sons",
     imagePrompt: "cute fantasy coelho creature, rabbit with drumstick ears and beat-pulse fur, elétrico element, magical glow bright yellow and gold, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Coelho Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -5374,6 +7599,12 @@ export const CRIONS: Crion[] = [
       description: "Uma nota musical que estala no ar",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy raposa creature, fox with speaker-cone ears, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Nota Faiscante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a few small wisps close to the body, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Raios scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_amplifox_2',
@@ -5384,6 +7615,12 @@ export const CRIONS: Crion[] = [
       description: "Três notas que explodem juntas",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy raposa creature, fox with speaker-cone ears, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Acorde Trovejante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a clear swirling burst around the torso, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Raios scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_amplifox_3',
@@ -5395,6 +7632,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy raposa creature, fox with speaker-cone ears, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Choque Ritmado\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a dense concentrated orb with radiating streaks, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Raios scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_amplifox_4',
@@ -5405,11 +7648,18 @@ export const CRIONS: Crion[] = [
       description: "Uma orquestra inteira de raios",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy raposa creature, fox with speaker-cone ears, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Sinfonia Elétrica\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, an overwhelming explosion filling the whole frame, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Raios scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Vibra junto com qualquer música que escuta.",
     habitat: "Campo de Raios",
     imagePrompt: "cute fantasy raposa creature, fox with speaker-cone ears, elétrico element, magical glow bright yellow and gold, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Raposa Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -5434,6 +7684,12 @@ export const CRIONS: Crion[] = [
       description: "Uma nota musical que estala no ar",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy ouriço creature, hedgehog with lightning-bolt quills, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Nota Faiscante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a few small wisps close to the body, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Anfiteatro Elétrico scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_choquito_2',
@@ -5444,6 +7700,12 @@ export const CRIONS: Crion[] = [
       description: "Três notas que explodem juntas",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy ouriço creature, hedgehog with lightning-bolt quills, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Acorde Trovejante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a clear swirling burst around the torso, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Anfiteatro Elétrico scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_choquito_3',
@@ -5455,6 +7717,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy ouriço creature, hedgehog with lightning-bolt quills, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Choque Ritmado\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a dense concentrated orb with radiating streaks, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Anfiteatro Elétrico scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_choquito_4',
@@ -5465,11 +7733,18 @@ export const CRIONS: Crion[] = [
       description: "Uma orquestra inteira de raios",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy ouriço creature, hedgehog with lightning-bolt quills, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Sinfonia Elétrica\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, an overwhelming explosion filling the whole frame, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Anfiteatro Elétrico scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Seu coração bate no compasso da canção favorita da criança.",
     habitat: "Anfiteatro Elétrico",
     imagePrompt: "cute fantasy ouriço creature, hedgehog with lightning-bolt quills, elétrico element, magical glow bright yellow and gold, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Ouriço Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -5494,6 +7769,12 @@ export const CRIONS: Crion[] = [
       description: "Uma nota musical que estala no ar",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy rouxinol creature, nightingale singing visible golden notes, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Nota Faiscante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a few small wisps close to the body, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Nuvem Cantante scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_melodin_2',
@@ -5504,6 +7785,12 @@ export const CRIONS: Crion[] = [
       description: "Três notas que explodem juntas",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy rouxinol creature, nightingale singing visible golden notes, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Acorde Trovejante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a clear swirling burst around the torso, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Nuvem Cantante scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_melodin_3',
@@ -5515,6 +7802,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy rouxinol creature, nightingale singing visible golden notes, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Choque Ritmado\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a dense concentrated orb with radiating streaks, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Nuvem Cantante scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_melodin_4',
@@ -5525,11 +7818,18 @@ export const CRIONS: Crion[] = [
       description: "Uma orquestra inteira de raios",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy rouxinol creature, nightingale singing visible golden notes, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Sinfonia Elétrica\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, an overwhelming explosion filling the whole frame, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Nuvem Cantante scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Guarda todas as melodias que já fizeram alguém sorrir.",
     habitat: "Nuvem Cantante",
     imagePrompt: "cute fantasy rouxinol creature, nightingale singing visible golden notes, elétrico element, magical glow bright yellow and gold, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Rouxinol Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -5554,6 +7854,12 @@ export const CRIONS: Crion[] = [
       description: "Uma nota musical que estala no ar",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy guaxinim creature, raccoon crackling with static electricity, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Nota Faiscante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a few small wisps close to the body, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ilha dos Sons scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_voltagem_2',
@@ -5564,6 +7870,12 @@ export const CRIONS: Crion[] = [
       description: "Três notas que explodem juntas",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy guaxinim creature, raccoon crackling with static electricity, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Acorde Trovejante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a clear swirling burst around the torso, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ilha dos Sons scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_voltagem_3',
@@ -5575,6 +7887,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy guaxinim creature, raccoon crackling with static electricity, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Choque Ritmado\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a dense concentrated orb with radiating streaks, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ilha dos Sons scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_voltagem_4',
@@ -5585,11 +7903,18 @@ export const CRIONS: Crion[] = [
       description: "Uma orquestra inteira de raios",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy guaxinim creature, raccoon crackling with static electricity, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Sinfonia Elétrica\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, an overwhelming explosion filling the whole frame, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ilha dos Sons scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce quando uma criança acerta o ritmo pela primeira vez.",
     habitat: "Ilha dos Sons",
     imagePrompt: "cute fantasy guaxinim creature, raccoon crackling with static electricity, elétrico element, magical glow bright yellow and gold, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Guaxinim Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -5614,6 +7939,12 @@ export const CRIONS: Crion[] = [
       description: "Uma nota musical que estala no ar",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy lobo creature, wolf whose howl summons thunder, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Nota Faiscante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a few small wisps close to the body, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Raios scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_trovador_2',
@@ -5624,6 +7955,12 @@ export const CRIONS: Crion[] = [
       description: "Três notas que explodem juntas",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy lobo creature, wolf whose howl summons thunder, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Acorde Trovejante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a clear swirling burst around the torso, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Raios scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_trovador_3',
@@ -5635,6 +7972,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy lobo creature, wolf whose howl summons thunder, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Choque Ritmado\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a dense concentrated orb with radiating streaks, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Raios scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_trovador_4',
@@ -5645,11 +7988,18 @@ export const CRIONS: Crion[] = [
       description: "Uma orquestra inteira de raios",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy lobo creature, wolf whose howl summons thunder, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Sinfonia Elétrica\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, an overwhelming explosion filling the whole frame, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Raios scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Vibra junto com qualquer música que escuta.",
     habitat: "Campo de Raios",
     imagePrompt: "cute fantasy lobo creature, wolf whose howl summons thunder, elétrico element, magical glow bright yellow and gold, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Lobo Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -5674,6 +8024,12 @@ export const CRIONS: Crion[] = [
       description: "Uma nota musical que estala no ar",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy cavalo creature, horse galloping on lightning, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Nota Faiscante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a few small wisps close to the body, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Anfiteatro Elétrico scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_sinfonix_2',
@@ -5684,6 +8040,12 @@ export const CRIONS: Crion[] = [
       description: "Três notas que explodem juntas",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy cavalo creature, horse galloping on lightning, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Acorde Trovejante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a clear swirling burst around the torso, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Anfiteatro Elétrico scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_sinfonix_3',
@@ -5695,6 +8057,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy cavalo creature, horse galloping on lightning, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Choque Ritmado\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a dense concentrated orb with radiating streaks, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Anfiteatro Elétrico scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_sinfonix_4',
@@ -5705,11 +8073,18 @@ export const CRIONS: Crion[] = [
       description: "Uma orquestra inteira de raios",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy cavalo creature, horse galloping on lightning, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Sinfonia Elétrica\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, an overwhelming explosion filling the whole frame, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Anfiteatro Elétrico scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Seu coração bate no compasso da canção favorita da criança.",
     habitat: "Anfiteatro Elétrico",
     imagePrompt: "cute fantasy cavalo creature, horse galloping on lightning, elétrico element, magical glow bright yellow and gold, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Cavalo Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -5734,6 +8109,12 @@ export const CRIONS: Crion[] = [
       description: "Uma nota musical que estala no ar",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy águia creature, eagle wreathed in storm arcs, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Nota Faiscante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a few small wisps close to the body, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Nuvem Cantante scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_tempesto_2',
@@ -5744,6 +8125,12 @@ export const CRIONS: Crion[] = [
       description: "Três notas que explodem juntas",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy águia creature, eagle wreathed in storm arcs, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Acorde Trovejante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a clear swirling burst around the torso, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Nuvem Cantante scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_tempesto_3',
@@ -5755,6 +8142,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy águia creature, eagle wreathed in storm arcs, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Choque Ritmado\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a dense concentrated orb with radiating streaks, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Nuvem Cantante scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_tempesto_4',
@@ -5765,11 +8158,18 @@ export const CRIONS: Crion[] = [
       description: "Uma orquestra inteira de raios",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy águia creature, eagle wreathed in storm arcs, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Sinfonia Elétrica\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, an overwhelming explosion filling the whole frame, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Nuvem Cantante scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Guarda todas as melodias que já fizeram alguém sorrir.",
     habitat: "Nuvem Cantante",
     imagePrompt: "cute fantasy águia creature, eagle wreathed in storm arcs, elétrico element, magical glow bright yellow and gold, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Águia Ancestral",
     unlockCondition: { type: 'XP_TOTAL', xp: 150 },
   },
   {
@@ -5794,6 +8194,12 @@ export const CRIONS: Crion[] = [
       description: "Uma nota musical que estala no ar",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy leão creature, lion conducting an orchestra of lightning, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Nota Faiscante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a few small wisps close to the body, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ilha dos Sons scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_maestron_2',
@@ -5804,6 +8210,12 @@ export const CRIONS: Crion[] = [
       description: "Três notas que explodem juntas",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy leão creature, lion conducting an orchestra of lightning, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Acorde Trovejante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a clear swirling burst around the torso, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ilha dos Sons scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_maestron_3',
@@ -5815,6 +8227,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy leão creature, lion conducting an orchestra of lightning, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Choque Ritmado\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a dense concentrated orb with radiating streaks, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ilha dos Sons scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_maestron_4',
@@ -5825,11 +8243,18 @@ export const CRIONS: Crion[] = [
       description: "Uma orquestra inteira de raios",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy leão creature, lion conducting an orchestra of lightning, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Sinfonia Elétrica\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, an overwhelming explosion filling the whole frame, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Ilha dos Sons scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce quando uma criança acerta o ritmo pela primeira vez.",
     habitat: "Ilha dos Sons",
     imagePrompt: "cute fantasy leão creature, lion conducting an orchestra of lightning, elétrico element, magical glow bright yellow and gold, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Leão Ancestral",
     unlockCondition: { type: 'XP_TOTAL', xp: 150 },
   },
   {
@@ -5854,6 +8279,12 @@ export const CRIONS: Crion[] = [
       description: "Uma nota musical que estala no ar",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy dragão-trovão creature, legendary thunder dragon crowned with golden sound waves, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Nota Faiscante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a few small wisps close to the body, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Raios scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_fulguron_2',
@@ -5864,6 +8295,12 @@ export const CRIONS: Crion[] = [
       description: "Três notas que explodem juntas",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy dragão-trovão creature, legendary thunder dragon crowned with golden sound waves, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Acorde Trovejante\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a clear swirling burst around the torso, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Raios scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_fulguron_3',
@@ -5875,6 +8312,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'PARALYZE',
+      art: {
+        creature: "cute fantasy dragão-trovão creature, legendary thunder dragon crowned with golden sound waves, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Choque Ritmado\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, a dense concentrated orb with radiating streaks, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Raios scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_fulguron_4',
@@ -5885,11 +8328,18 @@ export const CRIONS: Crion[] = [
       description: "Uma orquestra inteira de raios",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy dragão-trovão creature, legendary thunder dragon crowned with golden sound waves, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Sinfonia Elétrica\", elétrico element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "elétrico element magical effect only, an overwhelming explosion filling the whole frame, glowing bright yellow and gold, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Campo de Raios scenery, elétrico themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract elétrico energy border, glowing bright yellow and gold light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Vibra junto com qualquer música que escuta.",
     habitat: "Campo de Raios",
     imagePrompt: "cute fantasy dragão-trovão creature, legendary thunder dragon crowned with golden sound waves, elétrico element, magical glow bright yellow and gold, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Dragão-Trovão de Elite",
     unlockCondition: { type: 'XP_TOTAL', xp: 250 },
   },
   {
@@ -5914,6 +8364,12 @@ export const CRIONS: Crion[] = [
       description: "Uma luz suave que aquece o coração",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy vaga-lume creature, glowing golden firefly with sparkle-trail wings, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Brilho Gentil\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a few small wisps close to the body, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim Encantado scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_lumfly_2',
@@ -5924,6 +8380,12 @@ export const CRIONS: Crion[] = [
       description: "Ilumina o caminho de quem está perdido",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy vaga-lume creature, glowing golden firefly with sparkle-trail wings, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Farol da Bondade\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a clear swirling burst around the torso, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim Encantado scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_lumfly_3',
@@ -5935,6 +8397,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'HEAL_SELF',
+      art: {
+        creature: "cute fantasy vaga-lume creature, glowing golden firefly with sparkle-trail wings, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Cura Radiante\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a dense concentrated orb with radiating streaks, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim Encantado scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_lumfly_4',
@@ -5945,11 +8413,18 @@ export const CRIONS: Crion[] = [
       description: "Uma explosão de luz pura que cega o inimigo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy vaga-lume creature, glowing golden firefly with sparkle-trail wings, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Aurora Sagrada\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, an overwhelming explosion filling the whole frame, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim Encantado scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce quando uma criança cumpre suas obrigações com alegria.",
     habitat: "Jardim Encantado",
     imagePrompt: "cute fantasy vaga-lume creature, glowing golden firefly with sparkle-trail wings, luz element, magical glow warm gold and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Vaga-lume Filhote",
     unlockCondition: { type: 'BEHAVIOR_APPROVED', days: 1 },
   },
   {
@@ -5974,6 +8449,12 @@ export const CRIONS: Crion[] = [
       description: "Uma luz suave que aquece o coração",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy peixe-lanterna creature, small lanternfish with a star-shaped light, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Brilho Gentil\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a few small wisps close to the body, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira das Estrelas scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_estrelim_2',
@@ -5984,6 +8465,12 @@ export const CRIONS: Crion[] = [
       description: "Ilumina o caminho de quem está perdido",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy peixe-lanterna creature, small lanternfish with a star-shaped light, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Farol da Bondade\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a clear swirling burst around the torso, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira das Estrelas scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_estrelim_3',
@@ -5995,6 +8482,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'HEAL_SELF',
+      art: {
+        creature: "cute fantasy peixe-lanterna creature, small lanternfish with a star-shaped light, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Cura Radiante\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a dense concentrated orb with radiating streaks, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira das Estrelas scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_estrelim_4',
@@ -6005,11 +8498,18 @@ export const CRIONS: Crion[] = [
       description: "Uma explosão de luz pura que cega o inimigo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy peixe-lanterna creature, small lanternfish with a star-shaped light, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Aurora Sagrada\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, an overwhelming explosion filling the whole frame, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira das Estrelas scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Seu brilho fica mais forte perto de quem ela ama.",
     habitat: "Clareira das Estrelas",
     imagePrompt: "cute fantasy peixe-lanterna creature, small lanternfish with a star-shaped light, luz element, magical glow warm gold and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Peixe-lanterna Filhote",
     unlockCondition: { type: 'BEHAVIOR_APPROVED', days: 1 },
   },
   {
@@ -6034,6 +8534,12 @@ export const CRIONS: Crion[] = [
       description: "Uma luz suave que aquece o coração",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy coelho-albino creature, white rabbit with a soft halo glow, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Brilho Gentil\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a few small wisps close to the body, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Templo da Aurora scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_alvinho_2',
@@ -6044,6 +8550,12 @@ export const CRIONS: Crion[] = [
       description: "Ilumina o caminho de quem está perdido",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy coelho-albino creature, white rabbit with a soft halo glow, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Farol da Bondade\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a clear swirling burst around the torso, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Templo da Aurora scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_alvinho_3',
@@ -6055,6 +8567,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'HEAL_SELF',
+      art: {
+        creature: "cute fantasy coelho-albino creature, white rabbit with a soft halo glow, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Cura Radiante\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a dense concentrated orb with radiating streaks, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Templo da Aurora scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_alvinho_4',
@@ -6065,11 +8583,18 @@ export const CRIONS: Crion[] = [
       description: "Uma explosão de luz pura que cega o inimigo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy coelho-albino creature, white rabbit with a soft halo glow, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Aurora Sagrada\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, an overwhelming explosion filling the whole frame, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Templo da Aurora scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Aparece só para quem faz o certo sem ninguém mandar.",
     habitat: "Templo da Aurora",
     imagePrompt: "cute fantasy coelho-albino creature, white rabbit with a soft halo glow, luz element, magical glow warm gold and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Coelho-albino Filhote",
     unlockCondition: { type: 'BEHAVIOR_APPROVED', days: 1 },
   },
   {
@@ -6094,6 +8619,12 @@ export const CRIONS: Crion[] = [
       description: "Uma luz suave que aquece o coração",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy rato-branco creature, little white mouse carrying a candle flame, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Brilho Gentil\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a few small wisps close to the body, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planície Celestial scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_velinha_2',
@@ -6104,6 +8635,12 @@ export const CRIONS: Crion[] = [
       description: "Ilumina o caminho de quem está perdido",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy rato-branco creature, little white mouse carrying a candle flame, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Farol da Bondade\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a clear swirling burst around the torso, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planície Celestial scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_velinha_3',
@@ -6115,6 +8652,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'HEAL_SELF',
+      art: {
+        creature: "cute fantasy rato-branco creature, little white mouse carrying a candle flame, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Cura Radiante\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a dense concentrated orb with radiating streaks, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planície Celestial scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_velinha_4',
@@ -6125,11 +8668,18 @@ export const CRIONS: Crion[] = [
       description: "Uma explosão de luz pura que cega o inimigo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy rato-branco creature, little white mouse carrying a candle flame, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Aurora Sagrada\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, an overwhelming explosion filling the whole frame, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planície Celestial scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Guarda a memória de cada pequeno gesto de gentileza.",
     habitat: "Planície Celestial",
     imagePrompt: "cute fantasy rato-branco creature, little white mouse carrying a candle flame, luz element, magical glow warm gold and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Rato-branco Filhote",
     unlockCondition: { type: 'BEHAVIOR_APPROVED', days: 1 },
   },
   {
@@ -6154,6 +8704,12 @@ export const CRIONS: Crion[] = [
       description: "Uma luz suave que aquece o coração",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy pomba creature, dove with feathers of soft dawn light, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Brilho Gentil\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a few small wisps close to the body, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim Encantado scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_pombella_2',
@@ -6164,6 +8720,12 @@ export const CRIONS: Crion[] = [
       description: "Ilumina o caminho de quem está perdido",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy pomba creature, dove with feathers of soft dawn light, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Farol da Bondade\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a clear swirling burst around the torso, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim Encantado scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_pombella_3',
@@ -6175,6 +8737,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'HEAL_SELF',
+      art: {
+        creature: "cute fantasy pomba creature, dove with feathers of soft dawn light, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Cura Radiante\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a dense concentrated orb with radiating streaks, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim Encantado scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_pombella_4',
@@ -6185,11 +8753,18 @@ export const CRIONS: Crion[] = [
       description: "Uma explosão de luz pura que cega o inimigo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy pomba creature, dove with feathers of soft dawn light, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Aurora Sagrada\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, an overwhelming explosion filling the whole frame, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim Encantado scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce quando uma criança cumpre suas obrigações com alegria.",
     habitat: "Jardim Encantado",
     imagePrompt: "cute fantasy pomba creature, dove with feathers of soft dawn light, luz element, magical glow warm gold and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Pomba Aprendiz",
     unlockCondition: { type: 'BEHAVIOR_APPROVED', days: 1 },
   },
   {
@@ -6214,6 +8789,12 @@ export const CRIONS: Crion[] = [
       description: "Uma luz suave que aquece o coração",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy gato-persa creature, persian cat with a glowing gentle aura, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Brilho Gentil\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a few small wisps close to the body, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira das Estrelas scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_purrluz_2',
@@ -6224,6 +8805,12 @@ export const CRIONS: Crion[] = [
       description: "Ilumina o caminho de quem está perdido",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy gato-persa creature, persian cat with a glowing gentle aura, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Farol da Bondade\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a clear swirling burst around the torso, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira das Estrelas scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_purrluz_3',
@@ -6235,6 +8822,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'HEAL_SELF',
+      art: {
+        creature: "cute fantasy gato-persa creature, persian cat with a glowing gentle aura, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Cura Radiante\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a dense concentrated orb with radiating streaks, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira das Estrelas scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_purrluz_4',
@@ -6245,11 +8838,18 @@ export const CRIONS: Crion[] = [
       description: "Uma explosão de luz pura que cega o inimigo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy gato-persa creature, persian cat with a glowing gentle aura, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Aurora Sagrada\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, an overwhelming explosion filling the whole frame, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira das Estrelas scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Seu brilho fica mais forte perto de quem ela ama.",
     habitat: "Clareira das Estrelas",
     imagePrompt: "cute fantasy gato-persa creature, persian cat with a glowing gentle aura, luz element, magical glow warm gold and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Gato-persa Aprendiz",
     unlockCondition: { type: 'BEHAVIOR_APPROVED', days: 1 },
   },
   {
@@ -6274,6 +8874,12 @@ export const CRIONS: Crion[] = [
       description: "Uma luz suave que aquece o coração",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy coruja-branca creature, white owl with moonlight-patterned feathers, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Brilho Gentil\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a few small wisps close to the body, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Templo da Aurora scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_corujel_2',
@@ -6284,6 +8890,12 @@ export const CRIONS: Crion[] = [
       description: "Ilumina o caminho de quem está perdido",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy coruja-branca creature, white owl with moonlight-patterned feathers, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Farol da Bondade\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a clear swirling burst around the torso, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Templo da Aurora scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_corujel_3',
@@ -6295,6 +8907,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'HEAL_SELF',
+      art: {
+        creature: "cute fantasy coruja-branca creature, white owl with moonlight-patterned feathers, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Cura Radiante\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a dense concentrated orb with radiating streaks, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Templo da Aurora scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_corujel_4',
@@ -6305,11 +8923,18 @@ export const CRIONS: Crion[] = [
       description: "Uma explosão de luz pura que cega o inimigo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy coruja-branca creature, white owl with moonlight-patterned feathers, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Aurora Sagrada\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, an overwhelming explosion filling the whole frame, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Templo da Aurora scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Aparece só para quem faz o certo sem ninguém mandar.",
     habitat: "Templo da Aurora",
     imagePrompt: "cute fantasy coruja-branca creature, white owl with moonlight-patterned feathers, luz element, magical glow warm gold and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Coruja-branca Aprendiz",
     unlockCondition: { type: 'BEHAVIOR_APPROVED', days: 1 },
   },
   {
@@ -6334,6 +8959,12 @@ export const CRIONS: Crion[] = [
       description: "Uma luz suave que aquece o coração",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy golfinho creature, dolphin trailing ribbons of starlight, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Brilho Gentil\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a few small wisps close to the body, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planície Celestial scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cintilo_2',
@@ -6344,6 +8975,12 @@ export const CRIONS: Crion[] = [
       description: "Ilumina o caminho de quem está perdido",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy golfinho creature, dolphin trailing ribbons of starlight, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Farol da Bondade\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a clear swirling burst around the torso, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planície Celestial scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cintilo_3',
@@ -6355,6 +8992,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'HEAL_SELF',
+      art: {
+        creature: "cute fantasy golfinho creature, dolphin trailing ribbons of starlight, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Cura Radiante\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a dense concentrated orb with radiating streaks, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planície Celestial scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cintilo_4',
@@ -6365,11 +9008,18 @@ export const CRIONS: Crion[] = [
       description: "Uma explosão de luz pura que cega o inimigo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy golfinho creature, dolphin trailing ribbons of starlight, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Aurora Sagrada\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, an overwhelming explosion filling the whole frame, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planície Celestial scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Guarda a memória de cada pequeno gesto de gentileza.",
     habitat: "Planície Celestial",
     imagePrompt: "cute fantasy golfinho creature, dolphin trailing ribbons of starlight, luz element, magical glow warm gold and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Golfinho Aprendiz",
     unlockCondition: { type: 'BEHAVIOR_APPROVED', days: 1 },
   },
   {
@@ -6394,6 +9044,12 @@ export const CRIONS: Crion[] = [
       description: "Uma luz suave que aquece o coração",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy raposa-branca creature, white fox with aurora-colored tail, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Brilho Gentil\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a few small wisps close to the body, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim Encantado scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_auroral_2',
@@ -6404,6 +9060,12 @@ export const CRIONS: Crion[] = [
       description: "Ilumina o caminho de quem está perdido",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy raposa-branca creature, white fox with aurora-colored tail, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Farol da Bondade\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a clear swirling burst around the torso, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim Encantado scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_auroral_3',
@@ -6415,6 +9077,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'HEAL_SELF',
+      art: {
+        creature: "cute fantasy raposa-branca creature, white fox with aurora-colored tail, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Cura Radiante\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a dense concentrated orb with radiating streaks, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim Encantado scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_auroral_4',
@@ -6425,11 +9093,18 @@ export const CRIONS: Crion[] = [
       description: "Uma explosão de luz pura que cega o inimigo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy raposa-branca creature, white fox with aurora-colored tail, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Aurora Sagrada\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, an overwhelming explosion filling the whole frame, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim Encantado scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce quando uma criança cumpre suas obrigações com alegria.",
     habitat: "Jardim Encantado",
     imagePrompt: "cute fantasy raposa-branca creature, white fox with aurora-colored tail, luz element, magical glow warm gold and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Raposa-branca Guardião",
     unlockCondition: { type: 'BEHAVIOR_STREAK', days: 7 },
   },
   {
@@ -6454,6 +9129,12 @@ export const CRIONS: Crion[] = [
       description: "Uma luz suave que aquece o coração",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy cervo-branco creature, white deer with softly glowing antlers, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Brilho Gentil\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a few small wisps close to the body, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira das Estrelas scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_benevolt_2',
@@ -6464,6 +9145,12 @@ export const CRIONS: Crion[] = [
       description: "Ilumina o caminho de quem está perdido",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy cervo-branco creature, white deer with softly glowing antlers, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Farol da Bondade\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a clear swirling burst around the torso, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira das Estrelas scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_benevolt_3',
@@ -6475,6 +9162,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'HEAL_SELF',
+      art: {
+        creature: "cute fantasy cervo-branco creature, white deer with softly glowing antlers, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Cura Radiante\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a dense concentrated orb with radiating streaks, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira das Estrelas scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_benevolt_4',
@@ -6485,11 +9178,18 @@ export const CRIONS: Crion[] = [
       description: "Uma explosão de luz pura que cega o inimigo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy cervo-branco creature, white deer with softly glowing antlers, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Aurora Sagrada\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, an overwhelming explosion filling the whole frame, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira das Estrelas scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Seu brilho fica mais forte perto de quem ela ama.",
     habitat: "Clareira das Estrelas",
     imagePrompt: "cute fantasy cervo-branco creature, white deer with softly glowing antlers, luz element, magical glow warm gold and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Cervo-branco Guardião",
     unlockCondition: { type: 'BEHAVIOR_STREAK', days: 7 },
   },
   {
@@ -6514,6 +9214,12 @@ export const CRIONS: Crion[] = [
       description: "Uma luz suave que aquece o coração",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy cisne creature, swan with radiant feathered wings, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Brilho Gentil\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a few small wisps close to the body, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Templo da Aurora scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_serafina_2',
@@ -6524,6 +9230,12 @@ export const CRIONS: Crion[] = [
       description: "Ilumina o caminho de quem está perdido",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy cisne creature, swan with radiant feathered wings, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Farol da Bondade\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a clear swirling burst around the torso, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Templo da Aurora scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_serafina_3',
@@ -6535,6 +9247,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'HEAL_SELF',
+      art: {
+        creature: "cute fantasy cisne creature, swan with radiant feathered wings, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Cura Radiante\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a dense concentrated orb with radiating streaks, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Templo da Aurora scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_serafina_4',
@@ -6545,11 +9263,18 @@ export const CRIONS: Crion[] = [
       description: "Uma explosão de luz pura que cega o inimigo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy cisne creature, swan with radiant feathered wings, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Aurora Sagrada\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, an overwhelming explosion filling the whole frame, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Templo da Aurora scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Aparece só para quem faz o certo sem ninguém mandar.",
     habitat: "Templo da Aurora",
     imagePrompt: "cute fantasy cisne creature, swan with radiant feathered wings, luz element, magical glow warm gold and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Cisne Guardião",
     unlockCondition: { type: 'BEHAVIOR_STREAK', days: 7 },
   },
   {
@@ -6574,6 +9299,12 @@ export const CRIONS: Crion[] = [
       description: "Uma luz suave que aquece o coração",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy leão-branco creature, white lion with a mane of pure light, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Brilho Gentil\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a few small wisps close to the body, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planície Celestial scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_guardiel_2',
@@ -6584,6 +9315,12 @@ export const CRIONS: Crion[] = [
       description: "Ilumina o caminho de quem está perdido",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy leão-branco creature, white lion with a mane of pure light, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Farol da Bondade\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a clear swirling burst around the torso, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planície Celestial scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_guardiel_3',
@@ -6595,6 +9332,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'HEAL_SELF',
+      art: {
+        creature: "cute fantasy leão-branco creature, white lion with a mane of pure light, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Cura Radiante\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a dense concentrated orb with radiating streaks, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planície Celestial scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_guardiel_4',
@@ -6605,11 +9348,18 @@ export const CRIONS: Crion[] = [
       description: "Uma explosão de luz pura que cega o inimigo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy leão-branco creature, white lion with a mane of pure light, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Aurora Sagrada\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, an overwhelming explosion filling the whole frame, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Planície Celestial scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Guarda a memória de cada pequeno gesto de gentileza.",
     habitat: "Planície Celestial",
     imagePrompt: "cute fantasy leão-branco creature, white lion with a mane of pure light, luz element, magical glow warm gold and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Leão-branco Ancestral",
     unlockCondition: { type: 'BEHAVIOR_STREAK', days: 14 },
   },
   {
@@ -6634,6 +9384,12 @@ export const CRIONS: Crion[] = [
       description: "Uma luz suave que aquece o coração",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy pégaso creature, radiant winged horse made of dawn light, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Brilho Gentil\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a few small wisps close to the body, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim Encantado scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_celestor_2',
@@ -6644,6 +9400,12 @@ export const CRIONS: Crion[] = [
       description: "Ilumina o caminho de quem está perdido",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy pégaso creature, radiant winged horse made of dawn light, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Farol da Bondade\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a clear swirling burst around the torso, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim Encantado scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_celestor_3',
@@ -6655,6 +9417,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'HEAL_SELF',
+      art: {
+        creature: "cute fantasy pégaso creature, radiant winged horse made of dawn light, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Cura Radiante\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a dense concentrated orb with radiating streaks, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim Encantado scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_celestor_4',
@@ -6665,11 +9433,18 @@ export const CRIONS: Crion[] = [
       description: "Uma explosão de luz pura que cega o inimigo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy pégaso creature, radiant winged horse made of dawn light, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Aurora Sagrada\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, an overwhelming explosion filling the whole frame, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim Encantado scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Nasce quando uma criança cumpre suas obrigações com alegria.",
     habitat: "Jardim Encantado",
     imagePrompt: "cute fantasy pégaso creature, radiant winged horse made of dawn light, luz element, magical glow warm gold and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Pégaso Ancestral",
     unlockCondition: { type: 'BEHAVIOR_STREAK', days: 14 },
   },
   {
@@ -6694,6 +9469,12 @@ export const CRIONS: Crion[] = [
       description: "Uma luz suave que aquece o coração",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy cervo-solar creature, legendary solar deer with golden sunlight antlers, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Brilho Gentil\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a few small wisps close to the body, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira das Estrelas scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_solarius_2',
@@ -6704,6 +9485,12 @@ export const CRIONS: Crion[] = [
       description: "Ilumina o caminho de quem está perdido",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy cervo-solar creature, legendary solar deer with golden sunlight antlers, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Farol da Bondade\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a clear swirling burst around the torso, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira das Estrelas scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_solarius_3',
@@ -6715,6 +9502,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'HEAL_ALL',
+      art: {
+        creature: "cute fantasy cervo-solar creature, legendary solar deer with golden sunlight antlers, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Cura Radiante\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, a dense concentrated orb with radiating streaks, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira das Estrelas scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_solarius_4',
@@ -6726,11 +9519,18 @@ export const CRIONS: Crion[] = [
       unlockXP: 95,
       slot: 4,
       effect: 'IGNORE_DEFENSE',
+      art: {
+        creature: "cute fantasy cervo-solar creature, legendary solar deer with golden sunlight antlers, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Aurora Sagrada\", luz element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "luz element magical effect only, an overwhelming explosion filling the whole frame, glowing warm gold and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Clareira das Estrelas scenery, luz themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract luz energy border, glowing warm gold and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Seu brilho fica mais forte perto de quem ela ama.",
     habitat: "Clareira das Estrelas",
     imagePrompt: "cute fantasy cervo-solar creature, legendary solar deer with golden sunlight antlers, luz element, magical glow warm gold and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Cervo-Solar de Elite",
     unlockCondition: { type: 'BEHAVIOR_STREAK', days: 30 },
   },
   {
@@ -6755,6 +9555,12 @@ export const CRIONS: Crion[] = [
       description: "Um estilhaço de gelo afiado",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy filhote-de-foca creature, tiny seal pup with snowflake markings, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Lasca Gelada\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a few small wisps close to the body, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Tundra Gelada scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_flocoto_2',
@@ -6765,6 +9571,12 @@ export const CRIONS: Crion[] = [
       description: "Uma ventania congelante",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy filhote-de-foca creature, tiny seal pup with snowflake markings, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Vento Polar\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a clear swirling burst around the torso, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Tundra Gelada scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_flocoto_3',
@@ -6776,6 +9588,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'FREEZE',
+      art: {
+        creature: "cute fantasy filhote-de-foca creature, tiny seal pup with snowflake markings, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Prisão de Gelo\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a dense concentrated orb with radiating streaks, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Tundra Gelada scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_flocoto_4',
@@ -6786,11 +9604,18 @@ export const CRIONS: Crion[] = [
       description: "Uma tempestade branca que cobre tudo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy filhote-de-foca creature, tiny seal pup with snowflake markings, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Nevasca Total\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, an overwhelming explosion filling the whole frame, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Tundra Gelada scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Habita as terras onde nenhum Crion da criança nasce.",
     habitat: "Tundra Gelada",
     imagePrompt: "cute fantasy filhote-de-foca creature, tiny seal pup with snowflake markings, gelo element, magical glow icy blue and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Filhote-de-foca Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -6815,6 +9640,12 @@ export const CRIONS: Crion[] = [
       description: "Um estilhaço de gelo afiado",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy pinguim creature, small penguin with frost-crystal feathers, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Lasca Gelada\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a few small wisps close to the body, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Geleira Eterna scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_geladin_2',
@@ -6825,6 +9656,12 @@ export const CRIONS: Crion[] = [
       description: "Uma ventania congelante",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy pinguim creature, small penguin with frost-crystal feathers, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Vento Polar\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a clear swirling burst around the torso, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Geleira Eterna scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_geladin_3',
@@ -6836,6 +9673,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'FREEZE',
+      art: {
+        creature: "cute fantasy pinguim creature, small penguin with frost-crystal feathers, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Prisão de Gelo\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a dense concentrated orb with radiating streaks, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Geleira Eterna scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_geladin_4',
@@ -6846,11 +9689,18 @@ export const CRIONS: Crion[] = [
       description: "Uma tempestade branca que cobre tudo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy pinguim creature, small penguin with frost-crystal feathers, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Nevasca Total\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, an overwhelming explosion filling the whole frame, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Geleira Eterna scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Guarda a fronteira gelada que separa os mundos.",
     habitat: "Geleira Eterna",
     imagePrompt: "cute fantasy pinguim creature, small penguin with frost-crystal feathers, gelo element, magical glow icy blue and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Pinguim Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -6875,6 +9725,12 @@ export const CRIONS: Crion[] = [
       description: "Um estilhaço de gelo afiado",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy coelho-polar creature, arctic rabbit with icicle ears, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Lasca Gelada\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a few small wisps close to the body, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Gelo scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cristalgel_2',
@@ -6885,6 +9741,12 @@ export const CRIONS: Crion[] = [
       description: "Uma ventania congelante",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy coelho-polar creature, arctic rabbit with icicle ears, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Vento Polar\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a clear swirling burst around the torso, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Gelo scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cristalgel_3',
@@ -6896,6 +9758,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'FREEZE',
+      art: {
+        creature: "cute fantasy coelho-polar creature, arctic rabbit with icicle ears, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Prisão de Gelo\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a dense concentrated orb with radiating streaks, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Gelo scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cristalgel_4',
@@ -6906,11 +9774,18 @@ export const CRIONS: Crion[] = [
       description: "Uma tempestade branca que cobre tudo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy coelho-polar creature, arctic rabbit with icicle ears, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Nevasca Total\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, an overwhelming explosion filling the whole frame, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Gelo scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Só aparece para quem já enfrentou muitos desafios.",
     habitat: "Caverna de Gelo",
     imagePrompt: "cute fantasy coelho-polar creature, arctic rabbit with icicle ears, gelo element, magical glow icy blue and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Coelho-polar Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -6935,6 +9810,12 @@ export const CRIONS: Crion[] = [
       description: "Um estilhaço de gelo afiado",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy arminho creature, ermine made of drifting snow, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Lasca Gelada\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a few small wisps close to the body, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico Congelado scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_nevoinho_2',
@@ -6945,6 +9826,12 @@ export const CRIONS: Crion[] = [
       description: "Uma ventania congelante",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy arminho creature, ermine made of drifting snow, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Vento Polar\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a clear swirling burst around the torso, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico Congelado scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_nevoinho_3',
@@ -6956,6 +9843,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'FREEZE',
+      art: {
+        creature: "cute fantasy arminho creature, ermine made of drifting snow, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Prisão de Gelo\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a dense concentrated orb with radiating streaks, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico Congelado scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_nevoinho_4',
@@ -6966,11 +9859,18 @@ export const CRIONS: Crion[] = [
       description: "Uma tempestade branca que cobre tudo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy arminho creature, ermine made of drifting snow, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Nevasca Total\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, an overwhelming explosion filling the whole frame, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico Congelado scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Seu frio testa a determinação de quem chega até ele.",
     habitat: "Pico Congelado",
     imagePrompt: "cute fantasy arminho creature, ermine made of drifting snow, gelo element, magical glow icy blue and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Arminho Filhote",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -6995,6 +9895,12 @@ export const CRIONS: Crion[] = [
       description: "Um estilhaço de gelo afiado",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy raposa-ártica creature, arctic fox with breath of visible frost, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Lasca Gelada\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a few small wisps close to the body, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Tundra Gelada scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_frostuco_2',
@@ -7005,6 +9911,12 @@ export const CRIONS: Crion[] = [
       description: "Uma ventania congelante",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy raposa-ártica creature, arctic fox with breath of visible frost, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Vento Polar\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a clear swirling burst around the torso, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Tundra Gelada scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_frostuco_3',
@@ -7016,6 +9928,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'FREEZE',
+      art: {
+        creature: "cute fantasy raposa-ártica creature, arctic fox with breath of visible frost, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Prisão de Gelo\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a dense concentrated orb with radiating streaks, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Tundra Gelada scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_frostuco_4',
@@ -7026,11 +9944,18 @@ export const CRIONS: Crion[] = [
       description: "Uma tempestade branca que cobre tudo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy raposa-ártica creature, arctic fox with breath of visible frost, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Nevasca Total\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, an overwhelming explosion filling the whole frame, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Tundra Gelada scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Habita as terras onde nenhum Crion da criança nasce.",
     habitat: "Tundra Gelada",
     imagePrompt: "cute fantasy raposa-ártica creature, arctic fox with breath of visible frost, gelo element, magical glow icy blue and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Raposa-ártica Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -7055,6 +9980,12 @@ export const CRIONS: Crion[] = [
       description: "Um estilhaço de gelo afiado",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy morsa creature, walrus with tusks of clear blue ice, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Lasca Gelada\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a few small wisps close to the body, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Geleira Eterna scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_iceberto_2',
@@ -7065,6 +9996,12 @@ export const CRIONS: Crion[] = [
       description: "Uma ventania congelante",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy morsa creature, walrus with tusks of clear blue ice, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Vento Polar\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a clear swirling burst around the torso, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Geleira Eterna scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_iceberto_3',
@@ -7076,6 +10013,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'FREEZE',
+      art: {
+        creature: "cute fantasy morsa creature, walrus with tusks of clear blue ice, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Prisão de Gelo\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a dense concentrated orb with radiating streaks, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Geleira Eterna scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_iceberto_4',
@@ -7086,11 +10029,18 @@ export const CRIONS: Crion[] = [
       description: "Uma tempestade branca que cobre tudo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy morsa creature, walrus with tusks of clear blue ice, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Nevasca Total\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, an overwhelming explosion filling the whole frame, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Geleira Eterna scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Guarda a fronteira gelada que separa os mundos.",
     habitat: "Geleira Eterna",
     imagePrompt: "cute fantasy morsa creature, walrus with tusks of clear blue ice, gelo element, magical glow icy blue and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Morsa Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -7115,6 +10065,12 @@ export const CRIONS: Crion[] = [
       description: "Um estilhaço de gelo afiado",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy lince creature, lynx with frozen crystal fur, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Lasca Gelada\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a few small wisps close to the body, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Gelo scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_glacino_2',
@@ -7125,6 +10081,12 @@ export const CRIONS: Crion[] = [
       description: "Uma ventania congelante",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy lince creature, lynx with frozen crystal fur, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Vento Polar\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a clear swirling burst around the torso, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Gelo scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_glacino_3',
@@ -7136,6 +10098,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'FREEZE',
+      art: {
+        creature: "cute fantasy lince creature, lynx with frozen crystal fur, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Prisão de Gelo\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a dense concentrated orb with radiating streaks, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Gelo scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_glacino_4',
@@ -7146,11 +10114,18 @@ export const CRIONS: Crion[] = [
       description: "Uma tempestade branca que cobre tudo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy lince creature, lynx with frozen crystal fur, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Nevasca Total\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, an overwhelming explosion filling the whole frame, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Gelo scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Só aparece para quem já enfrentou muitos desafios.",
     habitat: "Caverna de Gelo",
     imagePrompt: "cute fantasy lince creature, lynx with frozen crystal fur, gelo element, magical glow icy blue and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Lince Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -7175,6 +10150,12 @@ export const CRIONS: Crion[] = [
       description: "Um estilhaço de gelo afiado",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy alce-polar creature, polar elk with antlers of frozen branches, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Lasca Gelada\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a few small wisps close to the body, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico Congelado scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_nevascor_2',
@@ -7185,6 +10166,12 @@ export const CRIONS: Crion[] = [
       description: "Uma ventania congelante",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy alce-polar creature, polar elk with antlers of frozen branches, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Vento Polar\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a clear swirling burst around the torso, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico Congelado scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_nevascor_3',
@@ -7196,6 +10183,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'FREEZE',
+      art: {
+        creature: "cute fantasy alce-polar creature, polar elk with antlers of frozen branches, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Prisão de Gelo\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a dense concentrated orb with radiating streaks, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico Congelado scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_nevascor_4',
@@ -7206,11 +10199,18 @@ export const CRIONS: Crion[] = [
       description: "Uma tempestade branca que cobre tudo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy alce-polar creature, polar elk with antlers of frozen branches, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Nevasca Total\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, an overwhelming explosion filling the whole frame, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico Congelado scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Seu frio testa a determinação de quem chega até ele.",
     habitat: "Pico Congelado",
     imagePrompt: "cute fantasy alce-polar creature, polar elk with antlers of frozen branches, gelo element, magical glow icy blue and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Alce-polar Aprendiz",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -7235,6 +10235,12 @@ export const CRIONS: Crion[] = [
       description: "Um estilhaço de gelo afiado",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy urso-polar creature, polar bear with a permanent frost aura, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Lasca Gelada\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a few small wisps close to the body, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Tundra Gelada scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_congelor_2',
@@ -7245,6 +10251,12 @@ export const CRIONS: Crion[] = [
       description: "Uma ventania congelante",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy urso-polar creature, polar bear with a permanent frost aura, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Vento Polar\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a clear swirling burst around the torso, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Tundra Gelada scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_congelor_3',
@@ -7256,6 +10268,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'FREEZE',
+      art: {
+        creature: "cute fantasy urso-polar creature, polar bear with a permanent frost aura, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Prisão de Gelo\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a dense concentrated orb with radiating streaks, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Tundra Gelada scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_congelor_4',
@@ -7266,11 +10284,18 @@ export const CRIONS: Crion[] = [
       description: "Uma tempestade branca que cobre tudo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy urso-polar creature, polar bear with a permanent frost aura, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Nevasca Total\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, an overwhelming explosion filling the whole frame, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Tundra Gelada scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Habita as terras onde nenhum Crion da criança nasce.",
     habitat: "Tundra Gelada",
     imagePrompt: "cute fantasy urso-polar creature, polar bear with a permanent frost aura, gelo element, magical glow icy blue and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Urso-polar Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -7295,6 +10320,12 @@ export const CRIONS: Crion[] = [
       description: "Um estilhaço de gelo afiado",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy coruja-das-neves creature, snowy owl riding a blizzard, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Lasca Gelada\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a few small wisps close to the body, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Geleira Eterna scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_ventogel_2',
@@ -7305,6 +10336,12 @@ export const CRIONS: Crion[] = [
       description: "Uma ventania congelante",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy coruja-das-neves creature, snowy owl riding a blizzard, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Vento Polar\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a clear swirling burst around the torso, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Geleira Eterna scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_ventogel_3',
@@ -7316,6 +10353,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'FREEZE',
+      art: {
+        creature: "cute fantasy coruja-das-neves creature, snowy owl riding a blizzard, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Prisão de Gelo\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a dense concentrated orb with radiating streaks, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Geleira Eterna scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_ventogel_4',
@@ -7326,11 +10369,18 @@ export const CRIONS: Crion[] = [
       description: "Uma tempestade branca que cobre tudo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy coruja-das-neves creature, snowy owl riding a blizzard, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Nevasca Total\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, an overwhelming explosion filling the whole frame, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Geleira Eterna scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Guarda a fronteira gelada que separa os mundos.",
     habitat: "Geleira Eterna",
     imagePrompt: "cute fantasy coruja-das-neves creature, snowy owl riding a blizzard, gelo element, magical glow icy blue and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Coruja-das-neves Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -7355,6 +10405,12 @@ export const CRIONS: Crion[] = [
       description: "Um estilhaço de gelo afiado",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy mamute-gelado creature, frozen mammoth encased in ancient ice, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Lasca Gelada\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a few small wisps close to the body, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Gelo scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_permafro_2',
@@ -7365,6 +10421,12 @@ export const CRIONS: Crion[] = [
       description: "Uma ventania congelante",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy mamute-gelado creature, frozen mammoth encased in ancient ice, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Vento Polar\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a clear swirling burst around the torso, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Gelo scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_permafro_3',
@@ -7376,6 +10438,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'FREEZE',
+      art: {
+        creature: "cute fantasy mamute-gelado creature, frozen mammoth encased in ancient ice, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Prisão de Gelo\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a dense concentrated orb with radiating streaks, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Gelo scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_permafro_4',
@@ -7386,11 +10454,18 @@ export const CRIONS: Crion[] = [
       description: "Uma tempestade branca que cobre tudo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy mamute-gelado creature, frozen mammoth encased in ancient ice, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Nevasca Total\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, an overwhelming explosion filling the whole frame, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Caverna de Gelo scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Só aparece para quem já enfrentou muitos desafios.",
     habitat: "Caverna de Gelo",
     imagePrompt: "cute fantasy mamute-gelado creature, frozen mammoth encased in ancient ice, gelo element, magical glow icy blue and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Mamute-gelado Guardião",
     unlockCondition: { type: 'DEFAULT' },
   },
   {
@@ -7415,6 +10490,12 @@ export const CRIONS: Crion[] = [
       description: "Um estilhaço de gelo afiado",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy dragão-de-gelo creature, small ice dragon with crystalline wings, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Lasca Gelada\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a few small wisps close to the body, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico Congelado scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cristalor_2',
@@ -7425,6 +10506,12 @@ export const CRIONS: Crion[] = [
       description: "Uma ventania congelante",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy dragão-de-gelo creature, small ice dragon with crystalline wings, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Vento Polar\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a clear swirling burst around the torso, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico Congelado scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cristalor_3',
@@ -7436,6 +10523,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'FREEZE',
+      art: {
+        creature: "cute fantasy dragão-de-gelo creature, small ice dragon with crystalline wings, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Prisão de Gelo\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a dense concentrated orb with radiating streaks, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico Congelado scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_cristalor_4',
@@ -7446,11 +10539,18 @@ export const CRIONS: Crion[] = [
       description: "Uma tempestade branca que cobre tudo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy dragão-de-gelo creature, small ice dragon with crystalline wings, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Nevasca Total\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, an overwhelming explosion filling the whole frame, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Pico Congelado scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Seu frio testa a determinação de quem chega até ele.",
     habitat: "Pico Congelado",
     imagePrompt: "cute fantasy dragão-de-gelo creature, small ice dragon with crystalline wings, gelo element, magical glow icy blue and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Dragão-de-gelo Ancestral",
     unlockCondition: { type: 'XP_TOTAL', xp: 150 },
   },
   {
@@ -7475,6 +10575,12 @@ export const CRIONS: Crion[] = [
       description: "Um estilhaço de gelo afiado",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy lobo-boreal creature, boreal wolf glowing with northern lights, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Lasca Gelada\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a few small wisps close to the body, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Tundra Gelada scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_boreallis_2',
@@ -7485,6 +10591,12 @@ export const CRIONS: Crion[] = [
       description: "Uma ventania congelante",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy lobo-boreal creature, boreal wolf glowing with northern lights, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Vento Polar\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a clear swirling burst around the torso, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Tundra Gelada scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_boreallis_3',
@@ -7496,6 +10608,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'FREEZE',
+      art: {
+        creature: "cute fantasy lobo-boreal creature, boreal wolf glowing with northern lights, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Prisão de Gelo\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a dense concentrated orb with radiating streaks, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Tundra Gelada scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_boreallis_4',
@@ -7506,11 +10624,18 @@ export const CRIONS: Crion[] = [
       description: "Uma tempestade branca que cobre tudo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy lobo-boreal creature, boreal wolf glowing with northern lights, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Nevasca Total\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, an overwhelming explosion filling the whole frame, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Tundra Gelada scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Habita as terras onde nenhum Crion da criança nasce.",
     habitat: "Tundra Gelada",
     imagePrompt: "cute fantasy lobo-boreal creature, boreal wolf glowing with northern lights, gelo element, magical glow icy blue and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Lobo-boreal Ancestral",
     unlockCondition: { type: 'XP_TOTAL', xp: 150 },
   },
   {
@@ -7535,6 +10660,12 @@ export const CRIONS: Crion[] = [
       description: "Um estilhaço de gelo afiado",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "cute fantasy titã-do-gelo creature, legendary ice titan crowned with an eternal glacier, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Lasca Gelada\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a few small wisps close to the body, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Geleira Eterna scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_glaciarch_2',
@@ -7545,6 +10676,12 @@ export const CRIONS: Crion[] = [
       description: "Uma ventania congelante",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "cute fantasy titã-do-gelo creature, legendary ice titan crowned with an eternal glacier, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Vento Polar\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a clear swirling burst around the torso, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Geleira Eterna scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_glaciarch_3',
@@ -7556,6 +10693,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'FREEZE',
+      art: {
+        creature: "cute fantasy titã-do-gelo creature, legendary ice titan crowned with an eternal glacier, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Prisão de Gelo\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, a dense concentrated orb with radiating streaks, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Geleira Eterna scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_glaciarch_4',
@@ -7566,11 +10709,18 @@ export const CRIONS: Crion[] = [
       description: "Uma tempestade branca que cobre tudo",
       unlockXP: 95,
       slot: 4,
+      art: {
+        creature: "cute fantasy titã-do-gelo creature, legendary ice titan crowned with an eternal glacier, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Nevasca Total\", gelo element, children illustration style, vibrant colors, soft shading, full body, isolated on transparent background, no text",
+        effect: "gelo element magical effect only, an overwhelming explosion filling the whole frame, glowing icy blue and white, semi-transparent energy, no creature, no background, isolated on transparent background, no text",
+        background: "Geleira Eterna scenery, gelo themed landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract gelo energy border, glowing icy blue and white light bleeding outward from the centre to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Guarda a fronteira gelada que separa os mundos.",
     habitat: "Geleira Eterna",
     imagePrompt: "cute fantasy titã-do-gelo creature, legendary ice titan crowned with an eternal glacier, gelo element, magical glow icy blue and white, friendly appearance, fantasy creature for children, isolated on white background, digital illustration style, vibrant colors, soft shading, no text",
+    epithet: "Titã-do-Gelo de Elite",
     unlockCondition: { type: 'XP_TOTAL', xp: 250 },
   },
   {
@@ -7595,6 +10745,12 @@ export const CRIONS: Crion[] = [
       description: "O primeiro sopro que criou os elementos",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "legendary fantasy quimera celeste creature, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Sopro Primordial\", epic legendary appearance, children illustration style, vibrant colors, full body, isolated on transparent background, no text",
+        effect: "legendary prismatic magical effect only, a few small wisps close to the body, radiant multicoloured energy, semi-transparent, no creature, no background, isolated on transparent background, no text",
+        background: "Torre Lendária scenery, epic legendary landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract legendary energy border, radiant prismatic light bleeding outward to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_aetherion_2',
@@ -7605,6 +10761,12 @@ export const CRIONS: Crion[] = [
       description: "Todos os elementos atacam juntos",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "legendary fantasy quimera celeste creature, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Convergência\", epic legendary appearance, children illustration style, vibrant colors, full body, isolated on transparent background, no text",
+        effect: "legendary prismatic magical effect only, a clear swirling burst around the torso, radiant multicoloured energy, semi-transparent, no creature, no background, isolated on transparent background, no text",
+        background: "Torre Lendária scenery, epic legendary landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract legendary energy border, radiant prismatic light bleeding outward to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_aetherion_3',
@@ -7616,6 +10778,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'HEAL_ALL',
+      art: {
+        creature: "legendary fantasy quimera celeste creature, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Elo Eterno\", epic legendary appearance, children illustration style, vibrant colors, full body, isolated on transparent background, no text",
+        effect: "legendary prismatic magical effect only, a dense concentrated orb with radiating streaks, radiant multicoloured energy, semi-transparent, no creature, no background, isolated on transparent background, no text",
+        background: "Torre Lendária scenery, epic legendary landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract legendary energy border, radiant prismatic light bleeding outward to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_aetherion_4',
@@ -7627,11 +10795,18 @@ export const CRIONS: Crion[] = [
       unlockXP: 95,
       slot: 4,
       effect: 'IGNORE_DEFENSE',
+      art: {
+        creature: "legendary fantasy quimera celeste creature, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Gênese\", epic legendary appearance, children illustration style, vibrant colors, full body, isolated on transparent background, no text",
+        effect: "legendary prismatic magical effect only, an overwhelming explosion filling the whole frame, radiant multicoloured energy, semi-transparent, no creature, no background, isolated on transparent background, no text",
+        background: "Torre Lendária scenery, epic legendary landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract legendary energy border, radiant prismatic light bleeding outward to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Só aparece para quem completou todas as matérias com nota máxima no mesmo dia. Dizem que ele é feito de todos os elementos ao mesmo tempo.",
     habitat: "Torre Lendária",
     imagePrompt: "legendary celestial chimera creature blending all elements, prismatic rainbow aura, majestic and friendly, children illustration style, epic fantasy art, white background",
+    epithet: "Quimera de Elite",
     unlockCondition: { type: 'XP_TOTAL', xp: 300 },
   },
   {
@@ -7657,6 +10832,12 @@ export const CRIONS: Crion[] = [
       description: "Uma mordida feita de luz concentrada",
       unlockXP: 0,
       slot: 1,
+      art: {
+        creature: "legendary fantasy lobo do crepúsculo creature, crouched low and lunging forward in a quick opening strike, weight on the front paws, eyes focused, performing the move \"Presa Luminosa\", epic legendary appearance, children illustration style, vibrant colors, full body, isolated on transparent background, no text",
+        effect: "legendary prismatic magical effect only, a few small wisps close to the body, radiant multicoloured energy, semi-transparent, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim Celestial scenery, epic legendary landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract legendary energy border, radiant prismatic light bleeding outward to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_umbraluz_2',
@@ -7667,6 +10848,12 @@ export const CRIONS: Crion[] = [
       description: "Um uivo que dissipa qualquer sombra",
       unlockXP: 40,
       slot: 2,
+      art: {
+        creature: "legendary fantasy lobo do crepúsculo creature, mid-spin with the body twisted for a heavy blow, limbs extended, motion trail behind it, performing the move \"Uivo da Aurora\", epic legendary appearance, children illustration style, vibrant colors, full body, isolated on transparent background, no text",
+        effect: "legendary prismatic magical effect only, a clear swirling burst around the torso, radiant multicoloured energy, semi-transparent, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim Celestial scenery, epic legendary landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract legendary energy border, radiant prismatic light bleeding outward to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_umbraluz_3',
@@ -7678,6 +10865,12 @@ export const CRIONS: Crion[] = [
       unlockXP: 70,
       slot: 3,
       effect: 'HEAL_ALL',
+      art: {
+        creature: "legendary fantasy lobo do crepúsculo creature, standing upright and channelling energy, head tilted back, forelimbs raised, energy gathering at the chest, performing the move \"Manto Protetor\", epic legendary appearance, children illustration style, vibrant colors, full body, isolated on transparent background, no text",
+        effect: "legendary prismatic magical effect only, a dense concentrated orb with radiating streaks, radiant multicoloured energy, semi-transparent, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim Celestial scenery, epic legendary landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract legendary energy border, radiant prismatic light bleeding outward to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     {
       id: 'atk_umbraluz_4',
@@ -7689,11 +10882,18 @@ export const CRIONS: Crion[] = [
       unlockXP: 95,
       slot: 4,
       effect: 'IGNORE_DEFENSE',
+      art: {
+        creature: "legendary fantasy lobo do crepúsculo creature, at full power in the finishing move, body arched, mouth open in a roar, energy erupting outward, performing the move \"Alvorada Final\", epic legendary appearance, children illustration style, vibrant colors, full body, isolated on transparent background, no text",
+        effect: "legendary prismatic magical effect only, an overwhelming explosion filling the whole frame, radiant multicoloured energy, semi-transparent, no creature, no background, isolated on transparent background, no text",
+        background: "Jardim Celestial scenery, epic legendary landscape, soft depth of field, children illustration style, painterly background plate, no characters, no text",
+        edge: "abstract legendary energy border, radiant prismatic light bleeding outward to the frame edges, soft vignette, seamless with a card border, no creature, no text",
+      },
     },
     ],
     description: "Guardião que nasce de 30 dias seguidos de bom comportamento. Enfrenta as sombras dos chefes de mundo sem hesitar.",
     habitat: "Jardim Celestial",
     imagePrompt: "legendary twilight wolf creature, light element, silver-white fur glowing at dusk, aurora mane, gentle protective expression, children illustration style, epic fantasy art, white background",
+    epithet: "Lobo de Elite",
     unlockCondition: { type: 'BEHAVIOR_STREAK', days: 30 },
   },
 ];

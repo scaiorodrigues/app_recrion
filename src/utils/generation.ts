@@ -21,6 +21,8 @@ import type {
   CrionCardData,
   DayPerformance,
   Element,
+  ElementContribution,
+  FinalStats,
   PlayableElement,
   Rarity,
   Subject,
@@ -28,6 +30,7 @@ import type {
   Tier,
 } from '@/types';
 import { capRarity, determineRarity } from './rarity';
+import { buildContributions, calculateFinalStats } from './stats';
 import {
   calculateDailyXP,
   determinePrimaryElement,
@@ -160,6 +163,8 @@ export interface GenerationResult {
   xp: number;
   rarity: Rarity;
   foil: boolean;
+  contributions: ElementContribution[];
+  stats: FinalStats;
   element: PlayableElement;
   secondaryElement: PlayableElement | null;
   attackSlot: AttackSlot;
@@ -212,6 +217,11 @@ export function generateDailyCrion(input: GenerationInput): GenerationResult | n
   const attackSlot = selectAttackSlot(crion, xp);
   const primarySubject = resolvePrimarySubject(activities, scores, behaviorApproved);
 
+  // A carta carrega as matérias que a alimentaram e os atributos já somados,
+  // para poder ser reexibida depois sem recalcular nada.
+  const contributions = buildContributions(scores, element, behaviorApproved);
+  const stats = calculateFinalStats(crion, rarity, xp);
+
   const card: CrionCardData = {
     id: `card_${childId}_${date}`,
     crionId: crion.id,
@@ -227,6 +237,8 @@ export function generateDailyCrion(input: GenerationInput): GenerationResult | n
     foil,
     completionRate: outcome.completionRate,
     streak: performance.streak,
+    contributions,
+    stats,
   };
 
   return {
@@ -235,6 +247,8 @@ export function generateDailyCrion(input: GenerationInput): GenerationResult | n
     xp,
     rarity,
     foil,
+    contributions,
+    stats,
     element,
     secondaryElement,
     attackSlot,

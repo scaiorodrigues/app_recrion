@@ -67,6 +67,35 @@ export interface Attack {
   unlockXP: number;
   slot: AttackSlot;
   effect?: StatusEffect;
+  /**
+   * Prompts de arte desta carta — a criatura executando ESTE ataque.
+   * O mesmo Crion aparece em poses diferentes conforme o ataque.
+   */
+  art: ArtLayerPrompts;
+}
+
+/**
+ * As quatro camadas do desenho da carta, de cima para baixo:
+ * a criatura, o efeito em volta dela, o fundo e o efeito que liga
+ * o fundo aos contornos da carta.
+ */
+export interface ArtLayerPrompts {
+  /** Camada 1 — a criatura na pose do ataque. */
+  creature: string;
+  /** Camada 2 — o efeito elemental em volta da criatura. */
+  effect: string;
+  /** Camada 3 — o cenário atrás dela. */
+  background: string;
+  /** Camada 4 — o efeito que sangra do fundo para a borda da carta. */
+  edge: string;
+}
+
+/** Imagens já geradas para as quatro camadas. Cada uma pode faltar. */
+export interface ArtLayerUris {
+  creature?: string;
+  effect?: string;
+  background?: string;
+  edge?: string;
 }
 
 export type UnlockConditionType =
@@ -104,10 +133,33 @@ export interface Crion {
 
   description: string;
   habitat: string;
-  /** Prompt otimizado para geração de arte por IA. */
+  /** Prompt de referência da criatura, usado como base pelas camadas. */
   imagePrompt: string;
+  /** Subtítulo da carta, no estilo "Dragão de Elite". */
+  epithet: string;
 
   unlockCondition: UnlockCondition;
+}
+
+/** Quanto cada matéria contribuiu para a carta — exibido na frente. */
+export interface ElementContribution {
+  subject: Subject;
+  element: Element;
+  /** Nota da matéria no dia, 0 a 100. */
+  value: number;
+  /** true para a matéria que definiu o elemento da carta. */
+  primary: boolean;
+}
+
+/** Atributos finais da carta, já somados os ganhos do dia. */
+export interface FinalStats {
+  hp: number;
+  atk: number;
+  def: number;
+  spd: number;
+  /** Quanto veio do desempenho, acima do valor base do Crion. */
+  bonusAtk: number;
+  bonusDef: number;
 }
 
 /** Estatísticas usadas em combate. */
@@ -142,6 +194,12 @@ export interface CrionCardData {
   revealedAt?: string;
   /** Carta holográfica — só sai em dia perfeito. */
   foil?: boolean;
+  /** Matérias que alimentaram a carta, com suas notas. */
+  contributions?: ElementContribution[];
+  /** Atributos finais, já com o ganho do dia. */
+  stats?: FinalStats;
+  /** Camadas de arte já geradas para esta carta. */
+  artUris?: ArtLayerUris;
   /** Fração das atividades do dia que foram aprovadas (0 a 1). */
   completionRate?: number;
   /** Dias seguidos de constância no momento em que a carta nasceu. */

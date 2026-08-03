@@ -95,7 +95,7 @@ src/
 │   ├── (parent)/     Painel, comportamento, filhos, assinatura
 │   └── (child)/      Atividades, tarefas, coleção, tabuleiro
 ├── components/
-│   ├── cards/        CrionCard, revelação, partículas
+│   ├── cards/        CrionCard, CrionArt (4 camadas), revelação
 │   ├── activities/   Canvas de escrita à mão
 │   ├── behavior/     Item de tarefa
 │   └── ui/           Botão, tela, barra de progresso
@@ -126,11 +126,59 @@ Gelo (`ICE_NPC`) existe só como inimigo do tabuleiro. A criança nunca gera um
 Crion de Gelo, o que cria a assimetria estratégica: para enfrentar a Tundra ela
 precisa de Elétrico ou Natureza.
 
-### Arte dos Crions
+### Arte dos Crions — quatro camadas
 
-As imagens ainda não são geradas. Cada Crion traz um `imagePrompt` pronto para
-uso em geradores de imagem, e o `CrionCard` aceita uma `imageUri` (local ou
-remota). Sem imagem, a carta mostra o emoji do animal base.
+O desenho da carta é montado em **quatro camadas independentes**, de trás para
+a frente:
+
+| # | Camada | O que é |
+|---|---|---|
+| 4 | **Borda** | O efeito que sangra do fundo para os contornos da carta |
+| 3 | **Fundo** | O cenário do habitat |
+| 2 | **Efeito** | A energia elemental em volta da criatura |
+| 1 | **Criatura** | A criatura na pose do ataque |
+
+Cada uma das **512 cartas** (128 Crions × 4 ataques) tem seu próprio conjunto de
+quatro prompts em `attack.art`. A camada da criatura descreve a pose executando
+**aquele** ataque — o mesmo Crion aparece agachado no golpe de abertura e
+arqueado em rugido no golpe final.
+
+O componente `CrionArt` aceita `artUris` com as imagens já geradas, camada a
+camada. Enquanto elas não existem, cada camada é desenhada proceduralmente com
+gradientes e partículas, então a estrutura já é a definitiva — basta plugar as
+imagens.
+
+---
+
+## Anatomia da carta
+
+```
+┌──────────────────────────────┐
+│ 140 -105 +30          🌱 ✧   │  ATK · DEF · ganho do dia │ faixa · raridade
+├──────────────────────────────┤
+│                              │
+│   ARTE EM 4 CAMADAS          │  borda · fundo · efeito · criatura
+│   (pose do ataque usado)     │
+│                              │
+├──────────────────────────────┤
+│ Arvoreth            ◈ ◈ ◈    │  nome · losangos dos elementos
+│ Ent-Cervo de Elite           │  epíteto              com as notas
+├──────────────────────────────┤
+│ ⚔️ FÚRIA DA MATA · 135 · 78% │  ataque desta carta
+│ « Toda a floresta responde » │
+├──────────────────────────────┤
+│ Português 100 · Ciências 85  │  matérias que alimentaram a carta
+├──────────────────────────────┤
+│ Recrion — 170 XP   ✨ Sofia  │  origem
+└──────────────────────────────┘
+```
+
+**Ataque e defesa são finais**, não os valores base do Crion: somam o degrau da
+raridade e o XP do dia. O mesmo Crion em dias diferentes gera cartas com números
+diferentes — é o que dá sentido a colecionar a mesma criatura mais de uma vez.
+
+Os **losangos** mostram cada elemento com a nota da matéria que o gerou. O
+losango de borda grossa é o elemento que definiu a carta.
 
 ---
 
@@ -222,6 +270,6 @@ paywall.**
 npm test
 ```
 
-148 testes cobrindo o cálculo de XP, a raridade, as métricas do método Pier, a
-geração do Crion, o teste gratuito, a validação de comportamento, o combate e o
-cálculo de faixa etária.
+165 testes cobrindo o cálculo de XP, a raridade, os atributos finais, as camadas
+de arte, as métricas do método Pier, a geração do Crion, o teste gratuito, a
+validação de comportamento, o combate e o cálculo de faixa etária.

@@ -1,10 +1,15 @@
 /**
  * CrionCard — a carta é o Crion usando UM ataque específico.
- * O mesmo Crion gera até 4 cartas diferentes, uma por ataque desbloqueado.
+ * O mesmo Crion gera até 4 cartas diferentes, uma por ataque desbloqueado,
+ * e a arte muda de pose conforme a habilidade usada.
+ *
+ * Layout: ATK/DEF no topo à esquerda, raridade à direita, arte em quatro
+ * camadas, nome em destaque com os elementos ao lado, o ataque desta carta,
+ * as matérias que a alimentaram e o rodapé de origem.
  */
 
 import { forwardRef, useEffect } from 'react';
-import { Image, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import Animated, {
   Easing,
@@ -17,16 +22,22 @@ import Animated, {
 
 import { ELEMENT_THEME, RARITY_THRESHOLDS, THEME, TIER_INFO } from '@/constants/theme';
 import { SUBJECT_ELEMENT_MAP } from '@/constants/game';
-import type { AttackSlot, Crion, Rarity, Subject } from '@/types';
+import type {
+  ArtLayerUris,
+  AttackSlot,
+  Crion,
+  Element,
+  ElementContribution,
+  FinalStats,
+  Rarity,
+} from '@/types';
 import { formatDateBR } from '@/utils/profile';
+import { calculateFinalStats } from '@/utils/stats';
 
-import ElementParticles from './ElementParticles';
+import CrionArt from './CrionArt';
 
 export const CARD_WIDTH = 300;
 export const CARD_HEIGHT = 500;
-
-/** Escala visual das barras de atributo. */
-const STAT_MAX = { hp: 200, atk: 120, def: 100, spd: 110 };
 
 interface CrionCardProps {
   crion: Crion;
@@ -36,8 +47,12 @@ interface CrionCardProps {
   xp: number;
   date: string;
   childName: string;
-  primarySubject: Subject;
-  imageUri?: string;
+  /** Matérias que alimentaram a carta, com as notas do dia. */
+  contributions?: ElementContribution[];
+  /** Atributos finais já calculados. Se faltar, a carta calcula sozinha. */
+  stats?: FinalStats;
+  /** Camadas de arte já geradas. */
+  artUris?: ArtLayerUris;
   width?: number;
   showParticles?: boolean;
   /** Carta holográfica — sai só no dia perfeito. */
@@ -69,31 +84,40 @@ function RaritySymbol({ rarity, size }: { rarity: Rarity; size: number }) {
   );
 }
 
-function StatBar({ label, value, max, color }: { label: string; value: number; max: number; color: string }) {
-  const filled = Math.round((Math.min(value, max) / max) * 10);
+/** Losango do elemento, com a nota da matéria que o gerou. */
+function ElementBadge({
+  contribution,
+  size,
+}: {
+  contribution: ElementContribution;
+  size: number;
+}) {
+  const info = SUBJECT_ELEMENT_MAP[contribution.subject];
+  const theme = ELEMENT_THEME[contribution.element];
 
   return (
-    <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
-      <Text style={{ width: 34, fontSize: 10, fontWeight: '800', color: THEME.colors.textLight }}>
-        {label}
-      </Text>
-
-      <View style={{ flex: 1, flexDirection: 'row', gap: 1.5 }}>
-        {Array.from({ length: 10 }).map((_, i) => (
-          <View
-            key={i}
-            style={{
-              flex: 1,
-              height: 7,
-              borderRadius: 2,
-              backgroundColor: i < filled ? color : '#E5E7EB',
-            }}
-          />
-        ))}
+    <View
+      accessibilityLabel={`${info.subjectLabel}: ${contribution.value} pontos`}
+      style={{ alignItems: 'center', gap: 1 }}
+    >
+      <View
+        style={{
+          width: size,
+          height: size,
+          backgroundColor: theme.bg,
+          borderWidth: contribution.primary ? 2.5 : 1.5,
+          borderColor: theme.accent,
+          transform: [{ rotate: '45deg' }],
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        <Text style={{ fontSize: size * 0.5, transform: [{ rotate: '-45deg' }] }}>
+          {info.emoji}
+        </Text>
       </View>
-
-      <Text style={{ width: 26, fontSize: 11, fontWeight: '800', color: THEME.colors.text, textAlign: 'right' }}>
-        {value}
+      <Text style={{ fontSize: size * 0.3, fontWeight: '900', color: theme.accent }}>
+        {contribution.value}
       </Text>
     </View>
   );
@@ -119,20 +143,17 @@ function useRarityGlow(rarity: Rarity, foil: boolean) {
   return { isPremium, pulse };
 }
 
-/** Reflexo holográfico que desliza sobre a arte da carta. */
+/** Reflexo holográfico que desliza sobre a carta. */
 function FoilSheen({ pulse }: { pulse: SharedValue<number> }) {
   const style = useAnimatedStyle(() => ({
-    transform: [{ translateX: -140 + pulse.value * 280 }, { rotate: '18deg' }],
+    transform: [{ translateX: -140 + pulse.value * 320 }, { rotate: '18deg' }],
     opacity: 0.28 + pulse.value * 0.24,
   }));
 
   return (
     <Animated.View
       pointerEvents="none"
-      style={[
-        { position: 'absolute', top: -40, bottom: -40, width: 70 },
-        style,
-      ]}
+      style={[{ position: 'absolute', top: -40, bottom: -40, width: 70 }, style]}
     >
       <LinearGradient
         colors={['transparent', '#FFFFFF', '#A78BFA', '#67E8F9', 'transparent']}
@@ -152,8 +173,9 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
     xp,
     date,
     childName,
-    primarySubject,
-    imageUri,
+    contributions = [],
+    stats,
+    artUris,
     width = CARD_WIDTH,
     showParticles = true,
     foil = false,
@@ -163,11 +185,15 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
   const elementTheme = ELEMENT_THEME[crion.element];
   const rarityInfo = RARITY_THRESHOLDS[rarity];
   const tierInfo = TIER_INFO[crion.tier];
-  const subjectInfo = SUBJECT_ELEMENT_MAP[primarySubject];
 
   const attack = crion.attacks.find((a) => a.slot === attackSlot) ?? crion.attacks[0];
+  const finalStats = stats ?? calculateFinalStats(crion, rarity, xp);
+
   const scale = width / CARD_WIDTH;
   const height = CARD_HEIGHT * scale;
+  // A arte ocupa a altura que sobra depois do cabeçalho, do nome, do ataque,
+  // da linha de matérias e do rodapé — assim a carta fecha sem vão branco.
+  const artHeight = 288 * scale;
 
   const { isPremium, pulse } = useRarityGlow(rarity, foil);
 
@@ -176,9 +202,11 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
     transform: [{ scale: 1 + pulse.value * 0.02 }],
   }));
 
+  // No máximo três losangos cabem sem apertar o nome.
+  const visibleContributions = contributions.slice(0, 3);
+
   return (
     <View style={{ width, height }}>
-      {/* Halo externo das raridades altas */}
       {isPremium && (
         <Animated.View
           pointerEvents="none"
@@ -201,192 +229,180 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
         ref={ref}
         collapsable={false}
         accessibilityRole="image"
-        accessibilityLabel={`Carta ${crion.name}, ${rarityInfo.label}, ataque ${attack.name}`}
+        accessibilityLabel={`Carta ${crion.name}, ${rarityInfo.label}, usando ${attack.name}. Ataque ${finalStats.atk}, defesa ${finalStats.def}.`}
         style={{
           width,
           height,
           borderRadius: THEME.borderRadius.card,
           backgroundColor: THEME.colors.card,
-          borderWidth: 3,
+          borderWidth: 3.5,
           borderColor: rarityInfo.color,
           overflow: 'hidden',
         }}
       >
-        {/* Cabeçalho: nome + elemento */}
+        {/* Topo: ataque e defesa finais à esquerda, raridade à direita */}
         <LinearGradient
           colors={elementTheme.gradient}
           start={{ x: 0, y: 0 }}
           end={{ x: 1, y: 1 }}
-          style={{ paddingHorizontal: 12 * scale, paddingVertical: 8 * scale }}
+          style={{
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            paddingHorizontal: 12 * scale,
+            paddingVertical: 7 * scale,
+          }}
         >
-          <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
-            <Text
-              numberOfLines={1}
-              style={{
-                flex: 1,
-                fontSize: 22 * scale,
-                fontWeight: '900',
-                color: elementTheme.accent,
-                letterSpacing: 0.5,
-              }}
-            >
-              {crion.name.toUpperCase()}
+          <View style={{ flexDirection: 'row', alignItems: 'baseline', gap: 3 }}>
+            <Text style={{ fontSize: 27 * scale, fontWeight: '900', color: elementTheme.accent }}>
+              {finalStats.atk}
             </Text>
-            <Text style={{ fontSize: 22 * scale }}>{subjectElementEmoji(crion.element)}</Text>
-            <View style={{ marginLeft: 6 * scale }}>
-              <RaritySymbol rarity={rarity} size={20 * scale} />
-            </View>
+            <Text style={{ fontSize: 19 * scale, fontWeight: '800', color: `${elementTheme.accent}AA` }}>
+              -{finalStats.def}
+            </Text>
+            {finalStats.bonusAtk > 0 && (
+              <Text style={{ fontSize: 10 * scale, fontWeight: '900', color: THEME.colors.success }}>
+                +{finalStats.bonusAtk}
+              </Text>
+            )}
           </View>
 
-          <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6, marginTop: 2 }}>
-            <Text style={{ fontSize: 11 * scale, fontWeight: '800', color: rarityInfo.color }}>
-              {rarityInfo.label.toUpperCase()}
-              {foil ? ' • HOLOGRÁFICA' : ''}
+          <View style={{ flexDirection: 'row', alignItems: 'center', gap: 5 * scale }}>
+            <Text style={{ fontSize: 11 * scale, fontWeight: '800', color: elementTheme.accent }}>
+              {tierInfo.emoji}
             </Text>
-            <Text style={{ fontSize: 11 * scale, color: elementTheme.accent }}>•</Text>
-            <Text style={{ fontSize: 11 * scale, fontWeight: '700', color: elementTheme.accent }}>
-              {tierInfo.emoji} {tierInfo.label.toUpperCase()}
-            </Text>
+            <RaritySymbol rarity={rarity} size={21 * scale} />
           </View>
         </LinearGradient>
 
-        {/* Arte + habitat */}
-        <View
-          style={{
-            // Absorve a sobra de altura da carta, mantendo a arte como foco visual.
-            flex: 1,
-            minHeight: 190 * scale,
-            backgroundColor: elementTheme.bg,
-            alignItems: 'center',
-            justifyContent: 'center',
-            borderTopWidth: 2,
-            borderBottomWidth: 2,
-            borderColor: elementTheme.accent,
-          }}
-        >
-          {imageUri ? (
-            <Image
-              source={{ uri: imageUri }}
-              style={{ width: '100%', height: '100%' }}
-              resizeMode="contain"
-              accessibilityLabel={`Ilustração de ${crion.name}`}
-            />
-          ) : (
-            // Sem arte gerada ainda: placeholder com o animal base do Crion.
-            <View style={{ alignItems: 'center', gap: 4 }}>
-              <Text style={{ fontSize: 76 * scale }}>{crion.baseEmoji}</Text>
-              <Text style={{ fontSize: 12 * scale, fontWeight: '700', color: elementTheme.accent }}>
-                {crion.baseAnimal}
-              </Text>
-            </View>
-          )}
-
-          {showParticles && <ElementParticles element={crion.element} width={width} />}
-
-          {/* Faixa holográfica que atravessa a arte — assinatura do dia perfeito */}
-          {foil && <FoilSheen pulse={pulse} />}
-
-          <View
-            style={{
-              position: 'absolute',
-              bottom: 0,
-              left: 0,
-              right: 0,
-              backgroundColor: `${elementTheme.accent}E6`,
-              paddingVertical: 3 * scale,
-            }}
-          >
-            <Text style={{ fontSize: 10 * scale, fontWeight: '700', color: '#FFFFFF', textAlign: 'center' }}>
-              {crion.habitat}
-            </Text>
-          </View>
+        {/* Arte em quatro camadas */}
+        <View style={{ borderTopWidth: 2, borderBottomWidth: 2, borderColor: elementTheme.accent }}>
+          <CrionArt
+            crion={crion}
+            attackSlot={attackSlot}
+            uris={artUris}
+            width={width - 7}
+            height={artHeight}
+            showParticles={showParticles}
+          />
         </View>
 
-        {/* Atributos */}
-        <View style={{ paddingHorizontal: 12 * scale, paddingVertical: 8 * scale, gap: 4 * scale }}>
-          <StatBar label="HP" value={crion.baseHP} max={STAT_MAX.hp} color="#22C55E" />
-          <StatBar label="ATK" value={crion.baseAtk} max={STAT_MAX.atk} color="#EF4444" />
-          <StatBar label="DEF" value={crion.baseDef} max={STAT_MAX.def} color="#3B82F6" />
-          <StatBar label="VEL" value={crion.baseSpd} max={STAT_MAX.spd} color="#F59E0B" />
+        {/* Nome, epíteto e os elementos com as notas das matérias */}
+        <View
+          style={{
+            flexDirection: 'row',
+            alignItems: 'center',
+            paddingHorizontal: 12 * scale,
+            paddingTop: 6 * scale,
+            gap: 8,
+          }}
+        >
+          <View style={{ flex: 1 }}>
+            <Text
+              numberOfLines={1}
+              style={{
+                fontSize: 25 * scale,
+                fontWeight: '900',
+                color: elementTheme.accent,
+                fontStyle: 'italic',
+                letterSpacing: 0.3,
+              }}
+            >
+              {crion.name}
+            </Text>
+            <Text
+              numberOfLines={1}
+              style={{ fontSize: 10.5 * scale, fontWeight: '700', color: THEME.colors.textLight }}
+            >
+              {crion.epithet}
+            </Text>
+          </View>
+
+          <View style={{ flexDirection: 'row', gap: 6 * scale }}>
+            {visibleContributions.map((c) => (
+              <ElementBadge key={c.subject} contribution={c} size={22 * scale} />
+            ))}
+          </View>
         </View>
 
         {/* Ataque desta carta */}
         <View
           style={{
-            marginHorizontal: 10 * scale,
-            padding: 8 * scale,
-            borderRadius: 10,
+            marginHorizontal: 11 * scale,
+            marginTop: 6 * scale,
+            paddingHorizontal: 9 * scale,
+            paddingVertical: 6 * scale,
+            borderRadius: 9,
             backgroundColor: elementTheme.bg,
             borderWidth: 1.5,
             borderColor: elementTheme.accent,
-            gap: 2,
+            gap: 1,
           }}
         >
-          <View style={{ flexDirection: 'row', alignItems: 'center', gap: 5 }}>
-            <Text style={{ fontSize: 13 * scale }}>⚔️</Text>
-            <Text
-              numberOfLines={1}
-              style={{ flex: 1, fontSize: 13 * scale, fontWeight: '900', color: elementTheme.accent }}
-            >
-              {attack.name.toUpperCase()}
-            </Text>
-          </View>
-
-          <Text style={{ fontSize: 10 * scale, fontWeight: '700', color: THEME.colors.textLight }}>
-            Poder: {attack.power}   Precisão: {attack.accuracy}%
-            {attack.effect ? `   ${effectLabel(attack.effect)}` : ''}
+          <Text
+            numberOfLines={1}
+            style={{ fontSize: 11.5 * scale, fontWeight: '900', color: elementTheme.accent }}
+          >
+            ⚔️ {attack.name.toUpperCase()} · {attack.power} · {attack.accuracy}%
           </Text>
-
           <Text
             numberOfLines={2}
-            style={{ fontSize: 10 * scale, fontStyle: 'italic', color: THEME.colors.text }}
+            style={{ fontSize: 9.5 * scale, fontStyle: 'italic', color: THEME.colors.text }}
           >
-            "{attack.description}"
+            « {attack.description} »
           </Text>
         </View>
 
-        {/* Rodapé: origem da carta */}
+        {/* Matérias que alimentaram a carta */}
+        {visibleContributions.length > 0 && (
+          <Text
+            numberOfLines={1}
+            style={{
+              paddingHorizontal: 12 * scale,
+              marginTop: 5 * scale,
+              fontSize: 9 * scale,
+              fontWeight: '700',
+              color: THEME.colors.textLight,
+            }}
+          >
+            {visibleContributions
+              .map((c) => `${SUBJECT_ELEMENT_MAP[c.subject].subjectLabel} ${c.value}`)
+              .join('  ·  ')}
+          </Text>
+        )}
+
+        {/* Rodapé de origem */}
         <View
           style={{
+            marginTop: 'auto',
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'space-between',
             paddingHorizontal: 12 * scale,
             paddingVertical: 6 * scale,
             borderTopWidth: 1,
             borderColor: THEME.colors.border,
-            gap: 1,
           }}
         >
-          <Text style={{ fontSize: 9.5 * scale, color: THEME.colors.textLight, fontWeight: '600' }}>
-            📅 {formatDateBR(date)}
+          <Text style={{ fontSize: 9.5 * scale, fontWeight: '800', color: THEME.colors.textLight }}>
+            Recrion — {xp} XP
           </Text>
-          <Text style={{ fontSize: 9.5 * scale, color: THEME.colors.textLight, fontWeight: '600' }}>
-            {subjectInfo.emoji} {subjectInfo.subjectLabel.toUpperCase()} • XP: {xp}
-          </Text>
-          <Text style={{ fontSize: 9.5 * scale, color: elementTheme.accent, fontWeight: '800' }}>
-            ✨ Conquistado por {childName}
+          <Text style={{ fontSize: 9 * scale, fontWeight: '700', color: elementTheme.accent }}>
+            ✨ {childName} · {formatDateBR(date)}
           </Text>
         </View>
+
+        {foil && <FoilSheen pulse={pulse} />}
       </View>
     </View>
   );
 });
 
-function subjectElementEmoji(element: Crion['element']): string {
+function subjectElementEmoji(element: Element): string {
   const found = Object.values(SUBJECT_ELEMENT_MAP).find((s) => s.element === element);
   if (found) return found.emoji;
   return element === 'ICE_NPC' ? '❄️' : '🌟';
 }
 
-function effectLabel(effect: NonNullable<Crion['attacks'][number]['effect']>): string {
-  const labels: Record<string, string> = {
-    BURN: '🔥 Queimadura',
-    FREEZE: '❄️ Congelar',
-    PARALYZE: '⚡ Paralisia',
-    CONFUSE: '💫 Confusão',
-    HEAL_SELF: '💚 Cura',
-    HEAL_ALL: '💚 Cura total',
-    IGNORE_DEFENSE: '🗡️ Perfura',
-  };
-  return labels[effect] ?? '';
-}
-
+export { subjectElementEmoji };
 export default CrionCard;

@@ -18,7 +18,14 @@ import Animated, {
 } from 'react-native-reanimated';
 
 import { RARITY_THRESHOLDS, THEME } from '@/constants/theme';
-import type { AttackSlot, Crion, Rarity, Subject } from '@/types';
+import type {
+  ArtLayerUris,
+  AttackSlot,
+  Crion,
+  ElementContribution,
+  FinalStats,
+  Rarity,
+} from '@/types';
 
 import CrionCard, { CARD_WIDTH } from './CrionCard';
 
@@ -31,7 +38,9 @@ interface CardRevealProps {
   xp: number;
   date: string;
   childName: string;
-  primarySubject: Subject;
+  contributions?: ElementContribution[];
+  stats?: FinalStats;
+  artUris?: ArtLayerUris;
   cardWidth?: number;
   onRevealed?: () => void;
   /** Carta holográfica — dia perfeito. */
@@ -45,7 +54,9 @@ export function CardReveal({
   xp,
   date,
   childName,
-  primarySubject,
+  contributions,
+  stats,
+  artUris,
   cardWidth = CARD_WIDTH,
   onRevealed,
   foil = false,
@@ -200,7 +211,9 @@ export function CardReveal({
               xp={xp}
               date={date}
               childName={childName}
-              primarySubject={primarySubject}
+              contributions={contributions}
+              stats={stats}
+              artUris={artUris}
               width={cardWidth}
               foil={foil}
             />

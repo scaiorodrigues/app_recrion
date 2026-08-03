@@ -141,7 +141,9 @@ export default function Collection() {
                 xp={todayCard.xp}
                 date={todayCard.date}
                 childName={todayCard.childName}
-                primarySubject={todayCard.primarySubject}
+                contributions={todayCard.contributions}
+                stats={todayCard.stats}
+                artUris={todayCard.artUris}
                 foil={todayCard.foil}
                 width={260}
               />

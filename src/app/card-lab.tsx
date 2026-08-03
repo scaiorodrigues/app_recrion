@@ -15,7 +15,7 @@ import { SUBJECT_ELEMENT_MAP } from '@/constants/game';
 import { ELEMENT_THEME, RARITY_THRESHOLDS, THEME } from '@/constants/theme';
 import { CRIONS } from '@/data/crions';
 import useShareCard from '@/hooks/useShareCard';
-import type { AttackSlot, Element, Rarity } from '@/types';
+import type { AttackSlot, Element, ElementContribution, Rarity } from '@/types';
 import { today } from '@/utils/profile';
 
 const ELEMENTS: Element[] = [
@@ -115,6 +115,22 @@ export default function CardLab() {
   const date = today();
   const xp = XP_BY_RARITY[rarity];
 
+  /** Matérias de exemplo, só para a demonstração mostrar os losangos. */
+  const contributions: ElementContribution[] = useMemo(() => {
+    if (!crion) return [];
+    const primary: ElementContribution = {
+      subject: 'portugues',
+      element: 'NATURE',
+      value: 100,
+      primary: crion.element === 'NATURE',
+    };
+    return [
+      { ...primary, element: crion.element, primary: true },
+      { subject: 'matematica', element: 'FIRE', value: 85, primary: false },
+      { subject: 'comportamento', element: 'LIGHT', value: 100, primary: false },
+    ];
+  }, [crion]);
+
   if (revealing && crion) {
     return (
       <Screen>
@@ -125,7 +141,7 @@ export default function CardLab() {
           xp={xp}
           date={date}
           childName="Sofia"
-          primarySubject="portugues"
+          contributions={contributions}
           foil={foil}
         />
         <View style={{ marginTop: 24, alignItems: 'center' }}>
@@ -216,7 +232,7 @@ export default function CardLab() {
                 xp={xp}
                 date={date}
                 childName="Sofia"
-                primarySubject="portugues"
+                contributions={contributions}
                 foil={foil}
               />
             </View>
