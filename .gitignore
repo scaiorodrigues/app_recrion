@@ -44,3 +44,4 @@ yarn-error.*
 
 # Arte gerada pelo Gemini — versionamos só os prompts e o manifesto
 art/out/
+public/art-test/

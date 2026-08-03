@@ -17,15 +17,31 @@ import { CRIONS } from '@/data/crions';
 import useShareCard from '@/hooks/useShareCard';
 import type { ArtLayerUris, AttackSlot, Element, ElementContribution, Rarity } from '@/types';
 
-/**
- * Arte de teste para o laboratório: se EXPO_PUBLIC_ART_TEST_URL apontar para
- * uma imagem, ela entra como camada composta. Serve para avaliar arte nova
- * dentro da carta antes de publicá-la no manifesto.
- */
-const TEST_ART: ArtLayerUris | undefined = process.env.EXPO_PUBLIC_ART_TEST_URL
-  ? { full: process.env.EXPO_PUBLIC_ART_TEST_URL }
-  : undefined;
 import { today } from '@/utils/profile';
+
+/**
+ * Artes de teste do laboratório. EXPO_PUBLIC_ART_TEST_URL aceita uma URL única
+ * (usada em qualquer ataque) ou um mapa "slot=url" separado por vírgulas —
+ * assim dá para comparar a mesma criatura usando habilidades diferentes.
+ */
+function parseTestArt(raw?: string): Partial<Record<AttackSlot, ArtLayerUris>> {
+  if (!raw) return {};
+  if (!raw.includes('=')) {
+    const every: ArtLayerUris = { full: raw };
+    return { 1: every, 2: every, 3: every, 4: every };
+  }
+  const map: Partial<Record<AttackSlot, ArtLayerUris>> = {};
+  for (const entry of raw.split(',')) {
+    const separator = entry.indexOf('=');
+    if (separator < 0) continue;
+    const slot = Number(entry.slice(0, separator).trim()) as AttackSlot;
+    const url = entry.slice(separator + 1).trim();
+    if (url && slot >= 1 && slot <= 4) map[slot] = { full: url };
+  }
+  return map;
+}
+
+const TEST_ART = parseTestArt(process.env.EXPO_PUBLIC_ART_TEST_URL);
 
 const ELEMENTS: Element[] = [
   'NATURE', 'FIRE', 'WATER', 'EARTH', 'METAL', 'WIND', 'ELECTRIC', 'LIGHT', 'ICE_NPC', 'LEGENDARY',
@@ -151,7 +167,7 @@ export default function CardLab() {
           date={date}
           childName="Sofia"
           contributions={contributions}
-          artUris={TEST_ART}
+          artUris={TEST_ART[slot]}
           foil={foil}
         />
         <View style={{ marginTop: 24, alignItems: 'center' }}>
@@ -243,7 +259,7 @@ export default function CardLab() {
                 date={date}
                 childName="Sofia"
                 contributions={contributions}
-                artUris={TEST_ART}
+                artUris={TEST_ART[slot]}
                 foil={foil}
               />
             </View>
