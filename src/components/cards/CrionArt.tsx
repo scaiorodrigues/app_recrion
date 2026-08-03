@@ -11,7 +11,7 @@
  */
 
 import { useEffect } from 'react';
-import { Image, Text, View } from 'react-native';
+import { Image, View } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import Animated, {
   Easing,
@@ -24,6 +24,7 @@ import Animated, {
 import { ELEMENT_THEME } from '@/constants/theme';
 import type { ArtLayerUris, AttackSlot, Crion, Element } from '@/types';
 
+import CreatureSprite from './CreatureSprite';
 import ElementParticles from './ElementParticles';
 
 interface CrionArtProps {
@@ -36,6 +37,12 @@ interface CrionArtProps {
   showParticles?: boolean;
   /** Dá vida à arte composta com um movimento lento de três segundos. */
   animate?: boolean;
+  /**
+   * Onde fica o centro de atenção da arte, de 0 (topo) a 1 (base). A criatura
+   * se planta aí. O padrão é o meio; a carta manda o centro da sua área livre,
+   * que não é o meio da carta.
+   */
+  focusY?: number;
 }
 
 /** Duração do ciclo de respiração da arte, em milissegundos. */
@@ -181,6 +188,7 @@ export function CrionArt({
   height,
   showParticles = true,
   animate = true,
+  focusY = 0.5,
 }: CrionArtProps) {
   const intensity = SLOT_INTENSITY[attackSlot];
   const pose = SLOT_POSE[attackSlot];
@@ -229,8 +237,14 @@ export function CrionArt({
         <EffectLayer element={crion.element} intensity={intensity} />
       )}
 
-      {/* 1 — criatura, na pose do ataque */}
-      <View style={[FILL, { alignItems: 'center', justifyContent: 'center' }]}>
+      {/* 1 — criatura, na pose do ataque, plantada no centro de atenção */}
+      <View
+        style={[
+          FILL,
+          { alignItems: 'center', justifyContent: 'center' },
+          { transform: [{ translateY: (focusY - 0.5) * height }] },
+        ]}
+      >
         {uris?.creature ? (
           <Image
             source={{ uri: uris.creature }}
@@ -242,14 +256,17 @@ export function CrionArt({
             resizeMode="contain"
           />
         ) : (
-          <Text
+          <View
             style={{
-              fontSize: height * 0.42 * pose.scale,
               transform: [{ rotate: pose.rotate }, { translateY: pose.translateY }],
             }}
           >
-            {crion.baseEmoji}
-          </Text>
+            <CreatureSprite
+              element={crion.element}
+              size={height * 0.4 * pose.scale}
+              attacking={animate}
+            />
+          </View>
         )}
       </View>
 

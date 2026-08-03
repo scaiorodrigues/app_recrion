@@ -278,6 +278,7 @@ export const CrionCard = forwardRef<View, CrionCardProps>(function CrionCard(
             height={height}
             showParticles={showParticles}
             animate={animateArt}
+            focusY={(TOP_BAND + CLEAR_AREA / 2) / CARD_HEIGHT}
           />
         </View>
 

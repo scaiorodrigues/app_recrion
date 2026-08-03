@@ -19,10 +19,20 @@ import type { ArtLayerUris, AttackSlot, Element, ElementContribution, Rarity } f
 
 import { today } from '@/utils/profile';
 
+/** Camadas de arte que o laboratório aceita testar. */
+const ART_LAYERS = ['full', 'creature', 'effect', 'background', 'edge'] as const;
+type ArtLayer = (typeof ART_LAYERS)[number];
+
+function isArtLayer(value: string): value is ArtLayer {
+  return (ART_LAYERS as readonly string[]).includes(value);
+}
+
 /**
  * Artes de teste do laboratório. EXPO_PUBLIC_ART_TEST_URL aceita uma URL única
- * (usada em qualquer ataque) ou um mapa "slot=url" separado por vírgulas —
- * assim dá para comparar a mesma criatura usando habilidades diferentes.
+ * (vale como arte inteira em qualquer ataque) ou um mapa separado por vírgulas
+ * no formato "slot=url" ou "slot=camada:url" — assim dá para comparar a mesma
+ * criatura em habilidades diferentes, ou entregar só o cenário e deixar a
+ * criatura ser desenhada em código por cima.
  */
 function parseTestArt(raw?: string): Partial<Record<AttackSlot, ArtLayerUris>> {
   if (!raw) return {};
@@ -35,8 +45,17 @@ function parseTestArt(raw?: string): Partial<Record<AttackSlot, ArtLayerUris>> {
     const separator = entry.indexOf('=');
     if (separator < 0) continue;
     const slot = Number(entry.slice(0, separator).trim()) as AttackSlot;
-    const url = entry.slice(separator + 1).trim();
-    if (url && slot >= 1 && slot <= 4) map[slot] = { full: url };
+    if (!(slot >= 1 && slot <= 4)) continue;
+
+    let layer: ArtLayer = 'full';
+    let url = entry.slice(separator + 1).trim();
+    // "camada:url" — o esquema da URL (http:, https:) não conta como camada.
+    const colon = url.indexOf(':');
+    if (colon > 0 && isArtLayer(url.slice(0, colon))) {
+      layer = url.slice(0, colon) as ArtLayer;
+      url = url.slice(colon + 1).trim();
+    }
+    if (url) map[slot] = { ...map[slot], [layer]: url };
   }
   return map;
 }
