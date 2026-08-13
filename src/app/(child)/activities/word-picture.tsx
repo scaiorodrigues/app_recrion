@@ -154,6 +154,7 @@ export default function WordPictureActivity() {
                 alignItems: 'center',
               }}
             >
+              {/* Só o texto: desenho ao lado da palavra entregaria a leitura. */}
               <Text
                 style={{
                   fontSize: 24,
@@ -162,7 +163,6 @@ export default function WordPictureActivity() {
                   color: isLinked ? '#15803D' : THEME.colors.text,
                 }}
               >
-                {isLinked ? `${entry.emoji}  ` : ''}
                 {entry.word.toUpperCase()}
               </Text>
             </Pressable>
