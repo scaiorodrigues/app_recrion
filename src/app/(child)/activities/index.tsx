@@ -13,6 +13,7 @@ import {
   SUBJECT_ELEMENT_MAP,
 } from '@/constants/game';
 import { THEME, TIER_INFO } from '@/constants/theme';
+import { SUBJECT_ENTRY_ROUTE } from '@/data/exercises';
 import { useAppStore } from '@/stores/useAppStore';
 import { today } from '@/utils/profile';
 import { resolveAccess } from '@/utils/subscription';
@@ -219,7 +220,8 @@ export default function ChildActivities() {
               key={subject}
               onPress={() => {
                 if (blocked) return;
-                router.push('/(child)/activities/syllables');
+                const entry = SUBJECT_ENTRY_ROUTE[subject as keyof typeof SUBJECT_ENTRY_ROUTE];
+                if (entry) router.push(entry);
               }}
               disabled={blocked}
               accessibilityRole="button"

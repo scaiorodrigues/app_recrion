@@ -12,10 +12,11 @@ import Button from '@/components/ui/Button';
 import ProgressBar from '@/components/ui/ProgressBar';
 import Screen from '@/components/ui/Screen';
 import { THEME } from '@/constants/theme';
-import { answersFor, wordsForTier, type WordEntry } from '@/data/words';
+import { answersFor, wordsForTier } from '@/data/words';
 import { notifyActivityCompleted } from '@/services/notifications';
 import { useAppStore } from '@/stores/useAppStore';
 import { today } from '@/utils/profile';
+import { pickBySeed } from '@/utils/random';
 import type { DailyActivity } from '@/types';
 
 const FIELDS = [
@@ -41,13 +42,6 @@ function emptyRecord<T>(initial: () => T): Record<FieldKey, T> {
   );
 }
 
-/** Escolhe a palavra do dia de forma estável para a criança. */
-function wordOfTheDay(words: WordEntry[], seed: string): WordEntry {
-  let hash = 0;
-  for (let i = 0; i < seed.length; i++) hash = (hash * 31 + seed.charCodeAt(i)) | 0;
-  return words[Math.abs(hash) % words.length];
-}
-
 export default function SyllablesActivity() {
   const child = useAppStore((s) => s.children.find((c) => c.id === s.activeChildId));
   const upsertActivity = useAppStore((s) => s.upsertActivity);
@@ -57,7 +51,7 @@ export default function SyllablesActivity() {
 
   const words = wordsForTier(child?.tier ?? 'TIER_1');
   const word = useMemo(
-    () => wordOfTheDay(words, `${date}:${child?.id ?? 'demo'}`),
+    () => pickBySeed(words, `${date}:${child?.id ?? 'demo'}`),
     [words, date, child?.id],
   );
   const answers = useMemo(() => answersFor(word), [word]);
