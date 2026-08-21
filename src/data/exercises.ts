@@ -14,6 +14,14 @@ import type { AcademicSubject } from '@/types';
 
 export const PORTUGUESE_EXERCISES = [
   {
+    id: 'ficha-leitura',
+    title: 'Ficha de leitura',
+    emoji: '📄',
+    description: 'Leia um texto e responda sobre ele',
+    route: '/(child)/activities/reading-sheet',
+    autoGraded: true,
+  },
+  {
     id: 'ligar-palavra',
     title: 'Ligue à figura',
     emoji: '🔗',
