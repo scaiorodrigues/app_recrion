@@ -6,9 +6,10 @@ import { Text, View } from 'react-native';
 
 import Button from '@/components/ui/Button';
 import Screen from '@/components/ui/Screen';
-import { SUBSCRIPTION_PLANS } from '@/constants/game';
+import { SUBSCRIPTION_PLANS, TRIAL_DAYS } from '@/constants/game';
 import { THEME } from '@/constants/theme';
 import { useAppStore } from '@/stores/useAppStore';
+import { resolveAccess } from '@/utils/subscription';
 import type { SubscriptionTier } from '@/types';
 
 interface PlanCard {
@@ -22,15 +23,15 @@ interface PlanCard {
 const PLANS: PlanCard[] = [
   {
     tier: 'free',
-    title: 'Gratuito',
+    title: `Teste de ${TRIAL_DAYS} dias`,
     price: 'R$ 0',
     highlight: false,
     features: [
-      `${SUBSCRIPTION_PLANS.free.activitiesPerSubject} atividades de teste por matéria`,
-      'Apenas Português',
-      '✨ Comportamento completo, para sempre',
-      'Crions até Incomum',
-      '2 mundos no tabuleiro',
+      'Acesso total por 3 dias: todas as matérias',
+      'Todas as raridades, inclusive a Lendária holográfica',
+      'Todos os mundos do tabuleiro',
+      '✨ Comportamento completo, para sempre — mesmo depois do teste',
+      'Limite diário de atividades continua valendo',
     ],
   },
   {
@@ -65,6 +66,7 @@ const PLANS: PlanCard[] = [
 export default function Subscription() {
   const subscription = useAppStore((s) => s.subscription);
   const setSubscription = useAppStore((s) => s.setSubscription);
+  const access = resolveAccess(subscription);
 
   return (
     <Screen>
@@ -75,9 +77,53 @@ export default function Subscription() {
         O módulo de comportamento é gratuito em todos os planos.
       </Text>
 
+      {access.trialActive && (
+        <View
+          style={{
+            marginTop: 16,
+            padding: 16,
+            borderRadius: THEME.borderRadius.card,
+            backgroundColor: '#F5F3FF',
+            borderWidth: 2,
+            borderColor: THEME.colors.primary,
+          }}
+        >
+          <Text style={{ fontSize: 15, fontWeight: '900', color: THEME.colors.primary }}>
+            Teste em andamento — {access.trialDaysLeft}{' '}
+            {access.trialDaysLeft === 1 ? 'dia restante' : 'dias restantes'}
+          </Text>
+          <Text style={{ fontSize: 13, color: THEME.colors.textLight, fontWeight: '600', marginTop: 3 }}>
+            Seu filho está com acesso a tudo. Assine antes do fim para não perder a sequência.
+          </Text>
+        </View>
+      )}
+
+      {access.trialExpired && (
+        <View
+          style={{
+            marginTop: 16,
+            padding: 16,
+            borderRadius: THEME.borderRadius.card,
+            backgroundColor: '#FEF3C7',
+            borderWidth: 2,
+            borderColor: THEME.colors.secondary,
+          }}
+        >
+          <Text style={{ fontSize: 15, fontWeight: '900', color: '#92400E' }}>
+            O teste de {TRIAL_DAYS} dias terminou
+          </Text>
+          <Text style={{ fontSize: 13, color: '#92400E', fontWeight: '600', marginTop: 3 }}>
+            As tarefas de comportamento e os Crions de Luz continuam liberados, sempre.
+          </Text>
+        </View>
+      )}
+
       <View style={{ marginTop: 22, gap: 14 }}>
         {PLANS.map((plan) => {
-          const active = subscription.tier === plan.tier;
+          const active =
+            plan.tier === 'free'
+              ? subscription.tier === 'free' && access.trialActive
+              : subscription.tier === plan.tier;
 
           return (
             <View
@@ -120,13 +166,14 @@ export default function Subscription() {
 
               {active ? (
                 <Text style={{ fontSize: 14, fontWeight: '900', color: THEME.colors.success }}>
-                  ✅ Seu plano atual
+                  {plan.tier === 'free' ? '✅ Teste em andamento' : '✅ Seu plano atual'}
                 </Text>
               ) : (
                 <Button
-                  label={plan.tier === 'free' ? 'Voltar ao gratuito' : 'Assinar'}
+                  label={plan.tier === 'free' ? 'Teste já utilizado' : 'Assinar'}
                   variant={plan.highlight ? 'secondary' : 'primary'}
                   fullWidth
+                  disabled={plan.tier === 'free'}
                   onPress={() =>
                     // TODO: trocar pela compra real via RevenueCat quando os
                     // produtos estiverem configurados no Google Play Console.

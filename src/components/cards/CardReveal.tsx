@@ -18,7 +18,14 @@ import Animated, {
 } from 'react-native-reanimated';
 
 import { RARITY_THRESHOLDS, THEME } from '@/constants/theme';
-import type { AttackSlot, Crion, Rarity, Subject } from '@/types';
+import type {
+  ArtLayerUris,
+  AttackSlot,
+  Crion,
+  ElementContribution,
+  FinalStats,
+  Rarity,
+} from '@/types';
 
 import CrionCard, { CARD_WIDTH } from './CrionCard';
 
@@ -31,9 +38,13 @@ interface CardRevealProps {
   xp: number;
   date: string;
   childName: string;
-  primarySubject: Subject;
+  contributions?: ElementContribution[];
+  stats?: FinalStats;
+  artUris?: ArtLayerUris;
   cardWidth?: number;
   onRevealed?: () => void;
+  /** Carta holográfica — dia perfeito. */
+  foil?: boolean;
 }
 
 export function CardReveal({
@@ -43,9 +54,12 @@ export function CardReveal({
   xp,
   date,
   childName,
-  primarySubject,
+  contributions,
+  stats,
+  artUris,
   cardWidth = CARD_WIDTH,
   onRevealed,
+  foil = false,
 }: CardRevealProps) {
   const [phase, setPhase] = useState<Phase>('egg');
   const rarityInfo = RARITY_THRESHOLDS[rarity];
@@ -197,8 +211,11 @@ export function CardReveal({
               xp={xp}
               date={date}
               childName={childName}
-              primarySubject={primarySubject}
+              contributions={contributions}
+              stats={stats}
+              artUris={artUris}
               width={cardWidth}
+              foil={foil}
             />
           </Animated.View>
         </View>
@@ -210,7 +227,7 @@ export function CardReveal({
             {crion.name} apareceu!
           </Text>
           <Text style={{ fontSize: 14, color: THEME.colors.textLight, fontWeight: '600' }}>
-            {'★'.repeat(rarityInfo.stars)} {rarityInfo.label} • {xp} XP
+            {rarityInfo.symbol} {rarityInfo.label} • {xp} XP{foil ? ' • ✨ Holográfica' : ''}
           </Text>
         </View>
       )}

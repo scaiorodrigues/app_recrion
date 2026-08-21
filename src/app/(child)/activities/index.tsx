@@ -7,16 +7,19 @@ import { Pressable, Text, View } from 'react-native';
 import { router } from 'expo-router';
 
 import Screen from '@/components/ui/Screen';
-import { DAILY_ACTIVITY_RULES, SUBJECT_ELEMENT_MAP, SUBSCRIPTION_PLANS } from '@/constants/game';
+import {
+  DAILY_ACTIVITY_RULES,
+  IMPLEMENTED_SUBJECTS,
+  SUBJECT_ELEMENT_MAP,
+} from '@/constants/game';
 import { THEME, TIER_INFO } from '@/constants/theme';
+import { SUBJECT_ENTRY_ROUTE } from '@/data/exercises';
 import { useAppStore } from '@/stores/useAppStore';
 import { today } from '@/utils/profile';
+import { resolveAccess } from '@/utils/subscription';
 import type { AcademicSubject } from '@/types';
 
 const BREAK_MS = DAILY_ACTIVITY_RULES.breakBetweenActivitiesMinutes * 60 * 1000;
-
-/** Matérias que já têm tela pronta. As demais aparecem como "em breve". */
-const IMPLEMENTED: AcademicSubject[] = ['portugues'];
 
 const ORDER: AcademicSubject[] = [
   'portugues', 'matematica', 'ingles', 'ciencias', 'logica', 'arte', 'musica',
@@ -79,12 +82,8 @@ export default function ChildActivities() {
   const startedToday = todayActivities.length;
   const reachedLimit = startedToday >= maxToday;
 
-  const unlockedSubjects =
-    subscription.tier === 'bundle'
-      ? ORDER
-      : subscription.tier === 'subject'
-        ? subscription.activeSubjects
-        : SUBSCRIPTION_PLANS.free.subjects;
+  const access = resolveAccess(subscription);
+  const unlockedSubjects = access.subjects;
 
   return (
     <Screen>
@@ -94,6 +93,47 @@ export default function ChildActivities() {
       <Text style={{ fontSize: 14, color: THEME.colors.textLight, fontWeight: '700', marginTop: 2 }}>
         {tier.emoji} {tier.label} • {startedToday} de {maxToday} atividades hoje
       </Text>
+
+      {access.trialActive && (
+        <View
+          style={{
+            marginTop: 16,
+            padding: 14,
+            borderRadius: THEME.borderRadius.card,
+            backgroundColor: '#F5F3FF',
+            borderWidth: 2,
+            borderColor: THEME.colors.primary,
+          }}
+        >
+          <Text style={{ fontSize: 14, fontWeight: '900', color: THEME.colors.primary }}>
+            ✨ Teste liberado: {access.trialDaysLeft}{' '}
+            {access.trialDaysLeft === 1 ? 'dia restante' : 'dias restantes'}
+          </Text>
+          <Text style={{ fontSize: 12, color: THEME.colors.textLight, fontWeight: '600', marginTop: 2 }}>
+            Todas as matérias e todas as raridades estão abertas para você.
+          </Text>
+        </View>
+      )}
+
+      {access.trialExpired && (
+        <View
+          style={{
+            marginTop: 16,
+            padding: 14,
+            borderRadius: THEME.borderRadius.card,
+            backgroundColor: '#FEF3C7',
+            borderWidth: 2,
+            borderColor: THEME.colors.secondary,
+          }}
+        >
+          <Text style={{ fontSize: 14, fontWeight: '900', color: '#92400E' }}>
+            Seu teste de 3 dias terminou
+          </Text>
+          <Text style={{ fontSize: 12, color: '#92400E', fontWeight: '600', marginTop: 2 }}>
+            Suas tarefas de comportamento continuam liberadas — e seu Crion de Luz também! ✨
+          </Text>
+        </View>
+      )}
 
       {onBreak && (
         <View
@@ -153,14 +193,16 @@ export default function ChildActivities() {
           const info = SUBJECT_ELEMENT_MAP[subject];
           const activity = todayActivities.find((a) => a.subject === subject);
           const locked = !unlockedSubjects.includes(subject);
-          const comingSoon = !IMPLEMENTED.includes(subject);
+          const comingSoon = !IMPLEMENTED_SUBJECTS.includes(subject);
 
           // Uma atividade por matéria por dia — depois disso, mostra o status.
           const doneToday = Boolean(activity);
           const blocked = locked || comingSoon || doneToday || onBreak || reachedLimit;
 
           const statusText = locked
-            ? '🔒 Disponível na assinatura'
+            ? access.trialExpired
+              ? '🔒 Seu teste acabou — assine para continuar'
+              : '🔒 Disponível na assinatura'
             : comingSoon
               ? '🚧 Em breve'
               : activity?.status === 'PENDING_VALIDATION'
@@ -178,7 +220,8 @@ export default function ChildActivities() {
               key={subject}
               onPress={() => {
                 if (blocked) return;
-                router.push('/(child)/activities/syllables');
+                const entry = SUBJECT_ENTRY_ROUTE[subject as keyof typeof SUBJECT_ENTRY_ROUTE];
+                if (entry) router.push(entry);
               }}
               disabled={blocked}
               accessibilityRole="button"

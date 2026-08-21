@@ -1,0 +1,3074 @@
+{
+  "crion_folhim_001_s1": {
+    "creature": "creature_35846dfdd0fb69cc.png",
+    "effect": "effect_3b55df08ba9999e6.png",
+    "background": "background_dbd59f116b9d7368.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_folhim_001_s2": {
+    "creature": "creature_41031700eb8a4c43.png",
+    "effect": "effect_d3d6f20d0aea313f.png",
+    "background": "background_dbd59f116b9d7368.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_folhim_001_s3": {
+    "creature": "creature_d082e11d7ff71663.png",
+    "effect": "effect_0fdc351b7f080395.png",
+    "background": "background_dbd59f116b9d7368.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_folhim_001_s4": {
+    "creature": "creature_c41d5d91e95c5bad.png",
+    "effect": "effect_d8411d77d3780f72.png",
+    "background": "background_dbd59f116b9d7368.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_sementra_002_s1": {
+    "creature": "creature_d857cd4b10ad40ba.png",
+    "effect": "effect_3b55df08ba9999e6.png",
+    "background": "background_703129e54d32eeb8.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_sementra_002_s2": {
+    "creature": "creature_9a4b260313561d0d.png",
+    "effect": "effect_d3d6f20d0aea313f.png",
+    "background": "background_703129e54d32eeb8.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_sementra_002_s3": {
+    "creature": "creature_546e503133094903.png",
+    "effect": "effect_0fdc351b7f080395.png",
+    "background": "background_703129e54d32eeb8.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_sementra_002_s4": {
+    "creature": "creature_bd6afc2dbecd59df.png",
+    "effect": "effect_d8411d77d3780f72.png",
+    "background": "background_703129e54d32eeb8.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_musguito_003_s1": {
+    "creature": "creature_06219d079194be98.png",
+    "effect": "effect_3b55df08ba9999e6.png",
+    "background": "background_1b7123fe83d09477.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_musguito_003_s2": {
+    "creature": "creature_6d7cf5ec79b76aa3.png",
+    "effect": "effect_d3d6f20d0aea313f.png",
+    "background": "background_1b7123fe83d09477.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_musguito_003_s3": {
+    "creature": "creature_a5058dfaea895143.png",
+    "effect": "effect_0fdc351b7f080395.png",
+    "background": "background_1b7123fe83d09477.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_musguito_003_s4": {
+    "creature": "creature_045948cd8b96a467.png",
+    "effect": "effect_d8411d77d3780f72.png",
+    "background": "background_1b7123fe83d09477.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_brotinho_004_s1": {
+    "creature": "creature_8092e47e73556833.png",
+    "effect": "effect_3b55df08ba9999e6.png",
+    "background": "background_7539b2a9e2d91a11.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_brotinho_004_s2": {
+    "creature": "creature_dce47dfec18f53be.png",
+    "effect": "effect_d3d6f20d0aea313f.png",
+    "background": "background_7539b2a9e2d91a11.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_brotinho_004_s3": {
+    "creature": "creature_3d6061e8fd29a975.png",
+    "effect": "effect_0fdc351b7f080395.png",
+    "background": "background_7539b2a9e2d91a11.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_brotinho_004_s4": {
+    "creature": "creature_cbf84fbd8ba18c1e.png",
+    "effect": "effect_d8411d77d3780f72.png",
+    "background": "background_7539b2a9e2d91a11.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_cipoalho_005_s1": {
+    "creature": "creature_7a41231fa049da3f.png",
+    "effect": "effect_3b55df08ba9999e6.png",
+    "background": "background_dbd59f116b9d7368.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_cipoalho_005_s2": {
+    "creature": "creature_ab1c7b99db38afe3.png",
+    "effect": "effect_d3d6f20d0aea313f.png",
+    "background": "background_dbd59f116b9d7368.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_cipoalho_005_s3": {
+    "creature": "creature_0dc7ae0fcb30b919.png",
+    "effect": "effect_0fdc351b7f080395.png",
+    "background": "background_dbd59f116b9d7368.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_cipoalho_005_s4": {
+    "creature": "creature_423f42905e32b4c9.png",
+    "effect": "effect_d8411d77d3780f72.png",
+    "background": "background_dbd59f116b9d7368.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_florpardo_006_s1": {
+    "creature": "creature_b957447ab9826ec8.png",
+    "effect": "effect_3b55df08ba9999e6.png",
+    "background": "background_703129e54d32eeb8.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_florpardo_006_s2": {
+    "creature": "creature_c1ab1e5b3a36992b.png",
+    "effect": "effect_d3d6f20d0aea313f.png",
+    "background": "background_703129e54d32eeb8.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_florpardo_006_s3": {
+    "creature": "creature_d465ebcab5bc2b1e.png",
+    "effect": "effect_0fdc351b7f080395.png",
+    "background": "background_703129e54d32eeb8.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_florpardo_006_s4": {
+    "creature": "creature_86789925e79d2ec1.png",
+    "effect": "effect_d8411d77d3780f72.png",
+    "background": "background_703129e54d32eeb8.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_raizuto_007_s1": {
+    "creature": "creature_a45d76a5d3a17f0a.png",
+    "effect": "effect_3b55df08ba9999e6.png",
+    "background": "background_1b7123fe83d09477.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_raizuto_007_s2": {
+    "creature": "creature_5253586e4f7aae87.png",
+    "effect": "effect_d3d6f20d0aea313f.png",
+    "background": "background_1b7123fe83d09477.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_raizuto_007_s3": {
+    "creature": "creature_c49a91c60cce8b6e.png",
+    "effect": "effect_0fdc351b7f080395.png",
+    "background": "background_1b7123fe83d09477.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_raizuto_007_s4": {
+    "creature": "creature_c198afe775594d30.png",
+    "effect": "effect_d8411d77d3780f72.png",
+    "background": "background_1b7123fe83d09477.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_trevoso_008_s1": {
+    "creature": "creature_fb094ce2af7422a2.png",
+    "effect": "effect_3b55df08ba9999e6.png",
+    "background": "background_7539b2a9e2d91a11.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_trevoso_008_s2": {
+    "creature": "creature_b9d1cb82809bcdb5.png",
+    "effect": "effect_d3d6f20d0aea313f.png",
+    "background": "background_7539b2a9e2d91a11.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_trevoso_008_s3": {
+    "creature": "creature_0c58876b7f6e006b.png",
+    "effect": "effect_0fdc351b7f080395.png",
+    "background": "background_7539b2a9e2d91a11.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_trevoso_008_s4": {
+    "creature": "creature_b25ffddd6ee80086.png",
+    "effect": "effect_d8411d77d3780f72.png",
+    "background": "background_7539b2a9e2d91a11.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_bambuz_009_s1": {
+    "creature": "creature_348fe6b38441d273.png",
+    "effect": "effect_3b55df08ba9999e6.png",
+    "background": "background_dbd59f116b9d7368.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_bambuz_009_s2": {
+    "creature": "creature_ebe043a7683a4b09.png",
+    "effect": "effect_d3d6f20d0aea313f.png",
+    "background": "background_dbd59f116b9d7368.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_bambuz_009_s3": {
+    "creature": "creature_f9dd623d33bc04e3.png",
+    "effect": "effect_0fdc351b7f080395.png",
+    "background": "background_dbd59f116b9d7368.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_bambuz_009_s4": {
+    "creature": "creature_1f2aae9a111cec71.png",
+    "effect": "effect_d8411d77d3780f72.png",
+    "background": "background_dbd59f116b9d7368.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_carvalhon_010_s1": {
+    "creature": "creature_32e8544ccbef5727.png",
+    "effect": "effect_3b55df08ba9999e6.png",
+    "background": "background_703129e54d32eeb8.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_carvalhon_010_s2": {
+    "creature": "creature_ef282c5e7cfd7ae6.png",
+    "effect": "effect_d3d6f20d0aea313f.png",
+    "background": "background_703129e54d32eeb8.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_carvalhon_010_s3": {
+    "creature": "creature_bf9eb81c6192e9dd.png",
+    "effect": "effect_0fdc351b7f080395.png",
+    "background": "background_703129e54d32eeb8.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_carvalhon_010_s4": {
+    "creature": "creature_54e0659284dd4b1b.png",
+    "effect": "effect_d8411d77d3780f72.png",
+    "background": "background_703129e54d32eeb8.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_vinhedra_011_s1": {
+    "creature": "creature_16e91892d73b6a50.png",
+    "effect": "effect_3b55df08ba9999e6.png",
+    "background": "background_1b7123fe83d09477.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_vinhedra_011_s2": {
+    "creature": "creature_0fa22cc6ea731f4d.png",
+    "effect": "effect_d3d6f20d0aea313f.png",
+    "background": "background_1b7123fe83d09477.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_vinhedra_011_s3": {
+    "creature": "creature_7c116b3f478f773d.png",
+    "effect": "effect_0fdc351b7f080395.png",
+    "background": "background_1b7123fe83d09477.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_vinhedra_011_s4": {
+    "creature": "creature_a0c6abb0e8b0e4e7.png",
+    "effect": "effect_d8411d77d3780f72.png",
+    "background": "background_1b7123fe83d09477.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_silvantis_012_s1": {
+    "creature": "creature_e4e94719cdf158fd.png",
+    "effect": "effect_3b55df08ba9999e6.png",
+    "background": "background_7539b2a9e2d91a11.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_silvantis_012_s2": {
+    "creature": "creature_11eb364f5b0a5fb7.png",
+    "effect": "effect_d3d6f20d0aea313f.png",
+    "background": "background_7539b2a9e2d91a11.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_silvantis_012_s3": {
+    "creature": "creature_a7bd79d58f5c241b.png",
+    "effect": "effect_0fdc351b7f080395.png",
+    "background": "background_7539b2a9e2d91a11.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_silvantis_012_s4": {
+    "creature": "creature_425262f566ae28ca.png",
+    "effect": "effect_d8411d77d3780f72.png",
+    "background": "background_7539b2a9e2d91a11.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_guardavor_013_s1": {
+    "creature": "creature_aeaa3e10693d8397.png",
+    "effect": "effect_3b55df08ba9999e6.png",
+    "background": "background_dbd59f116b9d7368.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_guardavor_013_s2": {
+    "creature": "creature_a1616b71c583b2bf.png",
+    "effect": "effect_d3d6f20d0aea313f.png",
+    "background": "background_dbd59f116b9d7368.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_guardavor_013_s3": {
+    "creature": "creature_364cae5c921e9214.png",
+    "effect": "effect_0fdc351b7f080395.png",
+    "background": "background_dbd59f116b9d7368.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_guardavor_013_s4": {
+    "creature": "creature_2cf7bc5d3fdacd96.png",
+    "effect": "effect_d8411d77d3780f72.png",
+    "background": "background_dbd59f116b9d7368.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_arvoreth_014_s1": {
+    "creature": "creature_954bd8c0eab68d85.png",
+    "effect": "effect_3b55df08ba9999e6.png",
+    "background": "background_703129e54d32eeb8.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_arvoreth_014_s2": {
+    "creature": "creature_044bcb20326a3703.png",
+    "effect": "effect_d3d6f20d0aea313f.png",
+    "background": "background_703129e54d32eeb8.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_arvoreth_014_s3": {
+    "creature": "creature_dea896d93ea1f351.png",
+    "effect": "effect_0fdc351b7f080395.png",
+    "background": "background_703129e54d32eeb8.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_arvoreth_014_s4": {
+    "creature": "creature_2af07d36408fa7e5.png",
+    "effect": "effect_d8411d77d3780f72.png",
+    "background": "background_703129e54d32eeb8.png",
+    "edge": "edge_bca0bd9fb84a329d.png"
+  },
+  "crion_faguinho_001_s1": {
+    "creature": "creature_c1bc3b2c4e9db487.png",
+    "effect": "effect_dfa8147905b4283d.png",
+    "background": "background_fab974ce3416a886.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_faguinho_001_s2": {
+    "creature": "creature_9b8407ca48d14502.png",
+    "effect": "effect_69cf37e23faa5be6.png",
+    "background": "background_fab974ce3416a886.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_faguinho_001_s3": {
+    "creature": "creature_51a0800da5d505f7.png",
+    "effect": "effect_db3793fc4df1767b.png",
+    "background": "background_fab974ce3416a886.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_faguinho_001_s4": {
+    "creature": "creature_4af9b90b9d80cde8.png",
+    "effect": "effect_386bfc5b8401a875.png",
+    "background": "background_fab974ce3416a886.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_brasato_002_s1": {
+    "creature": "creature_60c486c20aab571f.png",
+    "effect": "effect_dfa8147905b4283d.png",
+    "background": "background_98997d4ab6c11694.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_brasato_002_s2": {
+    "creature": "creature_cb3ddae451a70916.png",
+    "effect": "effect_69cf37e23faa5be6.png",
+    "background": "background_98997d4ab6c11694.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_brasato_002_s3": {
+    "creature": "creature_883b669c14b432a1.png",
+    "effect": "effect_db3793fc4df1767b.png",
+    "background": "background_98997d4ab6c11694.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_brasato_002_s4": {
+    "creature": "creature_af5fca597b08d72a.png",
+    "effect": "effect_386bfc5b8401a875.png",
+    "background": "background_98997d4ab6c11694.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_chamito_003_s1": {
+    "creature": "creature_6e82b59876bb2904.png",
+    "effect": "effect_dfa8147905b4283d.png",
+    "background": "background_c5a9aac43af659f6.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_chamito_003_s2": {
+    "creature": "creature_a17f3a70688dc0d4.png",
+    "effect": "effect_69cf37e23faa5be6.png",
+    "background": "background_c5a9aac43af659f6.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_chamito_003_s3": {
+    "creature": "creature_2cf5a73a2b398471.png",
+    "effect": "effect_db3793fc4df1767b.png",
+    "background": "background_c5a9aac43af659f6.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_chamito_003_s4": {
+    "creature": "creature_1ed0981692168fd4.png",
+    "effect": "effect_386bfc5b8401a875.png",
+    "background": "background_c5a9aac43af659f6.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_fogacho_004_s1": {
+    "creature": "creature_89d97b097e3b9db5.png",
+    "effect": "effect_dfa8147905b4283d.png",
+    "background": "background_7b166feb0142607c.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_fogacho_004_s2": {
+    "creature": "creature_7ea9100914fe7c47.png",
+    "effect": "effect_69cf37e23faa5be6.png",
+    "background": "background_7b166feb0142607c.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_fogacho_004_s3": {
+    "creature": "creature_5791c68ed1c3a9aa.png",
+    "effect": "effect_db3793fc4df1767b.png",
+    "background": "background_7b166feb0142607c.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_fogacho_004_s4": {
+    "creature": "creature_0ead4811cd535615.png",
+    "effect": "effect_386bfc5b8401a875.png",
+    "background": "background_7b166feb0142607c.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_cinzarro_005_s1": {
+    "creature": "creature_a5469ca3b223f484.png",
+    "effect": "effect_dfa8147905b4283d.png",
+    "background": "background_fab974ce3416a886.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_cinzarro_005_s2": {
+    "creature": "creature_b365ef13598851d5.png",
+    "effect": "effect_69cf37e23faa5be6.png",
+    "background": "background_fab974ce3416a886.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_cinzarro_005_s3": {
+    "creature": "creature_ce60790da57c920c.png",
+    "effect": "effect_db3793fc4df1767b.png",
+    "background": "background_fab974ce3416a886.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_cinzarro_005_s4": {
+    "creature": "creature_70fc31faa9179f0d.png",
+    "effect": "effect_386bfc5b8401a875.png",
+    "background": "background_fab974ce3416a886.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_lavarto_006_s1": {
+    "creature": "creature_2b0c952bfaa417f7.png",
+    "effect": "effect_dfa8147905b4283d.png",
+    "background": "background_98997d4ab6c11694.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_lavarto_006_s2": {
+    "creature": "creature_c9f2dd87938805e7.png",
+    "effect": "effect_69cf37e23faa5be6.png",
+    "background": "background_98997d4ab6c11694.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_lavarto_006_s3": {
+    "creature": "creature_734ceeca0a7a2e0d.png",
+    "effect": "effect_db3793fc4df1767b.png",
+    "background": "background_98997d4ab6c11694.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_lavarto_006_s4": {
+    "creature": "creature_67befc7eabb54d6f.png",
+    "effect": "effect_386bfc5b8401a875.png",
+    "background": "background_98997d4ab6c11694.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_pirogato_007_s1": {
+    "creature": "creature_09930681146a622b.png",
+    "effect": "effect_dfa8147905b4283d.png",
+    "background": "background_c5a9aac43af659f6.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_pirogato_007_s2": {
+    "creature": "creature_4af31ce50ccf1233.png",
+    "effect": "effect_69cf37e23faa5be6.png",
+    "background": "background_c5a9aac43af659f6.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_pirogato_007_s3": {
+    "creature": "creature_2e1fb361c068f0f9.png",
+    "effect": "effect_db3793fc4df1767b.png",
+    "background": "background_c5a9aac43af659f6.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_pirogato_007_s4": {
+    "creature": "creature_f56c229174ad1b5e.png",
+    "effect": "effect_386bfc5b8401a875.png",
+    "background": "background_c5a9aac43af659f6.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_fornalh_008_s1": {
+    "creature": "creature_892615d83d9b8309.png",
+    "effect": "effect_dfa8147905b4283d.png",
+    "background": "background_7b166feb0142607c.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_fornalh_008_s2": {
+    "creature": "creature_a1b1feab0a33edc6.png",
+    "effect": "effect_69cf37e23faa5be6.png",
+    "background": "background_7b166feb0142607c.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_fornalh_008_s3": {
+    "creature": "creature_ee60b4707f9420f6.png",
+    "effect": "effect_db3793fc4df1767b.png",
+    "background": "background_7b166feb0142607c.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_fornalh_008_s4": {
+    "creature": "creature_47fd685d4cfc2a6e.png",
+    "effect": "effect_386bfc5b8401a875.png",
+    "background": "background_7b166feb0142607c.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_vulcanor_009_s1": {
+    "creature": "creature_548f803ec55f14a9.png",
+    "effect": "effect_dfa8147905b4283d.png",
+    "background": "background_fab974ce3416a886.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_vulcanor_009_s2": {
+    "creature": "creature_f62098528d7d2879.png",
+    "effect": "effect_69cf37e23faa5be6.png",
+    "background": "background_fab974ce3416a886.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_vulcanor_009_s3": {
+    "creature": "creature_6b25d04f32864f49.png",
+    "effect": "effect_db3793fc4df1767b.png",
+    "background": "background_fab974ce3416a886.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_vulcanor_009_s4": {
+    "creature": "creature_e21bd1c1ba4d18d6.png",
+    "effect": "effect_386bfc5b8401a875.png",
+    "background": "background_fab974ce3416a886.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_ignaro_010_s1": {
+    "creature": "creature_332837ad2b17eaf3.png",
+    "effect": "effect_dfa8147905b4283d.png",
+    "background": "background_98997d4ab6c11694.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_ignaro_010_s2": {
+    "creature": "creature_2fb1169c2abd8464.png",
+    "effect": "effect_69cf37e23faa5be6.png",
+    "background": "background_98997d4ab6c11694.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_ignaro_010_s3": {
+    "creature": "creature_300bc3061e78624c.png",
+    "effect": "effect_db3793fc4df1767b.png",
+    "background": "background_98997d4ab6c11694.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_ignaro_010_s4": {
+    "creature": "creature_034694f3a8eb5c2c.png",
+    "effect": "effect_386bfc5b8401a875.png",
+    "background": "background_98997d4ab6c11694.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_magmoth_011_s1": {
+    "creature": "creature_362e69e152a8f54b.png",
+    "effect": "effect_dfa8147905b4283d.png",
+    "background": "background_c5a9aac43af659f6.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_magmoth_011_s2": {
+    "creature": "creature_b0302728c4a79142.png",
+    "effect": "effect_69cf37e23faa5be6.png",
+    "background": "background_c5a9aac43af659f6.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_magmoth_011_s3": {
+    "creature": "creature_3f4636e0519c5f41.png",
+    "effect": "effect_db3793fc4df1767b.png",
+    "background": "background_c5a9aac43af659f6.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_magmoth_011_s4": {
+    "creature": "creature_a2dd0801e6dbcf7d.png",
+    "effect": "effect_386bfc5b8401a875.png",
+    "background": "background_c5a9aac43af659f6.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_solflama_012_s1": {
+    "creature": "creature_0fdf762b24fc039b.png",
+    "effect": "effect_dfa8147905b4283d.png",
+    "background": "background_7b166feb0142607c.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_solflama_012_s2": {
+    "creature": "creature_e20301f11141c8ed.png",
+    "effect": "effect_69cf37e23faa5be6.png",
+    "background": "background_7b166feb0142607c.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_solflama_012_s3": {
+    "creature": "creature_85556b5acddd110f.png",
+    "effect": "effect_db3793fc4df1767b.png",
+    "background": "background_7b166feb0142607c.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_solflama_012_s4": {
+    "creature": "creature_aff74c08c790d4fa.png",
+    "effect": "effect_386bfc5b8401a875.png",
+    "background": "background_7b166feb0142607c.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_draconis_013_s1": {
+    "creature": "creature_d27914e6fc1b8e09.png",
+    "effect": "effect_dfa8147905b4283d.png",
+    "background": "background_fab974ce3416a886.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_draconis_013_s2": {
+    "creature": "creature_5a67380e0b4b001e.png",
+    "effect": "effect_69cf37e23faa5be6.png",
+    "background": "background_fab974ce3416a886.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_draconis_013_s3": {
+    "creature": "creature_2c6aeb94c395eff6.png",
+    "effect": "effect_db3793fc4df1767b.png",
+    "background": "background_fab974ce3416a886.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_draconis_013_s4": {
+    "creature": "creature_9b426369751dac74.png",
+    "effect": "effect_386bfc5b8401a875.png",
+    "background": "background_fab974ce3416a886.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_emberon_014_s1": {
+    "creature": "creature_8a2d1f3c703d57c6.png",
+    "effect": "effect_dfa8147905b4283d.png",
+    "background": "background_98997d4ab6c11694.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_emberon_014_s2": {
+    "creature": "creature_779f9e387cd4ac8f.png",
+    "effect": "effect_69cf37e23faa5be6.png",
+    "background": "background_98997d4ab6c11694.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_emberon_014_s3": {
+    "creature": "creature_d4ede74344862bc5.png",
+    "effect": "effect_db3793fc4df1767b.png",
+    "background": "background_98997d4ab6c11694.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_emberon_014_s4": {
+    "creature": "creature_278ee037c37028dc.png",
+    "effect": "effect_386bfc5b8401a875.png",
+    "background": "background_98997d4ab6c11694.png",
+    "edge": "edge_ed95093ef3e458e0.png"
+  },
+  "crion_salphin_001_s1": {
+    "creature": "creature_bdf20b102361dbeb.png",
+    "effect": "effect_40072648c12ddbb5.png",
+    "background": "background_d8e7b053bcb7d8f9.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_salphin_001_s2": {
+    "creature": "creature_8dc980b629ce5bd0.png",
+    "effect": "effect_e2dde7eebc5e755e.png",
+    "background": "background_d8e7b053bcb7d8f9.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_salphin_001_s3": {
+    "creature": "creature_751dec95f55e7d8f.png",
+    "effect": "effect_027e36dc603152f2.png",
+    "background": "background_d8e7b053bcb7d8f9.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_salphin_001_s4": {
+    "creature": "creature_4fae6a919881cabb.png",
+    "effect": "effect_a497eb181d1155ca.png",
+    "background": "background_d8e7b053bcb7d8f9.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_gotinha_002_s1": {
+    "creature": "creature_0dbdf3e9047a6e2c.png",
+    "effect": "effect_40072648c12ddbb5.png",
+    "background": "background_b8971e981773dbf7.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_gotinha_002_s2": {
+    "creature": "creature_6a09cf5da3415df8.png",
+    "effect": "effect_e2dde7eebc5e755e.png",
+    "background": "background_b8971e981773dbf7.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_gotinha_002_s3": {
+    "creature": "creature_95f58c14e51dd732.png",
+    "effect": "effect_027e36dc603152f2.png",
+    "background": "background_b8971e981773dbf7.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_gotinha_002_s4": {
+    "creature": "creature_72db56bc67c262ba.png",
+    "effect": "effect_a497eb181d1155ca.png",
+    "background": "background_b8971e981773dbf7.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_conchito_003_s1": {
+    "creature": "creature_daa2c228d444672d.png",
+    "effect": "effect_40072648c12ddbb5.png",
+    "background": "background_5c241d76ecb2e8d8.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_conchito_003_s2": {
+    "creature": "creature_ce5f5a4dc16608f8.png",
+    "effect": "effect_e2dde7eebc5e755e.png",
+    "background": "background_5c241d76ecb2e8d8.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_conchito_003_s3": {
+    "creature": "creature_a8c33aeb3101275b.png",
+    "effect": "effect_027e36dc603152f2.png",
+    "background": "background_5c241d76ecb2e8d8.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_conchito_003_s4": {
+    "creature": "creature_8a6a4b4108b3d0a6.png",
+    "effect": "effect_a497eb181d1155ca.png",
+    "background": "background_5c241d76ecb2e8d8.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_bolhoto_004_s1": {
+    "creature": "creature_621463bd6100e38d.png",
+    "effect": "effect_40072648c12ddbb5.png",
+    "background": "background_66b749b900add09f.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_bolhoto_004_s2": {
+    "creature": "creature_d9fffeb542cd7b3f.png",
+    "effect": "effect_e2dde7eebc5e755e.png",
+    "background": "background_66b749b900add09f.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_bolhoto_004_s3": {
+    "creature": "creature_72d0742fc48d46ec.png",
+    "effect": "effect_027e36dc603152f2.png",
+    "background": "background_66b749b900add09f.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_bolhoto_004_s4": {
+    "creature": "creature_e1ae70a7dcedbba1.png",
+    "effect": "effect_a497eb181d1155ca.png",
+    "background": "background_66b749b900add09f.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_nadali_005_s1": {
+    "creature": "creature_6538838d12f217ea.png",
+    "effect": "effect_40072648c12ddbb5.png",
+    "background": "background_d8e7b053bcb7d8f9.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_nadali_005_s2": {
+    "creature": "creature_d99f76345e0464b4.png",
+    "effect": "effect_e2dde7eebc5e755e.png",
+    "background": "background_d8e7b053bcb7d8f9.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_nadali_005_s3": {
+    "creature": "creature_453a9144058b275a.png",
+    "effect": "effect_027e36dc603152f2.png",
+    "background": "background_d8e7b053bcb7d8f9.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_nadali_005_s4": {
+    "creature": "creature_3af724ab028f7f63.png",
+    "effect": "effect_a497eb181d1155ca.png",
+    "background": "background_d8e7b053bcb7d8f9.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_marisco_006_s1": {
+    "creature": "creature_85225a10fc31fe63.png",
+    "effect": "effect_40072648c12ddbb5.png",
+    "background": "background_b8971e981773dbf7.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_marisco_006_s2": {
+    "creature": "creature_f42373d8c3edc6c2.png",
+    "effect": "effect_e2dde7eebc5e755e.png",
+    "background": "background_b8971e981773dbf7.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_marisco_006_s3": {
+    "creature": "creature_27c623e9cbc9c53b.png",
+    "effect": "effect_027e36dc603152f2.png",
+    "background": "background_b8971e981773dbf7.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_marisco_006_s4": {
+    "creature": "creature_9fca9fc222686d8b.png",
+    "effect": "effect_a497eb181d1155ca.png",
+    "background": "background_b8971e981773dbf7.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_ondino_007_s1": {
+    "creature": "creature_e6f94f8c15063c3c.png",
+    "effect": "effect_40072648c12ddbb5.png",
+    "background": "background_5c241d76ecb2e8d8.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_ondino_007_s2": {
+    "creature": "creature_d02bdd3b2b4679f0.png",
+    "effect": "effect_e2dde7eebc5e755e.png",
+    "background": "background_5c241d76ecb2e8d8.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_ondino_007_s3": {
+    "creature": "creature_da878a92bf33bcc6.png",
+    "effect": "effect_027e36dc603152f2.png",
+    "background": "background_5c241d76ecb2e8d8.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_ondino_007_s4": {
+    "creature": "creature_ebf80bc2acc9b87e.png",
+    "effect": "effect_a497eb181d1155ca.png",
+    "background": "background_5c241d76ecb2e8d8.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_chuvisco_008_s1": {
+    "creature": "creature_cd6b6c214a45b8f8.png",
+    "effect": "effect_40072648c12ddbb5.png",
+    "background": "background_66b749b900add09f.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_chuvisco_008_s2": {
+    "creature": "creature_e53b9039b636cf2b.png",
+    "effect": "effect_e2dde7eebc5e755e.png",
+    "background": "background_66b749b900add09f.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_chuvisco_008_s3": {
+    "creature": "creature_055056cdd7f0668c.png",
+    "effect": "effect_027e36dc603152f2.png",
+    "background": "background_66b749b900add09f.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_chuvisco_008_s4": {
+    "creature": "creature_ac2b596fef6225a6.png",
+    "effect": "effect_a497eb181d1155ca.png",
+    "background": "background_66b749b900add09f.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_correntor_009_s1": {
+    "creature": "creature_d5d75d1e46700110.png",
+    "effect": "effect_40072648c12ddbb5.png",
+    "background": "background_d8e7b053bcb7d8f9.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_correntor_009_s2": {
+    "creature": "creature_0a39af02a9bf569a.png",
+    "effect": "effect_e2dde7eebc5e755e.png",
+    "background": "background_d8e7b053bcb7d8f9.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_correntor_009_s3": {
+    "creature": "creature_567d7727fbe1522d.png",
+    "effect": "effect_027e36dc603152f2.png",
+    "background": "background_d8e7b053bcb7d8f9.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_correntor_009_s4": {
+    "creature": "creature_32f84155c6fd683c.png",
+    "effect": "effect_a497eb181d1155ca.png",
+    "background": "background_d8e7b053bcb7d8f9.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_golfino_010_s1": {
+    "creature": "creature_3a790923a2825298.png",
+    "effect": "effect_40072648c12ddbb5.png",
+    "background": "background_b8971e981773dbf7.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_golfino_010_s2": {
+    "creature": "creature_d783ec4e6dd1acc2.png",
+    "effect": "effect_e2dde7eebc5e755e.png",
+    "background": "background_b8971e981773dbf7.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_golfino_010_s3": {
+    "creature": "creature_38b8c67d77800358.png",
+    "effect": "effect_027e36dc603152f2.png",
+    "background": "background_b8971e981773dbf7.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_golfino_010_s4": {
+    "creature": "creature_f5c2e279c458600a.png",
+    "effect": "effect_a497eb181d1155ca.png",
+    "background": "background_b8971e981773dbf7.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_abissal_011_s1": {
+    "creature": "creature_6f1666786423d7b2.png",
+    "effect": "effect_40072648c12ddbb5.png",
+    "background": "background_5c241d76ecb2e8d8.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_abissal_011_s2": {
+    "creature": "creature_6c57357c8830f79e.png",
+    "effect": "effect_e2dde7eebc5e755e.png",
+    "background": "background_5c241d76ecb2e8d8.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_abissal_011_s3": {
+    "creature": "creature_64b5a8e4165a6f98.png",
+    "effect": "effect_027e36dc603152f2.png",
+    "background": "background_5c241d76ecb2e8d8.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_abissal_011_s4": {
+    "creature": "creature_d9ff6067078780eb.png",
+    "effect": "effect_a497eb181d1155ca.png",
+    "background": "background_5c241d76ecb2e8d8.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_marejante_012_s1": {
+    "creature": "creature_6f88b2eb49cdabe4.png",
+    "effect": "effect_40072648c12ddbb5.png",
+    "background": "background_66b749b900add09f.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_marejante_012_s2": {
+    "creature": "creature_c5db23ea511d0f4f.png",
+    "effect": "effect_e2dde7eebc5e755e.png",
+    "background": "background_66b749b900add09f.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_marejante_012_s3": {
+    "creature": "creature_948d5b07921ff00b.png",
+    "effect": "effect_027e36dc603152f2.png",
+    "background": "background_66b749b900add09f.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_marejante_012_s4": {
+    "creature": "creature_5f6d6e06e55d2b19.png",
+    "effect": "effect_a497eb181d1155ca.png",
+    "background": "background_66b749b900add09f.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_krakenzo_013_s1": {
+    "creature": "creature_fa4b3a6342446199.png",
+    "effect": "effect_40072648c12ddbb5.png",
+    "background": "background_d8e7b053bcb7d8f9.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_krakenzo_013_s2": {
+    "creature": "creature_7558329830c42b75.png",
+    "effect": "effect_e2dde7eebc5e755e.png",
+    "background": "background_d8e7b053bcb7d8f9.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_krakenzo_013_s3": {
+    "creature": "creature_b3fe053a993a6339.png",
+    "effect": "effect_027e36dc603152f2.png",
+    "background": "background_d8e7b053bcb7d8f9.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_krakenzo_013_s4": {
+    "creature": "creature_db731ef1fc968e2a.png",
+    "effect": "effect_a497eb181d1155ca.png",
+    "background": "background_d8e7b053bcb7d8f9.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_leviathis_014_s1": {
+    "creature": "creature_b09308bb8e9222c5.png",
+    "effect": "effect_40072648c12ddbb5.png",
+    "background": "background_b8971e981773dbf7.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_leviathis_014_s2": {
+    "creature": "creature_027e0eeeef3ef3aa.png",
+    "effect": "effect_e2dde7eebc5e755e.png",
+    "background": "background_b8971e981773dbf7.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_leviathis_014_s3": {
+    "creature": "creature_68ce60e6cb7b5d67.png",
+    "effect": "effect_027e36dc603152f2.png",
+    "background": "background_b8971e981773dbf7.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_leviathis_014_s4": {
+    "creature": "creature_cc130c8974068dec.png",
+    "effect": "effect_a497eb181d1155ca.png",
+    "background": "background_b8971e981773dbf7.png",
+    "edge": "edge_583f23fa13d33810.png"
+  },
+  "crion_pedrinho_001_s1": {
+    "creature": "creature_c8befea31dd339bf.png",
+    "effect": "effect_fe44447f9bcef91d.png",
+    "background": "background_f2f6d1fb140437d2.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_pedrinho_001_s2": {
+    "creature": "creature_aec8feb95e5e15ab.png",
+    "effect": "effect_c19bddee7369ad2a.png",
+    "background": "background_f2f6d1fb140437d2.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_pedrinho_001_s3": {
+    "creature": "creature_56ec33ea64217f89.png",
+    "effect": "effect_940d32fb7c041b61.png",
+    "background": "background_f2f6d1fb140437d2.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_pedrinho_001_s4": {
+    "creature": "creature_ff2c0a099094e86d.png",
+    "effect": "effect_22f258190f6ad4e0.png",
+    "background": "background_f2f6d1fb140437d2.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_barrolo_002_s1": {
+    "creature": "creature_c7eb9e0dbcc0d2f2.png",
+    "effect": "effect_fe44447f9bcef91d.png",
+    "background": "background_7084d6c932b7efcb.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_barrolo_002_s2": {
+    "creature": "creature_60a4f632b0871330.png",
+    "effect": "effect_c19bddee7369ad2a.png",
+    "background": "background_7084d6c932b7efcb.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_barrolo_002_s3": {
+    "creature": "creature_bc0963048677dacd.png",
+    "effect": "effect_940d32fb7c041b61.png",
+    "background": "background_7084d6c932b7efcb.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_barrolo_002_s4": {
+    "creature": "creature_f4c022ecdfb36bdc.png",
+    "effect": "effect_22f258190f6ad4e0.png",
+    "background": "background_7084d6c932b7efcb.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_territo_003_s1": {
+    "creature": "creature_c01dc3178991da39.png",
+    "effect": "effect_fe44447f9bcef91d.png",
+    "background": "background_379d8814be89b794.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_territo_003_s2": {
+    "creature": "creature_25b8a7817debea9f.png",
+    "effect": "effect_c19bddee7369ad2a.png",
+    "background": "background_379d8814be89b794.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_territo_003_s3": {
+    "creature": "creature_52ab1a0c6b1aebd9.png",
+    "effect": "effect_940d32fb7c041b61.png",
+    "background": "background_379d8814be89b794.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_territo_003_s4": {
+    "creature": "creature_8323346d3683d118.png",
+    "effect": "effect_22f258190f6ad4e0.png",
+    "background": "background_379d8814be89b794.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_cascalho_004_s1": {
+    "creature": "creature_6919d5fed1272609.png",
+    "effect": "effect_fe44447f9bcef91d.png",
+    "background": "background_3a61d7fdbf26cd18.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_cascalho_004_s2": {
+    "creature": "creature_15b371d8e31109cb.png",
+    "effect": "effect_c19bddee7369ad2a.png",
+    "background": "background_3a61d7fdbf26cd18.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_cascalho_004_s3": {
+    "creature": "creature_2ce73586b1e99907.png",
+    "effect": "effect_940d32fb7c041b61.png",
+    "background": "background_3a61d7fdbf26cd18.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_cascalho_004_s4": {
+    "creature": "creature_b1cbf0e839372a28.png",
+    "effect": "effect_22f258190f6ad4e0.png",
+    "background": "background_3a61d7fdbf26cd18.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_argilon_005_s1": {
+    "creature": "creature_88827b1b16208b7e.png",
+    "effect": "effect_fe44447f9bcef91d.png",
+    "background": "background_f2f6d1fb140437d2.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_argilon_005_s2": {
+    "creature": "creature_509ff209a72e3433.png",
+    "effect": "effect_c19bddee7369ad2a.png",
+    "background": "background_f2f6d1fb140437d2.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_argilon_005_s3": {
+    "creature": "creature_4c4d705c3b2124d9.png",
+    "effect": "effect_940d32fb7c041b61.png",
+    "background": "background_f2f6d1fb140437d2.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_argilon_005_s4": {
+    "creature": "creature_1531557ac3ba2b00.png",
+    "effect": "effect_22f258190f6ad4e0.png",
+    "background": "background_f2f6d1fb140437d2.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_cristallo_006_s1": {
+    "creature": "creature_b574235ed258b4e7.png",
+    "effect": "effect_fe44447f9bcef91d.png",
+    "background": "background_7084d6c932b7efcb.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_cristallo_006_s2": {
+    "creature": "creature_c07a84e33308551b.png",
+    "effect": "effect_c19bddee7369ad2a.png",
+    "background": "background_7084d6c932b7efcb.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_cristallo_006_s3": {
+    "creature": "creature_01a0ffe2111f54a9.png",
+    "effect": "effect_940d32fb7c041b61.png",
+    "background": "background_7084d6c932b7efcb.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_cristallo_006_s4": {
+    "creature": "creature_6b23062819867c05.png",
+    "effect": "effect_22f258190f6ad4e0.png",
+    "background": "background_7084d6c932b7efcb.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_rochedo_007_s1": {
+    "creature": "creature_3208b4ccd04d883c.png",
+    "effect": "effect_fe44447f9bcef91d.png",
+    "background": "background_379d8814be89b794.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_rochedo_007_s2": {
+    "creature": "creature_2f2fdcd9eeb7467a.png",
+    "effect": "effect_c19bddee7369ad2a.png",
+    "background": "background_379d8814be89b794.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_rochedo_007_s3": {
+    "creature": "creature_c98cbfbd05c3f650.png",
+    "effect": "effect_940d32fb7c041b61.png",
+    "background": "background_379d8814be89b794.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_rochedo_007_s4": {
+    "creature": "creature_4d299ece0b1c115d.png",
+    "effect": "effect_22f258190f6ad4e0.png",
+    "background": "background_379d8814be89b794.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_dunaris_008_s1": {
+    "creature": "creature_0b11a64da83c6488.png",
+    "effect": "effect_fe44447f9bcef91d.png",
+    "background": "background_3a61d7fdbf26cd18.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_dunaris_008_s2": {
+    "creature": "creature_0436461a9850c733.png",
+    "effect": "effect_c19bddee7369ad2a.png",
+    "background": "background_3a61d7fdbf26cd18.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_dunaris_008_s3": {
+    "creature": "creature_0a1ed312292d2c3b.png",
+    "effect": "effect_940d32fb7c041b61.png",
+    "background": "background_3a61d7fdbf26cd18.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_dunaris_008_s4": {
+    "creature": "creature_7cda8a244c119cfe.png",
+    "effect": "effect_22f258190f6ad4e0.png",
+    "background": "background_3a61d7fdbf26cd18.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_granito_009_s1": {
+    "creature": "creature_eb315dc1bd0593d6.png",
+    "effect": "effect_fe44447f9bcef91d.png",
+    "background": "background_f2f6d1fb140437d2.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_granito_009_s2": {
+    "creature": "creature_33f219ef951e982c.png",
+    "effect": "effect_c19bddee7369ad2a.png",
+    "background": "background_f2f6d1fb140437d2.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_granito_009_s3": {
+    "creature": "creature_7002820c85a614f2.png",
+    "effect": "effect_940d32fb7c041b61.png",
+    "background": "background_f2f6d1fb140437d2.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_granito_009_s4": {
+    "creature": "creature_29cf575d52b0c2d0.png",
+    "effect": "effect_22f258190f6ad4e0.png",
+    "background": "background_f2f6d1fb140437d2.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_cavernal_010_s1": {
+    "creature": "creature_0c690cc45c1b8886.png",
+    "effect": "effect_fe44447f9bcef91d.png",
+    "background": "background_7084d6c932b7efcb.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_cavernal_010_s2": {
+    "creature": "creature_fb1471c8787afbbc.png",
+    "effect": "effect_c19bddee7369ad2a.png",
+    "background": "background_7084d6c932b7efcb.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_cavernal_010_s3": {
+    "creature": "creature_9d44e0c35b6995ab.png",
+    "effect": "effect_940d32fb7c041b61.png",
+    "background": "background_7084d6c932b7efcb.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_cavernal_010_s4": {
+    "creature": "creature_d8fde2683cc0eca3.png",
+    "effect": "effect_22f258190f6ad4e0.png",
+    "background": "background_7084d6c932b7efcb.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_fossilio_011_s1": {
+    "creature": "creature_3b3960c5d3874b14.png",
+    "effect": "effect_fe44447f9bcef91d.png",
+    "background": "background_379d8814be89b794.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_fossilio_011_s2": {
+    "creature": "creature_f47e2f13bae0093a.png",
+    "effect": "effect_c19bddee7369ad2a.png",
+    "background": "background_379d8814be89b794.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_fossilio_011_s3": {
+    "creature": "creature_f82d6c92e7dc53ab.png",
+    "effect": "effect_940d32fb7c041b61.png",
+    "background": "background_379d8814be89b794.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_fossilio_011_s4": {
+    "creature": "creature_29cd1d0c3374cae5.png",
+    "effect": "effect_22f258190f6ad4e0.png",
+    "background": "background_379d8814be89b794.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_montanhor_012_s1": {
+    "creature": "creature_d6234378329691a4.png",
+    "effect": "effect_fe44447f9bcef91d.png",
+    "background": "background_3a61d7fdbf26cd18.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_montanhor_012_s2": {
+    "creature": "creature_632c247aed5a927e.png",
+    "effect": "effect_c19bddee7369ad2a.png",
+    "background": "background_3a61d7fdbf26cd18.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_montanhor_012_s3": {
+    "creature": "creature_715106312fbc7e84.png",
+    "effect": "effect_940d32fb7c041b61.png",
+    "background": "background_3a61d7fdbf26cd18.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_montanhor_012_s4": {
+    "creature": "creature_5918323b2a8ab787.png",
+    "effect": "effect_22f258190f6ad4e0.png",
+    "background": "background_3a61d7fdbf26cd18.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_titanargo_013_s1": {
+    "creature": "creature_95659dc5bf0f25ce.png",
+    "effect": "effect_fe44447f9bcef91d.png",
+    "background": "background_f2f6d1fb140437d2.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_titanargo_013_s2": {
+    "creature": "creature_62accd16a2d91d53.png",
+    "effect": "effect_c19bddee7369ad2a.png",
+    "background": "background_f2f6d1fb140437d2.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_titanargo_013_s3": {
+    "creature": "creature_af65efe2b41a7f43.png",
+    "effect": "effect_940d32fb7c041b61.png",
+    "background": "background_f2f6d1fb140437d2.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_titanargo_013_s4": {
+    "creature": "creature_a338ffcfed36d545.png",
+    "effect": "effect_22f258190f6ad4e0.png",
+    "background": "background_f2f6d1fb140437d2.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_gaiathon_014_s1": {
+    "creature": "creature_a20eb4a2c14228ef.png",
+    "effect": "effect_fe44447f9bcef91d.png",
+    "background": "background_7084d6c932b7efcb.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_gaiathon_014_s2": {
+    "creature": "creature_918458c56ced76ee.png",
+    "effect": "effect_c19bddee7369ad2a.png",
+    "background": "background_7084d6c932b7efcb.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_gaiathon_014_s3": {
+    "creature": "creature_f417d4a7daa346db.png",
+    "effect": "effect_940d32fb7c041b61.png",
+    "background": "background_7084d6c932b7efcb.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_gaiathon_014_s4": {
+    "creature": "creature_ce3f0873332421b7.png",
+    "effect": "effect_22f258190f6ad4e0.png",
+    "background": "background_7084d6c932b7efcb.png",
+    "edge": "edge_22b66ebda88233e6.png"
+  },
+  "crion_parafuso_001_s1": {
+    "creature": "creature_043be9f09e8413cb.png",
+    "effect": "effect_0dbd93e8db6f7695.png",
+    "background": "background_3890d96491cafc86.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_parafuso_001_s2": {
+    "creature": "creature_6b8ba0af5f7048fe.png",
+    "effect": "effect_ee4438686a20c549.png",
+    "background": "background_3890d96491cafc86.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_parafuso_001_s3": {
+    "creature": "creature_9d8f736370cc17af.png",
+    "effect": "effect_ff75a90d69a376d6.png",
+    "background": "background_3890d96491cafc86.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_parafuso_001_s4": {
+    "creature": "creature_f35e86f2e95f0b2a.png",
+    "effect": "effect_afbca275cdf54b41.png",
+    "background": "background_3890d96491cafc86.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_molinha_002_s1": {
+    "creature": "creature_2deec78b2884ce87.png",
+    "effect": "effect_0dbd93e8db6f7695.png",
+    "background": "background_ac480a3e5d26fa5e.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_molinha_002_s2": {
+    "creature": "creature_a9e2b6a8f266f664.png",
+    "effect": "effect_ee4438686a20c549.png",
+    "background": "background_ac480a3e5d26fa5e.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_molinha_002_s3": {
+    "creature": "creature_d21cf6a7600162bb.png",
+    "effect": "effect_ff75a90d69a376d6.png",
+    "background": "background_ac480a3e5d26fa5e.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_molinha_002_s4": {
+    "creature": "creature_a9529f389e51776b.png",
+    "effect": "effect_afbca275cdf54b41.png",
+    "background": "background_ac480a3e5d26fa5e.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_chavinha_003_s1": {
+    "creature": "creature_0afb714f5f89ecc0.png",
+    "effect": "effect_0dbd93e8db6f7695.png",
+    "background": "background_90bebfd0f95128ee.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_chavinha_003_s2": {
+    "creature": "creature_8482ac363c55777c.png",
+    "effect": "effect_ee4438686a20c549.png",
+    "background": "background_90bebfd0f95128ee.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_chavinha_003_s3": {
+    "creature": "creature_2eaca2cf29ee3ad6.png",
+    "effect": "effect_ff75a90d69a376d6.png",
+    "background": "background_90bebfd0f95128ee.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_chavinha_003_s4": {
+    "creature": "creature_80d069629b9068de.png",
+    "effect": "effect_afbca275cdf54b41.png",
+    "background": "background_90bebfd0f95128ee.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_engrenim_004_s1": {
+    "creature": "creature_b4a34a96936f84a6.png",
+    "effect": "effect_0dbd93e8db6f7695.png",
+    "background": "background_1aef65a007c4d951.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_engrenim_004_s2": {
+    "creature": "creature_4ed34fbcd505c2ca.png",
+    "effect": "effect_ee4438686a20c549.png",
+    "background": "background_1aef65a007c4d951.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_engrenim_004_s3": {
+    "creature": "creature_fc6a09541bf42d71.png",
+    "effect": "effect_ff75a90d69a376d6.png",
+    "background": "background_1aef65a007c4d951.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_engrenim_004_s4": {
+    "creature": "creature_0c293bc1e2eee94b.png",
+    "effect": "effect_afbca275cdf54b41.png",
+    "background": "background_1aef65a007c4d951.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_ferrucho_005_s1": {
+    "creature": "creature_56ff6efda9bdfff5.png",
+    "effect": "effect_0dbd93e8db6f7695.png",
+    "background": "background_3890d96491cafc86.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_ferrucho_005_s2": {
+    "creature": "creature_1d78d331749e689c.png",
+    "effect": "effect_ee4438686a20c549.png",
+    "background": "background_3890d96491cafc86.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_ferrucho_005_s3": {
+    "creature": "creature_e23c5ba562459c46.png",
+    "effect": "effect_ff75a90d69a376d6.png",
+    "background": "background_3890d96491cafc86.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_ferrucho_005_s4": {
+    "creature": "creature_f15d9993772230b4.png",
+    "effect": "effect_afbca275cdf54b41.png",
+    "background": "background_3890d96491cafc86.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_cromado_006_s1": {
+    "creature": "creature_ed53f93c65877a08.png",
+    "effect": "effect_0dbd93e8db6f7695.png",
+    "background": "background_ac480a3e5d26fa5e.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_cromado_006_s2": {
+    "creature": "creature_325ed482a65f2a8b.png",
+    "effect": "effect_ee4438686a20c549.png",
+    "background": "background_ac480a3e5d26fa5e.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_cromado_006_s3": {
+    "creature": "creature_e84f9382a0da1c61.png",
+    "effect": "effect_ff75a90d69a376d6.png",
+    "background": "background_ac480a3e5d26fa5e.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_cromado_006_s4": {
+    "creature": "creature_847a1021d0440916.png",
+    "effect": "effect_afbca275cdf54b41.png",
+    "background": "background_ac480a3e5d26fa5e.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_bussolo_007_s1": {
+    "creature": "creature_dc406cbf80c3784e.png",
+    "effect": "effect_0dbd93e8db6f7695.png",
+    "background": "background_90bebfd0f95128ee.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_bussolo_007_s2": {
+    "creature": "creature_d13b7145a649640d.png",
+    "effect": "effect_ee4438686a20c549.png",
+    "background": "background_90bebfd0f95128ee.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_bussolo_007_s3": {
+    "creature": "creature_e6cee85f71288bc3.png",
+    "effect": "effect_ff75a90d69a376d6.png",
+    "background": "background_90bebfd0f95128ee.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_bussolo_007_s4": {
+    "creature": "creature_f3b0ba029125f4df.png",
+    "effect": "effect_afbca275cdf54b41.png",
+    "background": "background_90bebfd0f95128ee.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_aciarto_008_s1": {
+    "creature": "creature_f7433a7218eb6f31.png",
+    "effect": "effect_0dbd93e8db6f7695.png",
+    "background": "background_1aef65a007c4d951.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_aciarto_008_s2": {
+    "creature": "creature_b62b1e8dc17f91cd.png",
+    "effect": "effect_ee4438686a20c549.png",
+    "background": "background_1aef65a007c4d951.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_aciarto_008_s3": {
+    "creature": "creature_d5b4b7d9a0bbb814.png",
+    "effect": "effect_ff75a90d69a376d6.png",
+    "background": "background_1aef65a007c4d951.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_aciarto_008_s4": {
+    "creature": "creature_6e24c2536b63745c.png",
+    "effect": "effect_afbca275cdf54b41.png",
+    "background": "background_1aef65a007c4d951.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_turbino_009_s1": {
+    "creature": "creature_ddfbbad21ae22a2e.png",
+    "effect": "effect_0dbd93e8db6f7695.png",
+    "background": "background_3890d96491cafc86.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_turbino_009_s2": {
+    "creature": "creature_dd380be513e08a42.png",
+    "effect": "effect_ee4438686a20c549.png",
+    "background": "background_3890d96491cafc86.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_turbino_009_s3": {
+    "creature": "creature_904f1636cefed00c.png",
+    "effect": "effect_ff75a90d69a376d6.png",
+    "background": "background_3890d96491cafc86.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_turbino_009_s4": {
+    "creature": "creature_2e47c984995fec99.png",
+    "effect": "effect_afbca275cdf54b41.png",
+    "background": "background_3890d96491cafc86.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_blindor_010_s1": {
+    "creature": "creature_09c1c9030a5d4208.png",
+    "effect": "effect_0dbd93e8db6f7695.png",
+    "background": "background_ac480a3e5d26fa5e.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_blindor_010_s2": {
+    "creature": "creature_4933ae2a6570c178.png",
+    "effect": "effect_ee4438686a20c549.png",
+    "background": "background_ac480a3e5d26fa5e.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_blindor_010_s3": {
+    "creature": "creature_eab08868773a01b4.png",
+    "effect": "effect_ff75a90d69a376d6.png",
+    "background": "background_ac480a3e5d26fa5e.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_blindor_010_s4": {
+    "creature": "creature_0a8309feefc9e994.png",
+    "effect": "effect_afbca275cdf54b41.png",
+    "background": "background_ac480a3e5d26fa5e.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_mecatron_011_s1": {
+    "creature": "creature_9d19b6e3a9752515.png",
+    "effect": "effect_0dbd93e8db6f7695.png",
+    "background": "background_90bebfd0f95128ee.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_mecatron_011_s2": {
+    "creature": "creature_8added30be2d5d9b.png",
+    "effect": "effect_ee4438686a20c549.png",
+    "background": "background_90bebfd0f95128ee.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_mecatron_011_s3": {
+    "creature": "creature_0614a05d3da061cc.png",
+    "effect": "effect_ff75a90d69a376d6.png",
+    "background": "background_90bebfd0f95128ee.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_mecatron_011_s4": {
+    "creature": "creature_70c27851f7814531.png",
+    "effect": "effect_afbca275cdf54b41.png",
+    "background": "background_90bebfd0f95128ee.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_fortalez_012_s1": {
+    "creature": "creature_4f703740b7a7d8e6.png",
+    "effect": "effect_0dbd93e8db6f7695.png",
+    "background": "background_1aef65a007c4d951.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_fortalez_012_s2": {
+    "creature": "creature_f24b284d38d20e9e.png",
+    "effect": "effect_ee4438686a20c549.png",
+    "background": "background_1aef65a007c4d951.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_fortalez_012_s3": {
+    "creature": "creature_453cc25dc5d572e1.png",
+    "effect": "effect_ff75a90d69a376d6.png",
+    "background": "background_1aef65a007c4d951.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_fortalez_012_s4": {
+    "creature": "creature_4f0e055dcc655488.png",
+    "effect": "effect_afbca275cdf54b41.png",
+    "background": "background_1aef65a007c4d951.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_colossum_013_s1": {
+    "creature": "creature_05ceacc63dfd3827.png",
+    "effect": "effect_0dbd93e8db6f7695.png",
+    "background": "background_3890d96491cafc86.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_colossum_013_s2": {
+    "creature": "creature_2bf8c425afab8841.png",
+    "effect": "effect_ee4438686a20c549.png",
+    "background": "background_3890d96491cafc86.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_colossum_013_s3": {
+    "creature": "creature_05a9f4ec1ce5c56a.png",
+    "effect": "effect_ff75a90d69a376d6.png",
+    "background": "background_3890d96491cafc86.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_colossum_013_s4": {
+    "creature": "creature_b969981fb914177d.png",
+    "effect": "effect_afbca275cdf54b41.png",
+    "background": "background_3890d96491cafc86.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_adamantis_014_s1": {
+    "creature": "creature_3fd8d81b3c0f227e.png",
+    "effect": "effect_0dbd93e8db6f7695.png",
+    "background": "background_ac480a3e5d26fa5e.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_adamantis_014_s2": {
+    "creature": "creature_acbd0b2e03c28db3.png",
+    "effect": "effect_ee4438686a20c549.png",
+    "background": "background_ac480a3e5d26fa5e.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_adamantis_014_s3": {
+    "creature": "creature_0dcf3f2b8d3374a9.png",
+    "effect": "effect_ff75a90d69a376d6.png",
+    "background": "background_ac480a3e5d26fa5e.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_adamantis_014_s4": {
+    "creature": "creature_e8ddd5db90b37c19.png",
+    "effect": "effect_afbca275cdf54b41.png",
+    "background": "background_ac480a3e5d26fa5e.png",
+    "edge": "edge_5060b17d314e21af.png"
+  },
+  "crion_pluminha_001_s1": {
+    "creature": "creature_a812f26cf2d91d5f.png",
+    "effect": "effect_688b43a3c3ecd069.png",
+    "background": "background_17fd6589868fbd6d.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_pluminha_001_s2": {
+    "creature": "creature_a613b1e08d6810d3.png",
+    "effect": "effect_4fc6a399d4289d99.png",
+    "background": "background_17fd6589868fbd6d.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_pluminha_001_s3": {
+    "creature": "creature_4959063cf194bd8b.png",
+    "effect": "effect_13e3c4c1fd1e9fdf.png",
+    "background": "background_17fd6589868fbd6d.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_pluminha_001_s4": {
+    "creature": "creature_db553e7b580ad6ed.png",
+    "effect": "effect_352d6322523d2575.png",
+    "background": "background_17fd6589868fbd6d.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_sopruco_002_s1": {
+    "creature": "creature_fa1ac8651d9dff46.png",
+    "effect": "effect_688b43a3c3ecd069.png",
+    "background": "background_5dac2ff8f609eec2.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_sopruco_002_s2": {
+    "creature": "creature_678ea0b14d194f0e.png",
+    "effect": "effect_4fc6a399d4289d99.png",
+    "background": "background_5dac2ff8f609eec2.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_sopruco_002_s3": {
+    "creature": "creature_30c7f5d1a6d058ff.png",
+    "effect": "effect_13e3c4c1fd1e9fdf.png",
+    "background": "background_5dac2ff8f609eec2.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_sopruco_002_s4": {
+    "creature": "creature_7ad1cd45a2ffd454.png",
+    "effect": "effect_352d6322523d2575.png",
+    "background": "background_5dac2ff8f609eec2.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_voante_003_s1": {
+    "creature": "creature_5d3b448d3495c39b.png",
+    "effect": "effect_688b43a3c3ecd069.png",
+    "background": "background_cf951cd6e08a6c92.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_voante_003_s2": {
+    "creature": "creature_33afff6102583627.png",
+    "effect": "effect_4fc6a399d4289d99.png",
+    "background": "background_cf951cd6e08a6c92.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_voante_003_s3": {
+    "creature": "creature_26a91197d0db31b7.png",
+    "effect": "effect_13e3c4c1fd1e9fdf.png",
+    "background": "background_cf951cd6e08a6c92.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_voante_003_s4": {
+    "creature": "creature_1cfe7d5f3c45551a.png",
+    "effect": "effect_352d6322523d2575.png",
+    "background": "background_cf951cd6e08a6c92.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_nuvezinho_004_s1": {
+    "creature": "creature_b79fd1e2927bacd3.png",
+    "effect": "effect_688b43a3c3ecd069.png",
+    "background": "background_dc3c39467730bdd8.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_nuvezinho_004_s2": {
+    "creature": "creature_9d1428606cf7afb0.png",
+    "effect": "effect_4fc6a399d4289d99.png",
+    "background": "background_dc3c39467730bdd8.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_nuvezinho_004_s3": {
+    "creature": "creature_5150b4e186b8d0ae.png",
+    "effect": "effect_13e3c4c1fd1e9fdf.png",
+    "background": "background_dc3c39467730bdd8.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_nuvezinho_004_s4": {
+    "creature": "creature_423afd2a541324e4.png",
+    "effect": "effect_352d6322523d2575.png",
+    "background": "background_dc3c39467730bdd8.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_papelao_005_s1": {
+    "creature": "creature_942a6888e87a6957.png",
+    "effect": "effect_688b43a3c3ecd069.png",
+    "background": "background_17fd6589868fbd6d.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_papelao_005_s2": {
+    "creature": "creature_ac8e1e2a173127ad.png",
+    "effect": "effect_4fc6a399d4289d99.png",
+    "background": "background_17fd6589868fbd6d.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_papelao_005_s3": {
+    "creature": "creature_f1a3153c556aad05.png",
+    "effect": "effect_13e3c4c1fd1e9fdf.png",
+    "background": "background_17fd6589868fbd6d.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_papelao_005_s4": {
+    "creature": "creature_be7f27db01479ee3.png",
+    "effect": "effect_352d6322523d2575.png",
+    "background": "background_17fd6589868fbd6d.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_piruetta_006_s1": {
+    "creature": "creature_0c0832e66530dfad.png",
+    "effect": "effect_688b43a3c3ecd069.png",
+    "background": "background_5dac2ff8f609eec2.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_piruetta_006_s2": {
+    "creature": "creature_89d42807bd25df31.png",
+    "effect": "effect_4fc6a399d4289d99.png",
+    "background": "background_5dac2ff8f609eec2.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_piruetta_006_s3": {
+    "creature": "creature_9fdf9b75a715ec24.png",
+    "effect": "effect_13e3c4c1fd1e9fdf.png",
+    "background": "background_5dac2ff8f609eec2.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_piruetta_006_s4": {
+    "creature": "creature_de3fce3617cd2b02.png",
+    "effect": "effect_352d6322523d2575.png",
+    "background": "background_5dac2ff8f609eec2.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_aquarel_007_s1": {
+    "creature": "creature_410829ef9e579575.png",
+    "effect": "effect_688b43a3c3ecd069.png",
+    "background": "background_cf951cd6e08a6c92.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_aquarel_007_s2": {
+    "creature": "creature_253c3fe35d30056f.png",
+    "effect": "effect_4fc6a399d4289d99.png",
+    "background": "background_cf951cd6e08a6c92.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_aquarel_007_s3": {
+    "creature": "creature_56d43761d7618fff.png",
+    "effect": "effect_13e3c4c1fd1e9fdf.png",
+    "background": "background_cf951cd6e08a6c92.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_aquarel_007_s4": {
+    "creature": "creature_4255e5d9a16a61e9.png",
+    "effect": "effect_352d6322523d2575.png",
+    "background": "background_cf951cd6e08a6c92.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_rajador_008_s1": {
+    "creature": "creature_fec629e0c48b9e5c.png",
+    "effect": "effect_688b43a3c3ecd069.png",
+    "background": "background_dc3c39467730bdd8.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_rajador_008_s2": {
+    "creature": "creature_d94cd725038b67f7.png",
+    "effect": "effect_4fc6a399d4289d99.png",
+    "background": "background_dc3c39467730bdd8.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_rajador_008_s3": {
+    "creature": "creature_dcf80281f3d80610.png",
+    "effect": "effect_13e3c4c1fd1e9fdf.png",
+    "background": "background_dc3c39467730bdd8.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_rajador_008_s4": {
+    "creature": "creature_523cda88bd336b82.png",
+    "effect": "effect_352d6322523d2575.png",
+    "background": "background_dc3c39467730bdd8.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_vendaval_009_s1": {
+    "creature": "creature_27db88cef7dc6dc7.png",
+    "effect": "effect_688b43a3c3ecd069.png",
+    "background": "background_17fd6589868fbd6d.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_vendaval_009_s2": {
+    "creature": "creature_3817692d1bb4ecf5.png",
+    "effect": "effect_4fc6a399d4289d99.png",
+    "background": "background_17fd6589868fbd6d.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_vendaval_009_s3": {
+    "creature": "creature_f3e3c74edad4593c.png",
+    "effect": "effect_13e3c4c1fd1e9fdf.png",
+    "background": "background_17fd6589868fbd6d.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_vendaval_009_s4": {
+    "creature": "creature_2b41b33c3f3e24d8.png",
+    "effect": "effect_352d6322523d2575.png",
+    "background": "background_17fd6589868fbd6d.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_pincelis_010_s1": {
+    "creature": "creature_60335d854b003a76.png",
+    "effect": "effect_688b43a3c3ecd069.png",
+    "background": "background_5dac2ff8f609eec2.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_pincelis_010_s2": {
+    "creature": "creature_9f5653d01061d2e2.png",
+    "effect": "effect_4fc6a399d4289d99.png",
+    "background": "background_5dac2ff8f609eec2.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_pincelis_010_s3": {
+    "creature": "creature_20760ff1490bbbd9.png",
+    "effect": "effect_13e3c4c1fd1e9fdf.png",
+    "background": "background_5dac2ff8f609eec2.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_pincelis_010_s4": {
+    "creature": "creature_592a5f72ba959854.png",
+    "effect": "effect_352d6322523d2575.png",
+    "background": "background_5dac2ff8f609eec2.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_tornador_011_s1": {
+    "creature": "creature_1a7d20d14aa69b28.png",
+    "effect": "effect_688b43a3c3ecd069.png",
+    "background": "background_cf951cd6e08a6c92.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_tornador_011_s2": {
+    "creature": "creature_648a1bc002b79fab.png",
+    "effect": "effect_4fc6a399d4289d99.png",
+    "background": "background_cf951cd6e08a6c92.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_tornador_011_s3": {
+    "creature": "creature_31482b0ad47f1e83.png",
+    "effect": "effect_13e3c4c1fd1e9fdf.png",
+    "background": "background_cf951cd6e08a6c92.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_tornador_011_s4": {
+    "creature": "creature_5ff641a00d7e5bd5.png",
+    "effect": "effect_352d6322523d2575.png",
+    "background": "background_cf951cd6e08a6c92.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_ceuartis_012_s1": {
+    "creature": "creature_73a1dfe6c33fef8d.png",
+    "effect": "effect_688b43a3c3ecd069.png",
+    "background": "background_dc3c39467730bdd8.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_ceuartis_012_s2": {
+    "creature": "creature_6c87ba50f28e996e.png",
+    "effect": "effect_4fc6a399d4289d99.png",
+    "background": "background_dc3c39467730bdd8.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_ceuartis_012_s3": {
+    "creature": "creature_2db84b18f36675b3.png",
+    "effect": "effect_13e3c4c1fd1e9fdf.png",
+    "background": "background_dc3c39467730bdd8.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_ceuartis_012_s4": {
+    "creature": "creature_913990e8e19bfc9b.png",
+    "effect": "effect_352d6322523d2575.png",
+    "background": "background_dc3c39467730bdd8.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_ciclonis_013_s1": {
+    "creature": "creature_cb6d05e8503b2cca.png",
+    "effect": "effect_688b43a3c3ecd069.png",
+    "background": "background_17fd6589868fbd6d.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_ciclonis_013_s2": {
+    "creature": "creature_e3db947b0a399544.png",
+    "effect": "effect_4fc6a399d4289d99.png",
+    "background": "background_17fd6589868fbd6d.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_ciclonis_013_s3": {
+    "creature": "creature_94d938f7e26789ca.png",
+    "effect": "effect_13e3c4c1fd1e9fdf.png",
+    "background": "background_17fd6589868fbd6d.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_ciclonis_013_s4": {
+    "creature": "creature_677d8ec183bf5b1f.png",
+    "effect": "effect_352d6322523d2575.png",
+    "background": "background_17fd6589868fbd6d.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_zephiron_014_s1": {
+    "creature": "creature_25aeb0eb9df2e528.png",
+    "effect": "effect_688b43a3c3ecd069.png",
+    "background": "background_5dac2ff8f609eec2.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_zephiron_014_s2": {
+    "creature": "creature_ee4285055b735cf1.png",
+    "effect": "effect_4fc6a399d4289d99.png",
+    "background": "background_5dac2ff8f609eec2.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_zephiron_014_s3": {
+    "creature": "creature_5c751864fa4f4868.png",
+    "effect": "effect_13e3c4c1fd1e9fdf.png",
+    "background": "background_5dac2ff8f609eec2.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_zephiron_014_s4": {
+    "creature": "creature_6f1f70d8ad7e23ad.png",
+    "effect": "effect_352d6322523d2575.png",
+    "background": "background_5dac2ff8f609eec2.png",
+    "edge": "edge_c39991b07a970c06.png"
+  },
+  "crion_faiscoto_001_s1": {
+    "creature": "creature_33b0209b29a4c0f9.png",
+    "effect": "effect_72cefb2628017a5c.png",
+    "background": "background_91fad5a976bc027b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_faiscoto_001_s2": {
+    "creature": "creature_a01ed03b2c7d7bea.png",
+    "effect": "effect_2aebfee7a5540e16.png",
+    "background": "background_91fad5a976bc027b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_faiscoto_001_s3": {
+    "creature": "creature_f613c3278a3dd36d.png",
+    "effect": "effect_38c475e018326ea7.png",
+    "background": "background_91fad5a976bc027b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_faiscoto_001_s4": {
+    "creature": "creature_37fe062d9a20dfba.png",
+    "effect": "effect_9c037cd0ba0ab63d.png",
+    "background": "background_91fad5a976bc027b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_notinha_002_s1": {
+    "creature": "creature_9a3936ec73978382.png",
+    "effect": "effect_72cefb2628017a5c.png",
+    "background": "background_b0cdc526d7b4a73e.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_notinha_002_s2": {
+    "creature": "creature_b5b31180977998d6.png",
+    "effect": "effect_2aebfee7a5540e16.png",
+    "background": "background_b0cdc526d7b4a73e.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_notinha_002_s3": {
+    "creature": "creature_37626dd57fd1f8f4.png",
+    "effect": "effect_38c475e018326ea7.png",
+    "background": "background_b0cdc526d7b4a73e.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_notinha_002_s4": {
+    "creature": "creature_4fb35d8a6add07c5.png",
+    "effect": "effect_9c037cd0ba0ab63d.png",
+    "background": "background_b0cdc526d7b4a73e.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_zumbido_003_s1": {
+    "creature": "creature_2ea4723bd77c2369.png",
+    "effect": "effect_72cefb2628017a5c.png",
+    "background": "background_1576bafc2eafd59b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_zumbido_003_s2": {
+    "creature": "creature_0bb260b34a3d388c.png",
+    "effect": "effect_2aebfee7a5540e16.png",
+    "background": "background_1576bafc2eafd59b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_zumbido_003_s3": {
+    "creature": "creature_c489e558d660e3f0.png",
+    "effect": "effect_38c475e018326ea7.png",
+    "background": "background_1576bafc2eafd59b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_zumbido_003_s4": {
+    "creature": "creature_37fb26270ddb3fe3.png",
+    "effect": "effect_9c037cd0ba0ab63d.png",
+    "background": "background_1576bafc2eafd59b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_tecladin_004_s1": {
+    "creature": "creature_3f0c9c7a004a221c.png",
+    "effect": "effect_72cefb2628017a5c.png",
+    "background": "background_d8e6342ee481d77d.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_tecladin_004_s2": {
+    "creature": "creature_cd3105201a609a23.png",
+    "effect": "effect_2aebfee7a5540e16.png",
+    "background": "background_d8e6342ee481d77d.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_tecladin_004_s3": {
+    "creature": "creature_b43c1f5a2e5adaf7.png",
+    "effect": "effect_38c475e018326ea7.png",
+    "background": "background_d8e6342ee481d77d.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_tecladin_004_s4": {
+    "creature": "creature_859d6e0f10eb3041.png",
+    "effect": "effect_9c037cd0ba0ab63d.png",
+    "background": "background_d8e6342ee481d77d.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_ritmato_005_s1": {
+    "creature": "creature_6518d1c2b03b6d1e.png",
+    "effect": "effect_72cefb2628017a5c.png",
+    "background": "background_91fad5a976bc027b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_ritmato_005_s2": {
+    "creature": "creature_5c701e324f496c19.png",
+    "effect": "effect_2aebfee7a5540e16.png",
+    "background": "background_91fad5a976bc027b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_ritmato_005_s3": {
+    "creature": "creature_0d78175a806df2a1.png",
+    "effect": "effect_38c475e018326ea7.png",
+    "background": "background_91fad5a976bc027b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_ritmato_005_s4": {
+    "creature": "creature_4a5b740922132f4e.png",
+    "effect": "effect_9c037cd0ba0ab63d.png",
+    "background": "background_91fad5a976bc027b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_amplifox_006_s1": {
+    "creature": "creature_f175e1c9d4dca46c.png",
+    "effect": "effect_72cefb2628017a5c.png",
+    "background": "background_b0cdc526d7b4a73e.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_amplifox_006_s2": {
+    "creature": "creature_b2938520adf62ac5.png",
+    "effect": "effect_2aebfee7a5540e16.png",
+    "background": "background_b0cdc526d7b4a73e.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_amplifox_006_s3": {
+    "creature": "creature_21d249666ee65b4a.png",
+    "effect": "effect_38c475e018326ea7.png",
+    "background": "background_b0cdc526d7b4a73e.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_amplifox_006_s4": {
+    "creature": "creature_9f944906b8e89b72.png",
+    "effect": "effect_9c037cd0ba0ab63d.png",
+    "background": "background_b0cdc526d7b4a73e.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_choquito_007_s1": {
+    "creature": "creature_bcab7352c7a7cb34.png",
+    "effect": "effect_72cefb2628017a5c.png",
+    "background": "background_1576bafc2eafd59b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_choquito_007_s2": {
+    "creature": "creature_c5c7ccd655f9b86b.png",
+    "effect": "effect_2aebfee7a5540e16.png",
+    "background": "background_1576bafc2eafd59b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_choquito_007_s3": {
+    "creature": "creature_b3a618f7bbe63bf5.png",
+    "effect": "effect_38c475e018326ea7.png",
+    "background": "background_1576bafc2eafd59b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_choquito_007_s4": {
+    "creature": "creature_412352f6b5581770.png",
+    "effect": "effect_9c037cd0ba0ab63d.png",
+    "background": "background_1576bafc2eafd59b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_melodin_008_s1": {
+    "creature": "creature_87257a6e3af00b1e.png",
+    "effect": "effect_72cefb2628017a5c.png",
+    "background": "background_d8e6342ee481d77d.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_melodin_008_s2": {
+    "creature": "creature_091500a5325186cf.png",
+    "effect": "effect_2aebfee7a5540e16.png",
+    "background": "background_d8e6342ee481d77d.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_melodin_008_s3": {
+    "creature": "creature_50d607fab36721b2.png",
+    "effect": "effect_38c475e018326ea7.png",
+    "background": "background_d8e6342ee481d77d.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_melodin_008_s4": {
+    "creature": "creature_547cb95693754428.png",
+    "effect": "effect_9c037cd0ba0ab63d.png",
+    "background": "background_d8e6342ee481d77d.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_voltagem_009_s1": {
+    "creature": "creature_09c7c8be0d8e9371.png",
+    "effect": "effect_72cefb2628017a5c.png",
+    "background": "background_91fad5a976bc027b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_voltagem_009_s2": {
+    "creature": "creature_590ccb1d5f554100.png",
+    "effect": "effect_2aebfee7a5540e16.png",
+    "background": "background_91fad5a976bc027b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_voltagem_009_s3": {
+    "creature": "creature_531da7c36d6816a9.png",
+    "effect": "effect_38c475e018326ea7.png",
+    "background": "background_91fad5a976bc027b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_voltagem_009_s4": {
+    "creature": "creature_07e8e644aa18d405.png",
+    "effect": "effect_9c037cd0ba0ab63d.png",
+    "background": "background_91fad5a976bc027b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_trovador_010_s1": {
+    "creature": "creature_93c4685d644753a0.png",
+    "effect": "effect_72cefb2628017a5c.png",
+    "background": "background_b0cdc526d7b4a73e.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_trovador_010_s2": {
+    "creature": "creature_ac51f41d0adceddc.png",
+    "effect": "effect_2aebfee7a5540e16.png",
+    "background": "background_b0cdc526d7b4a73e.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_trovador_010_s3": {
+    "creature": "creature_bbc74678cc70adef.png",
+    "effect": "effect_38c475e018326ea7.png",
+    "background": "background_b0cdc526d7b4a73e.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_trovador_010_s4": {
+    "creature": "creature_33096d99a665714d.png",
+    "effect": "effect_9c037cd0ba0ab63d.png",
+    "background": "background_b0cdc526d7b4a73e.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_sinfonix_011_s1": {
+    "creature": "creature_af63376d431a5575.png",
+    "effect": "effect_72cefb2628017a5c.png",
+    "background": "background_1576bafc2eafd59b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_sinfonix_011_s2": {
+    "creature": "creature_3c25e0a8b6fbe247.png",
+    "effect": "effect_2aebfee7a5540e16.png",
+    "background": "background_1576bafc2eafd59b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_sinfonix_011_s3": {
+    "creature": "creature_1913b24883f21fdf.png",
+    "effect": "effect_38c475e018326ea7.png",
+    "background": "background_1576bafc2eafd59b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_sinfonix_011_s4": {
+    "creature": "creature_c1c36571c2c6e434.png",
+    "effect": "effect_9c037cd0ba0ab63d.png",
+    "background": "background_1576bafc2eafd59b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_tempesto_012_s1": {
+    "creature": "creature_68db368fa6314b5d.png",
+    "effect": "effect_72cefb2628017a5c.png",
+    "background": "background_d8e6342ee481d77d.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_tempesto_012_s2": {
+    "creature": "creature_d688b714b47ce0c8.png",
+    "effect": "effect_2aebfee7a5540e16.png",
+    "background": "background_d8e6342ee481d77d.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_tempesto_012_s3": {
+    "creature": "creature_1938e76915e27ee3.png",
+    "effect": "effect_38c475e018326ea7.png",
+    "background": "background_d8e6342ee481d77d.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_tempesto_012_s4": {
+    "creature": "creature_8c76ccda915416c2.png",
+    "effect": "effect_9c037cd0ba0ab63d.png",
+    "background": "background_d8e6342ee481d77d.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_maestron_013_s1": {
+    "creature": "creature_6dbb9feb1cbdc8c7.png",
+    "effect": "effect_72cefb2628017a5c.png",
+    "background": "background_91fad5a976bc027b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_maestron_013_s2": {
+    "creature": "creature_800f1d7d693ade98.png",
+    "effect": "effect_2aebfee7a5540e16.png",
+    "background": "background_91fad5a976bc027b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_maestron_013_s3": {
+    "creature": "creature_7806272703dd7477.png",
+    "effect": "effect_38c475e018326ea7.png",
+    "background": "background_91fad5a976bc027b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_maestron_013_s4": {
+    "creature": "creature_5a92cf6ac468d114.png",
+    "effect": "effect_9c037cd0ba0ab63d.png",
+    "background": "background_91fad5a976bc027b.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_fulguron_014_s1": {
+    "creature": "creature_3e45292b43f793e0.png",
+    "effect": "effect_72cefb2628017a5c.png",
+    "background": "background_b0cdc526d7b4a73e.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_fulguron_014_s2": {
+    "creature": "creature_3e665784d298a914.png",
+    "effect": "effect_2aebfee7a5540e16.png",
+    "background": "background_b0cdc526d7b4a73e.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_fulguron_014_s3": {
+    "creature": "creature_a31a1500656e9e88.png",
+    "effect": "effect_38c475e018326ea7.png",
+    "background": "background_b0cdc526d7b4a73e.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_fulguron_014_s4": {
+    "creature": "creature_dd7c8da25fc80c2c.png",
+    "effect": "effect_9c037cd0ba0ab63d.png",
+    "background": "background_b0cdc526d7b4a73e.png",
+    "edge": "edge_9fdfa652bbd4aeaf.png"
+  },
+  "crion_lumfly_001_s1": {
+    "creature": "creature_bbdedfffa74284a6.png",
+    "effect": "effect_411f260e8028f8d9.png",
+    "background": "background_8f2e10c80da14f55.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_lumfly_001_s2": {
+    "creature": "creature_a4d2795993166919.png",
+    "effect": "effect_0ea32d04d934692e.png",
+    "background": "background_8f2e10c80da14f55.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_lumfly_001_s3": {
+    "creature": "creature_d293ba14411a0e33.png",
+    "effect": "effect_6a61433f51f0015f.png",
+    "background": "background_8f2e10c80da14f55.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_lumfly_001_s4": {
+    "creature": "creature_14b4b9c27ac07866.png",
+    "effect": "effect_f0019f64101391c7.png",
+    "background": "background_8f2e10c80da14f55.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_estrelim_002_s1": {
+    "creature": "creature_1b89e2db374e1110.png",
+    "effect": "effect_411f260e8028f8d9.png",
+    "background": "background_cab7c83e21f08633.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_estrelim_002_s2": {
+    "creature": "creature_ad53e4412d6ed478.png",
+    "effect": "effect_0ea32d04d934692e.png",
+    "background": "background_cab7c83e21f08633.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_estrelim_002_s3": {
+    "creature": "creature_4dbd8ee7eb815b2f.png",
+    "effect": "effect_6a61433f51f0015f.png",
+    "background": "background_cab7c83e21f08633.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_estrelim_002_s4": {
+    "creature": "creature_250e3e16c3dfd5b4.png",
+    "effect": "effect_f0019f64101391c7.png",
+    "background": "background_cab7c83e21f08633.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_alvinho_003_s1": {
+    "creature": "creature_aa2d54784e896eb7.png",
+    "effect": "effect_411f260e8028f8d9.png",
+    "background": "background_4000dc29c8878fa0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_alvinho_003_s2": {
+    "creature": "creature_ff59ed4dbdca1d41.png",
+    "effect": "effect_0ea32d04d934692e.png",
+    "background": "background_4000dc29c8878fa0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_alvinho_003_s3": {
+    "creature": "creature_3372752f4b48cd7a.png",
+    "effect": "effect_6a61433f51f0015f.png",
+    "background": "background_4000dc29c8878fa0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_alvinho_003_s4": {
+    "creature": "creature_39af55abfe9194e0.png",
+    "effect": "effect_f0019f64101391c7.png",
+    "background": "background_4000dc29c8878fa0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_velinha_004_s1": {
+    "creature": "creature_a630a81e376ba321.png",
+    "effect": "effect_411f260e8028f8d9.png",
+    "background": "background_e9ee3b0d4dce9bc0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_velinha_004_s2": {
+    "creature": "creature_81be88c057f167e8.png",
+    "effect": "effect_0ea32d04d934692e.png",
+    "background": "background_e9ee3b0d4dce9bc0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_velinha_004_s3": {
+    "creature": "creature_30181a2350940acd.png",
+    "effect": "effect_6a61433f51f0015f.png",
+    "background": "background_e9ee3b0d4dce9bc0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_velinha_004_s4": {
+    "creature": "creature_a7c6ae6750dcae36.png",
+    "effect": "effect_f0019f64101391c7.png",
+    "background": "background_e9ee3b0d4dce9bc0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_pombella_005_s1": {
+    "creature": "creature_e991f1d4f5a114c4.png",
+    "effect": "effect_411f260e8028f8d9.png",
+    "background": "background_8f2e10c80da14f55.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_pombella_005_s2": {
+    "creature": "creature_4473b312ed822a2a.png",
+    "effect": "effect_0ea32d04d934692e.png",
+    "background": "background_8f2e10c80da14f55.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_pombella_005_s3": {
+    "creature": "creature_d086797582963bc9.png",
+    "effect": "effect_6a61433f51f0015f.png",
+    "background": "background_8f2e10c80da14f55.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_pombella_005_s4": {
+    "creature": "creature_e0a63ce5b6f09ba1.png",
+    "effect": "effect_f0019f64101391c7.png",
+    "background": "background_8f2e10c80da14f55.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_purrluz_006_s1": {
+    "creature": "creature_a466de3797191dbf.png",
+    "effect": "effect_411f260e8028f8d9.png",
+    "background": "background_cab7c83e21f08633.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_purrluz_006_s2": {
+    "creature": "creature_0cbda5d6245cc0b5.png",
+    "effect": "effect_0ea32d04d934692e.png",
+    "background": "background_cab7c83e21f08633.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_purrluz_006_s3": {
+    "creature": "creature_517b3c0d31aee9f4.png",
+    "effect": "effect_6a61433f51f0015f.png",
+    "background": "background_cab7c83e21f08633.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_purrluz_006_s4": {
+    "creature": "creature_50ad44b6ab05e5c4.png",
+    "effect": "effect_f0019f64101391c7.png",
+    "background": "background_cab7c83e21f08633.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_corujel_007_s1": {
+    "creature": "creature_1fd42f7bdc5ca12b.png",
+    "effect": "effect_411f260e8028f8d9.png",
+    "background": "background_4000dc29c8878fa0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_corujel_007_s2": {
+    "creature": "creature_76bd7cd9f4a753bf.png",
+    "effect": "effect_0ea32d04d934692e.png",
+    "background": "background_4000dc29c8878fa0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_corujel_007_s3": {
+    "creature": "creature_d8ca569112ed02d1.png",
+    "effect": "effect_6a61433f51f0015f.png",
+    "background": "background_4000dc29c8878fa0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_corujel_007_s4": {
+    "creature": "creature_05503f28809d5fbb.png",
+    "effect": "effect_f0019f64101391c7.png",
+    "background": "background_4000dc29c8878fa0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_cintilo_008_s1": {
+    "creature": "creature_5e723feb759d1433.png",
+    "effect": "effect_411f260e8028f8d9.png",
+    "background": "background_e9ee3b0d4dce9bc0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_cintilo_008_s2": {
+    "creature": "creature_2d6057db7620f17e.png",
+    "effect": "effect_0ea32d04d934692e.png",
+    "background": "background_e9ee3b0d4dce9bc0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_cintilo_008_s3": {
+    "creature": "creature_8b44b195f7e1b14c.png",
+    "effect": "effect_6a61433f51f0015f.png",
+    "background": "background_e9ee3b0d4dce9bc0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_cintilo_008_s4": {
+    "creature": "creature_586381411dd621e5.png",
+    "effect": "effect_f0019f64101391c7.png",
+    "background": "background_e9ee3b0d4dce9bc0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_auroral_009_s1": {
+    "creature": "creature_47db790ed2416938.png",
+    "effect": "effect_411f260e8028f8d9.png",
+    "background": "background_8f2e10c80da14f55.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_auroral_009_s2": {
+    "creature": "creature_ce1f4f4c1209143b.png",
+    "effect": "effect_0ea32d04d934692e.png",
+    "background": "background_8f2e10c80da14f55.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_auroral_009_s3": {
+    "creature": "creature_868d83de72e7c8a0.png",
+    "effect": "effect_6a61433f51f0015f.png",
+    "background": "background_8f2e10c80da14f55.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_auroral_009_s4": {
+    "creature": "creature_904bd03d7ed29873.png",
+    "effect": "effect_f0019f64101391c7.png",
+    "background": "background_8f2e10c80da14f55.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_benevolt_010_s1": {
+    "creature": "creature_8eb0fe33bfd62655.png",
+    "effect": "effect_411f260e8028f8d9.png",
+    "background": "background_cab7c83e21f08633.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_benevolt_010_s2": {
+    "creature": "creature_0ccc20586ceef519.png",
+    "effect": "effect_0ea32d04d934692e.png",
+    "background": "background_cab7c83e21f08633.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_benevolt_010_s3": {
+    "creature": "creature_171b1902c001385a.png",
+    "effect": "effect_6a61433f51f0015f.png",
+    "background": "background_cab7c83e21f08633.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_benevolt_010_s4": {
+    "creature": "creature_70d6581ee074525f.png",
+    "effect": "effect_f0019f64101391c7.png",
+    "background": "background_cab7c83e21f08633.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_serafina_011_s1": {
+    "creature": "creature_c13b6f698f2cf5ee.png",
+    "effect": "effect_411f260e8028f8d9.png",
+    "background": "background_4000dc29c8878fa0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_serafina_011_s2": {
+    "creature": "creature_af95a74a8c27870a.png",
+    "effect": "effect_0ea32d04d934692e.png",
+    "background": "background_4000dc29c8878fa0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_serafina_011_s3": {
+    "creature": "creature_f8a25aab7c4d7dfc.png",
+    "effect": "effect_6a61433f51f0015f.png",
+    "background": "background_4000dc29c8878fa0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_serafina_011_s4": {
+    "creature": "creature_4fc44089ade8da31.png",
+    "effect": "effect_f0019f64101391c7.png",
+    "background": "background_4000dc29c8878fa0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_guardiel_012_s1": {
+    "creature": "creature_a47d6b12aebaf2c1.png",
+    "effect": "effect_411f260e8028f8d9.png",
+    "background": "background_e9ee3b0d4dce9bc0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_guardiel_012_s2": {
+    "creature": "creature_b6f0e684e5a78299.png",
+    "effect": "effect_0ea32d04d934692e.png",
+    "background": "background_e9ee3b0d4dce9bc0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_guardiel_012_s3": {
+    "creature": "creature_7d46c304c00bd49b.png",
+    "effect": "effect_6a61433f51f0015f.png",
+    "background": "background_e9ee3b0d4dce9bc0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_guardiel_012_s4": {
+    "creature": "creature_c73f9531bf72f651.png",
+    "effect": "effect_f0019f64101391c7.png",
+    "background": "background_e9ee3b0d4dce9bc0.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_celestor_013_s1": {
+    "creature": "creature_614a64192d137e14.png",
+    "effect": "effect_411f260e8028f8d9.png",
+    "background": "background_8f2e10c80da14f55.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_celestor_013_s2": {
+    "creature": "creature_a59d01b283918461.png",
+    "effect": "effect_0ea32d04d934692e.png",
+    "background": "background_8f2e10c80da14f55.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_celestor_013_s3": {
+    "creature": "creature_448d38cf29f5be04.png",
+    "effect": "effect_6a61433f51f0015f.png",
+    "background": "background_8f2e10c80da14f55.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_celestor_013_s4": {
+    "creature": "creature_4f228fcb3e16d3fd.png",
+    "effect": "effect_f0019f64101391c7.png",
+    "background": "background_8f2e10c80da14f55.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_solarius_014_s1": {
+    "creature": "creature_5abdaa461dca554a.png",
+    "effect": "effect_411f260e8028f8d9.png",
+    "background": "background_cab7c83e21f08633.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_solarius_014_s2": {
+    "creature": "creature_68a0e77cdb1af307.png",
+    "effect": "effect_0ea32d04d934692e.png",
+    "background": "background_cab7c83e21f08633.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_solarius_014_s3": {
+    "creature": "creature_ab6fd61405150ebf.png",
+    "effect": "effect_6a61433f51f0015f.png",
+    "background": "background_cab7c83e21f08633.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_solarius_014_s4": {
+    "creature": "creature_6fcd53b611a8a706.png",
+    "effect": "effect_f0019f64101391c7.png",
+    "background": "background_cab7c83e21f08633.png",
+    "edge": "edge_99f0fd1cf33deb9e.png"
+  },
+  "crion_flocoto_001_s1": {
+    "creature": "creature_37a80406b54f89bf.png",
+    "effect": "effect_892709e1b66d84a0.png",
+    "background": "background_9b7052cfff585232.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_flocoto_001_s2": {
+    "creature": "creature_0067997670b995d2.png",
+    "effect": "effect_0d99f69f120c1c9e.png",
+    "background": "background_9b7052cfff585232.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_flocoto_001_s3": {
+    "creature": "creature_6298fffd87133b1b.png",
+    "effect": "effect_70c10d33f7521735.png",
+    "background": "background_9b7052cfff585232.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_flocoto_001_s4": {
+    "creature": "creature_150ae797d3ccd137.png",
+    "effect": "effect_828627c001255da8.png",
+    "background": "background_9b7052cfff585232.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_geladin_002_s1": {
+    "creature": "creature_04cf35831fd4ef46.png",
+    "effect": "effect_892709e1b66d84a0.png",
+    "background": "background_ff00efd3bbb6d6f5.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_geladin_002_s2": {
+    "creature": "creature_c415a6c22049f1eb.png",
+    "effect": "effect_0d99f69f120c1c9e.png",
+    "background": "background_ff00efd3bbb6d6f5.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_geladin_002_s3": {
+    "creature": "creature_ffafc8cb47d570b5.png",
+    "effect": "effect_70c10d33f7521735.png",
+    "background": "background_ff00efd3bbb6d6f5.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_geladin_002_s4": {
+    "creature": "creature_e0fcf6784249b840.png",
+    "effect": "effect_828627c001255da8.png",
+    "background": "background_ff00efd3bbb6d6f5.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_cristalgel_003_s1": {
+    "creature": "creature_302c8f76a01d0f06.png",
+    "effect": "effect_892709e1b66d84a0.png",
+    "background": "background_39a802da92089f0d.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_cristalgel_003_s2": {
+    "creature": "creature_c3174f466f4e821f.png",
+    "effect": "effect_0d99f69f120c1c9e.png",
+    "background": "background_39a802da92089f0d.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_cristalgel_003_s3": {
+    "creature": "creature_070b08e66010391f.png",
+    "effect": "effect_70c10d33f7521735.png",
+    "background": "background_39a802da92089f0d.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_cristalgel_003_s4": {
+    "creature": "creature_245dc81412d72a28.png",
+    "effect": "effect_828627c001255da8.png",
+    "background": "background_39a802da92089f0d.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_nevoinho_004_s1": {
+    "creature": "creature_297cdca3ad34e9f6.png",
+    "effect": "effect_892709e1b66d84a0.png",
+    "background": "background_ab9c20ee659c8d29.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_nevoinho_004_s2": {
+    "creature": "creature_9cb1900b4f39a814.png",
+    "effect": "effect_0d99f69f120c1c9e.png",
+    "background": "background_ab9c20ee659c8d29.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_nevoinho_004_s3": {
+    "creature": "creature_be9402b756fb634f.png",
+    "effect": "effect_70c10d33f7521735.png",
+    "background": "background_ab9c20ee659c8d29.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_nevoinho_004_s4": {
+    "creature": "creature_5a936698d1ba1c51.png",
+    "effect": "effect_828627c001255da8.png",
+    "background": "background_ab9c20ee659c8d29.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_frostuco_005_s1": {
+    "creature": "creature_e72961d1e0be52c5.png",
+    "effect": "effect_892709e1b66d84a0.png",
+    "background": "background_9b7052cfff585232.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_frostuco_005_s2": {
+    "creature": "creature_d33638874bb433a9.png",
+    "effect": "effect_0d99f69f120c1c9e.png",
+    "background": "background_9b7052cfff585232.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_frostuco_005_s3": {
+    "creature": "creature_ea818d96f5fd0268.png",
+    "effect": "effect_70c10d33f7521735.png",
+    "background": "background_9b7052cfff585232.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_frostuco_005_s4": {
+    "creature": "creature_2d023c8155b8eb28.png",
+    "effect": "effect_828627c001255da8.png",
+    "background": "background_9b7052cfff585232.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_iceberto_006_s1": {
+    "creature": "creature_332393d021741031.png",
+    "effect": "effect_892709e1b66d84a0.png",
+    "background": "background_ff00efd3bbb6d6f5.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_iceberto_006_s2": {
+    "creature": "creature_2fc65096ee41a575.png",
+    "effect": "effect_0d99f69f120c1c9e.png",
+    "background": "background_ff00efd3bbb6d6f5.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_iceberto_006_s3": {
+    "creature": "creature_3e3b0ef3ef8446fc.png",
+    "effect": "effect_70c10d33f7521735.png",
+    "background": "background_ff00efd3bbb6d6f5.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_iceberto_006_s4": {
+    "creature": "creature_8b80e2f694b5e847.png",
+    "effect": "effect_828627c001255da8.png",
+    "background": "background_ff00efd3bbb6d6f5.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_glacino_007_s1": {
+    "creature": "creature_4303aaac971c7d30.png",
+    "effect": "effect_892709e1b66d84a0.png",
+    "background": "background_39a802da92089f0d.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_glacino_007_s2": {
+    "creature": "creature_95948fc72cbcf9a2.png",
+    "effect": "effect_0d99f69f120c1c9e.png",
+    "background": "background_39a802da92089f0d.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_glacino_007_s3": {
+    "creature": "creature_6cf3d93aa6c95308.png",
+    "effect": "effect_70c10d33f7521735.png",
+    "background": "background_39a802da92089f0d.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_glacino_007_s4": {
+    "creature": "creature_1adf29571cb4eee8.png",
+    "effect": "effect_828627c001255da8.png",
+    "background": "background_39a802da92089f0d.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_nevascor_008_s1": {
+    "creature": "creature_a9fb92ae9008a6a4.png",
+    "effect": "effect_892709e1b66d84a0.png",
+    "background": "background_ab9c20ee659c8d29.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_nevascor_008_s2": {
+    "creature": "creature_e381186feff2fbb6.png",
+    "effect": "effect_0d99f69f120c1c9e.png",
+    "background": "background_ab9c20ee659c8d29.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_nevascor_008_s3": {
+    "creature": "creature_83ba98a4445bc9d1.png",
+    "effect": "effect_70c10d33f7521735.png",
+    "background": "background_ab9c20ee659c8d29.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_nevascor_008_s4": {
+    "creature": "creature_a66f543afbd0553f.png",
+    "effect": "effect_828627c001255da8.png",
+    "background": "background_ab9c20ee659c8d29.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_congelor_009_s1": {
+    "creature": "creature_af37977b8d984b81.png",
+    "effect": "effect_892709e1b66d84a0.png",
+    "background": "background_9b7052cfff585232.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_congelor_009_s2": {
+    "creature": "creature_0d63b94774bfb81c.png",
+    "effect": "effect_0d99f69f120c1c9e.png",
+    "background": "background_9b7052cfff585232.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_congelor_009_s3": {
+    "creature": "creature_ba1d14c5941931d8.png",
+    "effect": "effect_70c10d33f7521735.png",
+    "background": "background_9b7052cfff585232.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_congelor_009_s4": {
+    "creature": "creature_024e90707779b205.png",
+    "effect": "effect_828627c001255da8.png",
+    "background": "background_9b7052cfff585232.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_ventogel_010_s1": {
+    "creature": "creature_a145bf068a97d095.png",
+    "effect": "effect_892709e1b66d84a0.png",
+    "background": "background_ff00efd3bbb6d6f5.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_ventogel_010_s2": {
+    "creature": "creature_fa9a050f2aa9c3bd.png",
+    "effect": "effect_0d99f69f120c1c9e.png",
+    "background": "background_ff00efd3bbb6d6f5.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_ventogel_010_s3": {
+    "creature": "creature_d7f54a1223795e33.png",
+    "effect": "effect_70c10d33f7521735.png",
+    "background": "background_ff00efd3bbb6d6f5.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_ventogel_010_s4": {
+    "creature": "creature_e1ab1253d93cf2e4.png",
+    "effect": "effect_828627c001255da8.png",
+    "background": "background_ff00efd3bbb6d6f5.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_permafro_011_s1": {
+    "creature": "creature_2f301a57df867ee5.png",
+    "effect": "effect_892709e1b66d84a0.png",
+    "background": "background_39a802da92089f0d.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_permafro_011_s2": {
+    "creature": "creature_36f58d41185ea82b.png",
+    "effect": "effect_0d99f69f120c1c9e.png",
+    "background": "background_39a802da92089f0d.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_permafro_011_s3": {
+    "creature": "creature_c25d1958aa32ce47.png",
+    "effect": "effect_70c10d33f7521735.png",
+    "background": "background_39a802da92089f0d.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_permafro_011_s4": {
+    "creature": "creature_458ef4f759219ea0.png",
+    "effect": "effect_828627c001255da8.png",
+    "background": "background_39a802da92089f0d.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_cristalor_012_s1": {
+    "creature": "creature_490993083925b258.png",
+    "effect": "effect_892709e1b66d84a0.png",
+    "background": "background_ab9c20ee659c8d29.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_cristalor_012_s2": {
+    "creature": "creature_37eb51fbb55ea8fc.png",
+    "effect": "effect_0d99f69f120c1c9e.png",
+    "background": "background_ab9c20ee659c8d29.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_cristalor_012_s3": {
+    "creature": "creature_9d51364477131842.png",
+    "effect": "effect_70c10d33f7521735.png",
+    "background": "background_ab9c20ee659c8d29.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_cristalor_012_s4": {
+    "creature": "creature_8626d1f5dee39bae.png",
+    "effect": "effect_828627c001255da8.png",
+    "background": "background_ab9c20ee659c8d29.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_boreallis_013_s1": {
+    "creature": "creature_f601fd3dcb3754fb.png",
+    "effect": "effect_892709e1b66d84a0.png",
+    "background": "background_9b7052cfff585232.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_boreallis_013_s2": {
+    "creature": "creature_ebb6fab8133b1051.png",
+    "effect": "effect_0d99f69f120c1c9e.png",
+    "background": "background_9b7052cfff585232.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_boreallis_013_s3": {
+    "creature": "creature_1a9d8538f02e29e2.png",
+    "effect": "effect_70c10d33f7521735.png",
+    "background": "background_9b7052cfff585232.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_boreallis_013_s4": {
+    "creature": "creature_c84aeb147f54c945.png",
+    "effect": "effect_828627c001255da8.png",
+    "background": "background_9b7052cfff585232.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_glaciarch_014_s1": {
+    "creature": "creature_81599812d62d7216.png",
+    "effect": "effect_892709e1b66d84a0.png",
+    "background": "background_ff00efd3bbb6d6f5.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_glaciarch_014_s2": {
+    "creature": "creature_b48f2b3fe79a07a7.png",
+    "effect": "effect_0d99f69f120c1c9e.png",
+    "background": "background_ff00efd3bbb6d6f5.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_glaciarch_014_s3": {
+    "creature": "creature_52b10e0ee099c27b.png",
+    "effect": "effect_70c10d33f7521735.png",
+    "background": "background_ff00efd3bbb6d6f5.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_glaciarch_014_s4": {
+    "creature": "creature_1b7836dfc06dfd00.png",
+    "effect": "effect_828627c001255da8.png",
+    "background": "background_ff00efd3bbb6d6f5.png",
+    "edge": "edge_7e80829be1bdfb64.png"
+  },
+  "crion_aetherion_001_s1": {
+    "creature": "creature_6f14780766828df2.png",
+    "effect": "effect_343d68c6bd36a7ac.png",
+    "background": "background_dee3f34a4d391f85.png",
+    "edge": "edge_ac4d43fbd99c42b9.png"
+  },
+  "crion_aetherion_001_s2": {
+    "creature": "creature_eb93eea785c8a8a5.png",
+    "effect": "effect_087aebb74f5cbac8.png",
+    "background": "background_dee3f34a4d391f85.png",
+    "edge": "edge_ac4d43fbd99c42b9.png"
+  },
+  "crion_aetherion_001_s3": {
+    "creature": "creature_d4b6e67dbac9d07e.png",
+    "effect": "effect_98046d83c1351442.png",
+    "background": "background_dee3f34a4d391f85.png",
+    "edge": "edge_ac4d43fbd99c42b9.png"
+  },
+  "crion_aetherion_001_s4": {
+    "creature": "creature_5743a998720cdd33.png",
+    "effect": "effect_4aaa865dbb4e3304.png",
+    "background": "background_dee3f34a4d391f85.png",
+    "edge": "edge_ac4d43fbd99c42b9.png"
+  },
+  "crion_umbraluz_001_s1": {
+    "creature": "creature_8d0e34e82cedf909.png",
+    "effect": "effect_343d68c6bd36a7ac.png",
+    "background": "background_8bfe885978a04fd3.png",
+    "edge": "edge_ac4d43fbd99c42b9.png"
+  },
+  "crion_umbraluz_001_s2": {
+    "creature": "creature_7c9d11892c2658f8.png",
+    "effect": "effect_087aebb74f5cbac8.png",
+    "background": "background_8bfe885978a04fd3.png",
+    "edge": "edge_ac4d43fbd99c42b9.png"
+  },
+  "crion_umbraluz_001_s3": {
+    "creature": "creature_7bf14bf989dda35e.png",
+    "effect": "effect_98046d83c1351442.png",
+    "background": "background_8bfe885978a04fd3.png",
+    "edge": "edge_ac4d43fbd99c42b9.png"
+  },
+  "crion_umbraluz_001_s4": {
+    "creature": "creature_5657ba04f74ef6d3.png",
+    "effect": "effect_4aaa865dbb4e3304.png",
+    "background": "background_8bfe885978a04fd3.png",
+    "edge": "edge_ac4d43fbd99c42b9.png"
+  }
+}

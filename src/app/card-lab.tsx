@@ -15,8 +15,52 @@ import { SUBJECT_ELEMENT_MAP } from '@/constants/game';
 import { ELEMENT_THEME, RARITY_THRESHOLDS, THEME } from '@/constants/theme';
 import { CRIONS } from '@/data/crions';
 import useShareCard from '@/hooks/useShareCard';
-import type { AttackSlot, Element, Rarity } from '@/types';
+import type { ArtLayerUris, AttackSlot, Element, ElementContribution, Rarity } from '@/types';
+
 import { today } from '@/utils/profile';
+
+/** Camadas de arte que o laboratório aceita testar. */
+const ART_LAYERS = ['full', 'creature', 'effect', 'background', 'edge'] as const;
+type ArtLayer = (typeof ART_LAYERS)[number];
+
+function isArtLayer(value: string): value is ArtLayer {
+  return (ART_LAYERS as readonly string[]).includes(value);
+}
+
+/**
+ * Artes de teste do laboratório. EXPO_PUBLIC_ART_TEST_URL aceita uma URL única
+ * (vale como arte inteira em qualquer ataque) ou um mapa separado por vírgulas
+ * no formato "slot=url" ou "slot=camada:url" — assim dá para comparar a mesma
+ * criatura em habilidades diferentes, ou entregar só o cenário e deixar a
+ * criatura ser desenhada em código por cima.
+ */
+function parseTestArt(raw?: string): Partial<Record<AttackSlot, ArtLayerUris>> {
+  if (!raw) return {};
+  if (!raw.includes('=')) {
+    const every: ArtLayerUris = { full: raw };
+    return { 1: every, 2: every, 3: every, 4: every };
+  }
+  const map: Partial<Record<AttackSlot, ArtLayerUris>> = {};
+  for (const entry of raw.split(',')) {
+    const separator = entry.indexOf('=');
+    if (separator < 0) continue;
+    const slot = Number(entry.slice(0, separator).trim()) as AttackSlot;
+    if (!(slot >= 1 && slot <= 4)) continue;
+
+    let layer: ArtLayer = 'full';
+    let url = entry.slice(separator + 1).trim();
+    // "camada:url" — o esquema da URL (http:, https:) não conta como camada.
+    const colon = url.indexOf(':');
+    if (colon > 0 && isArtLayer(url.slice(0, colon))) {
+      layer = url.slice(0, colon) as ArtLayer;
+      url = url.slice(colon + 1).trim();
+    }
+    if (url) map[slot] = { ...map[slot], [layer]: url };
+  }
+  return map;
+}
+
+const TEST_ART = parseTestArt(process.env.EXPO_PUBLIC_ART_TEST_URL);
 
 const ELEMENTS: Element[] = [
   'NATURE', 'FIRE', 'WATER', 'EARTH', 'METAL', 'WIND', 'ELECTRIC', 'LIGHT', 'ICE_NPC', 'LEGENDARY',
@@ -84,6 +128,7 @@ export default function CardLab() {
   const [slot, setSlot] = useState<AttackSlot>(1);
   const [crionIndex, setCrionIndex] = useState(0);
   const [revealing, setRevealing] = useState(false);
+  const [foil, setFoil] = useState(false);
 
   const { cardRef, shareCard, sharing } = useShareCard();
 
@@ -114,6 +159,22 @@ export default function CardLab() {
   const date = today();
   const xp = XP_BY_RARITY[rarity];
 
+  /** Matérias de exemplo, só para a demonstração mostrar os losangos. */
+  const contributions: ElementContribution[] = useMemo(() => {
+    if (!crion) return [];
+    const primary: ElementContribution = {
+      subject: 'portugues',
+      element: 'NATURE',
+      value: 100,
+      primary: crion.element === 'NATURE',
+    };
+    return [
+      { ...primary, element: crion.element, primary: true },
+      { subject: 'matematica', element: 'FIRE', value: 85, primary: false },
+      { subject: 'comportamento', element: 'LIGHT', value: 100, primary: false },
+    ];
+  }, [crion]);
+
   if (revealing && crion) {
     return (
       <Screen>
@@ -124,7 +185,9 @@ export default function CardLab() {
           xp={xp}
           date={date}
           childName="Sofia"
-          primarySubject="portugues"
+          contributions={contributions}
+          artUris={TEST_ART[slot]}
+          foil={foil}
         />
         <View style={{ marginTop: 24, alignItems: 'center' }}>
           <Button label="Voltar ao laboratório" variant="ghost" onPress={() => setRevealing(false)} />
@@ -166,7 +229,7 @@ export default function CardLab() {
         {RARITIES.map((r) => (
           <Chip
             key={r}
-            label={`${'★'.repeat(RARITY_THRESHOLDS[r].stars)} ${RARITY_THRESHOLDS[r].label}`}
+            label={`${RARITY_THRESHOLDS[r].symbol} ${RARITY_THRESHOLDS[r].label}`}
             selected={rarity === r}
             color={RARITY_THRESHOLDS[r].color}
             disabled={!availableRarities.has(r)}
@@ -192,6 +255,16 @@ export default function CardLab() {
         ))}
       </ScrollView>
 
+      <Text style={styles.sectionTitle}>Acabamento</Text>
+      <View style={styles.row}>
+        <Chip
+          label={foil ? '✨ Holográfica' : 'Normal'}
+          selected={foil}
+          color="#8B5CF6"
+          onPress={() => setFoil((v) => !v)}
+        />
+      </View>
+
       {/* Carta */}
       <View style={{ alignItems: 'center', marginTop: 22 }}>
         {crion ? (
@@ -204,7 +277,9 @@ export default function CardLab() {
                 xp={xp}
                 date={date}
                 childName="Sofia"
-                primarySubject="portugues"
+                contributions={contributions}
+                artUris={TEST_ART[slot]}
+                foil={foil}
               />
             </View>
 

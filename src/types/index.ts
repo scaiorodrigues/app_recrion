@@ -67,6 +67,43 @@ export interface Attack {
   unlockXP: number;
   slot: AttackSlot;
   effect?: StatusEffect;
+  /**
+   * Prompts de arte desta carta — a criatura executando ESTE ataque.
+   * O mesmo Crion aparece em poses diferentes conforme o ataque.
+   */
+  art: ArtLayerPrompts;
+}
+
+/**
+ * As quatro camadas do desenho da carta, de cima para baixo:
+ * a criatura, o efeito em volta dela, o fundo e o efeito que liga
+ * o fundo aos contornos da carta.
+ */
+export interface ArtLayerPrompts {
+  /** Camada 1 — a criatura na pose do ataque. */
+  creature: string;
+  /** Camada 2 — o efeito elemental em volta da criatura. */
+  effect: string;
+  /** Camada 3 — o cenário atrás dela. */
+  background: string;
+  /** Camada 4 — o efeito que sangra do fundo para a borda da carta. */
+  edge: string;
+  /**
+   * Versão de camada única, com tudo já composto.
+   * Existe para geração manual: compor quatro camadas à mão é inviável,
+   * então uma imagem só resolve a carta inteira.
+   */
+  full: string;
+}
+
+/** Imagens já geradas para as quatro camadas. Cada uma pode faltar. */
+export interface ArtLayerUris {
+  creature?: string;
+  effect?: string;
+  background?: string;
+  edge?: string;
+  /** Imagem única já composta. Quando existe, dispensa as outras camadas. */
+  full?: string;
 }
 
 export type UnlockConditionType =
@@ -104,10 +141,33 @@ export interface Crion {
 
   description: string;
   habitat: string;
-  /** Prompt otimizado para geração de arte por IA. */
+  /** Prompt de referência da criatura, usado como base pelas camadas. */
   imagePrompt: string;
+  /** Subtítulo da carta, no estilo "Dragão de Elite". */
+  epithet: string;
 
   unlockCondition: UnlockCondition;
+}
+
+/** Quanto cada matéria contribuiu para a carta — exibido na frente. */
+export interface ElementContribution {
+  subject: Subject;
+  element: Element;
+  /** Nota da matéria no dia, 0 a 100. */
+  value: number;
+  /** true para a matéria que definiu o elemento da carta. */
+  primary: boolean;
+}
+
+/** Atributos finais da carta, já somados os ganhos do dia. */
+export interface FinalStats {
+  hp: number;
+  atk: number;
+  def: number;
+  spd: number;
+  /** Quanto veio do desempenho, acima do valor base do Crion. */
+  bonusAtk: number;
+  bonusDef: number;
 }
 
 /** Estatísticas usadas em combate. */
@@ -140,6 +200,39 @@ export interface CrionCardData {
   childName: string;
   imageUri?: string;
   revealedAt?: string;
+  /** Carta holográfica — só sai em dia perfeito. */
+  foil?: boolean;
+  /** Matérias que alimentaram a carta, com suas notas. */
+  contributions?: ElementContribution[];
+  /** Atributos finais, já com o ganho do dia. */
+  stats?: FinalStats;
+  /** Camadas de arte já geradas para esta carta. */
+  artUris?: ArtLayerUris;
+  /** Fração das atividades do dia que foram aprovadas (0 a 1). */
+  completionRate?: number;
+  /** Dias seguidos de constância no momento em que a carta nasceu. */
+  streak?: number;
+}
+
+/** Como o dia da criança se saiu — entrada do cálculo de raridade. */
+export interface DayPerformance {
+  /** Atividades disponíveis para a criança no dia. */
+  available: number;
+  /** Quantas foram aprovadas pelo responsável. */
+  approved: number;
+  /** Média das notas aprovadas (0 a 100). */
+  averageScore: number;
+  /** true se o responsável validou todas as obrigações de comportamento. */
+  behaviorApproved: boolean;
+  /** true se havia obrigações de comportamento configuradas no dia. */
+  behaviorRequired: boolean;
+  /** Dias consecutivos de constância, incluindo hoje. */
+  streak: number;
+  /**
+   * true quando toda atividade aprovada saiu certa na primeira tentativa,
+   * sem o responsável mandar refazer nenhuma.
+   */
+  allFirstTry: boolean;
 }
 
 // ---------------------------------------------------------------------------
@@ -208,6 +301,11 @@ export interface DailyActivity {
   completedAt?: string;
   validatedAt?: string;
   durationSeconds?: number;
+  /**
+   * Quantas vezes o responsável mandou refazer.
+   * Zero significa que a criança acertou de primeira — condição da Lendária.
+   */
+  redoCount?: number;
 }
 
 /** Pontuação por matéria em um dia. */
@@ -321,4 +419,23 @@ export interface SubscriptionState {
   tier: SubscriptionTier;
   activeSubjects: AcademicSubject[];
   expiresAt?: string;
+  /** ISO 8601 — início do teste gratuito de 3 dias. */
+  trialStartedAt?: string;
+}
+
+/** O que a criança pode acessar agora, já considerando o teste. */
+export interface AccessState {
+  /** true enquanto o teste de 3 dias estiver valendo. */
+  trialActive: boolean;
+  /** Dias restantes do teste (0 quando acabou). */
+  trialDaysLeft: number;
+  /** true quando o teste acabou e não há assinatura. */
+  trialExpired: boolean;
+  subjects: AcademicSubject[];
+  maxRarity: Rarity;
+  /** Comportamento é gratuito para sempre, em qualquer estado. */
+  behavior: true;
+  boardWorlds: number;
+  xpMultiplier: number;
+  lightMultiplier: number;
 }

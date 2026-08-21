@@ -1,5 +1,7 @@
 /**
- * Cálculo de XP diário, raridade e determinação de elementos.
+ * Cálculo de XP diário e determinação de elementos.
+ * A raridade da carta mora em utils/rarity.ts — ela vem do desempenho do dia,
+ * não do XP acumulado.
  */
 
 import {
@@ -11,12 +13,10 @@ import {
   SUBJECT_ELEMENT_MAP,
   SUBJECT_WEIGHTS,
 } from '@/constants/game';
-import { RARITY_THRESHOLDS } from '@/constants/theme';
 import type {
   AcademicSubject,
   Bonuses,
   PlayableElement,
-  Rarity,
   SubjectScores,
 } from '@/types';
 
@@ -115,21 +115,4 @@ export function determineSecondaryElement(
   return primaryScore - runnerUp.weightedScore < HYBRID_THRESHOLD
     ? runnerUp.element
     : null;
-}
-
-/** Converte XP do dia em raridade da carta. */
-export function xpToRarity(xp: number): Rarity {
-  const entries = Object.entries(RARITY_THRESHOLDS) as [
-    Rarity,
-    (typeof RARITY_THRESHOLDS)[Rarity],
-  ][];
-
-  const match = entries.find(([, range]) => xp >= range.min && xp <= range.max);
-  return match ? match[0] : 'LEGENDARY';
-}
-
-/** Limita a raridade ao teto do plano de assinatura. */
-export function capRarity(rarity: Rarity, max: Rarity): Rarity {
-  const order: Rarity[] = ['COMMON', 'UNCOMMON', 'RARE', 'EPIC', 'LEGENDARY'];
-  return order.indexOf(rarity) > order.indexOf(max) ? max : rarity;
 }
