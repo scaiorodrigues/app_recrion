@@ -45,3 +45,6 @@ yarn-error.*
 # Arte gerada pelo Gemini — versionamos só os prompts e o manifesto
 art/out/
 public/art-test/
+
+# Build web empacotado em arquivo único — gerado por scripts/pack-web-app.mjs
+review/
